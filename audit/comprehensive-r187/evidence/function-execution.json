@@ -1,0 +1,4225 @@
+{
+  "method": "Union of V8 precise coverage for r187 Chromium core and addon suites. Top-level unnamed module wrappers excluded. Loaded functions only; not line, branch, assertion or correctness coverage. Observation-only backend hook affects helper source offsets.",
+  "loadedFiles": 809,
+  "functionsObserved": 7326,
+  "functionsExecuted": 4317,
+  "groups": {
+    "src/loaders": {
+      "loadedFiles": 19,
+      "functionsObserved": 139,
+      "functionsExecuted": 80
+    },
+    "src/utils.js": {
+      "loadedFiles": 1,
+      "functionsObserved": 18,
+      "functionsExecuted": 11
+    },
+    "src/animation": {
+      "loadedFiles": 14,
+      "functionsObserved": 173,
+      "functionsExecuted": 91
+    },
+    "src/core": {
+      "loadedFiles": 18,
+      "functionsObserved": 251,
+      "functionsExecuted": 191
+    },
+    "src/constants.js": {
+      "loadedFiles": 1,
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    "src/materials": {
+      "loadedFiles": 39,
+      "functionsObserved": 233,
+      "functionsExecuted": 135
+    },
+    "src/objects": {
+      "loadedFiles": 14,
+      "functionsObserved": 129,
+      "functionsExecuted": 69
+    },
+    "src/geometries": {
+      "loadedFiles": 22,
+      "functionsObserved": 96,
+      "functionsExecuted": 82
+    },
+    "src/cameras": {
+      "loadedFiles": 6,
+      "functionsObserved": 32,
+      "functionsExecuted": 19
+    },
+    "src/audio": {
+      "loadedFiles": 5,
+      "functionsObserved": 55,
+      "functionsExecuted": 5
+    },
+    "src/math": {
+      "loadedFiles": 29,
+      "functionsObserved": 624,
+      "functionsExecuted": 543
+    },
+    "src/extras": {
+      "loadedFiles": 25,
+      "functionsObserved": 208,
+      "functionsExecuted": 85
+    },
+    "src/helpers": {
+      "loadedFiles": 13,
+      "functionsObserved": 48,
+      "functionsExecuted": 40
+    },
+    "src/lights": {
+      "loadedFiles": 14,
+      "functionsObserved": 54,
+      "functionsExecuted": 40
+    },
+    "src/renderers": {
+      "loadedFiles": 290,
+      "functionsObserved": 1778,
+      "functionsExecuted": 969
+    },
+    "src/nodes": {
+      "loadedFiles": 220,
+      "functionsObserved": 1903,
+      "functionsExecuted": 955
+    },
+    "src/textures": {
+      "loadedFiles": 17,
+      "functionsObserved": 61,
+      "functionsExecuted": 31
+    },
+    "src/scenes": {
+      "loadedFiles": 3,
+      "functionsObserved": 9,
+      "functionsExecuted": 3
+    },
+    "src/Three.TSL.js": {
+      "loadedFiles": 1,
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    "src/Three.Core.js": {
+      "loadedFiles": 1,
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    "src/Three.WebGPU.js": {
+      "loadedFiles": 1,
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    "src/Three.js": {
+      "loadedFiles": 1,
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    "addons/utils": {
+      "loadedFiles": 5,
+      "functionsObserved": 86,
+      "functionsExecuted": 69
+    },
+    "addons/math": {
+      "loadedFiles": 5,
+      "functionsObserved": 37,
+      "functionsExecuted": 15
+    },
+    "addons/curves": {
+      "loadedFiles": 2,
+      "functionsObserved": 19,
+      "functionsExecuted": 11
+    },
+    "addons/lighting": {
+      "loadedFiles": 1,
+      "functionsObserved": 9,
+      "functionsExecuted": 7
+    },
+    "addons/loaders": {
+      "loadedFiles": 27,
+      "functionsObserved": 959,
+      "functionsExecuted": 658
+    },
+    "addons/libs": {
+      "loadedFiles": 3,
+      "functionsObserved": 180,
+      "functionsExecuted": 87
+    },
+    "addons/exporters": {
+      "loadedFiles": 3,
+      "functionsObserved": 99,
+      "functionsExecuted": 70
+    },
+    "addons/tsl": {
+      "loadedFiles": 2,
+      "functionsObserved": 60,
+      "functionsExecuted": 21
+    },
+    "addons/postprocessing": {
+      "loadedFiles": 2,
+      "functionsObserved": 25,
+      "functionsExecuted": 17
+    },
+    "addons/objects": {
+      "loadedFiles": 1,
+      "functionsObserved": 28,
+      "functionsExecuted": 7
+    },
+    "addons/shaders": {
+      "loadedFiles": 3,
+      "functionsObserved": 4,
+      "functionsExecuted": 4
+    },
+    "addons/gpgpu": {
+      "loadedFiles": 1,
+      "functionsObserved": 9,
+      "functionsExecuted": 2
+    }
+  },
+  "files": [
+    {
+      "file": "src/loaders/ObjectLoader.js",
+      "functionsObserved": 28,
+      "functionsExecuted": 16
+    },
+    {
+      "file": "src/utils.js",
+      "functionsObserved": 18,
+      "functionsExecuted": 11
+    },
+    {
+      "file": "src/animation/AnimationMixer.js",
+      "functionsObserved": 32,
+      "functionsExecuted": 18
+    },
+    {
+      "file": "src/animation/AnimationClip.js",
+      "functionsObserved": 14,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/animation/AnimationAction.js",
+      "functionsObserved": 31,
+      "functionsExecuted": 25
+    },
+    {
+      "file": "src/animation/tracks/NumberKeyframeTrack.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/animation/tracks/VectorKeyframeTrack.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/core/EventDispatcher.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/core/Object3D.js",
+      "functionsObserved": 54,
+      "functionsExecuted": 47
+    },
+    {
+      "file": "src/constants.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/animation/AnimationObjectGroup.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "src/animation/tracks/ColorKeyframeTrack.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/animation/PropertyBinding.js",
+      "functionsObserved": 33,
+      "functionsExecuted": 13
+    },
+    {
+      "file": "src/materials/MeshBasicMaterial.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/animation/tracks/QuaternionKeyframeTrack.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/animation/KeyframeTrack.js",
+      "functionsObserved": 17,
+      "functionsExecuted": 10
+    },
+    {
+      "file": "src/objects/Mesh.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 9
+    },
+    {
+      "file": "src/geometries/BoxGeometry.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/animation/tracks/BooleanKeyframeTrack.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/cameras/ArrayCamera.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/audio/AudioListener.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/cameras/Camera.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "src/cameras/CubeCamera.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/audio/AudioContext.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/audio/Audio.js",
+      "functionsObserved": 28,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/math/Vector3.js",
+      "functionsObserved": 76,
+      "functionsExecuted": 65
+    },
+    {
+      "file": "src/cameras/OrthographicCamera.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/cameras/StereoCamera.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/core/Clock.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/animation/tracks/StringKeyframeTrack.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/math/Matrix4.js",
+      "functionsObserved": 39,
+      "functionsExecuted": 39
+    },
+    {
+      "file": "src/core/BufferAttribute.js",
+      "functionsObserved": 53,
+      "functionsExecuted": 48
+    },
+    {
+      "file": "src/extras/DataUtils.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/audio/PositionalAudio.js",
+      "functionsObserved": 14,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/core/BufferGeometry.js",
+      "functionsObserved": 33,
+      "functionsExecuted": 30
+    },
+    {
+      "file": "src/cameras/PerspectiveCamera.js",
+      "functionsObserved": 13,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/core/InstancedBufferAttribute.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/math/Sphere.js",
+      "functionsObserved": 21,
+      "functionsExecuted": 21
+    },
+    {
+      "file": "src/math/Quaternion.js",
+      "functionsObserved": 41,
+      "functionsExecuted": 40
+    },
+    {
+      "file": "src/core/GLBufferAttribute.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/core/InstancedBufferGeometry.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/core/InstancedInterleavedBuffer.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/core/InterleavedBuffer.js",
+      "functionsObserved": 13,
+      "functionsExecuted": 10
+    },
+    {
+      "file": "src/core/UniformsGroup.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/core/Layers.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 8
+    },
+    {
+      "file": "src/math/Euler.js",
+      "functionsObserved": 22,
+      "functionsExecuted": 22
+    },
+    {
+      "file": "src/extras/core/Curve.js",
+      "functionsObserved": 16,
+      "functionsExecuted": 14
+    },
+    {
+      "file": "src/extras/core/CurvePath.js",
+      "functionsObserved": 12,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/extras/core/Path.js",
+      "functionsObserved": 14,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/extras/curves/ArcCurve.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/extras/core/Shape.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/extras/curves/EllipseCurve.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/geometries/SphereGeometry.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/extras/core/ShapePath.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/objects/Points.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/core/Raycaster.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "src/extras/curves/CubicBezierCurve.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/objects/Line.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/extras/curves/CubicBezierCurve3.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/extras/curves/QuadraticBezierCurve.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/extras/curves/LineCurve.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/extras/curves/SplineCurve.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/core/InterleavedBufferAttribute.js",
+      "functionsObserved": 24,
+      "functionsExecuted": 10
+    },
+    {
+      "file": "src/extras/curves/QuadraticBezierCurve3.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/math/Vector2.js",
+      "functionsObserved": 57,
+      "functionsExecuted": 51
+    },
+    {
+      "file": "src/extras/curves/LineCurve3.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/geometries/ConeGeometry.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/geometries/PolyhedronGeometry.js",
+      "functionsObserved": 14,
+      "functionsExecuted": 14
+    },
+    {
+      "file": "src/geometries/DodecahedronGeometry.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/geometries/CapsuleGeometry.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/geometries/CylinderGeometry.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/geometries/EdgesGeometry.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/geometries/LatheGeometry.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/geometries/IcosahedronGeometry.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/core/Uniform.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/geometries/OctahedronGeometry.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/geometries/CircleGeometry.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/geometries/RingGeometry.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/geometries/PlaneGeometry.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/extras/curves/CatmullRomCurve3.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "src/geometries/ExtrudeGeometry.js",
+      "functionsObserved": 19,
+      "functionsExecuted": 15
+    },
+    {
+      "file": "src/geometries/TetrahedronGeometry.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/geometries/TorusKnotGeometry.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/helpers/ArrowHelper.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/geometries/WireframeGeometry.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/objects/LineSegments.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/helpers/GridHelper.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/helpers/Box3Helper.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/helpers/DirectionalLightHelper.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/helpers/BoxHelper.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/helpers/HemisphereLightHelper.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/lights/DirectionalLight.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/helpers/AxesHelper.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/geometries/TorusGeometry.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/lights/HemisphereLight.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/geometries/TubeGeometry.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/helpers/PointLightHelper.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/geometries/ShapeGeometry.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/helpers/PolarGridHelper.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/helpers/SpotLightHelper.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/lights/PointLight.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "src/helpers/SkeletonHelper.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/lights/AmbientLight.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/lights/SpotLight.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "src/lights/DirectionalLightShadow.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/lights/LightProbe.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/helpers/CameraHelper.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "src/objects/Bone.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/lights/Light.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/lights/PointLightShadow.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/lights/RectAreaLight.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/lights/SpotLightShadow.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/lights/LightShadow.js",
+      "functionsObserved": 12,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/loaders/Loader.js",
+      "functionsObserved": 13,
+      "functionsExecuted": 9
+    },
+    {
+      "file": "src/helpers/PlaneHelper.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/loaders/AudioLoader.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/loaders/BufferGeometryLoader.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/loaders/CompressedTextureLoader.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/loaders/Cache.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/loaders/CubeTextureLoader.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/loaders/AnimationLoader.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/loaders/DataTextureLoader.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/loaders/LoadingManager.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 11
+    },
+    {
+      "file": "src/loaders/ImageBitmapLoader.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 8
+    },
+    {
+      "file": "src/loaders/ImageLoader.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/loaders/TextureLoader.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/loaders/LoaderUtils.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/materials/MeshDepthMaterial.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/materials/LineDashedMaterial.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/materials/MeshDistanceMaterial.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/loaders/MaterialLoader.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/objects/Sprite.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/materials/LineBasicMaterial.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/materials/Material.js",
+      "functionsObserved": 16,
+      "functionsExecuted": 14
+    },
+    {
+      "file": "src/loaders/FileLoader.js",
+      "functionsObserved": 18,
+      "functionsExecuted": 10
+    },
+    {
+      "file": "src/materials/MeshLambertMaterial.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/materials/MeshToonMaterial.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/materials/MeshPhongMaterial.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/materials/MeshStandardMaterial.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/materials/PointsMaterial.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/materials/RawShaderMaterial.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/materials/ShaderMaterial.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/materials/MeshMatcapMaterial.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/materials/MeshPhysicalMaterial.js",
+      "functionsObserved": 22,
+      "functionsExecuted": 20
+    },
+    {
+      "file": "src/renderers/common/nodes/NodeLibrary.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "src/materials/nodes/NodeMaterialInstance.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 11
+    },
+    {
+      "file": "src/materials/nodes/NodeMaterial.js",
+      "functionsObserved": 35,
+      "functionsExecuted": 30
+    },
+    {
+      "file": "src/materials/nodes/manager/NodeMaterialObserver.js",
+      "functionsObserved": 21,
+      "functionsExecuted": 20
+    },
+    {
+      "file": "src/materials/ShadowMaterial.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/accessors/MaterialReferenceNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/math/Color.js",
+      "functionsObserved": 39,
+      "functionsExecuted": 35
+    },
+    {
+      "file": "src/math/Cylindrical.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "src/materials/SpriteMaterial.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/materials/MeshNormalMaterial.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/textures/Texture.js",
+      "functionsObserved": 17,
+      "functionsExecuted": 14
+    },
+    {
+      "file": "src/math/ColorManagement.js",
+      "functionsObserved": 14,
+      "functionsExecuted": 11
+    },
+    {
+      "file": "src/math/Plane.js",
+      "functionsObserved": 22,
+      "functionsExecuted": 19
+    },
+    {
+      "file": "src/math/Box3.js",
+      "functionsObserved": 35,
+      "functionsExecuted": 33
+    },
+    {
+      "file": "src/math/Triangle.js",
+      "functionsObserved": 23,
+      "functionsExecuted": 20
+    },
+    {
+      "file": "src/objects/BatchedMesh.js",
+      "functionsObserved": 51,
+      "functionsExecuted": 29
+    },
+    {
+      "file": "src/math/Frustum.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 10
+    },
+    {
+      "file": "src/math/Line3.js",
+      "functionsObserved": 14,
+      "functionsExecuted": 14
+    },
+    {
+      "file": "src/math/Matrix3.js",
+      "functionsObserved": 27,
+      "functionsExecuted": 21
+    },
+    {
+      "file": "src/math/MathUtils.js",
+      "functionsObserved": 23,
+      "functionsExecuted": 19
+    },
+    {
+      "file": "src/math/Spherical.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "src/math/interpolants/DiscreteInterpolant.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/math/Vector4.js",
+      "functionsObserved": 55,
+      "functionsExecuted": 47
+    },
+    {
+      "file": "src/math/Ray.js",
+      "functionsObserved": 21,
+      "functionsExecuted": 21
+    },
+    {
+      "file": "src/math/interpolants/LinearInterpolant.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/objects/InstancedMesh.js",
+      "functionsObserved": 13,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/math/interpolants/CubicInterpolant.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/math/SphericalHarmonics3.js",
+      "functionsObserved": 15,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/math/interpolants/QuaternionLinearInterpolant.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/objects/Group.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/objects/LineLoop.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/objects/LOD.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/renderers/WebGL3DRenderTarget.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/WebGLRenderTarget.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/objects/Skeleton.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/renderers/WebGLCubeRenderTarget.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/WebGLArrayRenderTarget.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/objects/ClippingGroup.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/math/Interpolant.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/objects/SkinnedMesh.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/scenes/Scene.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/UniformsLib.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webgl/WebGLRenderLists.js",
+      "functionsObserved": 13,
+      "functionsExecuted": 11
+    },
+    {
+      "file": "src/scenes/FogExp2.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/scenes/Fog.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/textures/FramebufferTexture.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/shaders/UniformsUtils.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/textures/CanvasTexture.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/webgl/WebGLExtensions.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/textures/CompressedArrayTexture.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/textures/CompressedTexture.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/textures/DataArrayTexture.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/textures/Data3DTexture.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/textures/CubeTexture.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/nodes/display/ViewportTextureNode.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "src/textures/DataTexture.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/geometries/Geometries.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/textures/TextureSource.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/textures/VideoTexture.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/animation/PropertyMixer.js",
+      "functionsObserved": 14,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "src/core/RenderTarget.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 10
+    },
+    {
+      "file": "src/nodes/display/ViewportDepthTextureNode.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/Three.TSL.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/Three.Core.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/Three.WebGPU.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/math/Box2.js",
+      "functionsObserved": 23,
+      "functionsExecuted": 23
+    },
+    {
+      "file": "src/renderers/common/ClippingContext.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/textures/DepthTexture.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/Three.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webgl-fallback/nodes/GLSLNodeBuilder.js",
+      "functionsObserved": 62,
+      "functionsExecuted": 32
+    },
+    {
+      "file": "src/animation/AnimationUtils.js",
+      "functionsObserved": 16,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/renderers/webgpu/nodes/WGSLNodeBuilder.js",
+      "functionsObserved": 81,
+      "functionsExecuted": 57
+    },
+    {
+      "file": "src/core/Timer.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/extras/curves/Curves.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/math/interpolants/BezierInterpolant.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/extras/ShapeUtils.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/extras/core/Interpolations.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 10
+    },
+    {
+      "file": "src/materials/Materials.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/default_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/default_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/core/PropertyNode.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 9
+    },
+    {
+      "file": "src/nodes/core/NodeUtils.js",
+      "functionsObserved": 17,
+      "functionsExecuted": 12
+    },
+    {
+      "file": "src/nodes/accessors/MaterialNode.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "src/nodes/accessors/Instance.js",
+      "functionsObserved": 12,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/Normal.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/nodes/tsl/TSLBase.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/ModelViewProjectionNode.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/accessors/Skinning.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/Morph.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/Batch.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/lighting/LightingContextNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/nodes/lighting/IrradianceNode.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/Position.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/nodes/lighting/AONode.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/display/ViewportDepthNode.js",
+      "functionsObserved": 15,
+      "functionsExecuted": 9
+    },
+    {
+      "file": "src/nodes/math/MathNode.js",
+      "functionsObserved": 21,
+      "functionsExecuted": 15
+    },
+    {
+      "file": "src/nodes/accessors/ClippingNode.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/Camera.js",
+      "functionsObserved": 16,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "src/nodes/functions/material/getAlphaHashThreshold.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/VertexColorNode.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/nodes/accessors/ReferenceNode.js",
+      "functionsObserved": 16,
+      "functionsExecuted": 8
+    },
+    {
+      "file": "src/math/FrustumArray.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/display/PremultiplyAlphaFunctions.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/alphahash_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/alphahash_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/alphamap_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/alphamap_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/alphatest_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/alphatest_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/aomap_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/batching_pars_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/batching_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/aomap_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/begin_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/beginnormal_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/bumpmap_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/clipping_planes_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/bsdfs.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/clipping_planes_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/clipping_planes_pars_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/color_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/clipping_planes_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/color_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/color_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/common.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/displacementmap_pars_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/iridescence_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/color_pars_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/defaultnormal_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/emissivemap_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/emissivemap_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/colorspace_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/envmap_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/envmap_common_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/core/SubBuildNode.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/nodes/accessors/ModelNode.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/envmap_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/colorspace_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/displacementmap_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/envmap_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/envmap_pars_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/fog_pars_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/fog_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/fog_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/lightmap_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/envmap_physical_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/fog_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/lights_pars_begin.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/gradientmap_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/lights_lambert_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/lights_lambert_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/lights_physical_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/lights_phong_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/lights_toon_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/lights_fragment_begin.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/lights_toon_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/lights_physical_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/lights_phong_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/lights_fragment_maps.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/logdepthbuf_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/lightprobes_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/logdepthbuf_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/map_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/map_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/map_particle_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/metalnessmap_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/logdepthbuf_pars_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/metalnessmap_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/map_particle_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/morphinstance_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/morphnormal_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/morphcolor_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/morphtarget_pars_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/lights_fragment_end.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/normal_pars_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/logdepthbuf_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/normal_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/normal_fragment_begin.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/normal_fragment_maps.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/morphtarget_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/normal_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/clearcoat_normal_fragment_begin.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/opaque_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/dithering_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/normalmap_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/dithering_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/project_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/shadowmap_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/roughnessmap_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/roughnessmap_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/premultiplied_alpha_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/shadowmap_pars_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/clearcoat_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/shadowmask_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/skinbase_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/shadowmap_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/skinning_pars_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/skinnormal_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/specularmap_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/iridescence_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/clearcoat_normal_fragment_maps.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/uv_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/skinning_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/tonemapping_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/tonemapping_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/packing.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/uv_pars_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/uv_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/background.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/cube.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/backgroundCube.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/worldpos_vertex.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/transmission_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/specularmap_pars_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderChunk/transmission_fragment.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/depth.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/meshlambert.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/distance.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/equirect.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/meshnormal.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/meshmatcap.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/meshphong.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/shadow.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/sprite.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/points.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/meshphysical.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/core/constants.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/display/ScreenNode.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/extras/ImageUtils.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webxr/WebXRController.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/textures/HTMLTexture.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/textures/CompressedCubeTexture.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/textures/CubeDepthTexture.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/textures/ExternalTexture.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/TextureNode.js",
+      "functionsObserved": 50,
+      "functionsExecuted": 28
+    },
+    {
+      "file": "src/textures/VideoFrameTexture.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/audio/AudioAnalyser.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/core/RenderTarget3D.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/linedashed.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/extras/Controls.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/math/Matrix2.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/extras/TextureUtils.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webgpu/WebGPURenderer.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/materials/nodes/NodeMaterials.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webgl-fallback/utils/WebGLCapabilities.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/common/Lighting.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "src/renderers/webgl-fallback/WebGLBackend.js",
+      "functionsObserved": 73,
+      "functionsExecuted": 46
+    },
+    {
+      "file": "src/renderers/common/Backend.js",
+      "functionsObserved": 72,
+      "functionsExecuted": 14
+    },
+    {
+      "file": "src/renderers/common/BundleGroup.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/QuadMesh.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/renderers/common/PostProcessing.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/RenderPipeline.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/DirectRenderPipeline.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/StandardDrawingPipeline.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "src/renderers/common/Renderer.js",
+      "functionsObserved": 122,
+      "functionsExecuted": 37
+    },
+    {
+      "file": "src/renderers/common/extras/PMREMGenerator.js",
+      "functionsObserved": 28,
+      "functionsExecuted": 16
+    },
+    {
+      "file": "src/renderers/common/CubeRenderTarget.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/common/RendererUtils.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/renderers/common/StorageTexture.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/common/StorageArrayTexture.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/ReadbackBuffer.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/IndirectStorageBufferAttribute.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/lights/webgpu/IESSpotLight.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/Storage3DTexture.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/StorageBufferAttribute.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/common/StorageInstancedBufferAttribute.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/lights/webgpu/ProjectorLight.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/loaders/nodes/NodeObjectLoader.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/loaders/nodes/NodeMaterialLoader.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/InspectorBase.js",
+      "functionsObserved": 15,
+      "functionsExecuted": 8
+    },
+    {
+      "file": "src/renderers/common/CanvasTarget.js",
+      "functionsObserved": 15,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/webgpu/nodes/StandardNodeLibrary.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/common/BlendMode.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/Nodes.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webgpu/nodes/BasicNodeLibrary.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/meshtoon.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/WebGLRenderer.js",
+      "functionsObserved": 80,
+      "functionsExecuted": 33
+    },
+    {
+      "file": "src/renderers/common/nodes/NodeUniformBuffer.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/nodes/NodeUniformsGroup.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/common/nodes/NodeSampledTexture.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/renderers/webgl/WebGLUtils.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/loaders/nodes/NodeLoader.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/nodes/NodeStorageBuffer.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/common/nodes/NodeSampler.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/renderers/webgpu/nodes/WGSLNodeParser.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/core/VarNode.js",
+      "functionsObserved": 15,
+      "functionsExecuted": 11
+    },
+    {
+      "file": "src/extras/PMREMGenerator.js",
+      "functionsObserved": 24,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webgpu/utils/WebGPUConstants.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/code/ExpressionNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/extras/Earcut.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/webgpu/WebGPUBackend.js",
+      "functionsObserved": 75,
+      "functionsExecuted": 41
+    },
+    {
+      "file": "src/nodes/TSL.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webgpu/utils/WebGPUTextureUtils.js",
+      "functionsObserved": 31,
+      "functionsExecuted": 19
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/meshbasic.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/core/StackTrace.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/display/BumpMapNode.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/core/UniformNode.js",
+      "functionsObserved": 14,
+      "functionsExecuted": 10
+    },
+    {
+      "file": "src/nodes/display/NormalMapNode.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/nodes/accessors/BufferNode.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/nodes/utils/EventNode.js",
+      "functionsObserved": 17,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/ReferenceAttributeNode.js",
+      "functionsObserved": 13,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/display/FrontFacingNode.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/nodes/core/IndexNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/nodes/accessors/BufferAttributeNode.js",
+      "functionsObserved": 17,
+      "functionsExecuted": 8
+    },
+    {
+      "file": "src/nodes/core/AttributeNode.js",
+      "functionsObserved": 13,
+      "functionsExecuted": 9
+    },
+    {
+      "file": "src/nodes/core/ArrayNode.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "src/nodes/core/AssignNode.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "src/nodes/accessors/StorageBufferNode.js",
+      "functionsObserved": 16,
+      "functionsExecuted": 13
+    },
+    {
+      "file": "src/nodes/tsl/TSLCore.js",
+      "functionsObserved": 85,
+      "functionsExecuted": 72
+    },
+    {
+      "file": "src/nodes/core/Node.js",
+      "functionsObserved": 53,
+      "functionsExecuted": 39
+    },
+    {
+      "file": "src/nodes/code/FunctionCallNode.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/nodes/math/OperatorNode.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 8
+    },
+    {
+      "file": "src/nodes/display/ColorSpaceNode.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "src/nodes/core/VaryingNode.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 9
+    },
+    {
+      "file": "src/nodes/gpgpu/ComputeNode.js",
+      "functionsObserved": 13,
+      "functionsExecuted": 9
+    },
+    {
+      "file": "src/nodes/display/ToneMappingNode.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/core/BypassNode.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/nodes/utils/Remap.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/nodes/core/ContextNode.js",
+      "functionsObserved": 21,
+      "functionsExecuted": 9
+    },
+    {
+      "file": "src/nodes/utils/Discard.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/math/ConditionalNode.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "src/nodes/utils/DebugNode.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/core/IsolateNode.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/nodes/core/InspectorNode.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/UniformArrayNode.js",
+      "functionsObserved": 14,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/utils/LoopNode.js",
+      "functionsObserved": 12,
+      "functionsExecuted": 11
+    },
+    {
+      "file": "src/nodes/display/RenderOutputNode.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/Tangent.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/TextureSizeNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/BuiltinNode.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/lighting/LightingNode.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/core/UniformGroupNode.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/nodes/accessors/ReferenceElementNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/CubeTextureNode.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "src/nodes/utils/MaxMipLevelNode.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/Object3DNode.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/nodes/accessors/UV.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/core/NodeError.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/materials/nodes/LineBasicNodeMaterial.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/materials/nodes/MeshBasicNodeMaterial.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/materials/nodes/MeshPhongNodeMaterial.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/materials/nodes/LineDashedNodeMaterial.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/materials/nodes/MeshNormalNodeMaterial.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/materials/nodes/MeshLambertNodeMaterial.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/materials/nodes/MeshStandardNodeMaterial.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "src/materials/nodes/Line2NodeMaterial.js",
+      "functionsObserved": 16,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/materials/nodes/MeshPhysicalNodeMaterial.js",
+      "functionsObserved": 18,
+      "functionsExecuted": 14
+    },
+    {
+      "file": "src/materials/nodes/MeshSSSNodeMaterial.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/materials/nodes/MeshMatcapNodeMaterial.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/materials/nodes/MeshToonNodeMaterial.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/materials/nodes/PointsNodeMaterial.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/materials/nodes/SpriteNodeMaterial.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/materials/nodes/ShadowNodeMaterial.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/materials/nodes/VolumeNodeMaterial.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/RenderContext.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/renderers/common/Constants.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webgl-fallback/utils/WebGLAttributeUtils.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 9
+    },
+    {
+      "file": "src/renderers/webgl-fallback/utils/WebGLVertexArrayUtils.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 8
+    },
+    {
+      "file": "src/renderers/webgl-fallback/utils/WebGLTextureUtils.js",
+      "functionsObserved": 20,
+      "functionsExecuted": 14
+    },
+    {
+      "file": "src/renderers/webgl-fallback/utils/WebGLState.js",
+      "functionsObserved": 36,
+      "functionsExecuted": 25
+    },
+    {
+      "file": "src/renderers/webgl-fallback/utils/WebGLUtils.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/renderers/webgl-fallback/utils/WebGLExtensions.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/renderers/webgl-fallback/utils/WebGLConstants.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webgl-fallback/WebGLBufferRenderer.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/common/Animation.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/renderers/webgl-fallback/utils/WebGLTimestampQueryPool.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/Color4.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/common/Attributes.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/renderers/common/Info.js",
+      "functionsObserved": 20,
+      "functionsExecuted": 16
+    },
+    {
+      "file": "src/renderers/common/Pipelines.js",
+      "functionsObserved": 15,
+      "functionsExecuted": 14
+    },
+    {
+      "file": "src/renderers/common/Geometries.js",
+      "functionsObserved": 17,
+      "functionsExecuted": 10
+    },
+    {
+      "file": "src/renderers/common/RenderLists.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/renderers/common/Bindings.js",
+      "functionsObserved": 14,
+      "functionsExecuted": 13
+    },
+    {
+      "file": "src/renderers/common/RenderObjects.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/renderers/common/RenderBundles.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/common/Background.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/common/Textures.js",
+      "functionsObserved": 15,
+      "functionsExecuted": 13
+    },
+    {
+      "file": "src/renderers/common/nodes/NodeManager.js",
+      "functionsObserved": 43,
+      "functionsExecuted": 26
+    },
+    {
+      "file": "src/renderers/common/RenderContexts.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/common/XRManager.js",
+      "functionsObserved": 39,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/nodes/pmrem/PMREMUtils.js",
+      "functionsObserved": 13,
+      "functionsExecuted": 12
+    },
+    {
+      "file": "src/nodes/utils/EquirectUV.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/nodes/display/ToneMappingFunctions.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 9
+    },
+    {
+      "file": "src/nodes/core/InputNode.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/nodes/core/ConstNode.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/nodes/core/NodeAttribute.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/core/LightingModel.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/core/MRTNode.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/core/NodeFunctionInput.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/core/NodeUniform.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/nodes/core/NodeCache.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/nodes/core/NodeVar.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/core/NodeCode.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/core/NodeFrame.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/nodes/core/OutputStructNode.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/core/ParameterNode.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/nodes/core/NodeVarying.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/core/OverrideContextNode.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/nodes/core/StructTypeNode.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/core/NodeBuilder.js",
+      "functionsObserved": 168,
+      "functionsExecuted": 122
+    },
+    {
+      "file": "src/nodes/core/StructNode.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/core/TempNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/ReferenceBaseNode.js",
+      "functionsObserved": 14,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/nodes/accessors/PointUVNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/core/StackNode.js",
+      "functionsObserved": 17,
+      "functionsExecuted": 15
+    },
+    {
+      "file": "src/nodes/accessors/RendererReferenceNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/nodes/accessors/StorageTextureNode.js",
+      "functionsObserved": 16,
+      "functionsExecuted": 10
+    },
+    {
+      "file": "src/nodes/accessors/Texture3DNode.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/StorageTexture3DNode.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/VelocityNode.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/code/CodeNode.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/nodes/code/FunctionNode.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/nodes/accessors/UserDataNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/geometry/RangeNode.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/gpgpu/AtomicFunctionNode.js",
+      "functionsObserved": 25,
+      "functionsExecuted": 25
+    },
+    {
+      "file": "src/nodes/gpgpu/ComputeBuiltinNode.js",
+      "functionsObserved": 12,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "src/nodes/display/PassNode.js",
+      "functionsObserved": 41,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/gpgpu/SubgroupFunctionNode.js",
+      "functionsObserved": 33,
+      "functionsExecuted": 30
+    },
+    {
+      "file": "src/nodes/gpgpu/BarrierNode.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "src/nodes/lighting/AnalyticLightNode.js",
+      "functionsObserved": 12,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/display/ViewportSharedTextureNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/lighting/AmbientLightNode.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/display/ToonOutlinePassNode.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/lighting/BasicEnvironmentNode.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/lighting/BasicLightMapNode.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/gpgpu/WorkgroupInfoNode.js",
+      "functionsObserved": 14,
+      "functionsExecuted": 10
+    },
+    {
+      "file": "src/nodes/lighting/HemisphereLightNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/lighting/DirectionalLightNode.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/lighting/LightProbeNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/lighting/PointLightNode.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/lighting/LightsNode.js",
+      "functionsObserved": 19,
+      "functionsExecuted": 12
+    },
+    {
+      "file": "src/nodes/lighting/RectAreaLightNode.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/lighting/EnvironmentNode.js",
+      "functionsObserved": 13,
+      "functionsExecuted": 11
+    },
+    {
+      "file": "src/nodes/lighting/ShadowBaseNode.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/lighting/ProjectorLightNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/lighting/ShadowNode.js",
+      "functionsObserved": 17,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/lighting/PointShadowNode.js",
+      "functionsObserved": 12,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/lighting/SpotLightNode.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/lighting/IESSpotLightNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/math/PackFloatNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/nodes/math/UnpackFloatNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/nodes/parsers/GLSLNodeParser.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/math/BitcastNode.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 8
+    },
+    {
+      "file": "src/nodes/math/BitcountNode.js",
+      "functionsObserved": 24,
+      "functionsExecuted": 23
+    },
+    {
+      "file": "src/nodes/utils/ArrayElementNode.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "src/nodes/pmrem/PMREMNode.js",
+      "functionsObserved": 13,
+      "functionsExecuted": 11
+    },
+    {
+      "file": "src/nodes/utils/FlipNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/nodes/math/Packed4x8IntegerNode.js",
+      "functionsObserved": 26,
+      "functionsExecuted": 23
+    },
+    {
+      "file": "src/nodes/utils/FunctionOverloadingNode.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "src/nodes/utils/JoinNode.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/nodes/utils/MemberNode.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/utils/ConvertNode.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/nodes/utils/CubeMapNode.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/utils/ReflectorNode.js",
+      "functionsObserved": 21,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/utils/SampleNode.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/utils/RotateNode.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/nodes/utils/SetNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/utils/RTTNode.js",
+      "functionsObserved": 14,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/utils/SplitNode.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "src/nodes/utils/StorageArrayElementNode.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/nodes/functions/PhongLightingModel.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webgl/WebGLAttributes.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/renderers/webgl/WebGLCapabilities.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/nodes/functions/PhysicalLightingModel.js",
+      "functionsObserved": 20,
+      "functionsExecuted": 8
+    },
+    {
+      "file": "src/renderers/webgl/WebGLBufferRenderer.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/renderers/webgl/WebGLClipping.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/webgl/WebGLEnvironments.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/renderers/webgl/WebGLGeometries.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "src/renderers/webgl/WebGLInfo.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/renderers/webgl/WebGLBackground.js",
+      "functionsObserved": 13,
+      "functionsExecuted": 10
+    },
+    {
+      "file": "src/renderers/webgl/WebGLIndexedBufferRenderer.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/webgl/WebGLBindingStates.js",
+      "functionsObserved": 21,
+      "functionsExecuted": 20
+    },
+    {
+      "file": "src/renderers/webgl/WebGLMorphtargets.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/webgl/WebGLAnimation.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/renderers/webgl/WebGLObjects.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/renderers/webgl/WebGLProperties.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/renderers/webgl/WebGLRenderStates.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "src/renderers/webgl/WebGLOutput.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webgl/WebGLPrograms.js",
+      "functionsObserved": 13,
+      "functionsExecuted": 10
+    },
+    {
+      "file": "src/renderers/webgl/WebGLShadowMap.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/webgl/WebGLState.js",
+      "functionsObserved": 56,
+      "functionsExecuted": 35
+    },
+    {
+      "file": "src/renderers/webgl/WebGLTextures.js",
+      "functionsObserved": 51,
+      "functionsExecuted": 37
+    },
+    {
+      "file": "src/renderers/webgl/WebGLUniforms.js",
+      "functionsObserved": 56,
+      "functionsExecuted": 15
+    },
+    {
+      "file": "src/renderers/shaders/DFGLUTData.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webgl/WebGLMaterials.js",
+      "functionsObserved": 15,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/webgl/WebGLUniformsGroups.js",
+      "functionsObserved": 13,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/common/UniformBuffer.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/webxr/WebXRManager.js",
+      "functionsObserved": 30,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/renderers/common/SampledTexture.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/common/Sampler.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "src/renderers/common/StorageBuffer.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/core/NodeParser.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webgpu/nodes/WGSLNodeFunction.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/renderers/common/UniformsGroup.js",
+      "functionsObserved": 22,
+      "functionsExecuted": 18
+    },
+    {
+      "file": "src/extras/lib/earcut.js",
+      "functionsObserved": 35,
+      "functionsExecuted": 12
+    },
+    {
+      "file": "src/renderers/webgpu/utils/WebGPUUtils.js",
+      "functionsObserved": 13,
+      "functionsExecuted": 11
+    },
+    {
+      "file": "src/renderers/webgpu/utils/WebGPUCapabilities.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/webgpu/utils/WebGPUAttributeUtils.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "src/renderers/webgpu/utils/WebGPUBindingUtils.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 8
+    },
+    {
+      "file": "src/renderers/webgpu/utils/WebGPUPipelineUtils.js",
+      "functionsObserved": 18,
+      "functionsExecuted": 9
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPUCommandEncoderDescriptor.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/webgpu/utils/WebGPUTimestampQueryPool.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPUBufferDescriptor.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPUComputePassDescriptor.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPUShaderModuleDescriptor.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPUQuerySetDescriptor.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPURenderPassColorAttachment.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPURenderPassDepthStencilAttachment.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPUTexelCopyTextureInfo.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPURenderPassTimestampWrites.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPURenderPassDescriptor.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPUExtent3D.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPUTextureDescriptor.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPUTextureViewDescriptor.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/nodes/math/Hash.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/math/MathUtils.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/nodes/utils/MatcapUV.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/math/TriNoise3D.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/nodes/utils/Oscillators.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/nodes/utils/Packing.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/nodes/utils/UVUtils.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/nodes/utils/SpriteUtils.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/utils/SpriteSheetUV.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/utils/ViewportUtils.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/utils/Timer.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/AccessorsUtils.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/utils/TriplanarTextures.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/utils/PostProcessingUtils.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/nodes/accessors/Arrays.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/accessors/TangentUtils.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/MaterialProperties.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/nodes/accessors/Bitangent.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/TextureBicubic.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/ReflectVector.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/SceneProperties.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/display/BlendModes.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/nodes/display/ColorAdjustment.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 11
+    },
+    {
+      "file": "src/nodes/display/ColorSpaceFunctions.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/nodes/fog/Fog.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/procedural/Checker.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/shapes/Shapes.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/accessors/Lights.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/lighting/ShadowFilterNode.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/functions/BSDF/BRDF_EON.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/nodes/materialx/MaterialXNodes.js",
+      "functionsObserved": 48,
+      "functionsExecuted": 34
+    },
+    {
+      "file": "src/nodes/functions/BSDF/BRDF_Lambert.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/functions/BSDF/BRDF_GGX.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/functions/BSDF/DFGLUT.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/functions/BSDF/BRDF_Sheen.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/functions/BSDF/D_GGX_Anisotropic.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/functions/BSDF/EnvironmentBRDF.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/functions/BSDF/Schlick_to_F0.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/functions/BSDF/V_GGX_SmithCorrelated.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/functions/BSDF/D_GGX.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/functions/BSDF/F_Schlick.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/functions/BSDF/V_GGX_SmithCorrelated_Anisotropic.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/functions/BSDF/LTC.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "src/nodes/lighting/LightUtils.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/functions/material/getGeometryRoughness.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/functions/material/getRoughness.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/functions/material/getShIrradianceAt.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/functions/material/getParallaxCorrectNormal.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webgpu/utils/WebGPUTexturePassUtils.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPUTexelCopyBufferLayout.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPUSamplerDescriptor.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPUTexelCopyBufferInfo.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/nodes/functions/BasicLightingModel.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPUCopyExternalImageSourceInfo.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPUCopyExternalImageDestInfo.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/functions/ToonLightingModel.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/functions/ShadowMaskModel.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/DataMap.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/nodes/functions/VolumetricLightingModel.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/TimestampQueryPool.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/ComputePipeline.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/common/ProgrammableStage.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/common/RenderObjectPipeline.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/common/ChainMap.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/renderers/common/RenderBundle.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/RenderObject.js",
+      "functionsObserved": 29,
+      "functionsExecuted": 22
+    },
+    {
+      "file": "src/renderers/common/nodes/NodeBuilderState.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/common/RenderList.js",
+      "functionsObserved": 14,
+      "functionsExecuted": 9
+    },
+    {
+      "file": "src/renderers/common/BindGroup.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/common/nodes/NodeUniform.js",
+      "functionsObserved": 24,
+      "functionsExecuted": 12
+    },
+    {
+      "file": "src/renderers/common/XRRenderTarget.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/core/StructType.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/parsers/GLSLNodeFunction.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/renderers/webgl/WebGLLights.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/renderers/webgl/WebGLShaderCache.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 9
+    },
+    {
+      "file": "src/renderers/shaders/ShaderLib/vsm.glsl.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/webgl/WebGLProgram.js",
+      "functionsObserved": 27,
+      "functionsExecuted": 22
+    },
+    {
+      "file": "src/renderers/common/Buffer.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/renderers/common/Binding.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "src/renderers/webxr/WebXRDepthSensing.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/core/NodeFunction.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPUBindGroupDescriptor.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPUPipelineLayoutDescriptor.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPURenderBundleEncoderDescriptor.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPURenderPipelineDescriptor.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 4
+    },
+    {
+      "file": "src/renderers/webgpu/descriptors/GPUComputePipelineDescriptor.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/nodes/materialx/MaterialXCore.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "src/nodes/materialx/MaterialXColor.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/nodes/materialx/MaterialXColorTransform.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/Pipeline.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/nodes/materialx/MaterialXNoise.js",
+      "functionsObserved": 61,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "src/renderers/common/Uniform.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "src/renderers/webgl/WebGLShader.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "src/renderers/common/BufferUtils.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "examples/jsm/utils/GaussianSplatUtils.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 10
+    },
+    {
+      "file": "examples/jsm/utils/ColorUtils.js",
+      "functionsObserved": 1,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "examples/jsm/utils/unwrapUVs.js",
+      "functionsObserved": 52,
+      "functionsExecuted": 51
+    },
+    {
+      "file": "examples/jsm/utils/BufferGeometryUtils.js",
+      "functionsObserved": 15,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "examples/jsm/math/ColorConverter.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "examples/jsm/math/ColorSpaces.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "examples/jsm/math/Octree.js",
+      "functionsObserved": 20,
+      "functionsExecuted": 9
+    },
+    {
+      "file": "examples/jsm/curves/NURBSCurve.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 8
+    },
+    {
+      "file": "examples/jsm/lighting/LightMapper.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "examples/jsm/loaders/FBXLoader.js",
+      "functionsObserved": 146,
+      "functionsExecuted": 87
+    },
+    {
+      "file": "examples/jsm/loaders/KSPLATLoader.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 10
+    },
+    {
+      "file": "examples/jsm/loaders/HDRLoader.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 5
+    },
+    {
+      "file": "examples/jsm/loaders/GaussianSplatPLYLoader.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 9
+    },
+    {
+      "file": "examples/jsm/loaders/GLTFGaussianSplatLoaderExtension.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 11
+    },
+    {
+      "file": "examples/jsm/loaders/SPLATLoader.js",
+      "functionsObserved": 3,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "examples/jsm/loaders/GLTFLoader.js",
+      "functionsObserved": 188,
+      "functionsExecuted": 109
+    },
+    {
+      "file": "examples/jsm/loaders/EXRLoader.js",
+      "functionsObserved": 75,
+      "functionsExecuted": 46
+    },
+    {
+      "file": "examples/jsm/loaders/SPZLoader.js",
+      "functionsObserved": 15,
+      "functionsExecuted": 13
+    },
+    {
+      "file": "examples/jsm/libs/fflate.module.js",
+      "functionsObserved": 172,
+      "functionsExecuted": 79
+    },
+    {
+      "file": "examples/jsm/exporters/EXRExporter.js",
+      "functionsObserved": 40,
+      "functionsExecuted": 34
+    },
+    {
+      "file": "examples/jsm/loaders/usd/USDAParser.js",
+      "functionsObserved": 23,
+      "functionsExecuted": 20
+    },
+    {
+      "file": "examples/jsm/loaders/MaterialXLoader.js",
+      "functionsObserved": 15,
+      "functionsExecuted": 12
+    },
+    {
+      "file": "examples/jsm/loaders/usd/USDCParser.js",
+      "functionsObserved": 46,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "examples/jsm/loaders/USDLoader.js",
+      "functionsObserved": 11,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXNodeLibrary.js",
+      "functionsObserved": 55,
+      "functionsExecuted": 53
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/compile/MaterialXCompileRegistry.js",
+      "functionsObserved": 68,
+      "functionsExecuted": 52
+    },
+    {
+      "file": "examples/jsm/loaders/usd/USDComposer.js",
+      "functionsObserved": 78,
+      "functionsExecuted": 48
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXNodeDefs.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXInterfaceValidation.js",
+      "functionsObserved": 12,
+      "functionsExecuted": 10
+    },
+    {
+      "file": "examples/jsm/exporters/OBJExporter.js",
+      "functionsObserved": 5,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "examples/jsm/tsl/WebGLNodesHandler.js",
+      "functionsObserved": 32,
+      "functionsExecuted": 9
+    },
+    {
+      "file": "examples/jsm/postprocessing/GTAOPass.js",
+      "functionsObserved": 15,
+      "functionsExecuted": 11
+    },
+    {
+      "file": "examples/jsm/tsl/lighting/ClusteredLightsNode.js",
+      "functionsObserved": 28,
+      "functionsExecuted": 12
+    },
+    {
+      "file": "examples/jsm/exporters/USDZExporter.js",
+      "functionsObserved": 54,
+      "functionsExecuted": 33
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXNodeInterfaceRegistry.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "examples/jsm/libs/potpack.module.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "examples/jsm/math/Capsule.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "examples/jsm/curves/NURBSUtils.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "examples/jsm/loaders/PLYLoader.js",
+      "functionsObserved": 33,
+      "functionsExecuted": 24
+    },
+    {
+      "file": "examples/jsm/utils/SkeletonUtils.js",
+      "functionsObserved": 8,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "examples/jsm/libs/zstddec.module.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXLog.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "examples/jsm/objects/GaussianSplat.js",
+      "functionsObserved": 28,
+      "functionsExecuted": 7
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXArchive.js",
+      "functionsObserved": 4,
+      "functionsExecuted": 1
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXUtils.js",
+      "functionsObserved": 6,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXDocument.js",
+      "functionsObserved": 95,
+      "functionsExecuted": 90
+    },
+    {
+      "file": "examples/jsm/postprocessing/Pass.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 6
+    },
+    {
+      "file": "examples/jsm/shaders/CopyShader.js",
+      "functionsObserved": 0,
+      "functionsExecuted": 0
+    },
+    {
+      "file": "examples/jsm/shaders/PoissonDenoiseShader.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "examples/jsm/shaders/GTAOShader.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "examples/jsm/math/SimplexNoise.js",
+      "functionsObserved": 7,
+      "functionsExecuted": 3
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXSurfaceMappings.js",
+      "functionsObserved": 19,
+      "functionsExecuted": 17
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/parse/MaterialXParser.js",
+      "functionsObserved": 2,
+      "functionsExecuted": 2
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXHextile.js",
+      "functionsObserved": 10,
+      "functionsExecuted": 10
+    },
+    {
+      "file": "examples/jsm/gpgpu/CountingSort.js",
+      "functionsObserved": 9,
+      "functionsExecuted": 2
+    }
+  ]
+}

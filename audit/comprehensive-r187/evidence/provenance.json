@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-07",
+  "release": "r187",
+  "version": "0.187.0",
+  "releaseCommit": "7e89746a687bb88271253698fa108b1dd59825d0",
+  "devCommit": "f2b6a71bdd088d9da387fcc62802323341099b92",
+  "foundationAuditCommit": "7d05c0db87495c6180967b2c6bb14b3812857f7d",
+  "qunit": {
+    "version": "2.25.0",
+    "url": "https://cdn.jsdelivr.net/npm/qunit@2.25.0/qunit/qunit.min.js",
+    "sha256": "1c61c415437fd5b05a18b2d9426e915e4805f87c61392d10d90dc9113554789b"
+  },
+  "testStrategy": "Original QUnit pages and assertions via Playwright route-served checkout; observation-only backend hook after renderer.init in r187 reruns. Development source overlay, not a rebuilt development distribution.",
+  "sourceModified": false,
+  "runtimeTiming": "CPU timers include submission; no GPU-completion timer or general speedup guarantee.",
+  "preliminaryHarnessFailure": "Initial WebKit addon timeout fixed by continuing blob/data requests; retained in harness-preliminary.json.",
+  "tools": {
+    "playwright": "1.61.1",
+    "rollup": "4.66.0",
+    "eslint": "10.13.0",
+    "espree": "11.2.0",
+    "puppeteerInstalledNotRunner": "25.16.0"
+  },
+  "os": {
+    "name": "macOS",
+    "version": "15.6.1",
+    "build": "24G90"
+  },
+  "materialBenchmarkTimingCaveat": "Bundle compilation overlapped the browser material campaign; CPU contention possible. Counts remain stronger evidence than timing."
+}

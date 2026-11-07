@@ -1,0 +1,2033 @@
+{
+  "scope": "manual",
+  "files": 268,
+  "errors": 15,
+  "warnings": 0,
+  "fatal": 0,
+  "results": [
+    {
+      "file": "manual/examples/3dlut-base-cube-maker.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/align-html-elements-to-3d-globe-too-many-labels.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/align-html-elements-to-3d-globe.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/align-html-to-3d-w-hiding.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/align-html-to-3d-w-sorting.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/align-html-to-3d.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/background-css.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/background-cubemap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/background-equirectangularmap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/background-scene-background-fixed-aspect.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/background-scene-background.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/background-separate-scene-bad-aspect.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/background-separate-scene.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/background-v01.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/background.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/billboard-labels-w-sprites-adjust-height.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/billboard-labels-w-sprites.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/billboard-trees-no-billboards.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/billboard-trees-static-billboards.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/cameras-logarithmic-depth-buffer.html",
+      "errors": 1,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 81,
+          "column": 15,
+          "endLine": 81,
+          "endColumn": 23,
+          "severity": 2,
+          "rule": "no-self-assign",
+          "message": "'this.min' is assigned to itself."
+        }
+      ]
+    },
+    {
+      "file": "manual/examples/cameras-orthographic-2-scenes.html",
+      "errors": 1,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 98,
+          "column": 15,
+          "endLine": 98,
+          "endColumn": 23,
+          "severity": 2,
+          "rule": "no-self-assign",
+          "message": "'this.min' is assigned to itself."
+        }
+      ]
+    },
+    {
+      "file": "manual/examples/cameras-orthographic-canvas-top-left-origin.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/cameras-perspective-2-scenes.html",
+      "errors": 1,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 98,
+          "column": 15,
+          "endLine": 98,
+          "endColumn": 23,
+          "severity": 2,
+          "rule": "no-self-assign",
+          "message": "'this.min' is assigned to itself."
+        }
+      ]
+    },
+    {
+      "file": "manual/examples/cameras-perspective.html",
+      "errors": 1,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 78,
+          "column": 15,
+          "endLine": 78,
+          "endColumn": 23,
+          "severity": 2,
+          "rule": "no-self-assign",
+          "message": "'this.min' is assigned to itself."
+        }
+      ]
+    },
+    {
+      "file": "manual/examples/cameras-z-fighting.html",
+      "errors": 1,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 77,
+          "column": 15,
+          "endLine": 77,
+          "endColumn": 23,
+          "severity": 2,
+          "rule": "no-self-assign",
+          "message": "'this.min' is assigned to itself."
+        }
+      ]
+    },
+    {
+      "file": "manual/examples/canvas-random-dots.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/canvas-textured-cube-qix.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/canvas-textured-cube.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/canvas-textured-labels-one-canvas.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/canvas-textured-labels-scale-to-fit.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/canvas-textured-labels.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/cleanup-loaded-files.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/cleanup-simple.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/custom-buffergeometry-cube-indexed.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/custom-buffergeometry-cube-typedarrays.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/custom-buffergeometry-cube.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/custom-buffergeometry-dynamic.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/debug-js-clearing-logger.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/debug-js-html-elements.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/debug-js-params.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/debugging-mcve.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/fog-gui.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/fog.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/fundamentals-3-cubes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/fundamentals-with-animation.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/fundamentals-with-light.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/fundamentals.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/game-check-animations.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/game-conga-line-w-notes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/game-conga-line.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/game-just-player.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/game-load-models.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/game-player-input.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/gpw-data-viewer.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/indexed-textures-picking-and-highlighting.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/indexed-textures-picking-debounced.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/indexed-textures-picking.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/indexed-textures-random-colors.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/lights-ambient.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/lights-directional-w-helper.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/lights-directional.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/lights-hemisphere.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/lights-point.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/lights-rectarea.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/lights-spot-w-helper.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/load-gltf-animated-cars.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/load-gltf-car-path-fixed.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/load-gltf-car-path.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/load-gltf-dump-scenegraph-extra.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/load-gltf-dump-scenegraph.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/load-gltf-rotate-cars-fixed.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/load-gltf-rotate-cars.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/load-gltf-shadows.html",
+      "errors": 1,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 199,
+          "column": 16,
+          "endLine": 199,
+          "endColumn": 24,
+          "severity": 2,
+          "rule": "no-self-assign",
+          "message": "'this.min' is assigned to itself."
+        }
+      ]
+    },
+    {
+      "file": "manual/examples/load-gltf.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/load-obj-auto-camera-xz.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/load-obj-auto-camera.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/load-obj-materials-fixed.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/load-obj-materials-windmill2.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/load-obj-materials.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/load-obj-no-materials.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/load-obj-wat.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/lots-of-objects-animated.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/lots-of-objects-merged-vertexcolors.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/lots-of-objects-merged.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/lots-of-objects-morphtargets.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/lots-of-objects-multiple-data-sets.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/lots-of-objects-slow.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/multiple-scenes-controls.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/multiple-scenes-copy-canvas.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/multiple-scenes-generic.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/multiple-scenes-selector.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/multiple-scenes-v1.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/multiple-scenes-v2.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/multiple-scenes-v3.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/offscreencanvas-cubes.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/offscreencanvas-w-fallback.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/offscreencanvas-w-orbitcontrols.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/offscreencanvas-w-picking.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/offscreencanvas-worker-cubes.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/offscreencanvas-worker-orbitcontrols.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/offscreencanvas-worker-picking.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/offscreencanvas.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/picking-gpu.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/picking-raycaster-complex-geo.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/picking-raycaster-transparency.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/picking-raycaster.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/postprocessing-custom.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/postprocessing-gui.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/postprocessing.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/primitives-text.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/primitives.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/render-on-demand-w-damping.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/render-on-demand-w-gui.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/render-on-demand.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/render-target.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/resources/drag-and-drop.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/resources/editor-settings.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/resources/editor.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/resources/editor.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/resources/lessons-helper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/resources/lessons-worker-helper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/resources/lut-reader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/resources/threejs-utils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/resources/webgl-debug-helper.js",
+      "errors": 2,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 32,
+          "column": 19,
+          "endLine": 32,
+          "endColumn": 29,
+          "severity": 2,
+          "rule": "no-redeclare",
+          "message": "'globalThis' is already defined as a built-in global variable."
+        },
+        {
+          "line": 586,
+          "column": 20,
+          "endLine": 586,
+          "endColumn": 63,
+          "severity": 2,
+          "rule": "prefer-spread",
+          "message": "Use the spread operator instead of '.apply()'."
+        }
+      ]
+    },
+    {
+      "file": "manual/examples/responsive-editor.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/responsive-hd-dpi.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/responsive-no-resize.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/responsive-paragraph.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/responsive-update-camera.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/responsive.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/scenegraph-car.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/scenegraph-sun-earth-moon-axes-grids.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/scenegraph-sun-earth-moon-axes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/scenegraph-sun-earth-moon.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/scenegraph-sun-earth-orbit-fixed.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/scenegraph-sun-earth-orbit.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/scenegraph-sun-earth.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/scenegraph-sun.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/scenegraph-tank.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/shadertoy-as-texture.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/shadertoy-basic-x40.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/shadertoy-basic.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/shadertoy-bleepy-blocks.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/shadertoy-prep.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/shadows-directional-light-shadow-acne.html",
+      "errors": 1,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 259,
+          "column": 16,
+          "endLine": 259,
+          "endColumn": 24,
+          "severity": 2,
+          "rule": "no-self-assign",
+          "message": "'this.min' is assigned to itself."
+        }
+      ]
+    },
+    {
+      "file": "manual/examples/shadows-directional-light-with-camera-gui.html",
+      "errors": 1,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 224,
+          "column": 16,
+          "endLine": 224,
+          "endColumn": 24,
+          "severity": 2,
+          "rule": "no-self-assign",
+          "message": "'this.min' is assigned to itself."
+        }
+      ]
+    },
+    {
+      "file": "manual/examples/shadows-directional-light-with-camera-helper.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/shadows-directional-light.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/shadows-fake.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/shadows-point-light.html",
+      "errors": 1,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 200,
+          "column": 16,
+          "endLine": 200,
+          "endColumn": 24,
+          "severity": 2,
+          "rule": "no-self-assign",
+          "message": "'this.min' is assigned to itself."
+        }
+      ]
+    },
+    {
+      "file": "manual/examples/shadows-spot-light-with-camera-gui.html",
+      "errors": 1,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 198,
+          "column": 16,
+          "endLine": 198,
+          "endColumn": 24,
+          "severity": 2,
+          "rule": "no-self-assign",
+          "message": "'this.min' is assigned to itself."
+        }
+      ]
+    },
+    {
+      "file": "manual/examples/shadows-spot-light-with-shadow-radius.html",
+      "errors": 1,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 198,
+          "column": 16,
+          "endLine": 198,
+          "endColumn": 24,
+          "severity": 2,
+          "rule": "no-self-assign",
+          "message": "'this.min' is assigned to itself."
+        }
+      ]
+    },
+    {
+      "file": "manual/examples/shared-cubes.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/shared-orbitcontrols.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/shared-picking.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/textured-cube-6-textures.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/textured-cube-adjust.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/textured-cube-wait-for-all-textures.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/textured-cube-wait-for-texture.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/textured-cube.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/threejs-responsive.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/tips-html-background.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/tips-preservedrawingbuffer.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/tips-screenshot-bad.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/tips-screenshot-good.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/tips-tabindex.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/tips-transparent-canvas.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/transparency-doubleside-hack.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/transparency-doubleside.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/transparency-intersecting-planes-alphatest.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/transparency-intersecting-planes-fixed.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/transparency-intersecting-planes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/transparency.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/voxel-geometry-culled-faces-ui.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/voxel-geometry-culled-faces-with-textures.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/voxel-geometry-culled-faces.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/voxel-geometry-merged.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/voxel-geometry-separate-cubes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/webxr-basic-vr-optional.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/webxr-basic-w-background.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/webxr-basic.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/webxr-look-to-select-selector.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/webxr-look-to-select-w-cursor.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/webxr-look-to-select.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/webxr-point-to-select-w-move.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/examples/webxr-point-to-select.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/index.html",
+      "errors": 2,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 394,
+          "column": 12,
+          "endLine": 394,
+          "endColumn": 18,
+          "severity": 2,
+          "rule": "no-unused-vars",
+          "message": "'setUrl' is defined but never used."
+        },
+        {
+          "line": 437,
+          "column": 12,
+          "endLine": 437,
+          "endColumn": 20,
+          "severity": 2,
+          "rule": "no-unused-vars",
+          "message": "'setTitle' is defined but never used."
+        }
+      ]
+    },
+    {
+      "file": "manual/pages/align-html-elements-to-3d.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/animation-system.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/backgrounds.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/billboards.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/cameras.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/canvas-textures.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/cleanup.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/color-management.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/creating-a-scene.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/creating-text.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/custom-buffergeometry.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/debugging-glsl.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/debugging-javascript.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/drawing-lines.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/faq.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/fog.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/fundamentals.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/game.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/how-to-create-vr-content.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/how-to-dispose-of-objects.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/how-to-update-things.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/how-to-use-post-processing.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/indexed-textures.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/installation.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/libraries-and-plugins.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/lights.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/load-gltf.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/load-obj.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/loading-3d-models.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/material-table.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/materials.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/matrix-transformations.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/multiple-scenes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/offscreencanvas.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/optimize-lots-of-objects-animated.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/optimize-lots-of-objects.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/physics.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/picking.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/post-processing.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/prerequisites.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/primitives.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/rendering-on-demand.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/rendertargets.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/responsive.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/scenegraph.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/setup.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/shadertoy.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/shadows.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/textures.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/tips.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/transparency.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/uniform-types.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/useful-links.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/voxel-geometry.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/webgl-compatibility-check.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/webgpu-postprocessing.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/webgpurenderer.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/webxr-basics.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/webxr-look-to-select.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/pages/webxr-point-to-select.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/canvas-wrapper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/lesson.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/moon-orbit.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/threejs-align-html-elements-to-3d.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/threejs-cameras.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/threejs-custom-buffergeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/threejs-fog.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/threejs-lesson-utils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/threejs-lights.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/threejs-lots-of-objects.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/threejs-material-table.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/threejs-materials.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/threejs-post-processing-3dlut.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/threejs-primitives.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/threejs-textures.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/threejs-voxel-geometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/tools/geo-picking/make-geo-picking-texture-ogc.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/tools/geo-picking/make-geo-picking-texture-ogc.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/tools/geo-picking/make-geo-picking-texture.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/tools/geo-picking/make-geo-picking-texture.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "manual/resources/tools/geo-picking/ogc-parser.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    }
+  ]
+}

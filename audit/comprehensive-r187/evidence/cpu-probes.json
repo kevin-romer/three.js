@@ -1,0 +1,93 @@
+{
+  "node": "v26.4.0",
+  "fileResponseTypes": {
+    "fetches": 1,
+    "first": "ArrayBuffer",
+    "second": "ArrayBuffer",
+    "expectedSecond": "String"
+  },
+  "fileRequestIsolation": {
+    "fetches": 1,
+    "requested": [
+      "scope-A",
+      "scope-B"
+    ],
+    "received": [
+      "scope-A",
+      "scope-A"
+    ]
+  },
+  "bitmapOptionsRace": {
+    "requested": [
+      "none",
+      "flipY"
+    ],
+    "received": [
+      "flipY",
+      "flipY"
+    ]
+  },
+  "webgpuPadding": {
+    "vertices": 100000,
+    "dirtyComponents": 1,
+    "newCpuBytes": 400000,
+    "subarrayViews": 100000,
+    "gpuWrites": 1,
+    "gpuBytes": 4
+  },
+  "webgpuOverlappingRanges": {
+    "dirtyRanges": 256,
+    "uniqueBytes": 16,
+    "writeCalls": 256,
+    "submittedBytes": 4096
+  },
+  "webgpuAlignedFuzz": {
+    "trials": 500,
+    "types": [
+      "Uint8Array",
+      "Uint16Array"
+    ],
+    "nonzeroViewOffsets": true,
+    "status": "passed"
+  },
+  "animation": {
+    "nodes": 10000,
+    "tracks": 1000,
+    "coldBindingNameReads": 9500500,
+    "warmUpdateNameReads": 0,
+    "afterUncache": {
+      "actions": 0,
+      "bindings": 0
+    }
+  },
+  "gltfCopies": {
+    "inputBytes": 1573348,
+    "binBytes": 1572840,
+    "vertices": 65535,
+    "slices": [
+      {
+        "inputBytes": 1573348,
+        "copyBytes": 4
+      },
+      {
+        "inputBytes": 1573348,
+        "copyBytes": 1572840
+      },
+      {
+        "inputBytes": 1572840,
+        "copyBytes": 786420
+      },
+      {
+        "inputBytes": 1572840,
+        "copyBytes": 786420
+      }
+    ],
+    "totalCopiedBytes": 3145684
+  },
+  "stlPreflight": {
+    "inputBytes": 84,
+    "declaredTriangles": 1000000,
+    "attemptedFloatAllocationBytes": 36000000,
+    "actualLargeAllocationPrevented": true
+  }
+}

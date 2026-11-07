@@ -1,0 +1,93 @@
+{
+  "browser": "156.0.8078.80",
+  "ownership": [
+    {
+      "shared": false,
+      "before": {
+        "colored": 78,
+        "sha256": "80a4728024991cb56d7a20f079e60f4b1d81a01467a1f0ced96a56204c073631",
+        "glError": 0
+      },
+      "after": {
+        "colored": 78,
+        "sha256": "80a4728024991cb56d7a20f079e60f4b1d81a01467a1f0ced96a56204c073631",
+        "glError": 0
+      }
+    },
+    {
+      "shared": true,
+      "before": {
+        "colored": 78,
+        "sha256": "80a4728024991cb56d7a20f079e60f4b1d81a01467a1f0ced96a56204c073631",
+        "glError": 0
+      },
+      "after": {
+        "colored": 0,
+        "sha256": "62fb561c59d0cea247fc588f3311ee665375f35d8675b186e2792cb7dfcff88c",
+        "glError": 1282
+      }
+    }
+  ],
+  "subscriptions": [
+    {
+      "cycle": 1,
+      "geometry": 0,
+      "material": 1,
+      "texture": 0
+    },
+    {
+      "cycle": 2,
+      "geometry": 0,
+      "material": 2,
+      "texture": 0
+    },
+    {
+      "cycle": 3,
+      "geometry": 0,
+      "material": 3,
+      "texture": 0
+    }
+  ],
+  "afterAssetDispose": {
+    "geometry": 0,
+    "material": 0,
+    "texture": 0
+  },
+  "webgpu": {
+    "backend": true,
+    "pixelBytes": 4096,
+    "colored": 256,
+    "sha256": "1e51aeee4137923b76f462547ca5f349d7f9ca2743ad882d44a472481750ef3f",
+    "memory": {
+      "attributes": 1,
+      "attributesSize": 48,
+      "geometries": 1,
+      "indexAttributes": 1,
+      "indexAttributesSize": 12,
+      "indirectStorageAttributes": 0,
+      "indirectStorageAttributesSize": 0,
+      "programs": 2,
+      "programsSize": 2135,
+      "readbackBuffers": 0,
+      "readbackBuffersSize": 0,
+      "renderTargets": 1,
+      "storageAttributes": 0,
+      "storageAttributesSize": 0,
+      "textures": 2,
+      "texturesSize": 8192,
+      "uniformBuffers": 2,
+      "uniformBuffersSize": 208,
+      "total": 10595
+    }
+  },
+  "audioState": {
+    "isPlaying": false,
+    "connected": false,
+    "hasEndedCallback": false
+  },
+  "controlListeners": {
+    "before": 6,
+    "after": 0
+  },
+  "pageErrors": []
+}

@@ -1,0 +1,121 @@
+{
+  "scope": "tsl",
+  "files": 16,
+  "errors": 0,
+  "warnings": 0,
+  "fatal": 0,
+  "results": [
+    {
+      "file": "tsl/index.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "tsl/js/Guide.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "tsl/js/code/CodeFormatter.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "tsl/js/code/CodeRunner.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "tsl/js/editor/CodeEditor.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "tsl/js/imports/scripts/scenes/empty.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "tsl/js/imports/scripts/scenes/plane.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "tsl/js/imports/scripts/scenes/shaderball.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "tsl/js/managers/ConsoleManager.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "tsl/js/managers/HistoryManager.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "tsl/js/managers/LayoutManager.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "tsl/js/managers/PlaygroundManager.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "tsl/js/managers/SearchManager.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "tsl/js/utils/CodeEditorUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "tsl/js/utils/GuideUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "tsl/js/utils/MarkdownUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    }
+  ]
+}

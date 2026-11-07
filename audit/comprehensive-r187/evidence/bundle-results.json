@@ -1,0 +1,72 @@
+{
+  "node": "v25.9.0",
+  "files": [
+    {
+      "name": "three.module.bundle.min.js",
+      "bytes": 783569,
+      "gzipBytes": 196374,
+      "sha256": "1c57688dd4ad79ffa70852561f5c3a014bd8f1755c7ad503fe004ff929f070f2"
+    },
+    {
+      "name": "three.webgpu.bundle.min.js",
+      "bytes": 1119102,
+      "gzipBytes": 302067,
+      "sha256": "78905de8d2064ffcec3aadb0376e704b00078f533e9f1ddb825fc65071acbe5e"
+    },
+    {
+      "name": "three.webgpu.nodes.bundle.min.js",
+      "bytes": 1117051,
+      "gzipBytes": 301690,
+      "sha256": "6564d218eff7108e11551e6f9c0120bbbd60670a2de427472a25a4afa0251c7d"
+    },
+    {
+      "name": "index.bundle.js",
+      "bytes": 1246863,
+      "gzipBytes": 249597,
+      "sha256": "c487c76d755e1b674025b08be0316cba2dbd761ba29c8f056112b708dc6f111c"
+    },
+    {
+      "name": "index.bundle.min.js",
+      "bytes": 520080,
+      "gzipBytes": 125600,
+      "sha256": "297d2b7234d3ef6af92bef1a6cab1d67cb4a2489c0c8b08d33ed2acbed59e8a6"
+    },
+    {
+      "name": "index.webgpu.bundle.js",
+      "bytes": 2737444,
+      "gzipBytes": 538674,
+      "sha256": "99357b4350bbb9b3839083351c6282fc3ea1a7b3086cdd1765cfcf91c52c5f4b"
+    },
+    {
+      "name": "index.webgpu.bundle.min.js",
+      "bytes": 793188,
+      "gzipBytes": 213080,
+      "sha256": "deac5d5bb7b156ac51501213723c7fa61b278482a2de587a2cb4572d2aa21d3f"
+    },
+    {
+      "name": "index.webgpu.nodes.bundle.js",
+      "bytes": 2507234,
+      "gzipBytes": 500329,
+      "sha256": "bebd33ba69d092cb5a0381e681158f1e0a636c45951da6321d7a0b4ec375b513"
+    },
+    {
+      "name": "index.webgpu.nodes.bundle.min.js",
+      "bytes": 739283,
+      "gzipBytes": 199565,
+      "sha256": "d31185187105a32e6d1b9b6bf2e8773ecaebb48b6db095ad6fe3318e796ae3b0"
+    },
+    {
+      "name": "index.webgpu.tsl.bundle.js",
+      "bytes": 2753061,
+      "gzipBytes": 542417,
+      "sha256": "633fda6beb348313d3eae260ab21f2d81a5dc71c7ed4f088153019c127c37144"
+    },
+    {
+      "name": "index.webgpu.tsl.bundle.min.js",
+      "bytes": 797932,
+      "gzipBytes": 213788,
+      "sha256": "72b18a3b7abe4197a0e8c5627cf7a9796514fd1818ec3017092ee6764fd8a75a"
+    }
+  ],
+  "warnings": []
+}

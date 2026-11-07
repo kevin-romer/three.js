@@ -1,0 +1,65 @@
+{
+  "scope": "utils",
+  "files": 8,
+  "errors": 0,
+  "warnings": 0,
+  "fatal": 0,
+  "results": [
+    {
+      "file": "utils/changelog.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "utils/docs/template/publish.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "utils/generateDFGLUT.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "utils/generateMaterialXNodeInterfaceRegistry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "utils/generatePMREM.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "utils/llms/build.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "utils/packLDrawModel.mjs",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "utils/server.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "release": "7e89746a687bb88271253698fa108b1dd59825d0",
+  "development": "f2b6a71bdd088d9da387fcc62802323341099b92",
+  "files": [
+    {
+      "file": "src/loaders/FileLoader.js",
+      "releaseSha256": "58cf6baa5177eb34461581561cde5f12d5d542601984a0d134dafe365321ccbc",
+      "devSha256": "58cf6baa5177eb34461581561cde5f12d5d542601984a0d134dafe365321ccbc",
+      "identical": true,
+      "diff": ""
+    },
+    {
+      "file": "src/loaders/ImageBitmapLoader.js",
+      "releaseSha256": "8efb8bbc44e8531a95f82afb7c66f16dc9baf7f1cda060f7baa2613ac8c596f0",
+      "devSha256": "8efb8bbc44e8531a95f82afb7c66f16dc9baf7f1cda060f7baa2613ac8c596f0",
+      "identical": true,
+      "diff": ""
+    },
+    {
+      "file": "src/renderers/webgl/WebGLGeometries.js",
+      "releaseSha256": "7fac2d1a6754c98d1c85342dfe226d0b13148275a2e00ebea0056f982934a6c3",
+      "devSha256": "7fac2d1a6754c98d1c85342dfe226d0b13148275a2e00ebea0056f982934a6c3",
+      "identical": true,
+      "diff": ""
+    },
+    {
+      "file": "src/renderers/webgl/WebGLBindingStates.js",
+      "releaseSha256": "320c72ca9887936e718245f67595c67a81e540efd3bcc8d58512fe60dd6f7b08",
+      "devSha256": "320c72ca9887936e718245f67595c67a81e540efd3bcc8d58512fe60dd6f7b08",
+      "identical": true,
+      "diff": ""
+    },
+    {
+      "file": "src/renderers/WebGLRenderer.js",
+      "releaseSha256": "d0cee0351c6dab0d57e6de2ca2560378c69605ce3a85e6fb0f3912639e3c4c11",
+      "devSha256": "5c7dbc0dbcf72c242557e3fa56c242a350ce6079f8753005c7009aa69071945c",
+      "identical": false,
+      "diff": "diff --git a/src/renderers/WebGLRenderer.js b/src/renderers/WebGLRenderer.js\nindex 80f1bd2..fa8be20 100644\n--- a/src/renderers/WebGLRenderer.js\n+++ b/src/renderers/WebGLRenderer.js\n@@ -3384,6 +3384,6 @@ class WebGLRenderer {\n \n \t\t\t\tconst levelScale = Math.pow( 2, - srcLevel );\n-\t\t\t\twidth = Math.floor( image.width * levelScale );\n-\t\t\t\theight = Math.floor( image.height * levelScale );\n+\t\t\t\twidth = Math.floor( srcTexture.width * levelScale );\n+\t\t\t\theight = Math.floor( srcTexture.height * levelScale );\n \t\t\t\tif ( srcTexture.isDataArrayTexture ) {\n \n@@ -3555,5 +3555,5 @@ class WebGLRenderer {\n \t\t\t\t\t} else if ( dstTexture.isCompressedArrayTexture ) {\n \n-\t\t\t\t\t\t_gl.compressedTexSubImage3D( glTarget, dstLevel, dstX, dstY, dstZ, width, height, depth, glFormat, image.data );\n+\t\t\t\t\t\t_gl.compressedTexSubImage3D( glTarget, dstLevel, dstX, dstY, dstZ, image.width, image.height, depth, glFormat, image.data );\n \n \t\t\t\t\t} else {\n"
+    },
+    {
+      "file": "src/renderers/webgpu/utils/WebGPUAttributeUtils.js",
+      "releaseSha256": "b3c4b634a5e5c0dd10a4756fa6458146bf5766fbffb5174c2c047f2f8bc255a7",
+      "devSha256": "b3c4b634a5e5c0dd10a4756fa6458146bf5766fbffb5174c2c047f2f8bc255a7",
+      "identical": true,
+      "diff": ""
+    },
+    {
+      "file": "src/animation/PropertyBinding.js",
+      "releaseSha256": "2130038f275f69a5be6e9654a44f65f239c5cceab71af1ac8e3490721733e81a",
+      "devSha256": "2130038f275f69a5be6e9654a44f65f239c5cceab71af1ac8e3490721733e81a",
+      "identical": true,
+      "diff": ""
+    },
+    {
+      "file": "examples/jsm/loaders/GLTFLoader.js",
+      "releaseSha256": "532ac726e120039acbcd6cf54328c57acbf7b438176afaa6951257126d11bff1",
+      "devSha256": "532ac726e120039acbcd6cf54328c57acbf7b438176afaa6951257126d11bff1",
+      "identical": true,
+      "diff": ""
+    },
+    {
+      "file": "examples/jsm/loaders/STLLoader.js",
+      "releaseSha256": "a07441b8cd812faf8049741fe5e95373b19547e4038694753dfec26fe230a7eb",
+      "devSha256": "a07441b8cd812faf8049741fe5e95373b19547e4038694753dfec26fe230a7eb",
+      "identical": true,
+      "diff": ""
+    },
+    {
+      "file": "test/unit/src/nodes/tsl/gpu-test-utils.js",
+      "releaseSha256": "e99ecc4cf5f1bf9db0ac22c3eaeaf28bb90f1db65da828af1a5a27e48ec861ad",
+      "devSha256": "e99ecc4cf5f1bf9db0ac22c3eaeaf28bb90f1db65da828af1a5a27e48ec861ad",
+      "identical": true,
+      "diff": ""
+    },
+    {
+      "file": "test/unit/src/nodes/tsl/gpu-raw-test-utils.js",
+      "releaseSha256": "a9ee1f5fb5d3113f00f997769ebd2ff7e297573f95406fda25ccf8e6e84b58fc",
+      "devSha256": "a9ee1f5fb5d3113f00f997769ebd2ff7e297573f95406fda25ccf8e6e84b58fc",
+      "identical": true,
+      "diff": ""
+    }
+  ]
+}

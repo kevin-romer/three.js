@@ -1,0 +1,639 @@
+{
+  "schemaVersion": 1,
+  "baseline": "r187",
+  "releaseCommit": "7e89746a687bb88271253698fa108b1dd59825d0",
+  "priorities": {
+    "1": "correctness or high-value measured performance work",
+    "2": "targeted optimization, lifecycle or validation improvement",
+    "3": "lower urgency / unmeasured proposal / maintenance"
+  },
+  "findings": [
+    {
+      "id": "E01",
+      "priority": 1,
+      "title": "Replace repeated free-ID sort/shift with min-heaps",
+      "kind": "measured-prototype",
+      "source": [
+        {
+          "file": "src/objects/BatchedMesh.js",
+          "line": 595
+        },
+        {
+          "file": "src/objects/BatchedMesh.js",
+          "line": 692
+        }
+      ],
+      "observation": "16,384-instance delete/refill median 1347.126 ms baseline vs 2.314875 ms heap prototype, 3 rounds.",
+      "proposedChange": "Minimum-ID heaps for both free collections; preserve smallest-ID reuse and capacity/copy behavior.",
+      "acceptance": "Randomized instance/geometry reuse, resize, copy, failed allocation and total delete+refill cost.",
+      "evidence": [
+        "../engine-r187/evidence/cpu-results.json",
+        "../engine-r187/evidence/regression-results.json",
+        "../engine-r187/patches/free-id-heap.patch"
+      ],
+      "developmentStatus": "Source patterns remain at pinned dev; prototype runtime r187 only.",
+      "detailDocument": "../engine-r187/README.md"
+    },
+    {
+      "id": "E02",
+      "priority": 1,
+      "title": "Avoid uploads for invisible single materials",
+      "kind": "measured-prototype",
+      "source": [
+        {
+          "file": "src/renderers/WebGLRenderer.js",
+          "line": 1923
+        },
+        {
+          "file": "src/renderers/webgl/WebGLObjects.js",
+          "line": 14
+        }
+      ],
+      "observation": "128 dirty hidden meshes submit 1,179,648 buffer bytes/frame; early guard submits 0 with matching pixels and visible child preserved.",
+      "proposedChange": "Guard single-material visibility before objects.update; preserve traversal and grouped material semantics.",
+      "acceptance": "Reveal/deferred upload, visible descendants, instancing, sprites, groups, clipping and callbacks.",
+      "evidence": [
+        "../engine-r187/evidence/gpu-results.json",
+        "../engine-r187/patches/hidden-material.patch"
+      ],
+      "developmentStatus": "Source pattern remains; candidate Chrome WebGL only.",
+      "detailDocument": "../engine-r187/README.md"
+    },
+    {
+      "id": "E03",
+      "priority": 1,
+      "title": "Track sparse batch transform/color texture ranges",
+      "kind": "measured-prototype",
+      "source": [
+        {
+          "file": "src/objects/BatchedMesh.js",
+          "line": 1089
+        },
+        {
+          "file": "src/objects/BatchedMesh.js",
+          "line": 1123
+        }
+      ],
+      "observation": "One matrix/color edit at capacity16384: texture bytes 1,310,720 ->80; including unchanged indirect cost total1,376,256 ->65,616.",
+      "proposedChange": "Dirty component ranges with full initial allocation, resize safeguards and dense threshold.",
+      "acceptance": "Initial storage, sparse/dense edits, clone/copy/grow/shrink, multiple renderers and contexts.",
+      "evidence": [
+        "../engine-r187/evidence/gpu-results.json",
+        "../engine-r187/patches/sparse-batch.patch"
+      ],
+      "developmentStatus": "Source pattern remains; candidate r187 Chrome WebGL only.",
+      "detailDocument": "../engine-r187/README.md"
+    },
+    {
+      "id": "E04",
+      "priority": 1,
+      "title": "Do not upload unchanged indirect draw IDs",
+      "kind": "measured-prototype",
+      "source": [
+        {
+          "file": "src/objects/BatchedMesh.js",
+          "line": 1581
+        }
+      ],
+      "observation": "Static capacity4096 batch submits16,384 bytes/render; changed-only prototype submits0 until order changes.",
+      "proposedChange": "Compare produced IDs before setting indirectTexture.needsUpdate; keep count/cull work.",
+      "acceptance": "Reverse order, count-only, zero/reuse, shadow/main and multi-camera passes, both multi-draw paths.",
+      "evidence": [
+        "../engine-r187/evidence/gpu-results.json",
+        "../engine-r187/patches/stable-indirect.patch"
+      ],
+      "developmentStatus": "Source pattern remains; WebGPU path needs separate design.",
+      "detailDocument": "../engine-r187/README.md"
+    },
+    {
+      "id": "E05",
+      "priority": 1,
+      "title": "Initialize replacement batch textures after resize",
+      "kind": "reproduced-prototype",
+      "source": [
+        {
+          "file": "src/objects/BatchedMesh.js",
+          "line": 1280
+        }
+      ],
+      "observation": "Clone/grow baseline blank; explicit texture invalidation restores20,937 colored pixels.",
+      "proposedChange": "Mark replacement copied matrix/color/indirect textures dirty.",
+      "acceptance": "Untouched growth/shrink, absent/present color, clone/copy and restored contexts.",
+      "evidence": [
+        "../engine-r187/evidence/gpu-results.json",
+        "../engine-r187/patches/resize-batch.patch"
+      ],
+      "developmentStatus": "Source pattern remains at pinned dev.",
+      "detailDocument": "../engine-r187/README.md"
+    },
+    {
+      "id": "E06",
+      "priority": 1,
+      "title": "Plan row-aware DataTexture ranges",
+      "kind": "reproduced-defect",
+      "source": [
+        {
+          "file": "src/renderers/webgl/WebGLTextures.js",
+          "line": 859
+        },
+        {
+          "file": "src/textures/Texture.js",
+          "line": 320
+        }
+      ],
+      "observation": "4x4 RGBA component range(0,32) generates width8,height1 and GL error1282.",
+      "proposedChange": "Split first/last partial rows and interior full-row rectangles; validate bounds/alignment and initialization.",
+      "acceptance": "Cross-row, overlapping/misaligned components, format/type/mipmap, allocation and contexts.",
+      "evidence": [
+        "../engine-r187/evidence/gpu-results.json"
+      ],
+      "developmentStatus": "Source pattern remains at pinned dev; no patch supplied.",
+      "detailDocument": "../engine-r187/README.md"
+    },
+    {
+      "id": "E07",
+      "priority": 2,
+      "title": "Optional per-instance ray acceleration",
+      "kind": "counted-opportunity",
+      "source": [
+        {
+          "file": "src/objects/InstancedMesh.js",
+          "line": 258
+        },
+        {
+          "file": "src/objects/BatchedMesh.js",
+          "line": 1418
+        }
+      ],
+      "observation": "One-hit rays still issue1024/16384 inner Mesh tests for those instance counts.",
+      "proposedChange": "Optional outer instance hierarchy with explicit refit/rebuild; retain small dynamic linear path.",
+      "acceptance": "Construction/refit memory and cost, all-hit order, IDs, bounds and dynamic transforms.",
+      "evidence": [
+        "../engine-r187/evidence/cpu-results.json"
+      ],
+      "developmentStatus": "Release behavior measured; acceleration proposal not benchmarked.",
+      "detailDocument": "../engine-r187/README.md"
+    },
+    {
+      "id": "E08",
+      "priority": 2,
+      "title": "Coalesce WebGL uniform-buffer writes",
+      "kind": "counted-opportunity",
+      "source": [
+        {
+          "file": "src/renderers/webgl/WebGLUniformsGroups.js",
+          "line": 107
+        }
+      ],
+      "observation": "256 changed vec4 uniforms generate256 writes for4096bytes; unchanged group generates0.",
+      "proposedChange": "Packed backing buffer and merged dirty intervals with full-upload threshold.",
+      "acceptance": "STD140 types/padding/arrays/matrices; sparse/dense hardware crossover.",
+      "evidence": [
+        "../engine-r187/evidence/cpu-results.json"
+      ],
+      "developmentStatus": "Mock-driver call counts only; no implementation gain claimed.",
+      "detailDocument": "../engine-r187/README.md"
+    },
+    {
+      "id": "E09",
+      "priority": 2,
+      "title": "Opt-in dirty transform propagation",
+      "kind": "counted-opportunity",
+      "source": [
+        {
+          "file": "src/core/Object3D.js",
+          "line": 1186
+        }
+      ],
+      "observation": "Static default10001-node tree recomposes10001 locals and multiplies10000 worlds; existing manual flags avoid this.",
+      "proposedChange": "Optional tracked transform/subtree contract preserving default mutable APIs.",
+      "acceptance": "Direct mutations, reparenting, animation/cameras, dirty fractions and update overhead.",
+      "evidence": [
+        "../engine-r187/evidence/cpu-results.json"
+      ],
+      "developmentStatus": "Existing flags work; new automatic contract remains proposal.",
+      "detailDocument": "../engine-r187/README.md"
+    },
+    {
+      "id": "E10",
+      "priority": 2,
+      "title": "Explicit multipass preparation reuse",
+      "kind": "source-proposal",
+      "source": [
+        {
+          "file": "src/renderers/WebGLRenderer.js",
+          "line": 1667
+        },
+        {
+          "file": "src/renderers/webgl/WebGLObjects.js",
+          "line": 7
+        }
+      ],
+      "observation": "render() prepares matrices/lists/lights per call; no runtime gain measured.",
+      "proposedChange": "Explicit prepare/submit transaction with caller-declared immutable state scope.",
+      "acceptance": "Callbacks, nested rendering and camera/material/light/clipping invalidation.",
+      "evidence": [
+        "../engine-r187/README.md"
+      ],
+      "developmentStatus": "Proposal; no automatic stale frame cache.",
+      "detailDocument": "../engine-r187/README.md"
+    },
+    {
+      "id": "E11",
+      "priority": 3,
+      "title": "Reuse useful render-list ordering",
+      "kind": "source-proposal",
+      "source": [
+        {
+          "file": "src/renderers/webgl/WebGLRenderLists.js",
+          "line": 56
+        }
+      ],
+      "observation": "Items are already pooled; active membership and sorts rebuilt.",
+      "proposedChange": "Evaluate persistent ranks/unchanged-order checks against existing nearly-sorted sort.",
+      "acceptance": "Transparency correctness, insertion/removal, camera changes and custom callbacks.",
+      "evidence": [
+        "../engine-r187/README.md"
+      ],
+      "developmentStatus": "Unmeasured; no allocation-every-frame claim.",
+      "detailDocument": "../engine-r187/README.md"
+    },
+    {
+      "id": "E12",
+      "priority": 3,
+      "title": "Scoped external GL state invalidation",
+      "kind": "source-proposal",
+      "source": [
+        {
+          "file": "src/renderers/webgl/WebGLState.js",
+          "line": 1210
+        }
+      ],
+      "observation": "Full reset clears and resets broad GL domains by design.",
+      "proposedChange": "Optional explicit invalidation domains with safe full-reset default.",
+      "acceptance": "Foreign GL mutations, pixel storage, targets, reversed depth and nesting.",
+      "evidence": [
+        "../engine-r187/README.md"
+      ],
+      "developmentStatus": "Unmeasured API proposal.",
+      "detailDocument": "../engine-r187/README.md"
+    },
+    {
+      "id": "E13",
+      "priority": 3,
+      "title": "Separate shader errors from optional success logs",
+      "kind": "source-proposal",
+      "source": [
+        {
+          "file": "src/renderers/webgl/WebGLProgram.js",
+          "line": 823
+        }
+      ],
+      "observation": "First use collects logs and link status when checks enabled; compileAsync already exists.",
+      "proposedChange": "Diagnostic policy retaining errors while deferring optional successful warning logs.",
+      "acceptance": "Compile/link failure diagnostics and callbacks; real driver stall measurements.",
+      "evidence": [
+        "../engine-r187/README.md"
+      ],
+      "developmentStatus": "Unmeasured; do not globally disable checks.",
+      "detailDocument": "../engine-r187/README.md"
+    },
+    {
+      "id": "E14",
+      "priority": 3,
+      "title": "Bounded async pixel readback pools",
+      "kind": "source-proposal",
+      "source": [
+        {
+          "file": "src/renderers/WebGLRenderer.js",
+          "line": 3245
+        }
+      ],
+      "observation": "Async API allocates/deletes a PBO per request; no hardware timing gain measured.",
+      "proposedChange": "Bounded size-class idle pool and in-flight budget with disposal/error handling.",
+      "acceptance": "Repeated small/large reads, idle bytes, context loss and pixel-pack/framebuffer state.",
+      "evidence": [
+        "../engine-r187/README.md"
+      ],
+      "developmentStatus": "Unmeasured; asynchronous readback already present.",
+      "detailDocument": "../engine-r187/README.md"
+    },
+    {
+      "id": "E15",
+      "priority": 3,
+      "title": "Reduce unchanged WebGPU bundle refresh work",
+      "kind": "source-proposal",
+      "source": [
+        {
+          "file": "src/renderers/common/Renderer.js",
+          "line": 1767
+        },
+        {
+          "file": "src/renderers/common/Bindings.js",
+          "line": 450
+        }
+      ],
+      "observation": "Bundles and render-object/pipeline/binding caches exist; cached bundle still refreshes render objects.",
+      "proposedChange": "Evaluate group epoch with explicit invalidation for static groups.",
+      "acceptance": "Node/material/geometry mutations, memory and CPU/GPU-separated benchmarks.",
+      "evidence": [
+        "../engine-r187/README.md"
+      ],
+      "developmentStatus": "Source-only; new baseline GPU runs do not validate this optimization.",
+      "detailDocument": "../engine-r187/README.md"
+    },
+    {
+      "id": "E16",
+      "priority": 2,
+      "title": "Optional upload/cause/pass performance tracing",
+      "kind": "source-proposal",
+      "source": [
+        {
+          "file": "src/renderers/webgl/WebGLInfo.js",
+          "line": 1
+        },
+        {
+          "file": "src/renderers/common/Info.js",
+          "line": 1
+        }
+      ],
+      "observation": "WebGL info lacks complete upload byte/cause trace; WebGPU already has detailed byte estimates.",
+      "proposedChange": "Low-disabled-cost WebGL and cause/pass counters; extend common info only for missing fields.",
+      "acceptance": "Disabled overhead, cross-pass attribution, allocation/range/call vs GPU timing distinction.",
+      "evidence": [
+        "../engine-r187/README.md",
+        "evidence/browser-probes.json"
+      ],
+      "developmentStatus": "WebGPU byte counters confirmed at runtime; avoid duplicating them.",
+      "detailDocument": "../engine-r187/README.md"
+    },
+    {
+      "id": "C01",
+      "priority": 1,
+      "title": "FileLoader shares incompatible requests",
+      "kind": "reproduced-correctness",
+      "source": [
+        {
+          "file": "src/loaders/FileLoader.js",
+          "line": 103
+        }
+      ],
+      "observation": "Cache off: same URL with different headers deduplicates to one response; different response types also share decoded result.",
+      "proposedChange": "Request/response-compatible sharing and cache identity; independent consumer cancellation.",
+      "acceptance": "Equivalent dedup plus isolated header/credential/type/MIME, cache on/off, manager completion/error/abort.",
+      "evidence": [
+        "evidence/cpu-probes.json"
+      ],
+      "developmentStatus": "Exact source identical at pinned dev.",
+      "detailDocument": "FINDINGS.md#c01-fileloader-shares-incompatible-requests"
+    },
+    {
+      "id": "C02",
+      "priority": 1,
+      "title": "Shared BufferAttribute disposal breaks another geometry",
+      "kind": "reproduced-ownership-hazard",
+      "source": [
+        {
+          "file": "src/renderers/webgl/WebGLGeometries.js",
+          "line": 16
+        },
+        {
+          "file": "src/renderers/webgl/WebGLBindingStates.js",
+          "line": 149
+        }
+      ],
+      "observation": "After one geometry is disposed, another sharing its attribute falls from 78 to 0 colored pixels with GL error 1282; independent control preserves its hash.",
+      "proposedChange": "Define sharing ownership; retain live shared buffers and invalidate VAOs on buffer generation change.",
+      "acceptance": "Shared index/interleaved/instanced buffers, attribute replacement, final-owner release, multi-renderer/context.",
+      "evidence": [
+        "evidence/browser-probes.json"
+      ],
+      "developmentStatus": "Exact source identical at pinned dev.",
+      "detailDocument": "FINDINGS.md#c02-geometry-disposal-can-invalidate-another-geometrys-shared-attribute"
+    },
+    {
+      "id": "C03",
+      "priority": 1,
+      "title": "STLLoader preflight must precede allocation",
+      "kind": "reproduced-guarded-allocation",
+      "source": [
+        {
+          "file": "examples/jsm/loaders/STLLoader.js",
+          "line": 122
+        },
+        {
+          "file": "examples/jsm/loaders/STLLoader.js",
+          "line": 209
+        }
+      ],
+      "observation": "An 84-byte malformed input attempts a 36 MB Float32 allocation; the guard prevents the actual allocation.",
+      "proposedChange": "Validate record counts/body before allocation and support explicit decoded budgets.",
+      "acceptance": "Short/huge/truncated headers, ASCII/binary solid ambiguity, colored records/trailing data.",
+      "evidence": [
+        "evidence/cpu-probes.json"
+      ],
+      "developmentStatus": "Exact source identical at pinned dev.",
+      "detailDocument": "FINDINGS.md#c03-stlloader-allocates-from-an-unchecked-declared-triangle-count"
+    },
+    {
+      "id": "C04",
+      "priority": 2,
+      "title": "ImageBitmapLoader options race",
+      "kind": "reproduced-correctness",
+      "source": [
+        {
+          "file": "src/loaders/ImageBitmapLoader.js",
+          "line": 181
+        }
+      ],
+      "observation": "Distinct URLs requested with none/flipY decode options both receive flipY; cache disabled.",
+      "proposedChange": "Snapshot decode options before asynchronous fetch.",
+      "acceptance": "Concurrent distinct URLs, mutable input objects, option override, failure/abort.",
+      "evidence": [
+        "evidence/cpu-probes.json"
+      ],
+      "developmentStatus": "Exact source identical at pinned dev.",
+      "detailDocument": "FINDINGS.md#c04-imagebitmaploader-reads-mutable-decode-options-after-fetch"
+    },
+    {
+      "id": "C05",
+      "priority": 2,
+      "title": "WebGPU sparse updates fully repack padded attributes",
+      "kind": "counted-opportunity",
+      "source": [
+        {
+          "file": "src/renderers/webgpu/utils/WebGPUAttributeUtils.js",
+          "line": 235
+        }
+      ],
+      "observation": "One dirty component in 100,000 RGB vertices creates 400,000 CPU bytes and 100,000 views for four submitted GPU bytes.",
+      "proposedChange": "Retained staging and dirty-vertex repack with density threshold and storage-layout contract.",
+      "acceptance": "All padded types/item sizes, storage attributes, resizes, sparse/dense, peakbytes and timing.",
+      "evidence": [
+        "evidence/cpu-probes.json"
+      ],
+      "developmentStatus": "Exact source identical at pinned dev.",
+      "detailDocument": "FINDINGS.md#c05-sparse-webgpu-updates-repack-the-entire-padded-attribute"
+    },
+    {
+      "id": "C06",
+      "priority": 2,
+      "title": "WebGPU ranges are submitted without merging",
+      "kind": "counted-opportunity",
+      "source": [
+        {
+          "file": "src/renderers/webgpu/utils/WebGPUAttributeUtils.js",
+          "line": 295
+        }
+      ],
+      "observation": "256 identical ranges cause 256 queue writes / 4,096 submitted bytes for 16 unique bytes.",
+      "proposedChange": "Coalesce after padded/aligned interval mapping; bounded scratch and density threshold.",
+      "acceptance": "Duplicates/overlap/adjacency, Uint8/16 oddtails and nonzero offsets, byte equality and real timings.",
+      "evidence": [
+        "evidence/cpu-probes.json"
+      ],
+      "developmentStatus": "Exact source identical at pinned dev.",
+      "detailDocument": "FINDINGS.md#c06-webgpu-dirty-ranges-are-not-coalesced"
+    },
+    {
+      "id": "C07",
+      "priority": 2,
+      "title": "GLTFLoader repeats binary buffer copying",
+      "kind": "counted-opportunity",
+      "source": [
+        {
+          "file": "examples/jsm/loaders/GLTFLoader.js",
+          "line": 1971
+        },
+        {
+          "file": "examples/jsm/loaders/GLTFLoader.js",
+          "line": 3172
+        }
+      ],
+      "observation": "A valid 1,573,348-byte GLB causes 3,145,684 slice-copy bytes; parsed geometry counts are correct.",
+      "proposedChange": "Offset-aware source views and deliberate ownership/copy decisions.",
+      "acceptance": "Sparse/misaligned/interleaved/compressed/external buffers, plugins/transfers, retained source memory.",
+      "evidence": [
+        "evidence/cpu-probes.json"
+      ],
+      "developmentStatus": "Exact source identical at pinned dev.",
+      "detailDocument": "FINDINGS.md#c07-gltfloader-duplicates-uncompressed-binary-data"
+    },
+    {
+      "id": "C08",
+      "priority": 2,
+      "title": "Animation binding repeats scene name traversal",
+      "kind": "counted-opportunity",
+      "source": [
+        {
+          "file": "src/animation/PropertyBinding.js",
+          "line": 266
+        }
+      ],
+      "observation": "1,000 tracks / 10,000 nodes cause 9,500,500 cold name reads; zero warm name reads and uncache controls pass.",
+      "proposedChange": "Ephemeral binding-pass name/UUID index preserving search precedence.",
+      "acceptance": "Duplicates/root/bones, mutable rename/reparent, groups, uncache/rebind, construction-memory crossover.",
+      "evidence": [
+        "evidence/cpu-probes.json"
+      ],
+      "developmentStatus": "Exact source identical at pinned dev.",
+      "detailDocument": "FINDINGS.md#c08-animation-binding-repeatedly-searches-the-same-scene"
+    },
+    {
+      "id": "C09",
+      "priority": 2,
+      "title": "Material subscriptions survive renderer disposal",
+      "kind": "reproduced-retention-path",
+      "source": [
+        {
+          "file": "src/renderers/WebGLRenderer.js",
+          "line": 1155
+        },
+        {
+          "file": "src/renderers/WebGLRenderer.js",
+          "line": 2239
+        }
+      ],
+      "observation": "Material dispose listeners grow 1, 2, 3 after renderer replacement; geometry/texture listeners remain zero; asset disposal clears all.",
+      "proposedChange": "Unsubscribe renderer-owned callbacks without creating long-lived strong material registry.",
+      "acceptance": "Dispose ordering/shared programs/context and heap snapshots; no measured byte leak claimed.",
+      "evidence": [
+        "evidence/browser-probes.json"
+      ],
+      "developmentStatus": "Renderer lifecycle locations unchanged; unrelated texture-copy diff only.",
+      "detailDocument": "FINDINGS.md#c09-material-dispose-subscriptions-survive-renderer-disposal"
+    },
+    {
+      "id": "C10",
+      "priority": 2,
+      "title": "GPU test helpers misclassify fallback backend",
+      "kind": "reproduced-test-gap",
+      "source": [
+        {
+          "file": "test/unit/src/nodes/tsl/gpu-test-utils.js",
+          "line": 246
+        },
+        {
+          "file": "test/unit/src/nodes/tsl/gpu-raw-test-utils.js",
+          "line": 24
+        }
+      ],
+      "observation": "Firefox/WebKit each fail 11 compute tests on a WebGL fallback labeled webgpu; 11 other tests contain soft skips counted as passes.",
+      "proposedChange": "Validate backend identity; separate native/fallback/forced jobs and structured capability skips.",
+      "acceptance": "Native-required jobs fail without nativeadapter; preserve assertions and explicitly test promised fallback behavior.",
+      "evidence": [
+        "evidence/suite-summary.json",
+        "evidence/qunit-firefox-r187-core.json",
+        "evidence/qunit-webkit-r187-core.json"
+      ],
+      "developmentStatus": "Exact source identical at pinned dev.",
+      "detailDocument": "FINDINGS.md#c10-gpu-tests-can-label-a-webgl-fallback-as-webgpu"
+    },
+    {
+      "id": "C11",
+      "priority": 3,
+      "title": "Example/manual lint baseline failures",
+      "kind": "observed-maintenance-gap",
+      "source": [
+        {
+          "file": "package.json",
+          "line": 35
+        }
+      ],
+      "observation": "Six of eight lint scopes are clean; examples have 11 errors and two warnings, manual has 15 errors.",
+      "proposedChange": "Fix examples and narrowly correct global environments; define CI coverage of intended surfaces.",
+      "acceptance": "Targeted lint plus affected interactive pages, no blanket useful-rule disable.",
+      "evidence": [
+        "evidence/lint-summary.json",
+        "evidence/lint-examples.json",
+        "evidence/lint-manual.json"
+      ],
+      "developmentStatus": "Project validation snapshot of r187; not re-run against full development tree.",
+      "detailDocument": "FINDINGS.md#c11-optional-lint-surfaces-contain-baseline-failures"
+    },
+    {
+      "id": "C12",
+      "priority": 2,
+      "title": "Development dependency advisories",
+      "kind": "observed-dev-tool-advisories",
+      "source": [
+        {
+          "file": "package.json",
+          "line": 99
+        },
+        {
+          "file": "package-lock.json",
+          "line": 1
+        }
+      ],
+      "observation": "Eight affected development package entries (two low, six moderate), from two advisory sources; zero high/critical.",
+      "proposedChange": "Compatible transitive/tool updates or input isolation; avoid forced incompatible downgrades.",
+      "acceptance": "Lock resolution/plugin compatibility, all lint and build configs; binary decoders separately inventoried.",
+      "evidence": [
+        "evidence/dependency-audit.json"
+      ],
+      "developmentStatus": "Project validation snapshot of r187; not re-run against full development tree.",
+      "detailDocument": "FINDINGS.md#c12-development-tooling-has-two-advisory-sources"
+    }
+  ]
+}

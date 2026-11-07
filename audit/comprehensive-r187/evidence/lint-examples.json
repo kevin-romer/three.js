@@ -1,0 +1,7870 @@
+{
+  "scope": "examples",
+  "files": 1105,
+  "errors": 11,
+  "warnings": 2,
+  "fatal": 0,
+  "results": [
+    {
+      "file": "examples/css2d_label.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/css3d_mixed.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/css3d_molecules.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/css3d_orthographic.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/css3d_periodictable.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/css3d_sandbox.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/css3d_sprites.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/css3d_youtube.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/games_fps.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/index.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/Addons.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/animation/AnimationClipCreator.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/animation/CCDIKSolver.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/capabilities/WebGL.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/capabilities/WebGPU.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/controls/ArcballControls.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/controls/DragControls.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/controls/FirstPersonControls.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/controls/FlyControls.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/controls/MapControls.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/controls/OrbitControls.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/controls/PointerLockControls.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/controls/TrackballControls.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/controls/TransformControls.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/csm/CSM.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/csm/CSMFrustum.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/csm/CSMHelper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/csm/CSMShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/csm/CSMShadowNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/curves/CurveExtras.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/curves/NURBSCurve.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/curves/NURBSSurface.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/curves/NURBSUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/curves/NURBSVolume.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/effects/AnaglyphEffect.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/effects/AsciiEffect.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/effects/OutlineEffect.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/effects/ParallaxBarrierEffect.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/effects/StereoEffect.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/environments/ColorEnvironment.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/environments/DebugEnvironment.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/environments/RoomEnvironment.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/exporters/DRACOExporter.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/exporters/EXRExporter.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/exporters/GLTFExporter.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/exporters/KTX2Exporter.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/exporters/OBJExporter.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/exporters/PLYExporter.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/exporters/STLExporter.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/exporters/USDZExporter.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/generators/CityGenerator.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/generators/ForestGenerator.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/generators/TerrainGenerator.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/generators/TreeGenerator.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/generators/city/BenchGenerator.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/generators/city/CarGenerator.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/generators/city/CityGeneratorUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/generators/city/HydrantGenerator.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/generators/city/InstancedMeshGenerator.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/generators/city/PersonGenerator.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/generators/city/SidewalkGenerator.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/generators/city/SkyscraperGenerator.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/generators/city/StreetTreeGenerator.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/generators/city/StreetlightGenerator.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/generators/city/TrafficlightGenerator.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/generators/city/TrashcanGenerator.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/geometries/BoxLineGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/geometries/ConvexGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/geometries/DecalGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/geometries/LoftGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/geometries/ParametricFunctions.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/geometries/ParametricGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/geometries/RoundedBoxGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/geometries/TeapotGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/geometries/TextGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/gpgpu/BitonicSort.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/gpgpu/CountingSort.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/helpers/AnimationPathHelper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/helpers/LightProbeGridHelper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/helpers/LightProbeGridHelperWebGL.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/helpers/LightProbeHelper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/helpers/LightProbeHelperGPU.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/helpers/OctreeHelper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/helpers/PositionalAudioHelper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/helpers/RapierHelper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/helpers/RectAreaLightHelper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/helpers/TextureHelper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/helpers/TextureHelperGPU.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/helpers/VertexNormalsHelper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/helpers/VertexTangentsHelper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/helpers/ViewHelper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/Extension.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/Inspector.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/RendererInspector.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/Storage.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/ColorGrading.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/ColorWheel.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/CurveEditor.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/LUT3DStyle.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/LUTMath.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/modules/BrightnessModule.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/modules/ColorWheelModule.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/modules/ContrastModule.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/modules/CurvesModule.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/modules/ExposureHueModule.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/modules/ExposureModule.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/modules/HueModule.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/modules/ImportedCubeModule.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/modules/Module.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/modules/OutputModule.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/modules/RendererModule.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/modules/SatVibranceModule.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/modules/SaturationModule.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/modules/VibranceModule.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/color-grading/modules/WhiteBalanceModule.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/tsl-graph/TSLGraphEditor.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/extensions/tsl-graph/TSLGraphLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/tabs/Console.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/tabs/Memory.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/tabs/Parameters.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/tabs/Performance.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/tabs/Settings.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/tabs/Timeline.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/tabs/Viewer.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/ui/Graph.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/ui/Item.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/ui/List.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/ui/Profiler.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/ui/Style.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/ui/Tab.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/ui/Values.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/inspector/ui/utils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/interaction/InteractionManager.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/interactive/HTMLMesh.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/interactive/InteractiveGroup.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/interactive/SelectionBox.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/interactive/SelectionHelper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lighting/ClusteredLighting.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lighting/DynamicLighting.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lighting/LightMapper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lighting/LightProbeGrid.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lighting/LightProbeGridUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lighting/LightProbeGridWebGL.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lighting/vxgi/VXGIConeTracer.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lighting/vxgi/VXGIIrradiance.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lighting/vxgi/VXGINode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lighting/vxgi/VXGISceneCollector.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lighting/vxgi/VXGIVolume.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lights/LightProbeGenerator.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lights/RectAreaLightTexturesLib.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lights/RectAreaLightUniformsLib.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lights/SunLight.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lights/SunLightNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lights/SunLightShadow.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lights/SunShadowNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lines/Line2.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lines/LineGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lines/LineMaterial.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lines/LineSegments2.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lines/LineSegmentsGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lines/Wireframe.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lines/WireframeGeometry2.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lines/webgpu/Line2.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lines/webgpu/LineSegments2.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/lines/webgpu/Wireframe.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/3DMLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/3MFLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/AMFLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/BVHLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/ColladaLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/DDSLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/DRACOLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/EXRLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/FBXLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/FontLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/GCodeLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/GLTFGaussianSplatLoaderExtension.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/GLTFLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/GaussianSplatPLYLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/HDRCubeTextureLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/HDRLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/IESLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/JXLLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/KMZLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/KSPLATLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/KTX2Loader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/KTXLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/LDrawLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/LUT3dlLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/LUTCubeLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/LUTImageLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/LWOLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/MD2Loader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/MDDLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/MTLLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/MaterialXLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/NRRDLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/OBJLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/PCDLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/PDBLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/PLYLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/PVRLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/RGBELoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/SPLATLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/SPZLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/STLLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/SVGLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/TDSLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/TGALoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/TIFFLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/TTFLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/USDLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/USDZLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/UltraHDRLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/VOXLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/VRMLLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/VTKLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/XYZLoader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/collada/ColladaComposer.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/collada/ColladaParser.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/lwo/IFFParser.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/lwo/LWO2Parser.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/lwo/LWO3Parser.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXArchive.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXDocument.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXHextile.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXInterfaceValidation.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXLog.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXNodeDefs.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXNodeInterfaceRegistry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXNodeLibrary.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXSurfaceMappings.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/MaterialXUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/compile/MaterialXCompileRegistry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/materialx/parse/MaterialXParser.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/usd/USDAParser.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/usd/USDCParser.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/loaders/usd/USDComposer.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/materials/LDrawConditionalLineMaterial.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/materials/LDrawConditionalLineNodeMaterial.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/materials/WoodNodeMaterial.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/math/Capsule.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/math/ColorConverter.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/math/ColorSpaces.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/math/ConvexHull.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/math/ImprovedNoise.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/math/Lut.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/math/MeshSurfaceSampler.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/math/OBB.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/math/Octree.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/math/SimplexNoise.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/ConvexObjectBreaker.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/GPUComputationRenderer.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/Gyroscope.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/MD2Character.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/MD2CharacterComplex.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/MorphAnimMesh.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/MorphBlendMesh.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/ProgressiveLightMap.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/ProgressiveLightMapGPU.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/RollerCoaster.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/Sculptor.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/SculptorMesh.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/SculptorTools.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/SculptorUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/TileCreasedNormalsPlugin.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/TubePainter.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/Volume.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/misc/VolumeSlice.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/modifiers/CurveModifier.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/modifiers/CurveModifierGPU.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/modifiers/EdgeSplitModifier.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/modifiers/SimplifyModifier.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/modifiers/TessellateModifier.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/objects/GaussianSplat.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/objects/GroundedSkybox.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/objects/Lensflare.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/objects/LensflareMesh.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/objects/MarchingCubes.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/objects/Reflector.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/objects/ReflectorForSSRPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/objects/Refractor.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/objects/ShadowMesh.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/objects/Sky.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/objects/SkyMesh.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/objects/Water.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/objects/Water2.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/objects/Water2Mesh.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/objects/WaterMesh.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/offscreen/jank.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/offscreen/offscreen.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/offscreen/scene.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/physics/AmmoPhysics.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/physics/JoltPhysics.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/physics/RapierPhysics.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/pipelines/MeshletDrawingPipeline.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/pipelines/VisibilityBufferDrawingPipeline.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/AfterimagePass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/BloomPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/BokehPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/ClearPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/CubeTexturePass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/DotScreenPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/EffectComposer.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/FXAAPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/FilmPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/GTAOPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/GlitchPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/HalftonePass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/LUTPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/MaskPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/OutlinePass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/OutputPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/Pass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/RenderPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/RenderPixelatedPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/RenderTransitionPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/SAOPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/SMAAPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/SSAARenderPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/SSAOPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/SSRPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/SavePass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/ShaderPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/TAARenderPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/TexturePass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/postprocessing/UnrealBloomPass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/renderers/CSS2DRenderer.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/renderers/CSS3DRenderer.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/renderers/Projector.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/renderers/SVGRenderer.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/ACESFilmicToneMappingShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/AfterimageShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/BasicShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/BleachBypassShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/BlendShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/BokehShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/BokehShader2.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/BrightnessContrastShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/ColorCorrectionShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/ColorifyShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/ConvolutionShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/CopyShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/DOFMipMapShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/DepthLimitedBlurShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/DigitalGlitch.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/DotScreenShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/ExposureShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/FXAAShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/FilmShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/FocusShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/FreiChenShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/GTAOShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/GammaCorrectionShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/HalftoneShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/HorizontalBlurShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/HorizontalTiltShiftShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/HueSaturationShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/KaleidoShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/LuminosityHighPassShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/LuminosityShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/MirrorShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/NormalMapShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/OutputShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/PoissonDenoiseShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/RGBShiftShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/SAOShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/SMAAShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/SSAOShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/SSRShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/SepiaShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/SobelOperatorShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/SubsurfaceScatteringShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/TechnicolorShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/ToonShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/TriangleBlurShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/UnpackDepthRGBAShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/VelocityShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/VerticalBlurShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/VerticalTiltShiftShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/VignetteShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/VolumeShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/shaders/WaterRefractionShader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/textures/FlakesTexture.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/transpiler/AST.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/transpiler/GLSLDecoder.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/transpiler/Linker.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/transpiler/ShaderToyDecoder.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/transpiler/TSLEncoder.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/transpiler/Transpiler.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/transpiler/TranspilerUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/transpiler/WGSLEncoder.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/WebGLNodesHandler.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/AfterImageNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/AnaglyphPassNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/BilateralBlurNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/BleachBypass.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/BloomNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/CRT.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/ChromaticAberrationNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/DenoiseNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/DepthOfFieldNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/DotScreenNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/FSR1Node.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/FXAANode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/FilmNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/GTAONode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/GaussianBlurNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/GodraysNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/ImportanceSampledEnvironment.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/LensflareNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/Lut3DNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/MotionBlur.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/OITPassNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/OutlineNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/ParallaxBarrierPassNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/PixelationPassNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/RGBShiftNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/RecurrentDenoiseNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/RetroPassNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/SMAANode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/SSAAPassNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/SSAONode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/SSGINode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/SSRNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/SSSNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/Sepia.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/Shape.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/SharpenNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/SobelOperatorNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/StereoCompositePassNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/StereoPassNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/TAAUNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/TRAANode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/TemporalReprojectNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/TransitionNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/boxBlur.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/depthAwareBlend.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/depthAwareBlur.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/hashBlur.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/lensDirt.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/display/radialBlur.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/lighting/ClusteredLightsNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/lighting/DynamicLightsNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/lighting/LightProbeGridNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/lighting/data/AmbientLightDataNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/lighting/data/DirectionalLightDataNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/lighting/data/HemisphereLightDataNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/lighting/data/PointLightDataNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/lighting/data/SpotLightDataNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/math/Bayer.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/math/curlNoise.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/math/voronoiNoise.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/shadows/TileShadowNode.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/shadows/TileShadowNodeHelper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/utils/GroundedSkybox.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/utils/RNoise.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/utils/Raymarching.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/utils/SoftParticles.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/utils/SpecularHelpers.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/tsl/utils/TAAUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/BufferGeometryUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/CameraUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/ColorUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/GaussianSplatUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/GeometryCompressionUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/GeometryUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/LDrawUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/MeshletGeometryUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/SceneOptimizer.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/SceneUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/ShadowMapViewer.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/ShadowMapViewerGPU.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/SkeletonUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/SortUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/UVsDebug.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/WebGLTextureUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/WebGPUTextureUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/WorkerPool.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/utils/unwrapUVs.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/webxr/ARButton.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/webxr/OculusHandModel.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/webxr/OculusHandPointerModel.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/webxr/Text2D.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/webxr/VRButton.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/webxr/WebGLXRFallback.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/webxr/XRButton.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/webxr/XRControllerModelFactory.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/webxr/XREstimatedLight.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/webxr/XRHandMeshModel.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/webxr/XRHandModelFactory.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/webxr/XRHandPrimitiveModel.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/jsm/webxr/XRPlanes.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_animation_groups.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_animation_keys.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_boxselection.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_controls_arcball.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_controls_drag.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_controls_fly.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_controls_map.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_controls_orbit.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_controls_pointerlock.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_controls_trackball.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_controls_transform.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_exporter_draco.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_exporter_exr.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_exporter_gcode.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_exporter_gltf.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_exporter_gltf_normals.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_exporter_ktx2.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_exporter_obj.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_exporter_ply.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_exporter_stl.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_exporter_usdz.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_raycaster_helper.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/misc_uv_tests.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/physics_ammo_break.html",
+      "errors": 1,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 91,
+          "column": 4,
+          "endLine": 91,
+          "endColumn": 8,
+          "severity": 2,
+          "rule": "no-global-assign",
+          "message": "Read-only global 'Ammo' should not be modified."
+        }
+      ]
+    },
+    {
+      "file": "examples/physics_ammo_cloth.html",
+      "errors": 1,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 60,
+          "column": 5,
+          "endLine": 60,
+          "endColumn": 9,
+          "severity": 2,
+          "rule": "no-global-assign",
+          "message": "Read-only global 'Ammo' should not be modified."
+        }
+      ]
+    },
+    {
+      "file": "examples/physics_ammo_instancing.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/physics_ammo_rope.html",
+      "errors": 1,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 64,
+          "column": 4,
+          "endLine": 64,
+          "endColumn": 8,
+          "severity": 2,
+          "rule": "no-global-assign",
+          "message": "Read-only global 'Ammo' should not be modified."
+        }
+      ]
+    },
+    {
+      "file": "examples/physics_ammo_terrain.html",
+      "errors": 1,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 77,
+          "column": 5,
+          "endLine": 77,
+          "endColumn": 9,
+          "severity": 2,
+          "rule": "no-global-assign",
+          "message": "Read-only global 'Ammo' should not be modified."
+        }
+      ]
+    },
+    {
+      "file": "examples/physics_ammo_volume.html",
+      "errors": 1,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 68,
+          "column": 5,
+          "endLine": 68,
+          "endColumn": 9,
+          "severity": 2,
+          "rule": "no-global-assign",
+          "message": "Read-only global 'Ammo' should not be modified."
+        }
+      ]
+    },
+    {
+      "file": "examples/physics_jolt_instancing.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/physics_rapier_basic.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/physics_rapier_character_controller.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/physics_rapier_instancing.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/physics_rapier_joints.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/physics_rapier_terrain.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/physics_rapier_vehicle_controller.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/svg_lines.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/svg_sandbox.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webaudio_orientation.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webaudio_sandbox.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webaudio_timing.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webaudio_visualizer.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_animation_keyframes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_animation_multiple.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_animation_skinning_additive_blending.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_animation_skinning_blending.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_animation_skinning_ik.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_animation_skinning_morph.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_animation_walk.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_batch_lod_bvh.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_buffergeometry.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_buffergeometry_attributes_integer.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_buffergeometry_attributes_none.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_buffergeometry_custom_attributes_particles.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_buffergeometry_drawrange.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_buffergeometry_glbufferattribute.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_buffergeometry_indexed.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_buffergeometry_instancing.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_buffergeometry_instancing_billboards.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_buffergeometry_instancing_interleaved.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_buffergeometry_lines.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_buffergeometry_lines_indexed.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_buffergeometry_points.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_buffergeometry_points_interleaved.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_buffergeometry_rawshader.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_buffergeometry_selective_draw.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_buffergeometry_uint.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_camera.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_camera_array.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_camera_logarithmicdepthbuffer.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_clipculldistance.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_clipping.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_clipping_advanced.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_clipping_intersection.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_clipping_stencil.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_custom_attributes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_custom_attributes_lines.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_custom_attributes_points.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_custom_attributes_points2.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_custom_attributes_points3.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_decals.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_depth_texture.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_effects_anaglyph.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_effects_ascii.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_effects_parallaxbarrier.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_effects_stereo.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_framebuffer_texture.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_furnace_test.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometries.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometry_colors.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometry_colors_lookuptable.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometry_convex.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometry_csg.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometry_cube.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometry_extrude_shapes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometry_extrude_splines.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometry_minecraft.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometry_nurbs.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometry_shapes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometry_spline_editor.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometry_teapot.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometry_terrain.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometry_terrain_raycast.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometry_text.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometry_text_shapes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_geometry_text_stroke.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_gpgpu_birds.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_gpgpu_birds_gltf.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_gpgpu_protoplanet.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_gpgpu_water.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_helpers.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_instancing_dynamic.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_instancing_morph.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_instancing_performance.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_instancing_raycast.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_instancing_scatter.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_interactive_buffergeometry.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_interactive_cubes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_interactive_cubes_gpu.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_interactive_cubes_ortho.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_interactive_lines.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_interactive_points.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_interactive_raycasting_points.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_interactive_voxelpainter.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lensflares.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lightprobe.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lightprobe_cubecamera.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lightprobes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lightprobes_complex.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lightprobes_sponza.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lights_hemisphere.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lights_physical.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lights_rectarealight.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lights_spotlight.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lights_spotlights.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lights_sunlight.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lines_colors.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lines_dashed.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lines_fat.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lines_fat_raycasting.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lines_fat_wireframe.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_3dm.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_3ds.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_3dtiles.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_3mf.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_3mf_materials.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_amf.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_bvh.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_collada.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_collada_kinematics.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_collada_skinning.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_draco.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_fbx.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_fbx_nurbs.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_gcode.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_gltf.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_gltf_animation_pointer.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_gltf_anisotropy.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_gltf_avif.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_gltf_compressed.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_gltf_dispersion.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_gltf_instancing.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_gltf_iridescence.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_gltf_progressive_lod.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_gltf_sheen.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_gltf_transmission.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_gltf_variants.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_ifc.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_imagebitmap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_kmz.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_ldraw.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_md2.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_md2_control.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_mdd.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_nrrd.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_obj.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_pcd.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_pdb.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_ply.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_priority.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_stl.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_svg.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_texture_dds.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_texture_exr.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_texture_hdr.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_texture_ktx.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_texture_ktx2.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_texture_lottie.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_texture_pvrtc.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_texture_tga.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_texture_tiff.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_texture_ultrahdr.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_ttf.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_usdz.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_vdb.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_vox.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_vrml.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_loader_xyz.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_lod.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_marchingcubes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_alphahash.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_blending.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_blending_custom.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_bumpmap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_car.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_channels.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_cubemap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_cubemap_dynamic.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_cubemap_mipmaps.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_cubemap_refraction.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_cubemap_render_to_mipmaps.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_displacementmap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_envmaps.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_envmaps_exr.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_envmaps_fasthdr.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_envmaps_groundprojected.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_envmaps_hdr.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_matcap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_modified.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_normalmap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_normalmap_object_space.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_physical_clearcoat.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_physical_transmission.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_physical_transmission_alpha.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_subsurface_scattering.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_texture_anisotropy.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_texture_canvas.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_texture_filters.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_texture_html.html",
+      "errors": 0,
+      "warnings": 1,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 84,
+          "column": 5,
+          "endLine": 84,
+          "endColumn": 9,
+          "severity": 1,
+          "rule": "no-undef",
+          "message": "'info' is not defined."
+        }
+      ]
+    },
+    {
+      "file": "examples/webgl_materials_texture_manualmipmap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_texture_partialupdate.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_texture_rotation.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_toon.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_video.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_video_webcam.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_materials_wireframe.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_math_obb.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_math_orientation_transform.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_mesh_batch.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_mirror.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_modifier_curve.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_modifier_curve_instanced.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_modifier_edgesplit.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_modifier_simplifier.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_modifier_subdivision.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_modifier_tessellation.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_morphtargets.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_morphtargets_face.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_morphtargets_horse.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_morphtargets_sphere.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_morphtargets_webcam.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_multiple_elements.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_multiple_elements_text.html",
+      "errors": 5,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 364,
+          "column": 4,
+          "endLine": 364,
+          "endColumn": 10,
+          "severity": 2,
+          "rule": "no-global-assign",
+          "message": "Read-only global 'parent' should not be modified."
+        },
+        {
+          "line": 485,
+          "column": 4,
+          "endLine": 485,
+          "endColumn": 10,
+          "severity": 2,
+          "rule": "no-global-assign",
+          "message": "Read-only global 'parent' should not be modified."
+        },
+        {
+          "line": 516,
+          "column": 4,
+          "endLine": 516,
+          "endColumn": 10,
+          "severity": 2,
+          "rule": "no-global-assign",
+          "message": "Read-only global 'parent' should not be modified."
+        },
+        {
+          "line": 646,
+          "column": 4,
+          "endLine": 646,
+          "endColumn": 10,
+          "severity": 2,
+          "rule": "no-global-assign",
+          "message": "Read-only global 'parent' should not be modified."
+        },
+        {
+          "line": 678,
+          "column": 4,
+          "endLine": 678,
+          "endColumn": 10,
+          "severity": 2,
+          "rule": "no-global-assign",
+          "message": "Read-only global 'parent' should not be modified."
+        }
+      ]
+    },
+    {
+      "file": "examples/webgl_multiple_rendertargets.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_multiple_scenes_comparison.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_multiple_views.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_multisampled_renderbuffers.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_panorama_cube.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_panorama_equirectangular.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_performance.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_pmrem_cubemap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_pmrem_equirectangular.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_pmrem_test.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_points_billboards.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_points_dynamic.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_points_sprites.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_points_waves.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_portal.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_3dlut.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_advanced.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_afterimage.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_backgrounds.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_dof.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_dof2.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_fxaa.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_glitch.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_godrays.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_gtao.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_masking.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_outline.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_pixel.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_procedural.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_rgb_halftone.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_sao.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_smaa.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_sobel.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_ssaa.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_ssao.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_ssr.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_taa.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_transition.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_unreal_bloom.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_postprocessing_unreal_bloom_selective.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_random_uv.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_raycaster_bvh.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_raycaster_sprite.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_raycaster_texture.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_read_float_buffer.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_refraction.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_rendertarget_texture2darray.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_reversed_depth_buffer.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_rtt.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_sculpt.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_shader.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_shader_lava.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_shaders_ocean.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_shaders_sky.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_shadow_contact.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_shadowmap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_shadowmap_csm.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_shadowmap_pcss.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_shadowmap_performance.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_shadowmap_pointlight.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_shadowmap_progressive.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_shadowmap_viewer.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_shadowmap_vsm.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_shadowmesh.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_simple_gi.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_sprites.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_test_memory.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_test_memory2.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_test_wide_gamut.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_texture2darray.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_texture2darray_compressed.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_texture2darray_layerupdate.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_texture3d.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_texture3d_partialupdate.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_tonemapping.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_tsl_clearcoat.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_tsl_instancing.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_tsl_shadowmap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_tsl_skinning.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_ubo.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_ubo_arrays.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_video_kinect.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_video_panorama_equirectangular.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_volume_cloud.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_volume_instancing.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_volume_perlin.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_watch.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgl_worker_offscreencanvas.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_animation_retargeting.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_animation_retargeting_readyplayer.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_backdrop.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_backdrop_area.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_backdrop_water.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_camera.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_camera_array.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_camera_logarithmicdepthbuffer.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_caustics.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_centroid_sampling.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_clearcoat.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_clipping.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_clipping_stencil.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_color_grading.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_compile_async.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_compute_audio.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_compute_birds.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_compute_cloth.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_compute_geometry.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_compute_particles.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_compute_particles_fluid.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_compute_particles_rain.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_compute_particles_snow.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_compute_points.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_compute_reduce.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_compute_sort_bitonic.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_compute_texture.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_compute_texture_3d.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_compute_texture_pingpong.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_compute_water.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_cubemap_adjustments.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_cubemap_dynamic.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_cubemap_mix.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_custom_fog.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_custom_fog_background.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_custom_fog_scattering.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_deferred.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_depth_texture.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_display_stereo.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_equirectangular.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_fog_height.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_furnace_test.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_gaussian_splat.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_generator_building.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_generator_city.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_geometry_loft.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_hdr.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_instance_mesh.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_instance_path.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_instance_points.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_instance_sprites.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_instance_uniform.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_instancing_morph.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_layers.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lensflares.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lightmap_baking.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lightprobe.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lightprobe_cubecamera.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lightprobes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lightprobes_complex.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lightprobes_sponza.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lights_clustered.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lights_clustered_city.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lights_custom.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lights_dynamic.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lights_ies_spotlight.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lights_phong.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lights_physical.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lights_pointlights.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lights_projector.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lights_rectarealight.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lights_selective.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lights_spotlight.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lights_sunlight.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lines_fat.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lines_fat_raycasting.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_lines_fat_wireframe.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_loader_gltf.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_loader_gltf_anisotropy.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_loader_gltf_compressed.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_loader_gltf_diffuse_roughness.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_loader_gltf_dispersion.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_loader_gltf_iridescence.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_loader_gltf_sheen.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_loader_gltf_transmission.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_loader_jpegxl.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_loader_materialx.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_loader_texture_ktx2.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials_alphahash.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials_arrays.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials_basic.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials_cubemap_mipmaps.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials_displacementmap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials_envmaps.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials_envmaps_bpcem.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials_envmaps_groundprojected.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials_lightmap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials_matcap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials_node_instance.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials_retroreflection.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials_sss.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials_texture_html.html",
+      "errors": 0,
+      "warnings": 1,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 85,
+          "column": 5,
+          "endLine": 85,
+          "endColumn": 9,
+          "severity": 1,
+          "rule": "no-undef",
+          "message": "'info' is not defined."
+        }
+      ]
+    },
+    {
+      "file": "examples/webgpu_materials_texture_manualmipmap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials_toon.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials_transmission.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materials_video.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_materialx_noise.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_mesh_batch.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_meshlets.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_meshlets_city.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_meshlets_ibl.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_meshlets_instanced.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_meshlets_materials.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_meshlets_meshes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_mirror.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_modifier_curve.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_morphtargets.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_morphtargets_face.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_mrt.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_mrt_mask.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_multiple_canvas.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_multiple_elements.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_multiple_rendertargets.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_multiple_rendertargets_readback.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_multisampled_renderbuffers.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_occlusion.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_ocean.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_oit.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_parallax_uv.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_particles.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_particles_soft.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_performance.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_performance_renderbundle.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_pmrem_cubemap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_pmrem_equirectangular.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_pmrem_scene.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_pmrem_test.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_portal.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_3dlut.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_afterimage.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_anamorphic.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_ao.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_bloom.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_bloom_emissive.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_bloom_selective.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_ca.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_difference.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_direct.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_dof.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_dof_basic.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_fog.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_fxaa.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_godrays.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_lensflare.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_masking.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_motion_blur.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_outline.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_pixel.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_radial_blur.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_retro.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_smaa.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_sobel.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_ssaa.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_ssgi.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_ssgi_ballpool.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_ssr.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_ssr_denoise.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_sss.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_traa.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_postprocessing_transition.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_procedural_texture.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_reflection.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_reflection_blurred.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_reflection_roughness.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_refraction.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_renderer_pathtracer.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_rendertarget_2d-array_3d.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_reversed_depth_buffer.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_rtt.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_sandbox.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_sculpt.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_shadertoy.html",
+      "errors": 1,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": [
+        {
+          "line": 233,
+          "column": 12,
+          "endLine": 233,
+          "endColumn": 19,
+          "severity": 2,
+          "rule": "no-unused-vars",
+          "message": "'builder' is defined but never used."
+        }
+      ]
+    },
+    {
+      "file": "examples/webgpu_shadow_contact.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_shadowmap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_shadowmap_array.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_shadowmap_csm.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_shadowmap_opacity.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_shadowmap_pointlight.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_shadowmap_progressive.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_shadowmap_vsm.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_skinning.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_skinning_instancing.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_skinning_instancing_individual.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_skinning_points.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_sky.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_sprites.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_storage_buffer.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_struct_drawindirect.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_test_memory.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_texturegather.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_texturegrad.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_textures_2d-array.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_textures_2d-array_compressed.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_textures_anisotropy.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_textures_partialupdate.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_tonemapping.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_tsl_angular_slicing.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_tsl_compute_attractors_particles.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_tsl_earth.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_tsl_editor.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_tsl_galaxy.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_tsl_graph.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_tsl_halftone.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_tsl_interoperability.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_tsl_occlusion_dither.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_tsl_procedural_terrain.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_tsl_raging_sea.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_tsl_transpiler.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_tsl_vfx_flames.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_tsl_vfx_linkedparticles.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_tsl_vfx_tornado.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_tsl_wood.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_unwrap.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_upscaling_fsr1.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_upscaling_taau.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_video_frame.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_video_panorama.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_volume_caustics.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_volume_cloud.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_volume_fire.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_volume_lighting.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_volume_lighting_rectarea.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_volume_lighting_traa.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_volume_perlin.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_vxgi.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_vxgi_sponza.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_water.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_xr_cubes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_xr_native_layers.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_xr_rollercoaster.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webgpu_xr_shadows.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_ar_camera_access.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_ar_cones.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_ar_hittest.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_ar_lighting.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_ar_plane_detection.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_vr_handinput.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_vr_handinput_cubes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_vr_handinput_pointerclick.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_vr_handinput_pointerdrag.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_vr_handinput_pressbutton.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_vr_handinput_profiles.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_vr_layers.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_vr_panorama.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_vr_panorama_depth.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_vr_rollercoaster.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_vr_sandbox.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_vr_teleport.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_vr_video.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_xr_ballshooter.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_xr_controls_transform.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_xr_cubes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_xr_dragging.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_xr_dragging_custom_depth.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_xr_haptics.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_xr_marchingcubes.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_xr_paint.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "examples/webxr_xr_sculpt.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    }
+  ]
+}

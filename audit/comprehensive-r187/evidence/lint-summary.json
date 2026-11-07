@@ -1,0 +1,58 @@
+[
+  {
+    "scope": "core",
+    "files": 757,
+    "errors": 0,
+    "warnings": 0,
+    "fatal": 0
+  },
+  {
+    "scope": "addons",
+    "files": 483,
+    "errors": 0,
+    "warnings": 0,
+    "fatal": 0
+  },
+  {
+    "scope": "test",
+    "files": 302,
+    "errors": 0,
+    "warnings": 0,
+    "fatal": 0
+  },
+  {
+    "scope": "tsl",
+    "files": 16,
+    "errors": 0,
+    "warnings": 0,
+    "fatal": 0
+  },
+  {
+    "scope": "editor",
+    "files": 104,
+    "errors": 0,
+    "warnings": 0,
+    "fatal": 0
+  },
+  {
+    "scope": "utils",
+    "files": 8,
+    "errors": 0,
+    "warnings": 0,
+    "fatal": 0
+  },
+  {
+    "scope": "examples",
+    "files": 1105,
+    "errors": 11,
+    "warnings": 2,
+    "fatal": 0
+  },
+  {
+    "scope": "manual",
+    "files": 268,
+    "errors": 15,
+    "warnings": 0,
+    "fatal": 0
+  }
+]

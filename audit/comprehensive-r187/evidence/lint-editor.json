@@ -1,0 +1,737 @@
+{
+  "scope": "editor",
+  "files": 104,
+  "errors": 0,
+  "warnings": 0,
+  "fatal": 0,
+  "results": [
+    {
+      "file": "editor/index.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Animation.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/AnimationResizer.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Command.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Config.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Editor.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/EditorControls.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/GLTFImportDialog.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/History.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Loader.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/LoaderUtils.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Menubar.Add.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Menubar.Edit.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Menubar.File.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Menubar.Help.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Menubar.Render.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Menubar.Status.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Menubar.View.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Menubar.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Player.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Resizer.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Script.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Selector.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.BoxGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.BufferGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.CapsuleGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.CircleGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.CylinderGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.DodecahedronGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.ExtrudeGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.IcosahedronGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.LatheGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.Modifiers.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.OctahedronGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.PlaneGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.RingGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.ShapeGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.SphereGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.TetrahedronGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.TextGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.TorusGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.TorusKnotGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.TubeGeometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Geometry.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Material.BooleanProperty.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Material.ColorProperty.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Material.ConstantProperty.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Material.MapProperty.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Material.NumberProperty.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Material.Program.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Material.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Object.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Project.App.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Project.Materials.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Project.Renderer.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Project.Resources.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Project.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Properties.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Scene.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Script.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Settings.History.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Settings.Shortcuts.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.Settings.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Sidebar.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Storage.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Strings.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/TextureParametersDialog.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Toolbar.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Viewport.Controls.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Viewport.Info.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Viewport.Pathtracer.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Viewport.ViewHelper.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Viewport.XR.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/Viewport.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/AddObjectCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/AddScriptCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/Commands.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/MoveObjectCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/MultiCmdsCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/RemoveObjectCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/RemoveScriptCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetColorCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetGeometryCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetGeometryValueCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetMaterialColorCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetMaterialCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetMaterialMapCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetMaterialRangeCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetMaterialValueCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetMaterialVectorCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetPositionCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetRotationCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetScaleCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetSceneCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetScriptValueCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetShadowValueCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetTextureParametersCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetUuidCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/commands/SetValueCommand.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/libs/app.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/libs/app/index.html",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/libs/ui.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/js/libs/ui.three.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    },
+    {
+      "file": "editor/sw.js",
+      "errors": 0,
+      "warnings": 0,
+      "fatal": 0,
+      "messages": []
+    }
+  ]
+}

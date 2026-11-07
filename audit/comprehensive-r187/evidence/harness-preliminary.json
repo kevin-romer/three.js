@@ -1,0 +1,18 @@
+{
+  "classification": "Audit harness error, superseded by passing WebKit addon rerun. Blob/data URLs must continue through browser routing. The malformed external entries were produced by concatenating origin and pathname of blob URLs; they are not observed network egress.",
+  "original": {
+    "engine": "webkit",
+    "version": "r187",
+    "suite": "addons",
+    "browser": "26.5",
+    "started": "2026-11-07T22:31:15.903Z",
+    "error": "TimeoutError: page.waitForFunction: Timeout 240000ms exceeded.",
+    "errors": [
+      "TypeError: Load failed"
+    ],
+    "missing": [],
+    "external": [
+      "https://three-audit.testhttps://three-audit.test/ce387d61-4152-4f45-a016-18a8b7899f5f"
+    ]
+  }
+}
