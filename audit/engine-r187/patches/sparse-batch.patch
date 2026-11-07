@@ -1,0 +1,85 @@
+diff --git a/src/objects/BatchedMesh.js b/src/objects/BatchedMesh.js
+--- a/src/objects/BatchedMesh.js
++++ b/src/objects/BatchedMesh.js
+@@ -608,12 +608,14 @@
+ 
+ 		const matricesTexture = this._matricesTexture;
+ 		_matrix.identity().toArray( matricesTexture.image.data, drawId * 16 );
++		matricesTexture.addUpdateRange( drawId * 16, 16 );
+ 		matricesTexture.needsUpdate = true;
+ 
+ 		const colorsTexture = this._colorsTexture;
+ 		if ( colorsTexture ) {
+ 
+ 			_whiteColor.toArray( colorsTexture.image.data, drawId * 4 );
++			colorsTexture.addUpdateRange( drawId * 4, 4 );
+ 			colorsTexture.needsUpdate = true;
+ 
+ 		}
+@@ -1093,6 +1095,7 @@
+ 		const matricesTexture = this._matricesTexture;
+ 		const matricesArray = this._matricesTexture.image.data;
+ 		matrix.toArray( matricesArray, instanceId * 16 );
++		matricesTexture.addUpdateRange( instanceId * 16, 16 );
+ 		matricesTexture.needsUpdate = true;
+ 
+ 		return this;
+@@ -1131,6 +1134,7 @@
+ 		}
+ 
+ 		color.toArray( this._colorsTexture.image.data, instanceId * 4 );
++		this._colorsTexture.addUpdateRange( instanceId * 4, 4 );
+ 		this._colorsTexture.needsUpdate = true;
+ 
+ 		return this;
+@@ -1326,16 +1330,19 @@
+ 		indirectTexture.dispose();
+ 		this._initIndirectTexture();
+ 		copyArrayContents( indirectTexture.image.data, this._indirectTexture.image.data );
++		this._indirectTexture.needsUpdate = true;
+ 
+ 		matricesTexture.dispose();
+ 		this._initMatricesTexture();
+ 		copyArrayContents( matricesTexture.image.data, this._matricesTexture.image.data );
++		this._matricesTexture.needsUpdate = true;
+ 
+ 		if ( colorsTexture ) {
+ 
+ 			colorsTexture.dispose();
+ 			this._initColorsTexture();
+ 			copyArrayContents( colorsTexture.image.data, this._colorsTexture.image.data );
++			this._colorsTexture.needsUpdate = true;
+ 
+ 		}
+ 
+diff --git a/src/renderers/webgl/WebGLTextures.js b/src/renderers/webgl/WebGLTextures.js
+--- a/src/renderers/webgl/WebGLTextures.js
++++ b/src/renderers/webgl/WebGLTextures.js
+@@ -856,15 +856,16 @@
+ 
+ 	}
+ 
+-	function updateTexture( texture, image, glFormat, glType ) {
++	function updateTexture( texture, image, glFormat, glType, allocateMemory ) {
+ 
+ 		const componentStride = 4; // only RGBA supported
+ 
+ 		const updateRanges = texture.updateRanges;
+ 
+-		if ( updateRanges.length === 0 ) {
++		if ( updateRanges.length === 0 || allocateMemory ) {
+ 
+ 			state.texSubImage2D( _gl.TEXTURE_2D, 0, 0, 0, image.width, image.height, glFormat, glType, image.data );
++			texture.clearUpdateRanges();
+ 
+ 		} else {
+ 
+@@ -1079,7 +1080,7 @@
+ 
+ 						if ( dataReady ) {
+ 
+-							updateTexture( texture, image, glFormat, glType );
++							updateTexture( texture, image, glFormat, glType, allocateMemory );
+ 
+ 						}
+ 

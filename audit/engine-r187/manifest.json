@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-07",
+  "scope": "Three.js engine source and standalone synthetic probes",
+  "baseline": "7e89746a687bb88271253698fa108b1dd59825d0",
+  "files": {
+    "MEASUREMENTS.md": {
+      "bytes": 6213,
+      "sha256": "1d4f37fa719487f1e24b9fc64ab5454e17af840241332bef9dd70b26a9e85780"
+    },
+    "README.md": {
+      "bytes": 25674,
+      "sha256": "1b64ee58eddc1ab53a869d2bd65001332b277626ab427597129138e434191a07"
+    },
+    "REPRODUCE.md": {
+      "bytes": 4513,
+      "sha256": "a518d332e63fefb9f33e761ca937c0fc01ae8a1f172be565d696387009a3f8c5"
+    },
+    "evidence/cpu-results.json": {
+      "bytes": 4045,
+      "sha256": "5ee9ba4f4f866700e9281547046c282058f944e46d916447acbfdf0c817f5224"
+    },
+    "evidence/development-crosscheck.json": {
+      "bytes": 402,
+      "sha256": "c7fbef59266001f690159ad2a983bf9fb4dfb52468c1b6515f4e2befe6086480"
+    },
+    "evidence/gpu-results.json": {
+      "bytes": 147243,
+      "sha256": "fc72bc2c323097448430dd570b5faeb526a0e69c0f8bba06142db433f4328e8b"
+    },
+    "evidence/regression-results.json": {
+      "bytes": 1180,
+      "sha256": "5cfd99219803b422b1b3209e5dce9da187109807bd7896bedbe4972030732084"
+    },
+    "evidence/source-manifest.json": {
+      "bytes": 3782,
+      "sha256": "a7f5178c8379b3a5ed3b087c6eb60e1360367701b0bb9db3c4834254baae3049"
+    },
+    "patches/free-id-heap.patch": {
+      "bytes": 2235,
+      "sha256": "a9923f30131be016b2b966726c441a98656a81f9462bb6b7ad11b9e6049ec36e"
+    },
+    "patches/hidden-material.patch": {
+      "bytes": 1279,
+      "sha256": "eaf343ba9ad5fe20025071b45e7eb12efa244c23c5775b3c56b523ccb376571f"
+    },
+    "patches/resize-batch.patch": {
+      "bytes": 773,
+      "sha256": "aa8b4b45efb382ad86e1575e04664c59403fcc592f219b4825ed32eb0d72274b"
+    },
+    "patches/sparse-batch.patch": {
+      "bytes": 2673,
+      "sha256": "82f871487054a21cecd82605992cab21859e92478ff00c62aab9a6bb10e5acdf"
+    },
+    "patches/stable-indirect.patch": {
+      "bytes": 962,
+      "sha256": "ae0b6449ed25c4be5dea03d72d98c53786f3a73567ea653753071074cfb63cb6"
+    },
+    "tools/candidates.mjs": {
+      "bytes": 6816,
+      "sha256": "5425558d9ea59d221f3b0f1ff7cf48177b83d7519acaeebe1f562c735510f2ea"
+    },
+    "tools/cpu-audit.mjs": {
+      "bytes": 5760,
+      "sha256": "deae593d4ae3336d0aed2e5dd17a8932d0ed34dc4dde281c0427b59ae0b0447f"
+    },
+    "tools/engine-verify.mjs": {
+      "bytes": 3570,
+      "sha256": "e76c38e36f381c1ac549f11af8a3b7a29f9e34a21c5a37d641e38e41e1eae24a"
+    },
+    "tools/gpu-audit.mjs": {
+      "bytes": 10121,
+      "sha256": "3cd7ebff7abedac59f9be28b50da08770c7412e47c6afcb61b542906480bddcd"
+    },
+    "tools/regressions.mjs": {
+      "bytes": 1713,
+      "sha256": "d590f5dcefe872febea17fa3b43a230cbae1795f545f1c3313cc25e4463a7ef3"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+diff --git a/src/objects/BatchedMesh.js b/src/objects/BatchedMesh.js
+--- a/src/objects/BatchedMesh.js
++++ b/src/objects/BatchedMesh.js
+@@ -1326,16 +1326,19 @@
+ 		indirectTexture.dispose();
+ 		this._initIndirectTexture();
+ 		copyArrayContents( indirectTexture.image.data, this._indirectTexture.image.data );
++		this._indirectTexture.needsUpdate = true;
+ 
+ 		matricesTexture.dispose();
+ 		this._initMatricesTexture();
+ 		copyArrayContents( matricesTexture.image.data, this._matricesTexture.image.data );
++		this._matricesTexture.needsUpdate = true;
+ 
+ 		if ( colorsTexture ) {
+ 
+ 			colorsTexture.dispose();
+ 			this._initColorsTexture();
+ 			copyArrayContents( colorsTexture.image.data, this._colorsTexture.image.data );
++			this._colorsTexture.needsUpdate = true;
+ 
+ 		}
+ 

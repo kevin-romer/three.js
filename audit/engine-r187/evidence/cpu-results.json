@@ -1,0 +1,180 @@
+{
+  "node": "v26.4.0",
+  "freeIdRefill": [
+    {
+      "version": "upstream",
+      "round": 0,
+      "count": 1024,
+      "deleteMs": 0.25416699999999537,
+      "refillMs": 6.669791999999973,
+      "cycleMs": 6.923958999999968
+    },
+    {
+      "version": "upstream",
+      "round": 0,
+      "count": 4096,
+      "deleteMs": 0.07620800000000827,
+      "refillMs": 85.99741600000004,
+      "cycleMs": 86.07362400000005
+    },
+    {
+      "version": "upstream",
+      "round": 0,
+      "count": 16384,
+      "deleteMs": 0.31383299999998826,
+      "refillMs": 1346.812375,
+      "cycleMs": 1347.126208
+    },
+    {
+      "version": "heap",
+      "round": 0,
+      "count": 1024,
+      "deleteMs": 0.47233299999993505,
+      "refillMs": 0.7086659999999938,
+      "cycleMs": 1.1809989999999289
+    },
+    {
+      "version": "heap",
+      "round": 0,
+      "count": 4096,
+      "deleteMs": 0.13687499999991815,
+      "refillMs": 0.4932080000000951,
+      "cycleMs": 0.6300830000000133
+    },
+    {
+      "version": "heap",
+      "round": 0,
+      "count": 16384,
+      "deleteMs": 0.6282920000001013,
+      "refillMs": 1.697582999999895,
+      "cycleMs": 2.3258749999999964
+    },
+    {
+      "version": "heap",
+      "round": 1,
+      "count": 1024,
+      "deleteMs": 0.02620899999988069,
+      "refillMs": 0.10083299999996598,
+      "cycleMs": 0.12704199999984667
+    },
+    {
+      "version": "heap",
+      "round": 1,
+      "count": 4096,
+      "deleteMs": 0.0991670000000795,
+      "refillMs": 0.4161659999999756,
+      "cycleMs": 0.5153330000000551
+    },
+    {
+      "version": "heap",
+      "round": 1,
+      "count": 16384,
+      "deleteMs": 0.9099999999998545,
+      "refillMs": 1.4048749999999472,
+      "cycleMs": 2.3148749999998017
+    },
+    {
+      "version": "upstream",
+      "round": 1,
+      "count": 1024,
+      "deleteMs": 0.0206670000000031,
+      "refillMs": 5.190458000000035,
+      "cycleMs": 5.211125000000038
+    },
+    {
+      "version": "upstream",
+      "round": 1,
+      "count": 4096,
+      "deleteMs": 0.07291699999996126,
+      "refillMs": 88.26879199999985,
+      "cycleMs": 88.34170899999981
+    },
+    {
+      "version": "upstream",
+      "round": 1,
+      "count": 16384,
+      "deleteMs": 0.3136250000000018,
+      "refillMs": 1349.3760000000002,
+      "cycleMs": 1349.6896250000002
+    },
+    {
+      "version": "upstream",
+      "round": 2,
+      "count": 1024,
+      "deleteMs": 0.020957999999609456,
+      "refillMs": 5.594375000000127,
+      "cycleMs": 5.615332999999737
+    },
+    {
+      "version": "upstream",
+      "round": 2,
+      "count": 4096,
+      "deleteMs": 0.038082999999915046,
+      "refillMs": 84.48116699999991,
+      "cycleMs": 84.51924999999983
+    },
+    {
+      "version": "upstream",
+      "round": 2,
+      "count": 16384,
+      "deleteMs": 0.19966700000031778,
+      "refillMs": 1345.0713329999999,
+      "cycleMs": 1345.2710000000002
+    },
+    {
+      "version": "heap",
+      "round": 2,
+      "count": 1024,
+      "deleteMs": 0.028041000000484928,
+      "refillMs": 0.07983299999978044,
+      "cycleMs": 0.10787400000026537
+    },
+    {
+      "version": "heap",
+      "round": 2,
+      "count": 4096,
+      "deleteMs": 0.06583399999999529,
+      "refillMs": 0.26774999999997817,
+      "cycleMs": 0.33358399999997346
+    },
+    {
+      "version": "heap",
+      "round": 2,
+      "count": 16384,
+      "deleteMs": 0.29833400000006804,
+      "refillMs": 1.0949170000003505,
+      "cycleMs": 1.3932510000004186
+    }
+  ],
+  "randomizedOperationsPerClass": 2000,
+  "dirtyUbo": {
+    "uniforms": 256,
+    "calls": 256,
+    "bytes": 4096,
+    "storageBytes": 4096
+  },
+  "matrix": {
+    "default": {
+      "nodes": 10001,
+      "compositions": 10001,
+      "worldMultiplies": 10000
+    },
+    "manualLocalMatrices": {
+      "nodes": 10001,
+      "compositions": 0,
+      "worldMultiplies": 0
+    }
+  },
+  "raycasts": [
+    {
+      "instances": 1024,
+      "meshTests": 1024,
+      "hits": 1
+    },
+    {
+      "instances": 16384,
+      "meshTests": 16384,
+      "hits": 1
+    }
+  ]
+}

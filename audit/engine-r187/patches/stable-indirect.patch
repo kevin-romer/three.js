@@ -1,0 +1,36 @@
+diff --git a/src/objects/BatchedMesh.js b/src/objects/BatchedMesh.js
+--- a/src/objects/BatchedMesh.js
++++ b/src/objects/BatchedMesh.js
+@@ -1640,6 +1640,7 @@
+ 
+ 		}
+ 
++		let indirectChanged = false;
+ 		let multiDrawCount = 0;
+ 		let mergedDrawCount = 0;
+ 		if ( this.sortObjects ) {
+@@ -1721,6 +1722,7 @@
+ 
+ 				}
+ 
++				if ( indirectArray[ multiDrawCount ] !== item.index ) indirectChanged = true;
+ 				indirectArray[ multiDrawCount ] = item.index;
+ 				multiDrawCount ++;
+ 
+@@ -1775,6 +1777,7 @@
+ 
+ 						}
+ 
++						if ( indirectArray[ multiDrawCount ] !== i ) indirectChanged = true;
+ 						indirectArray[ multiDrawCount ] = i;
+ 						multiDrawCount ++;
+ 
+@@ -1786,7 +1789,7 @@
+ 
+ 		}
+ 
+-		indirectTexture.needsUpdate = true;
++		if ( indirectChanged || indirectTexture.version === 0 ) indirectTexture.needsUpdate = true;
+ 		this._multiDrawCount = multiDrawCount;
+ 		this._mergedDrawCount = mergedDrawCount;
+ 		this._multiDrawBytesPerElement = bytesPerElement;

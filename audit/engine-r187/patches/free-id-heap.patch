@@ -1,0 +1,76 @@
+diff --git a/src/objects/BatchedMesh.js b/src/objects/BatchedMesh.js
+--- a/src/objects/BatchedMesh.js
++++ b/src/objects/BatchedMesh.js
+@@ -11,6 +11,32 @@
+ import { Vector3 } from '../math/Vector3.js';
+ import { Color } from '../math/Color.js';
+ import { FrustumArray } from '../math/FrustumArray.js';
++
++
++function freeIdPush( heap, value ) {
++  let index = heap.length;
++  heap.push( value );
++  while ( index > 0 ) {
++    const parent = ( index - 1 ) >>> 1;
++    if ( heap[ parent ] <= value ) break;
++    heap[ index ] = heap[ parent ]; index = parent;
++  }
++  heap[ index ] = value;
++}
++function freeIdPop( heap ) {
++  const result = heap[ 0 ], last = heap.pop();
++  if ( heap.length > 0 ) {
++    let index = 0;
++    while ( index * 2 + 1 < heap.length ) {
++      let child = index * 2 + 1;
++      if ( child + 1 < heap.length && heap[ child + 1 ] < heap[ child ] ) child ++;
++      if ( heap[ child ] >= last ) break;
++      heap[ index ] = heap[ child ]; index = child;
++    }
++    heap[ index ] = last;
++  }
++  return result;
++}
+ 
+ function ascIdSort( a, b ) {
+ 
+@@ -594,9 +620,7 @@
+ 		// Prioritize using previously freed instance ids
+ 		if ( this._availableInstanceIds.length > 0 ) {
+ 
+-			this._availableInstanceIds.sort( ascIdSort );
+-
+-			drawId = this._availableInstanceIds.shift();
++			drawId = freeIdPop( this._availableInstanceIds );
+ 			this._instanceInfo[ drawId ] = instanceInfo;
+ 
+ 		} else {
+@@ -691,9 +715,7 @@
+ 		let geometryId;
+ 		if ( this._availableGeometryIds.length > 0 ) {
+ 
+-			this._availableGeometryIds.sort( ascIdSort );
+-
+-			geometryId = this._availableGeometryIds.shift();
++			geometryId = freeIdPop( this._availableGeometryIds );
+ 			geometryInfoList[ geometryId ] = geometryInfo;
+ 
+ 
+@@ -859,7 +881,7 @@
+ 		}
+ 
+ 		geometryInfoList[ geometryId ].active = false;
+-		this._availableGeometryIds.push( geometryId );
++		freeIdPush( this._availableGeometryIds, geometryId );
+ 		this._visibilityChanged = true;
+ 
+ 		return this;
+@@ -877,7 +899,7 @@
+ 		this.validateInstanceId( instanceId );
+ 
+ 		this._instanceInfo[ instanceId ].active = false;
+-		this._availableInstanceIds.push( instanceId );
++		freeIdPush( this._availableInstanceIds, instanceId );
+ 		this._visibilityChanged = true;
+ 
+ 		return this;

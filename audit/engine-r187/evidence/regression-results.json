@@ -1,0 +1,55 @@
+{
+  "runner": "Node assert adapter executing the two existing upstream QUnit test bodies; not the full QUnit harness",
+  "tests": [
+    {
+      "variant": "upstream",
+      "name": "setInstanceCount",
+      "status": "passed"
+    },
+    {
+      "variant": "upstream",
+      "name": "setGeometrySize",
+      "status": "passed"
+    },
+    {
+      "variant": "sparse-batch",
+      "name": "setInstanceCount",
+      "status": "passed"
+    },
+    {
+      "variant": "sparse-batch",
+      "name": "setGeometrySize",
+      "status": "passed"
+    },
+    {
+      "variant": "stable-indirect",
+      "name": "setInstanceCount",
+      "status": "passed"
+    },
+    {
+      "variant": "stable-indirect",
+      "name": "setGeometrySize",
+      "status": "passed"
+    },
+    {
+      "variant": "free-id-heap",
+      "name": "setInstanceCount",
+      "status": "passed"
+    },
+    {
+      "variant": "free-id-heap",
+      "name": "setGeometrySize",
+      "status": "passed"
+    },
+    {
+      "variant": "resize-batch",
+      "name": "setInstanceCount",
+      "status": "passed"
+    },
+    {
+      "variant": "resize-batch",
+      "name": "setGeometrySize",
+      "status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "upstreamDev": "f2b6a71bdd088d9da387fcc62802323341099b92",
+  "sourcePatternChecks": {
+    "free_id_sort": true,
+    "sparse_matrix_missing_range": true,
+    "indirect_unconditional": true,
+    "resize_matrix_copy_missing_update": true,
+    "row_range_one_row": true,
+    "upload_before_material_check": true
+  },
+  "method": "Source comparison only; development HEAD was not runtime-benchmarked"
+}

@@ -1,0 +1,38 @@
+diff --git a/src/renderers/WebGLRenderer.js b/src/renderers/WebGLRenderer.js
+--- a/src/renderers/WebGLRenderer.js
++++ b/src/renderers/WebGLRenderer.js
+@@ -1899,8 +1899,9 @@
+ 				} else if ( object.isSprite ) {
+ 
+ 					const frustum = camera.isArrayCamera ? _frustumArray : _frustum;
+-
+-					if ( ! object.frustumCulled || object.intersectsFrustum( frustum ) ) {
++					const material = object.material;
++
++					if ( ( Array.isArray( material ) || material.visible ) && ( ! object.frustumCulled || object.intersectsFrustum( frustum ) ) ) {
+ 
+ 						if ( sortObjects ) {
+ 
+@@ -1910,7 +1911,6 @@
+ 						}
+ 
+ 						const geometry = objects.update( object );
+-						const material = object.material;
+ 
+ 						if ( material.visible ) {
+ 
+@@ -1923,11 +1923,11 @@
+ 				} else if ( object.isMesh || object.isLine || object.isPoints ) {
+ 
+ 					const frustum = camera.isArrayCamera ? _frustumArray : _frustum;
+-
+-					if ( ! object.frustumCulled || object.intersectsFrustum( frustum ) ) {
++					const material = object.material;
++
++					if ( ( Array.isArray( material ) || material.visible ) && ( ! object.frustumCulled || object.intersectsFrustum( frustum ) ) ) {
+ 
+ 						const geometry = objects.update( object );
+-						const material = object.material;
+ 
+ 						if ( sortObjects ) {
+ 
