@@ -13,13 +13,15 @@ function isPackedRGFormat( format ) {
 
 }
 
-function WebGLPrograms( renderer, environments, extensions, capabilities, bindingStates, clipping ) {
+function WebGLPrograms( renderer, environments, extensions, capabilities, bindingStates, clipping, maxInactivePrograms = 0 ) {
 
 	const _programLayers = new Layers();
 	const _customShaders = new WebGLShaderCache();
 	const _activeChannels = new Set();
 	const programs = [];
 	const programsMap = new Map();
+	const inactivePrograms = new Map();
+	const programShaderReferences = new Set();
 
 	const logarithmicDepthBuffer = capabilities.logarithmicDepthBuffer;
 
@@ -94,6 +96,7 @@ function WebGLPrograms( renderer, environments, extensions, capabilities, bindin
 
 		let vertexShader, fragmentShader;
 		let customVertexShaderID, customFragmentShaderID;
+		let customVertexShaderStage, customFragmentShaderStage;
 
 		if ( shaderID ) {
 
@@ -114,6 +117,13 @@ function WebGLPrograms( renderer, environments, extensions, capabilities, bindin
 
 			customVertexShaderID = vertexShaderStage.id;
 			customFragmentShaderID = fragmentShaderStage.id;
+
+			if ( maxInactivePrograms > 0 ) {
+
+				customVertexShaderStage = vertexShaderStage;
+				customFragmentShaderStage = fragmentShaderStage;
+
+			}
 
 		}
 
@@ -404,6 +414,14 @@ function WebGLPrograms( renderer, environments, extensions, capabilities, bindin
 
 		_activeChannels.clear();
 
+		if ( maxInactivePrograms > 0 && customVertexShaderStage !== undefined ) {
+
+			// Keep the stages used for the cache key, before onBeforeCompile changes source.
+			parameters.customVertexShaderStage = customVertexShaderStage;
+			parameters.customFragmentShaderStage = customFragmentShaderStage;
+
+		}
+
 		return parameters;
 
 	}
@@ -645,6 +663,7 @@ function WebGLPrograms( renderer, environments, extensions, capabilities, bindin
 
 		if ( program !== undefined ) {
 
+			inactivePrograms.delete( cacheKey );
 			++ program.usedTimes;
 
 		} else {
@@ -654,26 +673,59 @@ function WebGLPrograms( renderer, environments, extensions, capabilities, bindin
 
 			programsMap.set( cacheKey, program );
 
+			if ( maxInactivePrograms > 0 && parameters.customVertexShaderStage !== undefined ) {
+
+				// ShaderMaterial IDs must survive until the retained program is evicted.
+				_customShaders.update( program, parameters.customVertexShaderStage, parameters.customFragmentShaderStage );
+				programShaderReferences.add( program );
+
+			}
+
 		}
 
 		return program;
 
 	}
 
+	function destroyProgram( program ) {
+
+		// Remove from unordered set and both lookup maps.
+		const i = programs.indexOf( program );
+		programs[ i ] = programs[ programs.length - 1 ];
+		programs.pop();
+		programsMap.delete( program.cacheKey );
+		inactivePrograms.delete( program.cacheKey );
+
+		if ( programShaderReferences.delete( program ) ) _customShaders.remove( program );
+
+		program.destroy();
+
+	}
+
 	function releaseProgram( program ) {
+
+		// Renderer disposal can precede the material's dispose event.
+		if ( programsMap.get( program.cacheKey ) !== program ) return;
 
 		if ( -- program.usedTimes === 0 ) {
 
-			// Remove from unordered set
-			const i = programs.indexOf( program );
-			programs[ i ] = programs[ programs.length - 1 ];
-			programs.pop();
+			if ( maxInactivePrograms === 0 || program.diagnostics?.runnable === false ) {
 
-			// Remove from map
-			programsMap.delete( program.cacheKey );
+				destroyProgram( program );
 
-			// Free WebGL resources
-			program.destroy();
+			} else {
+
+				// Retain compiled programs only, without their geometry binding states.
+				bindingStates.releaseStatesOfProgram( program );
+				inactivePrograms.set( program.cacheKey, program );
+
+				while ( inactivePrograms.size > maxInactivePrograms ) {
+
+					destroyProgram( inactivePrograms.values().next().value );
+
+				}
+
+			}
 
 		}
 
@@ -686,6 +738,12 @@ function WebGLPrograms( renderer, environments, extensions, capabilities, bindin
 	}
 
 	function dispose() {
+
+		while ( programs.length > 0 ) {
+
+			destroyProgram( programs[ programs.length - 1 ] );
+
+		}
 
 		_customShaders.dispose();
 

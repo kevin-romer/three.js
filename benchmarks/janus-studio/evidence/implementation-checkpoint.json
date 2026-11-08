@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "status": "partial qualification; full goal remains active",
+  "feature": "Opt-in maxInactivePrograms LRU cache; default zero",
+  "sources": {
+    "src/renderers/WebGLRenderer.js": "0456672242a10d88e03e882465468392b407533cc545afc4c703e51eb4146c3f",
+    "src/renderers/webgl/WebGLPrograms.js": "e7c73a7896f9565dcffecc6ba6d7285acdb3b5dd51be595c06605bb96e28d5c5",
+    "test/unit/three.source.unit.js": "7ff27a69c66da6c5c2b65263aece2971b2d012d39fdd7cd9daeb87503556a070",
+    "test/unit/src/renderers/webgl/WebGLPrograms.tests.js": "ae164461b981c61ca0cd28f23ce61e8b2516911744c0af1c80ce04f7e5b86237"
+  },
+  "core": {
+    "passed": 1991,
+    "failed": 0,
+    "skipped": 0,
+    "todo": 1,
+    "total": 1992
+  },
+  "cacheTests": [
+    {
+      "name": "Renderers > WebGLPrograms > failed links still report errors and are not retained",
+      "status": "passed"
+    },
+    {
+      "name": "Renderers > WebGLPrograms > renderer disposal deletes active and inactive programs once",
+      "status": "passed"
+    },
+    {
+      "name": "Renderers > WebGLPrograms > built-in material uniforms refresh on reuse",
+      "status": "passed"
+    },
+    {
+      "name": "Renderers > WebGLPrograms > onBeforeCompile retains the original cache-key stages",
+      "status": "passed"
+    },
+    {
+      "name": "Renderers > WebGLPrograms > restored contexts start with a fresh bounded program cache",
+      "status": "passed"
+    },
+    {
+      "name": "Renderers > WebGLPrograms > zero budget preserves immediate release",
+      "status": "passed"
+    },
+    {
+      "name": "Renderers > WebGLPrograms > maxInactivePrograms validates its budget before creating a context",
+      "status": "passed"
+    },
+    {
+      "name": "Renderers > WebGLPrograms > retained custom shaders keep cache identity and refresh uniforms",
+      "status": "passed"
+    },
+    {
+      "name": "Renderers > WebGLPrograms > reactivation refreshes LRU order without limiting active programs",
+      "status": "passed"
+    }
+  ],
+  "addons": {
+    "passed": 145,
+    "failed": 0,
+    "skipped": 0,
+    "todo": 0,
+    "total": 145
+  },
+  "reducedRendererSmoke": {
+    "classification": "Existing retained-building product renderer fixture; not the full Studio workspace",
+    "motionStepsPerVariant": 180,
+    "sameApplicationSources": true,
+    "applicationFiles": 199,
+    "applicationSnapshotSha256": "d5f5d58961607e9019156af510f25fe53ab66a9a57258cd683f4a7f77d52edf9",
+    "baselineProgramCreates": 537,
+    "forkProgramCreates": 0,
+    "baselineRenderCalls": 540,
+    "forkRenderCalls": 537,
+    "forkModels": 45,
+    "forkRetained": 45,
+    "forkGlError": 0,
+    "forkPageErrors": [],
+    "device": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+    "timingQualified": false
+  },
+  "pending": [
+    "Full Studio before/after paired benchmark",
+    "Five paired rounds, fixed frames and statistical/regression gates",
+    "r183 compatibility variant and supported browser/mobile viewport checks",
+    "Selection/edit/comparison and lifetime qualification",
+    "Fresh release build/bundle checks and final report"
+  ],
+  "baselineSetup": "Existing Studio token needed its configured organization claim in the temporary controlled fixture; product authentication checks stay enabled."
+}

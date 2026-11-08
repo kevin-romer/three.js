@@ -83,7 +83,14 @@ class WebGLRenderer {
 			failIfMajorPerformanceCaveat = false,
 			reversedDepthBuffer = false,
 			outputBufferType = UnsignedByteType,
+			maxInactivePrograms = 0,
 		} = parameters;
+
+		if ( ! Number.isSafeInteger( maxInactivePrograms ) || maxInactivePrograms < 0 ) {
+
+			throw new RangeError( 'THREE.WebGLRenderer: maxInactivePrograms must be a non-negative safe integer.' );
+
+		}
 
 		/**
 		 * This flag can be used for type testing.
@@ -472,7 +479,7 @@ class WebGLRenderer {
 			objects = new WebGLObjects( _gl, geometries, attributes, bindingStates, info );
 			morphtargets = new WebGLMorphtargets( _gl, capabilities, textures );
 			clipping = new WebGLClipping( properties );
-			programCache = new WebGLPrograms( _this, environments, extensions, capabilities, bindingStates, clipping );
+			programCache = new WebGLPrograms( _this, environments, extensions, capabilities, bindingStates, clipping, maxInactivePrograms );
 			materials = new WebGLMaterials( _this, properties );
 			renderLists = new WebGLRenderLists();
 			renderStates = new WebGLRenderStates( extensions );
@@ -3733,6 +3740,7 @@ class WebGLRenderer {
  * It is ignored when a reversed depth buffer is in use.
  * @property {boolean} [reversedDepthBuffer=false] Whether to use a reverse depth buffer. Requires the `EXT_clip_control` extension.
  * This is a more faster and accurate version than logarithmic depth buffer.
+ * @property {number} [maxInactivePrograms=0] Maximum number of unused shader programs retained for reuse after their last material is disposed. Must be a non-negative safe integer. Zero releases programs immediately. Retention uses least-recently-used eviction, keeps no material or geometry references, and is cleared by renderer disposal or context restoration. Retained programs are included in `info.programs` with `usedTimes` equal to zero.
  * @property {number} [outputBufferType=UnsignedByteType] Defines the type of the output buffer. Use `HalfFloatType` for HDR rendering with tone mapping and post-processing support.
  **/
 

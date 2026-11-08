@@ -18,22 +18,22 @@
   "milestones": [
     {
       "id": "baseline",
-      "state": "pending",
+      "state": "in_progress",
       "deliverable": "Runnable engine and Janus Studio harness; representative scenes, backend identity, correctness controls and paired baseline evidence."
     },
     {
       "id": "profile",
-      "state": "pending",
+      "state": "in_progress",
       "deliverable": "Rank CPU, upload, allocation, startup and picking costs; choose audited engine changes actually exercised by Janus."
     },
     {
       "id": "implement",
-      "state": "pending",
+      "state": "in_progress",
       "deliverable": "Small independent fork commits with meaningful regression tests and equivalent output."
     },
     {
       "id": "qualify",
-      "state": "pending",
+      "state": "in_progress",
       "deliverable": "Repeated baseline/candidate engine and product runs, compatibility checks, regression budgets and retained-resource checks."
     },
     {
@@ -134,7 +134,21 @@
     "goalCreated": true,
     "forkCleanAtStart": true,
     "existingStudioAndRetainedBuildingFixturesLocated": true,
-    "engineImplementationStarted": false,
-    "baselineMeasured": false
+    "engineImplementationStarted": true,
+    "baselineMeasured": false,
+    "rendererFixtureBaselineMeasured": true,
+    "fullStudioBaselineQualified": false,
+    "candidateFeature": "Opt-in bounded inactive WebGL program cache, maxInactivePrograms; default zero.",
+    "engineQualification": {
+      "chromiumCorePassed": 1991,
+      "chromiumCoreFailed": 0,
+      "chromiumCoreTodo": 1,
+      "chromiumAddonPassed": 145,
+      "newCacheRegressionTests": 9,
+      "lintCore": "passed",
+      "lintTest": "passed"
+    },
+    "baselineSetupIssue": "Organization-bound fixture token configured; actual product map observer corrected. Full Studio smoke and formal paired benchmark remain pending.",
+    "formalPairedBenchmarkComplete": false
   }
 }

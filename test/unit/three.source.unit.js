@@ -243,6 +243,7 @@ import './src/renderers/shaders/UniformsUtils.tests.js';
 
 //src/renderers/webgl
 import './src/renderers/webgl/WebGLExtensions.tests.js';
+import './src/renderers/webgl/WebGLPrograms.tests.js';
 import './src/renderers/webgl/WebGLRenderLists.tests.js';
 
 
