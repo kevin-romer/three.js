@@ -1,0 +1,11 @@
+{
+  "node": "v25.9.0",
+  "control": "9c6f26bb55e83416541009ac1444ba611b9a05b1",
+  "candidate": "e48c8880d9daf3e3e1c16bf890b69d4bdf1fc335",
+  "checked": 16,
+  "scope": "Node/V8 shape diagnostic and sixteen material-state equivalence checks; not a browser timing result. Custom shader stage identities are cache-local and normalized for record comparison.",
+  "fastProperties": {
+    "control": false,
+    "candidate": true
+  }
+}

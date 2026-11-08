@@ -1,0 +1,27 @@
+{
+  "scope": "Separate 100us Chrome CPU sampling diagnostics, each covering 120 warmup frames, three framebuffer captures and 300 measured frames. Inclusive renderer attribution can contain application callbacks and native waits. One profile per variant; not formal performance estimates. Raw profiles remain private.",
+  "variants": [
+    {
+      "variant": "control",
+      "rawProfileSha256": "05132d83bc4cf228b2306a8a744a3c547d7649cabf634b4e23c11e234134e12f",
+      "sampledDurationMs": 9499.113,
+      "parameterPreparationSelfMs": 137.196,
+      "parameterPreparationInclusiveMs": 153.117,
+      "underRendererInclusiveMs": 1376.596,
+      "wholeProfileGcMs": 316.528,
+      "frames": 300,
+      "warmup": 120
+    },
+    {
+      "variant": "candidate",
+      "rawProfileSha256": "7da7eaad78d186c2d174af6b0b60efb0e2bc6c2737d1c3885a4fb0224be64dc7",
+      "sampledDurationMs": 9269.753,
+      "parameterPreparationSelfMs": 158.975,
+      "parameterPreparationInclusiveMs": 169.69,
+      "underRendererInclusiveMs": 1298.109,
+      "wholeProfileGcMs": 314.955,
+      "frames": 300,
+      "warmup": 120
+    }
+  ]
+}

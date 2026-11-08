@@ -1,0 +1,55 @@
+{
+  "candidate": "e48c8880d9daf3e3e1c16bf890b69d4bdf1fc335",
+  "candidateSources": {
+    "src/renderers/webgl/WebGLPrograms.js": "86338fff2f62edf80f6437edd86174802bb2bcdfadf469234a1b043ffedd0ca5",
+    "test/unit/src/renderers/webgl/WebGLPrograms.tests.js": "badf6df47fb4299f82c78099e40af65264cd459a2d12c8b44bc7727211527cd2"
+  },
+  "units": {
+    "qunit-chrome-core.json": {
+      "sha256": "8ecbd286aceda8fa089bdd694601b6b35a8769ba28f3a6407092756e670c15ad",
+      "passed": 1999,
+      "failed": 0,
+      "browser": "156.0.8078.80"
+    },
+    "qunit-chrome-addons.json": {
+      "sha256": "6955e4ff118290b7c26126e60421f2ba005ae11a1e8718afe006c3723a95f0cb",
+      "passed": 145,
+      "failed": 0,
+      "browser": "156.0.8078.80"
+    },
+    "qunit-chrome-webgl.json": {
+      "sha256": "e2bb2e9c093f9c384f4b03bb426270077940fec73f5b62a3136e1c0c1c0326f5",
+      "passed": 206,
+      "failed": 0,
+      "browser": "156.0.8078.80"
+    },
+    "qunit-firefox-webgl.json": {
+      "sha256": "5102a1328a895c7a61d2edcd4205447fc350fd79076b53173e11fcdca0c8a826",
+      "passed": 206,
+      "failed": 0,
+      "browser": "151.0"
+    },
+    "qunit-webkit-webgl.json": {
+      "sha256": "0676afc45f550cb81f94be7ced1eae12383a5a6bb101bf45b4038886ee787ada",
+      "passed": 206,
+      "failed": 0,
+      "browser": "26.5"
+    }
+  },
+  "unitLabelNote": "Legacy runner labels raw-fast/raw-fast-full route to the tested working-tree layout implementation, not the discarded raw-shader prototype. Tests were run after that prototype was removed.",
+  "coreTodo": 1,
+  "softSkips": 0,
+  "lint": {
+    "core": "pass",
+    "test": "pass",
+    "logsSha256": {
+      "layout-lint-core.log": "c9fd5e44b9bc4daef4248f839bcb1a1c0c62f1fd132f92e774120a6c9bbfe0e3",
+      "layout-lint-test.log": "fc4c9c5f4f7b015146fa549d42e821cd61192bdb47a7f0a59b690d22f4f3502a"
+    }
+  },
+  "buildOutputs": 5,
+  "buildWarnings": 0,
+  "atlasModified": false,
+  "servicesRestarted": false,
+  "deployment": false
+}

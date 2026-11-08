@@ -1,0 +1,137 @@
+{
+  "scope": "Exploratory diagnostics excluded from qualification cohort. GL instrumentation was enabled for each buffer experiment, so timings are descriptive only.",
+  "bufferReuse": {
+    "decision": "not landed; no demonstrated CPU improvement and shared-attribute ownership remains unresolved",
+    "framesPerRun": 300,
+    "control": {
+      "engineMs": {
+        "p50": 3.2999999970197678,
+        "p95": 3.9000000059604645,
+        "p99": 4.299999997019768,
+        "max": 6.199999988079071
+      },
+      "calls": {
+        "deleteBuffer": {
+          "calls": 136500,
+          "bytes": 0
+        },
+        "deleteVertexArray": {
+          "calls": 27300,
+          "bytes": 0
+        },
+        "createBuffer": {
+          "calls": 136500,
+          "bytes": 0
+        },
+        "bufferData": {
+          "calls": 136500,
+          "bytes": 26278242
+        },
+        "createVertexArray": {
+          "calls": 27300,
+          "bytes": 0
+        },
+        "uniform2f": {
+          "calls": 13500,
+          "bytes": 108000
+        },
+        "uniformMatrix4fv": {
+          "calls": 14100,
+          "bytes": 902400
+        },
+        "uniform3f": {
+          "calls": 13800,
+          "bytes": 165600
+        },
+        "uniform1f": {
+          "calls": 13500,
+          "bytes": 54000
+        }
+      }
+    },
+    "reuseSubData": {
+      "engineMs": {
+        "p50": 3.2999999970197678,
+        "p95": 4.4000000059604645,
+        "p99": 5.100000008940697,
+        "max": 8.599999994039536
+      },
+      "calls": {
+        "deleteVertexArray": {
+          "calls": 27300,
+          "bytes": 0
+        },
+        "bufferSubData": {
+          "calls": 136500,
+          "bytes": 26278242
+        },
+        "createVertexArray": {
+          "calls": 27300,
+          "bytes": 0
+        },
+        "uniform2f": {
+          "calls": 13500,
+          "bytes": 108000
+        },
+        "uniformMatrix4fv": {
+          "calls": 14100,
+          "bytes": 902400
+        },
+        "uniform3f": {
+          "calls": 13800,
+          "bytes": 165600
+        },
+        "uniform1f": {
+          "calls": 13500,
+          "bytes": 54000
+        }
+      }
+    },
+    "reuseOrphan": {
+      "engineMs": {
+        "p50": 3.499999985098839,
+        "p95": 4.200000017881393,
+        "p99": 4.700000017881393,
+        "max": 5.5999999940395355
+      },
+      "calls": {
+        "deleteVertexArray": {
+          "calls": 27300,
+          "bytes": 0
+        },
+        "bufferData": {
+          "calls": 136500,
+          "bytes": 26278242
+        },
+        "createVertexArray": {
+          "calls": 27300,
+          "bytes": 0
+        },
+        "uniform2f": {
+          "calls": 13500,
+          "bytes": 108000
+        },
+        "uniformMatrix4fv": {
+          "calls": 14100,
+          "bytes": 902400
+        },
+        "uniform3f": {
+          "calls": 13800,
+          "bytes": 165600
+        },
+        "uniform1f": {
+          "calls": 13500,
+          "bytes": 54000
+        }
+      }
+    }
+  },
+  "rawShaderFastpath": {
+    "decision": "not landed; not exercised in measured steady frames",
+    "diagnosticFrames": 30,
+    "parameterPreparations": {
+      "ShaderMaterial": 2730,
+      "RawShaderMaterial": 0
+    }
+  }
+}

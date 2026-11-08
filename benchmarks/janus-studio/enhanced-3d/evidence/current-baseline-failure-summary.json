@@ -1,0 +1,20 @@
+{
+  "applicationSnapshotSha256": "84d9e6b97c3dac255b5a6e4cf172bb2e5a231a2abd11d6569feb320c965f67a0",
+  "sourceFiles": 317,
+  "consoleErrorCount": 424,
+  "nanBoundingSphereErrors": 424,
+  "jsErrors": [],
+  "glError": 0,
+  "qualified": false,
+  "reason": "NaN geometry bounds in current application baseline; excluded before engine comparison.",
+  "previousCommitConfirmation": {
+    "engine": "9c6f26bb55e83416541009ac1444ba611b9a05b1",
+    "frames": 30,
+    "warmup": 120,
+    "consoleErrorCount": 154,
+    "nanBoundingSphereErrors": 154,
+    "jsErrors": [],
+    "glError": 0,
+    "qualified": false
+  }
+}
