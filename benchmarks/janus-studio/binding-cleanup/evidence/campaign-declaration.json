@@ -1,0 +1,15 @@
+{
+  "createdUtc": "2026-11-08T16:02:36.551749+00:00",
+  "control": "64187591f5af7dc940b3a491e8e94a38f7867aea",
+  "candidate": "1db45f2bb215a247fd73ea0aeb89ef6a7b63342d",
+  "applicationSnapshotSha256": "f49ae9661826cf5876d22c5152bbe91c002bd2b8d8809d6302159f175d4fdfe1",
+  "sourceFiles": 317,
+  "pairedRounds": 5,
+  "order": "AB BA AB BA AB",
+  "framesPerRun": 300,
+  "warmupPerRun": 120,
+  "primaryMetric": "engineMs.p95",
+  "secondaryMetric": "engineMs.p50",
+  "regressionBudget": "max(5% control p95,0.3ms); paired mean excess 95% interval must be <=0",
+  "policy": "All five pairs included; no outcome-based exclusions or extensions. Profiling, diagnostics, builds and unit runs separate from timing."
+}

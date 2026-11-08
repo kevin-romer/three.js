@@ -1,0 +1,31 @@
+{
+  "completedUtc": "2026-11-08T16:11:32.305482+00:00",
+  "sourceCommit": "1db45f2bb215a247fd73ea0aeb89ef6a7b63342d",
+  "forkRetained": true,
+  "forkReason": "Separate user-requested fork retained for review and further performance work; no Atlas merge.",
+  "temporaryReplayRemoved": true,
+  "ownedBrowserRecords": 16,
+  "ownedBrowserProfilesRecorded": 14,
+  "ownedBrowserProfilesRemoved": 0,
+  "activeOwnedBrowserProcesses": 0,
+  "privateEvidenceArchive": {
+    "filename": "threejs-binding-cleanup-1db45f2-private.tar.gz",
+    "sha256": "bee3fc00d35da28851663658675fb6c566368bb470b2526a17099d785a7c34ef",
+    "bytes": 1512661,
+    "files": 333,
+    "private": true,
+    "contents": "Fresh unqualified source replay, detailed gate errors, private manifests and raw benchmark records. No credentials or installed dependencies."
+  },
+  "validatedReplayArchive": {
+    "filename": "threejs-janus-replay-f49ae9661826.tar.gz",
+    "sha256": "6dd8c11c8818975f902e9264eec38d5d282f8d0e42e8b3e30c480499ee3125e4",
+    "private": true,
+    "retained": true
+  },
+  "publicAnalysisReproduced": true,
+  "toolSyntaxChecks": "pass",
+  "atlasModified": false,
+  "servicesRestarted": false,
+  "deployment": false,
+  "currentApplicationQualified": false
+}

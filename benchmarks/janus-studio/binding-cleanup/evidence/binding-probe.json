@@ -1,0 +1,508 @@
+{
+  "node": "v25.9.0",
+  "scope": "Actual WebGLBindingStates module at a mock GL boundary. CPU release-and-recreate cycles include reverse-index maintenance. No GPU timing, browser speedup or memory-byte claim. Diagnostic id getters run outside timed loops. Five AB/BA pairs, 32 warmup and 256 measured cycles per member.",
+  "sources": {
+    "control": {
+      "commit": "64187591f5af7dc940b3a491e8e94a38f7867aea",
+      "sha256": "320c72ca9887936e718245f67595c67a81e540efd3bcc8d58512fe60dd6f7b08"
+    },
+    "candidate": {
+      "commit": "1db45f2bb215a247fd73ea0aeb89ef6a7b63342d",
+      "sha256": "a59c9a8b73eacfd7a421106f9aa950da757f431c5b041155d5777756f41765cb"
+    }
+  },
+  "cases": [
+    {
+      "unrelatedGeometryCount": 256,
+      "pairs": [
+        {
+          "pair": 1,
+          "control": {
+            "elapsedMs": 9.101957999999996,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 259,
+              "empty": 257
+            },
+            "lifecycle": {
+              "created": 546,
+              "deleted": 546,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          },
+          "candidate": {
+            "elapsedMs": 0.31212499999999466,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 1,
+              "empty": 1
+            },
+            "lifecycle": {
+              "created": 546,
+              "deleted": 546,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          }
+        },
+        {
+          "pair": 2,
+          "candidate": {
+            "elapsedMs": 0.18029200000000856,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 1,
+              "empty": 1
+            },
+            "lifecycle": {
+              "created": 546,
+              "deleted": 546,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          },
+          "control": {
+            "elapsedMs": 9.11,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 259,
+              "empty": 257
+            },
+            "lifecycle": {
+              "created": 546,
+              "deleted": 546,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          }
+        },
+        {
+          "pair": 3,
+          "control": {
+            "elapsedMs": 8.408500000000004,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 259,
+              "empty": 257
+            },
+            "lifecycle": {
+              "created": 546,
+              "deleted": 546,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          },
+          "candidate": {
+            "elapsedMs": 0.137833999999998,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 1,
+              "empty": 1
+            },
+            "lifecycle": {
+              "created": 546,
+              "deleted": 546,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          }
+        },
+        {
+          "pair": 4,
+          "candidate": {
+            "elapsedMs": 0.11512499999999193,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 1,
+              "empty": 1
+            },
+            "lifecycle": {
+              "created": 546,
+              "deleted": 546,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          },
+          "control": {
+            "elapsedMs": 8.640916000000004,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 259,
+              "empty": 257
+            },
+            "lifecycle": {
+              "created": 546,
+              "deleted": 546,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          }
+        },
+        {
+          "pair": 5,
+          "control": {
+            "elapsedMs": 8.00220800000001,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 259,
+              "empty": 257
+            },
+            "lifecycle": {
+              "created": 546,
+              "deleted": 546,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          },
+          "candidate": {
+            "elapsedMs": 0.11333299999999724,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 1,
+              "empty": 1
+            },
+            "lifecycle": {
+              "created": 546,
+              "deleted": 546,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          }
+        }
+      ],
+      "medianCycleMs": {
+        "control": 0.03375357812500002,
+        "candidate": 0.0005384140624999922
+      }
+    },
+    {
+      "unrelatedGeometryCount": 4096,
+      "pairs": [
+        {
+          "pair": 1,
+          "control": {
+            "elapsedMs": 123.08245800000003,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 4099,
+              "empty": 4097
+            },
+            "lifecycle": {
+              "created": 4386,
+              "deleted": 4386,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          },
+          "candidate": {
+            "elapsedMs": 0.11279199999995626,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 1,
+              "empty": 1
+            },
+            "lifecycle": {
+              "created": 4386,
+              "deleted": 4386,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          }
+        },
+        {
+          "pair": 2,
+          "candidate": {
+            "elapsedMs": 0.11483299999997598,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 1,
+              "empty": 1
+            },
+            "lifecycle": {
+              "created": 4386,
+              "deleted": 4386,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          },
+          "control": {
+            "elapsedMs": 119.90833300000003,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 4099,
+              "empty": 4097
+            },
+            "lifecycle": {
+              "created": 4386,
+              "deleted": 4386,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          }
+        },
+        {
+          "pair": 3,
+          "control": {
+            "elapsedMs": 127.16900000000004,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 4099,
+              "empty": 4097
+            },
+            "lifecycle": {
+              "created": 4386,
+              "deleted": 4386,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          },
+          "candidate": {
+            "elapsedMs": 0.10904199999993125,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 1,
+              "empty": 1
+            },
+            "lifecycle": {
+              "created": 4386,
+              "deleted": 4386,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          }
+        },
+        {
+          "pair": 4,
+          "candidate": {
+            "elapsedMs": 0.11141699999996035,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 1,
+              "empty": 1
+            },
+            "lifecycle": {
+              "created": 4386,
+              "deleted": 4386,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          },
+          "control": {
+            "elapsedMs": 119.45745799999997,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 4099,
+              "empty": 4097
+            },
+            "lifecycle": {
+              "created": 4386,
+              "deleted": 4386,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          }
+        },
+        {
+          "pair": 5,
+          "control": {
+            "elapsedMs": 119.22187500000007,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 4099,
+              "empty": 4097
+            },
+            "lifecycle": {
+              "created": 4386,
+              "deleted": 4386,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          },
+          "candidate": {
+            "elapsedMs": 0.0981250000000955,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 1,
+              "empty": 1
+            },
+            "lifecycle": {
+              "created": 4386,
+              "deleted": 4386,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          }
+        }
+      ],
+      "medianCycleMs": {
+        "control": 0.4683919257812501,
+        "candidate": 0.00043522265624984513
+      }
+    },
+    {
+      "unrelatedGeometryCount": 16384,
+      "pairs": [
+        {
+          "pair": 1,
+          "control": {
+            "elapsedMs": 562.126959,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 16387,
+              "empty": 16385
+            },
+            "lifecycle": {
+              "created": 16674,
+              "deleted": 16674,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          },
+          "candidate": {
+            "elapsedMs": 0.10112500000013824,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 1,
+              "empty": 1
+            },
+            "lifecycle": {
+              "created": 16674,
+              "deleted": 16674,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          }
+        },
+        {
+          "pair": 2,
+          "candidate": {
+            "elapsedMs": 0.10095799999999144,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 1,
+              "empty": 1
+            },
+            "lifecycle": {
+              "created": 16674,
+              "deleted": 16674,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          },
+          "control": {
+            "elapsedMs": 562.5900000000001,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 16387,
+              "empty": 16385
+            },
+            "lifecycle": {
+              "created": 16674,
+              "deleted": 16674,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          }
+        },
+        {
+          "pair": 3,
+          "control": {
+            "elapsedMs": 560.0763339999999,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 16387,
+              "empty": 16385
+            },
+            "lifecycle": {
+              "created": 16674,
+              "deleted": 16674,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          },
+          "candidate": {
+            "elapsedMs": 0.2106669999998303,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 1,
+              "empty": 1
+            },
+            "lifecycle": {
+              "created": 16674,
+              "deleted": 16674,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          }
+        },
+        {
+          "pair": 4,
+          "candidate": {
+            "elapsedMs": 0.11495800000011513,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 1,
+              "empty": 1
+            },
+            "lifecycle": {
+              "created": 16674,
+              "deleted": 16674,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          },
+          "control": {
+            "elapsedMs": 563.0800840000002,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 16387,
+              "empty": 16385
+            },
+            "lifecycle": {
+              "created": 16674,
+              "deleted": 16674,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          }
+        },
+        {
+          "pair": 5,
+          "control": {
+            "elapsedMs": 556.7875419999996,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 16387,
+              "empty": 16385
+            },
+            "lifecycle": {
+              "created": 16674,
+              "deleted": 16674,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          },
+          "candidate": {
+            "elapsedMs": 0.12566599999991013,
+            "cycles": 256,
+            "programIdReads": {
+              "populated": 1,
+              "empty": 1
+            },
+            "lifecycle": {
+              "created": 16674,
+              "deleted": 16674,
+              "live": 0,
+              "unrelatedBindingsPreserved": true
+            }
+          }
+        }
+      ],
+      "medianCycleMs": {
+        "control": 2.19580843359375,
+        "candidate": 0.00044905468750044975
+      }
+    }
+  ]
+}

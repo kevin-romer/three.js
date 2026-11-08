@@ -1,0 +1,1042 @@
+{
+  "engine": "chrome",
+  "version": "binding-full",
+  "suite": "addons",
+  "browser": "156.0.8078.80",
+  "started": "2026-11-08T16:00:06.520Z",
+  "completed": "2026-11-08T16:00:08.773Z",
+  "result": {
+    "counts": {
+      "passed": 145,
+      "failed": 0,
+      "skipped": 0,
+      "todo": 0,
+      "total": 145
+    },
+    "runtimeMs": 1404
+  },
+  "tests": [
+    {
+      "name": "Extras > Curves > NURBSCurve > fromJSON",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > GLTFLoader > loads KHR_gaussian_splatting primitives as GaussianSplat",
+      "status": "passed",
+      "runtimeMs": 22,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > waits for dependent textures before resolving",
+      "status": "passed",
+      "runtimeMs": 5,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > USDLoader > strips USDA block comments",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Extras > Curves > NURBSCurve > toJSON",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > randomfloat and randomcolor",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > GaussianSplatUtils > converts degree-0 spherical harmonics and linear color",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > TSL > ClusteredLightsNode > first grid allocation preserves the precompilation cache key",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > GLTFLoader > CUBICSPLINE animations can be made additive at an interpolated frame",
+      "status": "passed",
+      "runtimeMs": 2,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > USDLoader > reads USDA material binding strength metadata",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Octree > trianglesPerLeaf applies to recursive splits",
+      "status": "passed",
+      "runtimeMs": 4,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > USDLoader > reads the USDC string table after its count prefix",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > chart area normalization preserves common density on differently scaled planes",
+      "status": "passed",
+      "runtimeMs": 9,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Exporters > OBJExporter > indexed line segments",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > binds outputs, geometric defaults and textures of implementation graphs",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > ignored shared vertices are split and fully degenerate meshes retain topology",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > BufferGeometryUtils > remapAttribute preserves raw values and metadata",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > TSL > WebGLNodesHandler > nested render lifecycle",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Postprocessing > GTAOPass > depth-only input and lazy internal allocation after resize",
+      "status": "passed",
+      "runtimeMs": 4,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > SPZLoader > parses SPZ v2 fixed-point data",
+      "status": "passed",
+      "runtimeMs": 5,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > USDLoader > keeps USDA time samples at negative time codes",
+      "status": "passed",
+      "runtimeMs": 2,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > USDLoader > interprets USD color3f material inputs as linear",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > GaussianSplatUtils > creates Gaussian splat geometry from packed arrays",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > selects versioned implementation graphs and their nodedef defaults",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > dense lightmap planes retain packing efficiency with bounded chart work",
+      "status": "passed",
+      "runtimeMs": 274,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > SPZLoader > rejects unsupported SPZ versions",
+      "status": "passed",
+      "runtimeMs": 3,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > GaussianSplatUtils > applies sigmoid activation",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > texture settings",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Extras > Curves > NURBSCurve > clone",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > USDLoader > collapses USDA triple-quoted strings into single lines",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Postprocessing > GTAOPass > internal → external → internal restores inputs and reuses the owned target",
+      "status": "passed",
+      "runtimeMs": 3,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Postprocessing > GTAOPass > browser previews follow external, depth-only and internal inputs",
+      "status": "passed",
+      "runtimeMs": 59,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > uses the image default for an empty filename interface",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > reports failed dependent textures as warnings, matching GLTFLoader",
+      "status": "passed",
+      "runtimeMs": 23,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > unsupported mesh types are skipped without modifying their geometry",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > ColorConverter > primary colors",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > selects the first implementation when no target is specified",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > ColorConverter > setHSV achromatic colors",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > SPZLoader > parses SPZ v4 spherical harmonics degree 4 as degree 3 data",
+      "status": "passed",
+      "runtimeMs": 5,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > BufferGeometryUtils > mergeVertices > can handle morphAttributes without crashing",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Exporters > EXRExporter > round trip (PIZ_COMPRESSION)",
+      "status": "passed",
+      "runtimeMs": 103,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > resolves custom surface shaders through nodegraph outputs",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > preserves compressed textures and their mipmaps",
+      "status": "passed",
+      "runtimeMs": 3,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > near-degenerate slivers from large coordinates are excluded",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > FBXLoader > morphAttributes length match geometry position length",
+      "status": "passed",
+      "runtimeMs": 10,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > unique atlas for shared geometry under nested, mirrored, nonuniform transforms",
+      "status": "passed",
+      "runtimeMs": 2,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > USDLoader > resolves connected asset inputs before fallback values",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > result retains atlas metadata and vertex and face mappings",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > parameterized geometries serialize the actual unwrapped buffers",
+      "status": "passed",
+      "runtimeMs": 6,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > BufferGeometryUtils > mergeVertices > preserves distinct vertices with zero tolerance",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > ColorConverter > clamping and hue wrapping",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > deterministic output and bounded chart work",
+      "status": "passed",
+      "runtimeMs": 112,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Exporters > EXRExporter > round trip (RLE_COMPRESSION)",
+      "status": "passed",
+      "runtimeMs": 14,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > near-zero area slivers are retained but excluded from the atlas",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > a back surface does not replace the front surface or its material class",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > resolves default nodedef versions and document nodedefs like MaterialX",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Exporters > USDZExporter > methods",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > GaussianSplatPLYLoader > parses a Gaussian splat PLY with no spherical harmonics",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Exporters > OBJExporter > indexed line",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > USDLoader > uses timeCodesPerSecond for USDA animation timing",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > keeps LoadingManager active through the loader callback",
+      "status": "passed",
+      "runtimeMs": 4,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Exporters > EXRExporter > round trip (NO_COMPRESSION)",
+      "status": "passed",
+      "runtimeMs": 6,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > node library parameter names are declared by the nodedef registry",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > keeps named and default implementation outputs separate",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Exporters > EXRExporter > round trip (ZIPS_COMPRESSION)",
+      "status": "passed",
+      "runtimeMs": 38,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > ColorConverter > working color space",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > KSPLATLoader > initializes missing KSPLAT spherical harmonics coefficients to zero",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > BufferGeometryUtils > mergeGeometries > rejects inconsistent morph target counts (1, 2)",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > USDLoader > textures inherit CORS, resolve URLs once, and use the loading manager and image cache",
+      "status": "passed",
+      "runtimeMs": 31,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > TSL > ClusteredLightsNode > distinct lights nodes never share storage bindings",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Exporters > USDZExporter > export basic scene",
+      "status": "passed",
+      "runtimeMs": 3,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > has a nodedef default for every input of every supported node",
+      "status": "passed",
+      "runtimeMs": 64,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > supports hsvadjust, facingratio and triplanarprojection",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > maps <displacement> onto vertex displacement instead of failing",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > GaussianSplatUtils > creates Gaussian splat geometry with spherical harmonics attributes",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > GaussianSplatPLYLoader > requires no pre-setup for each supported spherical harmonics degree",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Exporters > EXRExporter > round trip (ZIP_COMPRESSION)",
+      "status": "passed",
+      "runtimeMs": 27,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > preserves original triangle order, removes no faces, and handles nonindexed geometry",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > resolves nodedef overloads without a nodedef attribute",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > conformal solve improves curved charts; sphere and torus remain valid",
+      "status": "passed",
+      "runtimeMs": 171,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > BufferGeometryUtils > mergeVertices remaps half-float morphs without conversion",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > supports channel selectors on custom color nodes",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > GLTFLoader > loads KHR_gaussian_splatting spherical harmonics attributes",
+      "status": "passed",
+      "runtimeMs": 5,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > hextilednormalmap translates with only a file input",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > authored cylinder seams remain distinct and valid islands retain their shape",
+      "status": "passed",
+      "runtimeMs": 3,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > builds nodes implemented by a nodegraph of the document",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > propagates DataTexture-style results from handlers like EXRLoader",
+      "status": "passed",
+      "runtimeMs": 6,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > three square charts use the full atlas width at fixed and fitted density",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > Float32 chart failures are split and repacked, keeping the faces that validate",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > SPLATLoader > parses fixed-width .splat data",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > uses nodedef output order for an omitted implementation selector",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Exporters > EXRExporter > round trip (PIZ_COMPRESSION, 16-bit wavelet)",
+      "status": "passed",
+      "runtimeMs": 33,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > SPZLoader > warns when skipping SPZ v4 vendor extensions",
+      "status": "passed",
+      "runtimeMs": 2,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Exporters > USDZExporter > export and import",
+      "status": "passed",
+      "runtimeMs": 7,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > builds nodes of a host node library through the node resolver",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > BufferGeometryUtils > mergeGeometries > merges geometries without morph attributes",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > surface shaders use nodedef defaults for omitted inputs",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > rejected curved authored islands retain valid conformal subset fallbacks",
+      "status": "passed",
+      "runtimeMs": 240,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > KSPLATLoader > parses uncompressed KSPLAT data",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Postprocessing > GTAOPass > external construction, resize and disposal preserve caller ownership",
+      "status": "passed",
+      "runtimeMs": 2,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > BufferGeometryUtils > mergeGeometries > merges compatible morph targets",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > renders <surface_unlit> without lighting",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > BufferGeometryUtils > deinterleaveGeometry > deinterleaves attributes and morph attributes",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > GaussianSplatPLYLoader > rejects an unsupported number of f_rest coefficients",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > atlas overflow returns null without modifying any mesh",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > SPZLoader > parses SPZ spherical harmonics degree 1 data",
+      "status": "passed",
+      "runtimeMs": 4,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > GLTFLoader > child credentials",
+      "status": "passed",
+      "runtimeMs": 2,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Exporters > USDZExporter > export scene with onlyVisible option",
+      "status": "passed",
+      "runtimeMs": 5,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > HDRLoader > parses valid HDR with large header (> chunk size)",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > ColorSpaces > LinearRec2020ColorSpace",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > BufferGeometryUtils > mergeVertices > preserves interleaved attributes",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > gives vector and color noise one noise per channel",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > GaussianSplatUtils > requires packed uint32 spherical harmonics on geometry",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > BufferGeometryUtils > mergeGeometries > merges geometries with empty morph target arrays",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > SPZLoader > parses SPZ v4 ZSTD stream data",
+      "status": "passed",
+      "runtimeMs": 5,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > HDRLoader > Instancing",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > USDLoader > resolves inherited material bindings by strength",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > TSL > ClusteredLightsNode > only storage replacement invalidates materials on resize",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > subtexel Float32 failures are excluded without weakening retained chart validation",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > ColorSpaces > LinearDisplayP3ColorSpace",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > reads the first output of a separate node connected without an output",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > ColorSpaces > DisplayP3ColorSpace",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > BufferGeometryUtils > mergeGeometries > rejects missing morph attributes",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > KSPLATLoader > parses uncompressed KSPLAT spherical harmonics data",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Octree > maxLevel applies to recursive splits",
+      "status": "passed",
+      "runtimeMs": 2,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > BufferGeometryUtils > remapAttribute preserves shared interleaved buffers",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > ColorUtils > setKelvin",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > GaussianSplatPLYLoader > detects spherical harmonics degree from the header and converts f_rest",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > degenerate and nonmanifold triangles terminate, retain topology and report degeneracy",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > GaussianSplatPLYLoader > rejects PLY data missing required Gaussian splat properties",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > resolves unlit surface shaders through nodegraph outputs",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Lighting > LightMapper > Uses current world transforms without rendering the source scene first",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > ColorConverter > getHSV achromatic colors",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > BufferGeometryUtils > mergeGeometries > rejects inconsistent morph target counts (0, 1)",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > ColorConverter > round trip",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > seam splitting copies every attribute",
+      "status": "passed",
+      "runtimeMs": 2,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > applies nodedef defaults to inputs the document omits",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > BufferGeometryUtils > mergeGeometries > rejects inconsistent morph target counts (1, 0)",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > MaterialXLoader > shares loaded textures by URI and address modes without modifying handler results",
+      "status": "passed",
+      "runtimeMs": 2,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > TSL > ClusteredLightsNode > analytical light changes still invalidate materials",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > GaussianSplatUtils > maps spherical harmonics coefficients to packed uint words",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > BufferGeometryUtils > mergeGeometries > rejects inconsistent morph target counts (2, 1)",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > SPZLoader > parses SPZ spherical harmonics degree 2 data",
+      "status": "passed",
+      "runtimeMs": 8,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Utils > unwrapUVs > reprojects rejected authored islands before splitting lightmap charts",
+      "status": "passed",
+      "runtimeMs": 4,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Addons > Loaders > SPZLoader > parses SPZ spherical harmonics degree 3 data",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    }
+  ],
+  "backends": [],
+  "errors": [],
+  "missing": [
+    "test/unit/texture.test"
+  ],
+  "external": [],
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "tools": {
+    "benchmarks/janus-studio/binding-cleanup/tools/analyze.mjs": "e327438bcb4c311078297a8de6df93ae36fcec4459bc90e97968d1515116cc07",
+    "benchmarks/janus-studio/binding-cleanup/tools/binding-probe.mjs": "78b70a909c9438df17a14281db80fc5f5d313f98b86f9c6729e26e12cc1585a1",
+    "benchmarks/janus-studio/binding-cleanup/tools/managed-browser.mjs": "04f922b3e7a484627d2e3b7fde47fd15bc937f717d5114fd8cf1aa67d3d0ba7f",
+    "benchmarks/janus-studio/binding-cleanup/tools/qunit-progress.mjs": "59826e6d85af04f83f2d49694791aa2837d260332d8b6d83bd738dcfff4ffa49",
+    "benchmarks/janus-studio/binding-cleanup/tools/run-units.mjs": "b3ad402207512a41097052a8ebfec4d83f42de09d49c65a3ed94d1f1dff7a8d3",
+    "benchmarks/janus-studio/binding-cleanup/tools/verify.mjs": "58130e44a2adc3f1ac2cce0c9ed098a22b6a094a53f9fb816c569485f293c764",
+    "benchmarks/janus-studio/next-audit/tools/next-paired.mjs": "1c57a44d39586c941a3daa7760e1c01e6d63b587ba3d25b138cf4aa8872a5119",
+    "benchmarks/janus-studio/next-audit/tools/janus-server.mjs": "6c31e73df36cdc9b2bcfd783f6d06e40351852be41464ed699d2ef78fdd3e40e",
+    "benchmarks/janus-studio/next-audit/tools/managed-browser.mjs": "04f922b3e7a484627d2e3b7fde47fd15bc937f717d5114fd8cf1aa67d3d0ba7f",
+    "benchmarks/janus-studio/next-audit/tools/studio-synthetic.mjs": "978353f9e6da5f64927842b7a41494d71a13c56efbcf141aed7fa552fd8f8939",
+    "benchmarks/janus-studio/next-audit/tools/product-fixtures.mjs": "d2c30f5dc9fa655227b28458d7a3a3e95b5fb12e688a58318398c91a5080b71d",
+    "benchmarks/janus-studio/next-audit/tools/measure-map.mjs": "2b3517c953f69984578f5971086240a8d330bcfd28d30f06273567cd4aaa0dd2",
+    "benchmarks/janus-studio/next-audit/tools/buildings-run.mjs": "a6a5122ff62c4c008bedb19837c6395a3bcac9cf7484e5477557fce77464ef5d"
+  }
+}

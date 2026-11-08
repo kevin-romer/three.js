@@ -1,0 +1,17 @@
+{
+  "inspectedUtc": "2026-11-08T16:02:36.551130+00:00",
+  "currentApplicationSnapshot": {
+    "sha256": "8f5de87a605d4314fb7dd0195f8496c56e8282a72bfa4f16740212b2bfbedbe0",
+    "files": 317
+  },
+  "previousCommit": "64187591f5af7dc940b3a491e8e94a38f7867aea",
+  "frames": 30,
+  "warmup": 120,
+  "consoleErrorCount": 154,
+  "nanBoundingSphereErrors": 154,
+  "jsErrors": [],
+  "glError": 0,
+  "qualified": false,
+  "rootCauseDiagnosed": false,
+  "timingDecision": "Excluded before qualification; use known-good frozen replay. Three source files changed since prior failing snapshot, but current gate still emits NaN bounds errors."
+}

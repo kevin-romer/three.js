@@ -102,3 +102,5 @@ The completion verifier rechecks public results without private application acce
 The separate fork is retained. Temporary fixture modules, profiles, caches and task-owned browser processes are cleaned after evidence publication, as recorded in [completion evidence](evidence/completion.json). No service/container restarts, dependency rollout, upstream PR or deployment occurred.
 
 A subsequent [Enhanced 3D parameter-layout campaign](enhanced-3d/README.md) measures a 10.1% median render CPU reduction against the previous fork, with neutral p95 CPU and slightly slower frame intervals. Its current-source qualification limit and frozen replay results are recorded separately.
+
+The subsequent [WebGL program binding cleanup pass](binding-cleanup/README.md) removes global geometry scans during program retirement. The engine scaling probe improves; the retained Janus Enhanced 3D replay remains statistically neutral and passes its CPU regression budget.
