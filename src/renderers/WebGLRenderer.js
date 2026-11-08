@@ -18,6 +18,7 @@ import {
 	UnsignedShort5551Type,
 	WebGLCoordinateSystem
 } from '../constants.js';
+import { defaultMaterialOnBeforeCompile } from '../materials/Material.js';
 import { Color } from '../math/Color.js';
 import { Frustum } from '../math/Frustum.js';
 import { FrustumArray } from '../math/FrustumArray.js';
@@ -2255,118 +2256,136 @@ class WebGLRenderer {
 
 			const lightsStateVersion = lights.state.version;
 
-			const parameters = programCache.getParameters( material, lights.state, shadowsArray, scene, object, currentRenderState.state.lightProbeGridArray );
-			const programCacheKey = programCache.getProgramCacheKey( parameters );
+			const reusableParameters = programCache.acquireParameters( material, lights.state, shadowsArray, scene, object, currentRenderState.state.lightProbeGridArray );
+			let parameters = reusableParameters;
 
-			let programs = materialProperties.programs;
+			try {
 
-			// always update environment and fog - changing these trigger an getProgram call, but it's possible that the program doesn't change
+				const programCacheKey = programCache.getProgramCacheKey( parameters );
 
-			materialProperties.environment = ( material.isMeshStandardMaterial || material.isMeshLambertMaterial || material.isMeshPhongMaterial ) ? scene.environment : null;
-			materialProperties.fog = scene.fog;
+				let programs = materialProperties.programs;
 
-			const usePMREM = material.isMeshStandardMaterial || ( material.isMeshLambertMaterial && ! material.envMap ) || ( material.isMeshPhongMaterial && ! material.envMap );
-			materialProperties.envMap = environments.get( material.envMap || materialProperties.environment, usePMREM );
-			materialProperties.envMapRotation = ( materialProperties.environment !== null && material.envMap === null ) ? scene.environmentRotation : material.envMapRotation;
+				// always update environment and fog - changing these trigger an getProgram call, but it's possible that the program doesn't change
 
-			if ( programs === undefined ) {
+				materialProperties.environment = ( material.isMeshStandardMaterial || material.isMeshLambertMaterial || material.isMeshPhongMaterial ) ? scene.environment : null;
+				materialProperties.fog = scene.fog;
 
-				// new material
+				const usePMREM = material.isMeshStandardMaterial || ( material.isMeshLambertMaterial && ! material.envMap ) || ( material.isMeshPhongMaterial && ! material.envMap );
+				materialProperties.envMap = environments.get( material.envMap || materialProperties.environment, usePMREM );
+				materialProperties.envMapRotation = ( materialProperties.environment !== null && material.envMap === null ) ? scene.environmentRotation : material.envMapRotation;
 
-				material.addEventListener( 'dispose', onMaterialDispose );
-				materialReferences.set( material.id, new WeakRef( material ) );
-				materialRegistry.register( material, material.id, material );
+				if ( programs === undefined ) {
 
-				programs = new Map();
-				materialProperties.programs = programs;
-				materialProperties.programVariants = new Map();
+					// new material
 
-			}
+					material.addEventListener( 'dispose', onMaterialDispose );
+					materialReferences.set( material.id, new WeakRef( material ) );
+					materialRegistry.register( material, material.id, material );
 
-			let program = programs.get( programCacheKey );
-
-			if ( program !== undefined ) {
-
-				// early out if program and light state is identical
-
-				if ( materialProperties.currentProgram === program && materialProperties.lightsStateVersion === lightsStateVersion ) {
-
-					updateCommonMaterialProperties( material, parameters );
-
-					return program;
+					programs = new Map();
+					materialProperties.programs = programs;
+					materialProperties.programVariants = new Map();
 
 				}
 
-			} else {
+				let program = programs.get( programCacheKey );
 
-				parameters.uniforms = programCache.getUniforms( material );
+				if ( program !== undefined ) {
 
-				// Use node builder for node materials if available
-				if ( _nodesHandler !== null && material.isNodeMaterial ) {
+					// early out if program and light state is identical
 
-					_nodesHandler.build( material, object, parameters );
+					if ( materialProperties.currentProgram === program && materialProperties.lightsStateVersion === lightsStateVersion ) {
+
+						updateCommonMaterialProperties( material, parameters );
+
+						return program;
+
+					}
+
+				} else {
+
+					parameters.uniforms = programCache.getUniforms( material );
+
+					// Use node builder for node materials if available
+					if ( _nodesHandler !== null && material.isNodeMaterial ) {
+
+						parameters = programCache.copyParameters( parameters );
+						_nodesHandler.build( material, object, parameters );
+
+					}
+
+					const onBeforeCompile = material.onBeforeCompile;
+
+					if ( onBeforeCompile !== defaultMaterialOnBeforeCompile ) {
+
+						if ( parameters === reusableParameters ) parameters = programCache.copyParameters( parameters );
+						Reflect.apply( onBeforeCompile, material, [ parameters, _this ] );
+
+					}
+
+					program = programCache.acquireProgram( parameters, programCacheKey );
+					programs.set( programCacheKey, program );
+
+					materialProperties.uniforms = parameters.uniforms;
 
 				}
 
-				material.onBeforeCompile( parameters, _this );
+				const uniforms = materialProperties.uniforms;
 
-				program = programCache.acquireProgram( parameters, programCacheKey );
-				programs.set( programCacheKey, program );
+				if ( ( ! material.isShaderMaterial && ! material.isRawShaderMaterial ) || material.clipping === true ) {
 
-				materialProperties.uniforms = parameters.uniforms;
+					uniforms.clippingPlanes = clipping.uniform;
+
+				}
+
+				updateCommonMaterialProperties( material, parameters );
+
+				// store the light setup it was created for
+
+				materialProperties.needsLights = materialNeedsLights( material );
+				materialProperties.lightsStateVersion = lightsStateVersion;
+
+				if ( materialProperties.needsLights ) {
+
+					// wire up the material to this renderer's lighting state
+
+					uniforms.ambientLightColor.value = lights.state.ambient;
+					uniforms.lightProbe.value = lights.state.probe;
+					uniforms.sunLights.value = lights.state.sun;
+					uniforms.sunLightShadows.value = lights.state.sunShadow;
+					uniforms.directionalLights.value = lights.state.directional;
+					uniforms.directionalLightShadows.value = lights.state.directionalShadow;
+					uniforms.spotLights.value = lights.state.spot;
+					uniforms.spotLightShadows.value = lights.state.spotShadow;
+					uniforms.rectAreaLights.value = lights.state.rectArea;
+					uniforms.ltc_1.value = lights.state.rectAreaLTC1;
+					uniforms.ltc_2.value = lights.state.rectAreaLTC2;
+					uniforms.pointLights.value = lights.state.point;
+					uniforms.pointLightShadows.value = lights.state.pointShadow;
+					uniforms.hemisphereLights.value = lights.state.hemi;
+
+					uniforms.sunShadowMatrix.value = lights.state.sunShadowMatrix;
+					uniforms.sunShadowCascade.value = lights.state.sunShadowCascade;
+					uniforms.directionalShadowMatrix.value = lights.state.directionalShadowMatrix;
+					uniforms.spotLightMatrix.value = lights.state.spotLightMatrix;
+					uniforms.spotLightMap.value = lights.state.spotLightMap;
+					uniforms.pointShadowMatrix.value = lights.state.pointShadowMatrix;
+					// TODO (abelnation): add area lights shadow info to uniforms
+
+				}
+
+				materialProperties.numLightProbeGrids = countLightProbeGrids( currentRenderState.state.lightProbeGridArray );
+
+				materialProperties.currentProgram = program;
+				materialProperties.uniformsList = null;
+
+				return program;
+
+			} finally {
+
+				programCache.releaseParameters( reusableParameters );
 
 			}
-
-			const uniforms = materialProperties.uniforms;
-
-			if ( ( ! material.isShaderMaterial && ! material.isRawShaderMaterial ) || material.clipping === true ) {
-
-				uniforms.clippingPlanes = clipping.uniform;
-
-			}
-
-			updateCommonMaterialProperties( material, parameters );
-
-			// store the light setup it was created for
-
-			materialProperties.needsLights = materialNeedsLights( material );
-			materialProperties.lightsStateVersion = lightsStateVersion;
-
-			if ( materialProperties.needsLights ) {
-
-				// wire up the material to this renderer's lighting state
-
-				uniforms.ambientLightColor.value = lights.state.ambient;
-				uniforms.lightProbe.value = lights.state.probe;
-				uniforms.sunLights.value = lights.state.sun;
-				uniforms.sunLightShadows.value = lights.state.sunShadow;
-				uniforms.directionalLights.value = lights.state.directional;
-				uniforms.directionalLightShadows.value = lights.state.directionalShadow;
-				uniforms.spotLights.value = lights.state.spot;
-				uniforms.spotLightShadows.value = lights.state.spotShadow;
-				uniforms.rectAreaLights.value = lights.state.rectArea;
-				uniforms.ltc_1.value = lights.state.rectAreaLTC1;
-				uniforms.ltc_2.value = lights.state.rectAreaLTC2;
-				uniforms.pointLights.value = lights.state.point;
-				uniforms.pointLightShadows.value = lights.state.pointShadow;
-				uniforms.hemisphereLights.value = lights.state.hemi;
-
-				uniforms.sunShadowMatrix.value = lights.state.sunShadowMatrix;
-				uniforms.sunShadowCascade.value = lights.state.sunShadowCascade;
-				uniforms.directionalShadowMatrix.value = lights.state.directionalShadowMatrix;
-				uniforms.spotLightMatrix.value = lights.state.spotLightMatrix;
-				uniforms.spotLightMap.value = lights.state.spotLightMap;
-				uniforms.pointShadowMatrix.value = lights.state.pointShadowMatrix;
-				// TODO (abelnation): add area lights shadow info to uniforms
-
-			}
-
-			materialProperties.numLightProbeGrids = countLightProbeGrids( currentRenderState.state.lightProbeGridArray );
-
-			materialProperties.currentProgram = program;
-			materialProperties.uniformsList = null;
-
-			return program;
 
 		}
 

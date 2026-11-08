@@ -22,6 +22,8 @@ function WebGLPrograms( renderer, environments, extensions, capabilities, bindin
 	const programsMap = new Map();
 	const inactivePrograms = new Map();
 	const programShaderReferences = new Set();
+	const parameterPool = [];
+	const pooledParameters = new WeakSet();
 
 	const logarithmicDepthBuffer = capabilities.logarithmicDepthBuffer;
 
@@ -56,6 +58,55 @@ function WebGLPrograms( renderer, environments, extensions, capabilities, bindin
 	function getParameters( material, lights, shadows, scene, object, lightProbeGrids ) {
 
 		return new WebGLProgramParameters( material, lights, shadows, scene, object, lightProbeGrids );
+
+	}
+
+	function acquireParameters( material, lights, shadows, scene, object, lightProbeGrids ) {
+
+		const parameters = parameterPool.pop();
+
+		try {
+
+			if ( parameters !== undefined ) return WebGLProgramParameters.call( parameters, material, lights, shadows, scene, object, lightProbeGrids );
+
+			const created = getParameters( material, lights, shadows, scene, object, lightProbeGrids );
+			pooledParameters.add( created );
+			return created;
+
+		} catch ( error ) {
+
+			if ( parameters !== undefined ) releaseParameters( parameters );
+			_activeChannels.clear();
+			throw error;
+
+		}
+
+	}
+
+	function releaseParameters( parameters ) {
+
+		parameters.defines = undefined;
+		parameters.uniforms = undefined;
+		parameters.vertexShader = undefined;
+		parameters.fragmentShader = undefined;
+		parameters.customVertexShaderStage = undefined;
+		parameters.customFragmentShaderStage = undefined;
+		parameters.shaderName = undefined;
+		parameters.shaderType = undefined;
+		parameters.customProgramCacheKey = undefined;
+
+		if ( parameterPool.length < 4 ) parameterPool.push( parameters );
+
+	}
+
+	function copyParameters( parameters ) {
+
+		// Keep hook-visible records independent, with the same optional fields and order.
+		const { uniforms, customVertexShaderStage, customFragmentShaderStage, ...copy } = parameters;
+		if ( customVertexShaderStage !== undefined ) copy.customVertexShaderStage = customVertexShaderStage;
+		if ( customFragmentShaderStage !== undefined ) copy.customFragmentShaderStage = customFragmentShaderStage;
+		copy.uniforms = uniforms;
+		return copy;
 
 	}
 
@@ -619,7 +670,7 @@ function WebGLPrograms( renderer, environments, extensions, capabilities, bindin
 
 		} else {
 
-			program = new WebGLProgram( renderer, cacheKey, parameters, bindingStates );
+			program = new WebGLProgram( renderer, cacheKey, pooledParameters.has( parameters ) ? copyParameters( parameters ) : parameters, bindingStates );
 			programs.push( program );
 
 			programsMap.set( cacheKey, program );
@@ -698,11 +749,15 @@ function WebGLPrograms( renderer, environments, extensions, capabilities, bindin
 		}
 
 		_customShaders.dispose();
+		parameterPool.length = 0;
 
 	}
 
 	return {
 		getParameters: getParameters,
+		acquireParameters: acquireParameters,
+		releaseParameters: releaseParameters,
+		copyParameters: copyParameters,
 		getProgramCacheKey: getProgramCacheKey,
 		getUniforms: getUniforms,
 		acquireProgram: acquireProgram,

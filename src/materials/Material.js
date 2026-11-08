@@ -1251,4 +1251,6 @@ class Material extends EventDispatcher {
 
 }
 
-export { Material };
+const defaultMaterialOnBeforeCompile = Material.prototype.onBeforeCompile;
+
+export { Material, defaultMaterialOnBeforeCompile };
