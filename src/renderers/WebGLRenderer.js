@@ -1909,8 +1909,9 @@ class WebGLRenderer {
 				} else if ( object.isSprite ) {
 
 					const frustum = camera.isArrayCamera ? _frustumArray : _frustum;
+					const material = object.material;
 
-					if ( ! object.frustumCulled || object.intersectsFrustum( frustum ) ) {
+					if ( ( Array.isArray( material ) || material.visible ) && ( ! object.frustumCulled || object.intersectsFrustum( frustum ) ) ) {
 
 						if ( sortObjects ) {
 
@@ -1920,7 +1921,6 @@ class WebGLRenderer {
 						}
 
 						const geometry = objects.update( object );
-						const material = object.material;
 
 						if ( material.visible ) {
 
@@ -1933,11 +1933,11 @@ class WebGLRenderer {
 				} else if ( object.isMesh || object.isLine || object.isPoints ) {
 
 					const frustum = camera.isArrayCamera ? _frustumArray : _frustum;
+					const material = object.material;
 
-					if ( ! object.frustumCulled || object.intersectsFrustum( frustum ) ) {
+					if ( ( Array.isArray( material ) || material.visible ) && ( ! object.frustumCulled || object.intersectsFrustum( frustum ) ) ) {
 
 						const geometry = objects.update( object );
-						const material = object.material;
 
 						if ( sortObjects ) {
 
