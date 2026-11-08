@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "title": "Improve Three.js performance, validated against Janus Studio",
+  "created": "2026-11-07",
+  "status": "active",
+  "objective": "Deliver engine performance improvements in the separate Three.js fork with reproducible before/after Janus Studio measurements and unchanged rendering/interaction correctness.",
+  "engineRepository": "kevin-romer/three.js",
+  "audit": "audit/comprehensive-r187/README.md",
+  "baseline": {
+    "threeRelease": "r187",
+    "threeCommit": "7e89746a687bb88271253698fa108b1dd59825d0",
+    "auditCommit": "d6222f4863e9beb0ecfa927f41731deb3b2d3549",
+    "observedJanusInstalledThree": "0.183.2",
+    "comparisonRule": "Treat Janus current r183.2 compatibility, upstream r187 upgrade, and fork changes as three separate variants. Attribute fork gains only against source-equivalent upstream r187.",
+    "applicationSnapshot": "Record current application source/fixture hashes, including relevant dirty files; require identical hashes for both members of every paired run.",
+    "integration": "Use a local build/import alias and isolated cache/output directories. Keep one Three.js module identity across core, addons and any worker or dependent renderer imports. Preserve application source, package manifest and lockfile."
+  },
+  "milestones": [
+    {
+      "id": "baseline",
+      "state": "pending",
+      "deliverable": "Runnable engine and Janus Studio harness; representative scenes, backend identity, correctness controls and paired baseline evidence."
+    },
+    {
+      "id": "profile",
+      "state": "pending",
+      "deliverable": "Rank CPU, upload, allocation, startup and picking costs; choose audited engine changes actually exercised by Janus."
+    },
+    {
+      "id": "implement",
+      "state": "pending",
+      "deliverable": "Small independent fork commits with meaningful regression tests and equivalent output."
+    },
+    {
+      "id": "qualify",
+      "state": "pending",
+      "deliverable": "Repeated baseline/candidate engine and product runs, compatibility checks, regression budgets and retained-resource checks."
+    },
+    {
+      "id": "report",
+      "state": "pending",
+      "deliverable": "Published sanitized before/after report, commands, environment, source hashes, raw metrics, confidence intervals and remaining limits."
+    }
+  ],
+  "workloads": [
+    {
+      "id": "studio-entry",
+      "purpose": "Open an actual Studio workspace and reach a nonempty interactive map; record loading/first-use latency. Use existing controlled fixtures without weakening product authentication."
+    },
+    {
+      "id": "camera-motion",
+      "purpose": "Deterministic pan, zoom, orbit/tilt and settle sequence; retain expected visible detail and stable entity identities."
+    },
+    {
+      "id": "selection-edits",
+      "purpose": "Repeated picks and sparse selection/style/geometry edits with correct visible changes and interaction results."
+    },
+    {
+      "id": "scene-turnover",
+      "purpose": "Load/unload or replace scene resources, repeated mount/dispose, and retained building/context meshes."
+    },
+    {
+      "id": "comparison",
+      "purpose": "Exercise primary/comparison views with the same source snapshot and explicit cameras."
+    },
+    {
+      "id": "scaling",
+      "purpose": "Use deterministic synthetic scene sizes selected after profiling; report counts/visible counts and mark reduced renderer fixtures separately from full Studio runs."
+    }
+  ],
+  "measurementProtocol": {
+    "minimumPairedRounds": 5,
+    "order": "Alternate AB/BA or rotate baseline/candidate order; isolate CPU-heavy builds from timing runs.",
+    "warmupFramesAtLeast": 120,
+    "measuredFramesPerMotionRoundAtLeast": 300,
+    "inputControl": "Same browser/version, actual backend/device, viewport, DPR, app hash, scene/seed, camera script and cache policy within each pair; publish warm/cold results separately.",
+    "backendControl": "Qualify the WebGL2 path used by Janus first. Record actual backend and GPU identity; report fallback/software separately. Do not label a fallback as native WebGPU.",
+    "platforms": [
+      "Desktop Chrome with real GPU",
+      "Mobile viewport and CPU-throttled Chrome as emulation, explicitly not physical mobile qualification",
+      "Firefox/WebKit compatibility where the application supports the tested path"
+    ],
+    "metrics": [
+      "main-thread render/prepare CPU p50/p95/p99",
+      "frame-interval p50/p95/p99, separately from CPU render time",
+      "long-task count/max/total",
+      "geometry/texture/uniform upload bytes and calls",
+      "draw calls, visible geometry and program/pipeline counts",
+      "allocation/copy volume and retained resource counts/bytes where measurable",
+      "first-use/loading latency",
+      "pick/edit latency",
+      "GPU completion time only when measured with a supported reliable method"
+    ],
+    "statistics": "Report per-round and paired distributions; bootstrap a 95% confidence interval of paired ratios. Do not treat every frame as an independent run.",
+    "instrumentation": "Separate detailed tracing/counting from minimally instrumented timing; apply identical instrumentation to both variants. Unsupported measurements remain null with a reason."
+  },
+  "acceptance": {
+    "primaryTarget": {
+      "metric": "p95 main-thread render/prepare CPU in at least one representative, profile-verified Janus Studio workload",
+      "improvementPercentAtLeast": 15,
+      "confidence": "Paired improvement interval excludes zero; retain raw per-round results. This is a target, not an achieved result."
+    },
+    "secondaryTargets": [
+      "Reduce the profiled dominant upload/call/allocation cost by at least 50% when that is the selected optimization.",
+      "Reduce startup/picking latency by at least 10% if those paths are optimized."
+    ],
+    "regressionBudget": {
+      "percent": 5,
+      "absoluteCpuNoiseAllowanceMs": 0.3,
+      "rule": "No reproducible regression beyond the larger of 5% or 0.3ms in other timed render workloads. Report uncertain/noisy outcomes as unqualified; do not infer success from one run."
+    },
+    "correctness": [
+      "Existing Studio and retained-building browser assertions pass for the supported candidate path.",
+      "Nonempty visible geometry, stable entities, picks, selections, edit results and comparison views match the control.",
+      "Identical framebuffer hashes for deterministic unchanged-rendering engine cases; any necessary tolerance is defined and justified before the candidate run.",
+      "No new JavaScript, GL, validation or context-loss errors. No missing detail or skipped useful work counted as a speedup."
+    ],
+    "lifetime": "No monotonic growth of live renderer resources/listeners after repeated teardown; investigate heap/GPU-byte changes independently from object counts.",
+    "engineChecks": [
+      "Focused regressions for every changed code path.",
+      "Core/addon unit suites and relevant lint/build gates.",
+      "Document pre-existing failures separately; do not remove numerical assertions or silently skip unsupported backends."
+    ],
+    "completion": "At least one useful engine change meets the primary target and correctness/regression gates against Janus Studio, with reproducible results and tested fork commits. Microbenchmark-only gains cannot complete the goal."
+  },
+  "boundaries": [
+    "Engine changes belong in this fork. Do not redesign or optimize the map adapter to claim a Three.js gain.",
+    "Profile before selecting candidates; park audit items unused by Janus instead of claiming application benefit.",
+    "Keep unrelated Atlas work intact. Do not alter backend admission, source selection, tenant/authentication or deployment state.",
+    "Use synthetic or explicitly authorized local benchmark data. Keep private application source, credentials and customer data out of the public fork. Publish sanitized metrics only.",
+    "No deployment, upstream PR, or dependency rollout is implied by local benchmark qualification."
+  ],
+  "currentProgress": {
+    "goalCreated": true,
+    "forkCleanAtStart": true,
+    "existingStudioAndRetainedBuildingFixturesLocated": true,
+    "engineImplementationStarted": false,
+    "baselineMeasured": false
+  }
+}
