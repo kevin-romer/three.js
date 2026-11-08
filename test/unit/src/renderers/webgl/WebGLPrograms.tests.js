@@ -87,6 +87,43 @@ export default QUnit.module( 'Renderers', () => {
 		const canRestoreContext = Boolean( context?.getExtension( 'WEBGL_lose_context' ) );
 		context?.getExtension( 'WEBGL_lose_context' )?.loseContext();
 
+		gpuTest( 'shader parameters remain independent plain records for custom hooks', assert => {
+
+			const f = fixture( 2 );
+			const records = [];
+			const material = shaderMaterial( 0xff0000 );
+			material.onBeforeCompile = parameters => {
+
+				assert.strictEqual( Object.getPrototypeOf( parameters ), Object.prototype );
+				assert.strictEqual( parameters.constructor, Object );
+				assert.true( Object.prototype.hasOwnProperty.call( parameters, 'mapUv' ) );
+				assert.true( Object.prototype.hasOwnProperty.call( parameters, 'customProgramCacheKey' ) );
+				assert.strictEqual( Object.getOwnPropertyDescriptor( parameters, 'vertexShader' ).enumerable, true );
+				records.push( parameters );
+				parameters.fragmentShader = parameters.fragmentShader.replace( 'vec4( uColor, 1.0 )', 'vec4( 0.0, 1.0, 0.0, 1.0 )' );
+
+			};
+
+			try {
+
+				assert.deepEqual( f.render( material ).pixel, [ 0, 255, 0, 255 ], 'custom shader edits still compile' );
+				const initialShader = records[ 0 ].fragmentShader;
+				material.defines.MODE = 1;
+				material.needsUpdate = true;
+				assert.deepEqual( f.render( material ).pixel, [ 0, 255, 0, 255 ] );
+				assert.strictEqual( records.length, 2 );
+				assert.notStrictEqual( records[ 0 ], records[ 1 ], 'each preparation owns its record' );
+				assert.strictEqual( records[ 0 ].fragmentShader, initialShader, 'later preparation preserves retained records' );
+				assert.strictEqual( f.renderer.getContext().getError(), 0 );
+
+			} finally {
+
+				f.dispose();
+
+			}
+
+		} );
+
 		gpuTest( 'zero budget preserves immediate release', assert => {
 
 			const f = fixture( 0 );
