@@ -1,0 +1,14 @@
+{
+  "sourceCommit": "469f1adb8daf6f298cb5e66bc2078233a596878b",
+  "benchmarkCommit": "361232f66a0f961461eab188636f7ed1de41f09d",
+  "sourceTree": "a4e9e045d43209b69957cc416038518fe86d2194",
+  "version": "0.187.0",
+  "files": {
+    "three.core.js": "5242a88222a0f44eb77be1ecf900ef2f548c7d39335961c9a8285f65da7528b2",
+    "three.module.js": "076cf4f7e367c0a3e8846132b1ab2efa771382ef98f0b76bbdb6854773f3b6e3",
+    "three.webgpu.js": "eafead3154ec06093f3108bddceab360f048a6fcebd7c085d5aae0ab5404bd25",
+    "three.webgpu.nodes.js": "ec7ebc386f04be2ed99728d38cf4510bf9234579f2393b97dd8afc2070ad191c",
+    "three.tsl.js": "d8f3cdb8b85b799a5631bd9a8d77e185d88ce1eb1bb051f48b332728a5423e3f",
+    "three.cjs": "b326d5a8b9639e18e3d8debae1c331eaaf426ec703bf218c5ab72b9d6bfa1e94"
+  }
+}
