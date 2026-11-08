@@ -1175,6 +1175,9 @@ class WebGLRenderer {
 
 			releaseMaterialProgramReferences( material );
 
+			// Reusing a disposed material can also reuse its retained program in this render.
+			if ( _currentMaterialId === material.id ) _currentMaterialId = - 1;
+
 			properties.remove( material );
 
 		}

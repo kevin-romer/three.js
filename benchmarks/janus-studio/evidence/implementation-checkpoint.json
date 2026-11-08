@@ -3,25 +3,25 @@
   "status": "partial qualification; full goal remains active",
   "feature": "Opt-in maxInactivePrograms LRU cache; default zero",
   "sources": {
-    "src/renderers/WebGLRenderer.js": "0456672242a10d88e03e882465468392b407533cc545afc4c703e51eb4146c3f",
+    "src/renderers/WebGLRenderer.js": "5625fe3315ff4bdc7a26ae6a2eda31db0be3eeae71bc89eeb469705888b97474",
     "src/renderers/webgl/WebGLPrograms.js": "e7c73a7896f9565dcffecc6ba6d7285acdb3b5dd51be595c06605bb96e28d5c5",
     "test/unit/three.source.unit.js": "7ff27a69c66da6c5c2b65263aece2971b2d012d39fdd7cd9daeb87503556a070",
-    "test/unit/src/renderers/webgl/WebGLPrograms.tests.js": "ae164461b981c61ca0cd28f23ce61e8b2516911744c0af1c80ce04f7e5b86237"
+    "test/unit/src/renderers/webgl/WebGLPrograms.tests.js": "303e797dc2608d9151cf7ff35e595527e4aed89cfb2438745bb245e5511e57a0"
   },
   "core": {
-    "passed": 1991,
+    "passed": 1992,
     "failed": 0,
     "skipped": 0,
     "todo": 1,
-    "total": 1992
+    "total": 1993
   },
   "cacheTests": [
     {
-      "name": "Renderers > WebGLPrograms > failed links still report errors and are not retained",
+      "name": "Renderers > WebGLPrograms > disposing and reusing a material within a render refreshes uniforms",
       "status": "passed"
     },
     {
-      "name": "Renderers > WebGLPrograms > renderer disposal deletes active and inactive programs once",
+      "name": "Renderers > WebGLPrograms > restored contexts start with a fresh bounded program cache",
       "status": "passed"
     },
     {
@@ -33,7 +33,11 @@
       "status": "passed"
     },
     {
-      "name": "Renderers > WebGLPrograms > restored contexts start with a fresh bounded program cache",
+      "name": "Renderers > WebGLPrograms > failed links still report errors and are not retained",
+      "status": "passed"
+    },
+    {
+      "name": "Renderers > WebGLPrograms > renderer disposal deletes active and inactive programs once",
       "status": "passed"
     },
     {
@@ -75,7 +79,12 @@
     "forkGlError": 0,
     "forkPageErrors": [],
     "device": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
-    "timingQualified": false
+    "timingQualified": false,
+    "engineSourcesSha256": {
+      "src/renderers/WebGLRenderer.js": "0456672242a10d88e03e882465468392b407533cc545afc4c703e51eb4146c3f",
+      "src/renderers/webgl/WebGLPrograms.js": "e7c73a7896f9565dcffecc6ba6d7285acdb3b5dd51be595c06605bb96e28d5c5"
+    },
+    "codeNote": "Smoke predates the same-render material-disposal correction; current code is covered by the complete core/addon suites and fresh build. Repeat smoke in final paired campaign."
   },
   "pending": [
     "Full Studio before/after paired benchmark",
@@ -84,5 +93,24 @@
     "Selection/edit/comparison and lifetime qualification",
     "Fresh release build/bundle checks and final report"
   ],
-  "baselineSetup": "Existing Studio token needed its configured organization claim in the temporary controlled fixture; product authentication checks stay enabled."
+  "baselineSetup": "Temporary controlled token now satisfies organization checks; spatial fixture year and protected-response headers aligned. Full Studio data readiness still under diagnosis on unchanged upstream r187.",
+  "sameRenderRegression": {
+    "before": {
+      "passed": 9,
+      "failed": 1
+    },
+    "after": {
+      "passed": 10,
+      "failed": 0
+    },
+    "behavior": "A reused cached program must refresh uniforms after the same material is disposed and reused within one render."
+  },
+  "releaseBuild": {
+    "files": 5,
+    "warnings": 0,
+    "changedOutputs": [
+      "three.module.js"
+    ],
+    "artifact": "build-results.json"
+  }
 }

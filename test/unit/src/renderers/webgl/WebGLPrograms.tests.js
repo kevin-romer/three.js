@@ -35,7 +35,7 @@ function fixture( maxInactivePrograms ) {
 	scene.add( mesh );
 
 	return {
-		renderer, counts, mesh,
+		renderer, counts, mesh, scene,
 		render( material ) {
 
 			mesh.material = material;
@@ -211,6 +211,31 @@ export default QUnit.module( 'Renderers', () => {
 				const second = shaderMaterial( 0x00ff00 ); second.onBeforeCompile = customize;
 				assert.strictEqual( f.render( second ).program, initial.program );
 				assert.strictEqual( f.counts.created, 1 );
+
+			} finally {
+
+				f.dispose();
+
+			}
+
+		} );
+
+		gpuTest( 'disposing and reusing a material within a render refreshes uniforms', assert => {
+
+			const f = fixture( 1 );
+			try {
+
+				const material = shaderMaterial( 0xff0000 );
+				f.mesh.position.x = - 0.5;
+				f.mesh.scale.x = 0.5;
+				f.mesh.onAfterRender = () => material.dispose();
+				const next = new Mesh( f.mesh.geometry, material );
+				next.position.x = 0.5;
+				next.scale.x = 0.5;
+				next.onBeforeRender = () => material.uniforms.uColor.value.setHex( 0x00ff00 );
+				f.scene.add( next );
+				assert.deepEqual( f.render( material ).pixel, [ 0, 255, 0, 255 ], 'Reused material uniforms belong to the new draw' );
+				assert.strictEqual( f.counts.created, 1, 'The same compiled program is reused' );
 
 			} finally {
 

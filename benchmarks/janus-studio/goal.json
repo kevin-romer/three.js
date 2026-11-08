@@ -140,15 +140,16 @@
     "fullStudioBaselineQualified": false,
     "candidateFeature": "Opt-in bounded inactive WebGL program cache, maxInactivePrograms; default zero.",
     "engineQualification": {
-      "chromiumCorePassed": 1991,
+      "chromiumCorePassed": 1992,
       "chromiumCoreFailed": 0,
       "chromiumCoreTodo": 1,
       "chromiumAddonPassed": 145,
-      "newCacheRegressionTests": 9,
+      "newCacheRegressionTests": 10,
       "lintCore": "passed",
-      "lintTest": "passed"
+      "lintTest": "passed",
+      "releaseBuild": "5 outputs compile without warnings; checked-in builds unchanged"
     },
-    "baselineSetupIssue": "Organization-bound fixture token configured; actual product map observer corrected. Full Studio smoke and formal paired benchmark remain pending.",
+    "baselineSetupIssue": "Controlled token, time-slice and response policy updated; full Studio nonempty data readiness still being diagnosed on unchanged upstream r187.",
     "formalPairedBenchmarkComplete": false
   }
 }
