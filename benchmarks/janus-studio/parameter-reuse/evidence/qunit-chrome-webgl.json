@@ -1,0 +1,1561 @@
+{
+  "engine": "chrome",
+  "version": "parameter",
+  "suite": "core",
+  "browser": "156.0.8078.80",
+  "started": "2026-11-08T16:48:52.535Z",
+  "completed": "2026-11-08T16:49:05.442Z",
+  "result": {
+    "counts": {
+      "passed": 217,
+      "failed": 0,
+      "skipped": 0,
+      "todo": 0,
+      "total": 217
+    },
+    "runtimeMs": 11789
+  },
+  "tests": [
+    {
+      "name": "Nodes > TSL > LTC area-light math > LTC_Evaluate() and LTC_Evaluate_Volume() both produce correct, independent results when called in the SAME shader [webgl]",
+      "status": "passed",
+      "runtimeMs": 620,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > Conditional (select) > per-component select() works for boolean vector types (bvec2-4) [webgl]",
+      "status": "passed",
+      "runtimeMs": 73,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > determinant() > determinant() of identity matrices is 1 [webgl]",
+      "status": "passed",
+      "runtimeMs": 37,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color space conversion > colorSpaceToWorking(sRGB) applies the sRGB EOTF (sRGB -> linear-sRGB working space) [webgl]",
+      "status": "passed",
+      "runtimeMs": 36,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > math library > inverse trigonometric functions at domain boundaries [webgl]",
+      "status": "passed",
+      "runtimeMs": 44,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > Conditional (select) > per-component select() works for integer/unsigned vector types (ivec2-4, uvec2-4) [webgl]",
+      "status": "passed",
+      "runtimeMs": 54,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > math library (extra) > all()/any() vector-to-scalar boolean reductions [webgl]",
+      "status": "passed",
+      "runtimeMs": 45,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > BSDF building blocks > F_Schlick() reduces to f0 at normal incidence and to f90 at grazing incidence [webgl]",
+      "status": "passed",
+      "runtimeMs": 39,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > shader parameters remain independent plain records for custom hooks",
+      "status": "passed",
+      "runtimeMs": 24,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > packed 4x8 integer operations > pack4xU8Clamp and pack4xI8Clamp ranges [webgl]",
+      "status": "passed",
+      "runtimeMs": 63,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > Conditional (select) > select() with a vector condition does not require an explicit \"else\" value [webgl]",
+      "status": "passed",
+      "runtimeMs": 40,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > math library > sign and abs at zero and negative values [webgl]",
+      "status": "passed",
+      "runtimeMs": 45,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > Conditional (select) > the chained .select() method form also selects per-component for a vector condition [webgl]",
+      "status": "passed",
+      "runtimeMs": 45,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > math library > exponential and logarithmic functions [webgl]",
+      "status": "passed",
+      "runtimeMs": 64,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > LTC area-light math > LTC_Uv() matches the roughness/dotNV texture parameterization formula [webgl]",
+      "status": "passed",
+      "runtimeMs": 46,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > LTC area-light math > LTC_Evaluate_Volume() matches the hand-computed horizon-clipped form factor (no basis transform) [webgl]",
+      "status": "passed",
+      "runtimeMs": 55,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > matrix functions (mat3/mat4) > mul(mat3, vec3) is a standard M*v product (v as a column vector) against the mat3(vec3,vec3,vec3) column-major layout above [webgl]",
+      "status": "passed",
+      "runtimeMs": 34,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > logic and comparison operators > mixed-type equality is independent of operand order [webgl]",
+      "status": "passed",
+      "runtimeMs": 54,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > alpha premultiplication > premultiplyAlpha() scales RGB by alpha, leaves alpha unchanged [webgl]",
+      "status": "passed",
+      "runtimeMs": 37,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > disposing and reusing a material within a render refreshes uniforms",
+      "status": "passed",
+      "runtimeMs": 11,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > tone mapping functions > agxToneMapping() matches an independent JS port of the AgX algorithm [webgl]",
+      "status": "passed",
+      "runtimeMs": 110,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > packing > packNormalToRGB <-> unpackRGBToNormal round trip and known values [webgl]",
+      "status": "passed",
+      "runtimeMs": 42,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > BSDF building blocks > BRDF_EON() matches the energy-preserving rough diffuse model [webgl]",
+      "status": "passed",
+      "runtimeMs": 51,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > bitwise operators > shiftLeft/shiftRight match multiplying/dividing by a power of two [webgl]",
+      "status": "passed",
+      "runtimeMs": 46,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLVisibility > shared geometry still uploads for a visible child and render target",
+      "status": "passed",
+      "runtimeMs": 24,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > vector functions > dot/cross/length/distance with hand-computed values [webgl]",
+      "status": "passed",
+      "runtimeMs": 49,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGL3DRenderTarget > Extending",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > packed 4x8 integer operations > pack4xU8 and pack4xI8 bit layout [webgl]",
+      "status": "passed",
+      "runtimeMs": 61,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > math library (extra) > power/root helpers and vector-reduction shorthands [webgl]",
+      "status": "passed",
+      "runtimeMs": 51,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color conversion > posterize() known step counts [webgl]",
+      "status": "passed",
+      "runtimeMs": 42,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > bitcast() > bitcast() reinterprets bits between int and uint [webgl]",
+      "status": "passed",
+      "runtimeMs": 43,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > math library > mod(): integer truncated vs. float floored semantics diverge on negative operands [webgl]",
+      "status": "passed",
+      "runtimeMs": 63,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > vogelDiskSample() > vogelDiskSample() matches the golden-angle disk-sampling formula [webgl]",
+      "status": "passed",
+      "runtimeMs": 57,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > math library > mix/step/smoothstep [webgl]",
+      "status": "passed",
+      "runtimeMs": 54,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > alpha premultiplication > unpremultiplyAlpha() divides RGB by alpha, and special-cases a=0 to avoid a NaN from 0/0 [webgl]",
+      "status": "passed",
+      "runtimeMs": 44,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > retained custom shaders keep cache identity and refresh uniforms",
+      "status": "passed",
+      "runtimeMs": 14,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > tone mapping functions > cineonToneMapping() -- Hejl/Burgess-Dawson filmic curve [webgl]",
+      "status": "passed",
+      "runtimeMs": 54,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > vector functions > normalize() produces a unit vector pointing the same direction [webgl]",
+      "status": "passed",
+      "runtimeMs": 47,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > getDistanceAttenuation() > getDistanceAttenuation() with a cutoff applies the smooth windowing term [webgl]",
+      "status": "passed",
+      "runtimeMs": 46,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > getShIrradianceAt() > getShIrradianceAt() is exactly zero for all-zero SH coefficients, regardless of normal [webgl]",
+      "status": "passed",
+      "runtimeMs": 49,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > blend mode functions > blendScreen() -- 1 - (1-base)*(1-blend) [webgl]",
+      "status": "passed",
+      "runtimeMs": 45,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > LTC area-light math > LTC_Evaluate_Volume() is exactly zero when P is behind the light plane [webgl]",
+      "status": "passed",
+      "runtimeMs": 54,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLParameterPool > custom hooks may retain and freeze independent records",
+      "status": "passed",
+      "runtimeMs": 42,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > equirectUV() / equirectDirection() > equirectUV() and equirectDirection() round-trip each other [webgl]",
+      "status": "passed",
+      "runtimeMs": 49,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > bit counting > countTrailingZeros() matches a hand-computed trailing-zero count [webgl]",
+      "status": "passed",
+      "runtimeMs": 55,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > zero budget preserves immediate release",
+      "status": "passed",
+      "runtimeMs": 15,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > directPointLight() > directPointLight() cross-check: getDistanceAttenuation() called directly matches the attenuation folded into lightColor [webgl]",
+      "status": "passed",
+      "runtimeMs": 40,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > rotate() > rotate() zero rotation is identity for non-default orders [webgl]",
+      "status": "passed",
+      "runtimeMs": 41,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > Conditional (select) > a reused vector select is formatted for each requested output type [webgl]",
+      "status": "passed",
+      "runtimeMs": 40,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > math library > atan2-style quadrant handling (2-arg atan) [webgl]",
+      "status": "passed",
+      "runtimeMs": 51,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > vector functions > reflect() off an axis-aligned plane [webgl]",
+      "status": "passed",
+      "runtimeMs": 38,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color conversion > hue() rotation identities [webgl]",
+      "status": "passed",
+      "runtimeMs": 57,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color conversion > remap() and remapClamp() [webgl]",
+      "status": "passed",
+      "runtimeMs": 46,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > depth conversions > orthographic viewZ<->depth conversion matches its documented formula and round-trips [webgl]",
+      "status": "passed",
+      "runtimeMs": 42,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color space conversion > workingToColorSpace(sRGB) applies the sRGB OETF (linear-sRGB working space -> sRGB) [webgl]",
+      "status": "passed",
+      "runtimeMs": 41,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLVisibility > hidden materials defer geometry and instance uploads but preserve visible children",
+      "status": "passed",
+      "runtimeMs": 35,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > tone mapping functions > neutralToneMapping() compresses highlights above the desaturation offset [webgl]",
+      "status": "passed",
+      "runtimeMs": 46,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > spritesheetUV() > spritesheetUV() maps a frame index to its sub-rectangle, with explicit inputs [webgl]",
+      "status": "passed",
+      "runtimeMs": 57,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > Lighting > EnvironmentNode > MeshPhysicalMaterial follows each material's envMap (webgl)",
+      "status": "passed",
+      "runtimeMs": 217,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > depth conversions > reversed-orthographic viewZ->depth matches its documented formula [webgl]",
+      "status": "passed",
+      "runtimeMs": 35,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGL > WebGLRenderList > sort",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > bit counting > countLeadingZeros() matches Math.clz32() for known bit patterns [webgl]",
+      "status": "passed",
+      "runtimeMs": 58,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > directPointLight() > directPointLight() with no cutoff falls back to the plain inverse-power falloff [webgl]",
+      "status": "passed",
+      "runtimeMs": 38,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > blend mode functions > blendOverlay() -- multiply below 0.5, screen above [webgl]",
+      "status": "passed",
+      "runtimeMs": 42,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGL > WebGLExtensions > get",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > packing > packSnorm4x8 <-> unpackSnorm4x8 round trip [webgl]",
+      "status": "passed",
+      "runtimeMs": 42,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > depth conversions > perspective viewZ<->depth conversion matches its documented formula and round-trips [webgl]",
+      "status": "passed",
+      "runtimeMs": 40,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > blend mode functions > blendBurn() darkens base using blend -- min(1, (1-base)/blend), inverted [webgl]",
+      "status": "passed",
+      "runtimeMs": 43,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > type constructors > color(r,g,b) behaves as a plain 3-component RGB node [webgl]",
+      "status": "passed",
+      "runtimeMs": 50,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color adjustment (extra) > vibrance() pushes less-saturated channels toward the max channel [webgl]",
+      "status": "passed",
+      "runtimeMs": 46,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > blend mode functions > blendDodge() lightens base using blend -- min(base/(1-blend), 1) [webgl]",
+      "status": "passed",
+      "runtimeMs": 41,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > blend mode functions > blendColor() -- standard \"over\" alpha compositing, non-premultiplied inputs [webgl]",
+      "status": "passed",
+      "runtimeMs": 43,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > curve/remap-shape helpers > parabola() maps [0,1] corners to 0 and the center to 1 [webgl]",
+      "status": "passed",
+      "runtimeMs": 42,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > directPointLight() > directPointLight() beyond the cutoff distance zeroes lightColor but still normalizes lightDirection [webgl]",
+      "status": "passed",
+      "runtimeMs": 41,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLMaterialLifetime > retained assets do not accumulate renderer subscriptions",
+      "status": "passed",
+      "runtimeMs": 33,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > Conditional (select) > a scalar condition still selects a vector value wholesale (unaffected by the vector-condition fix) [webgl]",
+      "status": "passed",
+      "runtimeMs": 38,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > onBeforeCompile retains the original cache-key stages",
+      "status": "passed",
+      "runtimeMs": 11,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > getScreenPosition() / getScreenPositionFromClip() > getScreenPositionFromClip() matches the clip-space-projection formula [webgl]",
+      "status": "passed",
+      "runtimeMs": 42,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > math library > min/max/clamp/saturate [webgl]",
+      "status": "passed",
+      "runtimeMs": 49,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGL > WebGLRenderList > push",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGL > WebGLRenderLists > get",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLBindingStates > program release preserves unrelated geometry and wireframe bindings",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > Lighting > EnvironmentNode > Follows changes of an environment texture node (webgl)",
+      "status": "passed",
+      "runtimeMs": 60,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLParameterPool > failed parameter preparation returns borrowed storage safely",
+      "status": "passed",
+      "runtimeMs": 2,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > packing > packSnorm2x16 <-> unpackSnorm2x16 round trip [webgl]",
+      "status": "passed",
+      "runtimeMs": 37,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > tone mapping functions > linearToneMapping() -- color * exposure, clamped to [0,1] [webgl]",
+      "status": "passed",
+      "runtimeMs": 36,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLVisibility > material arrays keep group visibility and upload semantics",
+      "status": "passed",
+      "runtimeMs": 10,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > tone mapping functions > neutralToneMapping() leaves low-intensity colors past the desaturation offset unchanged (quadratic offset branch) [webgl]",
+      "status": "passed",
+      "runtimeMs": 43,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > bitwise operators > bitAnd/bitOr/bitXor/bitNot on known bit patterns [webgl]",
+      "status": "passed",
+      "runtimeMs": 45,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > BSDF building blocks > V_GGX_SmithCorrelated_Anisotropic() matches its own documented formula [webgl]",
+      "status": "passed",
+      "runtimeMs": 39,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > type constructors > bool() converts a truthy/falsy numeric node to a boolean [webgl]",
+      "status": "passed",
+      "runtimeMs": 38,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > packing > hash() output stays in [0, 1) [webgl]",
+      "status": "passed",
+      "runtimeMs": 59,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > rotate() > rotate() on a 3D position about the X axis only matches the 2D case [webgl]",
+      "status": "passed",
+      "runtimeMs": 37,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > packing > unpackNormal reconstructs Z on the unit hemisphere [webgl]",
+      "status": "passed",
+      "runtimeMs": 44,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > math library > reciprocal and degrees/radians conversions [webgl]",
+      "status": "passed",
+      "runtimeMs": 46,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color space conversion > convertColorSpace(sRGB, linear-sRGB) matches colorSpaceToWorking(sRGB) [webgl]",
+      "status": "passed",
+      "runtimeMs": 39,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color space functions > sRGBTransferEOTF() and sRGBTransferOETF() are inverses of each other [webgl]",
+      "status": "passed",
+      "runtimeMs": 39,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > logic and comparison operators > relational operators at and around the boundary [webgl]",
+      "status": "passed",
+      "runtimeMs": 57,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > math library > uint/int/float type-cast round trips [webgl]",
+      "status": "passed",
+      "runtimeMs": 49,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > type constructors > ivec3(a,b,c) constructs component-wise from three explicit scalars [webgl]",
+      "status": "passed",
+      "runtimeMs": 41,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > LTC area-light math > LTC_Evaluate() is exactly zero when P is behind the light plane [webgl]",
+      "status": "passed",
+      "runtimeMs": 121,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > BSDF building blocks > EON_DirectionalAlbedo() preserves energy in a white furnace [webgl]",
+      "status": "passed",
+      "runtimeMs": 51,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > packing > packUnorm2x16 <-> unpackUnorm2x16 round trip [webgl]",
+      "status": "passed",
+      "runtimeMs": 43,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > GPU-native unit tests (prototype) > basic scalar and vector sanity checks [webgl]",
+      "status": "passed",
+      "runtimeMs": 42,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > rotate() > rotate() on a 3D position about a single axis matches the 2D case [webgl]",
+      "status": "passed",
+      "runtimeMs": 38,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > UV transforms > spherizeUV() warps uv by an amount that grows with distance^4 from the center [webgl]",
+      "status": "passed",
+      "runtimeMs": 46,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLCubeRenderTarget > Instancing",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color space functions > sRGBTransferEOTF() decodes sRGB to linear [webgl]",
+      "status": "passed",
+      "runtimeMs": 52,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > math library > trigonometric functions at known angles [webgl]",
+      "status": "passed",
+      "runtimeMs": 50,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > packed 4x8 integer operations > unpack4xU8 and unpack4xI8 extension [webgl]",
+      "status": "passed",
+      "runtimeMs": 40,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > procedural functions > checker() produces a 2x2-per-unit checkerboard, GLSL-style mod() for negative coordinates included [webgl]",
+      "status": "passed",
+      "runtimeMs": 56,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > packing > hash() is a pure function of its seed [webgl]",
+      "status": "passed",
+      "runtimeMs": 48,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > matrix functions (mat3/mat4) > mat3(a,b,c,...) 9-scalar constructor takes ROW-major arguments (like Matrix3.set(), NOT GLSL's own column-major literal convention) [webgl]",
+      "status": "passed",
+      "runtimeMs": 41,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > timer-driven oscillators > oscSine/oscSquare/oscTriangle/oscSawtooth at known phases [webgl]",
+      "status": "passed",
+      "runtimeMs": 55,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color space conversion > converting between the same color space is the identity [webgl]",
+      "status": "passed",
+      "runtimeMs": 40,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > depth conversions > reversed-perspective viewZ->depth matches its documented formula [webgl]",
+      "status": "passed",
+      "runtimeMs": 43,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > depth conversions > logarithmic viewZ<->depth conversion matches its documented formula and round-trips [webgl]",
+      "status": "passed",
+      "runtimeMs": 52,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > tone mapping functions > neutralToneMapping() leaves low-intensity colors past the desaturation offset unchanged (flat offset branch) [webgl]",
+      "status": "passed",
+      "runtimeMs": 47,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color conversion > viewZ <-> orthographic depth round trip [webgl]",
+      "status": "passed",
+      "runtimeMs": 49,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > tone mapping functions > acesFilmicToneMapping() matches an independent JS port of the ACES RRT+ODT fit [webgl]",
+      "status": "passed",
+      "runtimeMs": 94,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > equirectUV() / equirectDirection() > equirectDirection() matches its own documented spherical-coordinate formula [webgl]",
+      "status": "passed",
+      "runtimeMs": 42,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > reactivation refreshes LRU order without limiting active programs",
+      "status": "passed",
+      "runtimeMs": 30,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > rotate() > rotate() default order is XYZ [webgl]",
+      "status": "passed",
+      "runtimeMs": 41,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > packing > packHalf2x16 <-> unpackHalf2x16 round trip [webgl]",
+      "status": "passed",
+      "runtimeMs": 42,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > renderer disposal deletes active and inactive programs once",
+      "status": "passed",
+      "runtimeMs": 16,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > type constructors > transpose(mat2(a,b,c,d)) confirms the row-major reading of the 4-scalar constructor [webgl]",
+      "status": "passed",
+      "runtimeMs": 38,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > failed links still report errors and are not retained",
+      "status": "passed",
+      "runtimeMs": 12,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > matrix functions (mat3/mat4) > mat3(vec3, vec3, vec3) is COLUMN-major (GLSL-native), the OPPOSITE convention from mat3(9 scalars) (row-major, see above) [webgl]",
+      "status": "passed",
+      "runtimeMs": 103,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLArrayRenderTarget > Extending",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > getDistanceAttenuation() > getDistanceAttenuation() without a cutoff is the inverse-power falloff [webgl]",
+      "status": "passed",
+      "runtimeMs": 39,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color conversion > viewZ <-> perspective depth round trip [webgl]",
+      "status": "passed",
+      "runtimeMs": 47,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > alpha premultiplication > premultiplyAlpha()/unpremultiplyAlpha() round-trip for non-zero alpha [webgl]",
+      "status": "passed",
+      "runtimeMs": 41,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > determinant() > mat3 determinant of a diagonal scale matrix [webgl]",
+      "status": "passed",
+      "runtimeMs": 37,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > type constructors > ivec2/ivec3/ivec4 broadcast a single scalar to every component [webgl]",
+      "status": "passed",
+      "runtimeMs": 41,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLParameterPool > prototype hooks retain ownership and throwing hooks release scratch records",
+      "status": "passed",
+      "runtimeMs": 15,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > BSDF building blocks > BRDF_Lambert() is diffuseColor / PI [webgl]",
+      "status": "passed",
+      "runtimeMs": 42,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > type constructors > uvec2/uvec3/uvec4 broadcast a single scalar to every component [webgl]",
+      "status": "passed",
+      "runtimeMs": 40,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > vector functions > refract() Snell's law, including total internal reflection [webgl]",
+      "status": "passed",
+      "runtimeMs": 38,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGL > WebGLRenderList > init",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLMaterialLifetime > context restoration unregisters the previous material lifetime",
+      "status": "passed",
+      "runtimeMs": 1026,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > tone mapping functions > reinhardToneMapping() -- color / (color + 1) [webgl]",
+      "status": "passed",
+      "runtimeMs": 41,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > bitcast() > bitcast() reinterprets bits between int and float per known IEEE-754 patterns [webgl]",
+      "status": "passed",
+      "runtimeMs": 37,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > BRDF_GGX() > BRDF_GGX() (no iridescence/anisotropy) is F * V * D from its own standalone building blocks [webgl]",
+      "status": "passed",
+      "runtimeMs": 42,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > logic and comparison operators > select() picks its if/else branch by condition, independent of the branch values [webgl]",
+      "status": "passed",
+      "runtimeMs": 39,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > matrix functions (mat3/mat4) > mat3 * vec3 transforms a vector using known column data [webgl]",
+      "status": "passed",
+      "runtimeMs": 35,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > getScreenPosition() / getScreenPositionFromClip() > getScreenPosition() matches the clip-space-projection formula, with an explicit identity projection matrix [webgl]",
+      "status": "passed",
+      "runtimeMs": 89,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > packing > packUnorm4x8 <-> unpackUnorm4x8 round trip [webgl]",
+      "status": "passed",
+      "runtimeMs": 44,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > math library (extra) > hyperbolic and inverse hyperbolic functions [webgl]",
+      "status": "passed",
+      "runtimeMs": 57,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > UV transforms > rotateUV() rotates counter-clockwise about a center point, matching rotate()'s own documented convention [webgl]",
+      "status": "passed",
+      "runtimeMs": 82,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > bit counting > countOneBits() matches a hand-computed popcount [webgl]",
+      "status": "passed",
+      "runtimeMs": 44,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > packed 4x8 integer operations > packed integer dot products [webgl]",
+      "status": "passed",
+      "runtimeMs": 49,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > sinc() > sinc() starts and ends at zero over one full bounce period [webgl]",
+      "status": "passed",
+      "runtimeMs": 39,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGL > WebGLExtensions > Instancing",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > type constructors > mat2(a,b,c,d) 4-scalar constructor is ROW-major, like mat3()/mat4() (see TSLVectorMatrix.tests.js) [webgl]",
+      "status": "passed",
+      "runtimeMs": 40,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLParameterPool > node builders may retain independent parameter records",
+      "status": "passed",
+      "runtimeMs": 13,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > directPointLight() > directPointLight() combines normalize(lightVector) with color * getDistanceAttenuation() [webgl]",
+      "status": "passed",
+      "runtimeMs": 41,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > gain() and pcurve() > pcurve() matches its own documented formula and vanishes at the domain edges [webgl]",
+      "status": "passed",
+      "runtimeMs": 39,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color conversion > saturation() at its two defining endpoints [webgl]",
+      "status": "passed",
+      "runtimeMs": 42,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLRenderTarget > dispose",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > BSDF building blocks > Schlick_to_F0() matches the classic-Schlick-inversion formula [webgl]",
+      "status": "passed",
+      "runtimeMs": 43,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLBindingStates > mixed lifecycle order releases each binding exactly once",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > rotate() > rotate() with order XYZ applies Rx*Ry*Rz [webgl]",
+      "status": "passed",
+      "runtimeMs": 47,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLParameterPool > active leases stay independent and retained scratch storage is bounded",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > inversesqrt() > inversesqrt() is 1/sqrt(x) [webgl]",
+      "status": "passed",
+      "runtimeMs": 43,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > getShIrradianceAt() > getShIrradianceAt() matches SphericalHarmonics3.getIrradianceAt() for several normals [webgl]",
+      "status": "passed",
+      "runtimeMs": 50,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color space functions > sRGBTransferOETF() encodes linear to sRGB [webgl]",
+      "status": "passed",
+      "runtimeMs": 61,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > Conditional (select) > select() with a scalar condition does not require an explicit \"else\" value [webgl]",
+      "status": "passed",
+      "runtimeMs": 54,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > packing > hash() is sensitive to its seed (no collisions across 512 distinct seeds sampled) [webgl]",
+      "status": "passed",
+      "runtimeMs": 49,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > gain() and pcurve() > gain() keeps the endpoints and midpoint fixed, k=1 is the identity [webgl]",
+      "status": "passed",
+      "runtimeMs": 45,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > equirectUV() / equirectDirection() > equirectUV() matches its own documented spherical-coordinate formula [webgl]",
+      "status": "passed",
+      "runtimeMs": 46,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > Conditional (select) > select() with a vector condition selects per-component, matching WGSL select()/GLSL mix() semantics [webgl]",
+      "status": "passed",
+      "runtimeMs": 35,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLBindingStates > geometry and object removal detach all program ownership",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > BSDF building blocks > D_GGX_Anisotropic() reduces to D_GGX() in the isotropic, on-axis case [webgl]",
+      "status": "passed",
+      "runtimeMs": 40,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > built-in material uniforms refresh on reuse",
+      "status": "passed",
+      "runtimeMs": 17,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGL > WebGLExtensions > has",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > bitcast() > bitcast() reinterprets bits between ivec4 and uvec4 [webgl]",
+      "status": "passed",
+      "runtimeMs": 43,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > faceForward() > faceForward() picks the side facing the incident ray [webgl]",
+      "status": "passed",
+      "runtimeMs": 40,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > math library > rounding functions at negative and fractional edge values [webgl]",
+      "status": "passed",
+      "runtimeMs": 58,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color conversion > luminance() matches hand-computed Rec.709 dot product [webgl]",
+      "status": "passed",
+      "runtimeMs": 43,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLMaterialLifetime > shared and array materials preserve another live renderer",
+      "status": "passed",
+      "runtimeMs": 23,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > GPU-native unit tests (prototype) > sRGB <-> linear round trip (fuzz, 256 random colors) [webgl]",
+      "status": "passed",
+      "runtimeMs": 55,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > BSDF building blocks > D_GGX() matches the normal distribution function formula [webgl]",
+      "status": "passed",
+      "runtimeMs": 44,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > GPU-native unit tests (prototype) > relational assertions [webgl]",
+      "status": "passed",
+      "runtimeMs": 46,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLArrayRenderTarget > Instancing",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > matrix functions (mat3/mat4) > mat3 inverse of a diagonal scale matrix has reciprocal diagonal entries [webgl]",
+      "status": "passed",
+      "runtimeMs": 75,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > matrix functions (mat3/mat4) > mat3 transpose of a known non-symmetric matrix [webgl]",
+      "status": "passed",
+      "runtimeMs": 43,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > rotate() > rotate() on a 2D position by known angles [webgl]",
+      "status": "passed",
+      "runtimeMs": 92,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > Conditional (select) > per-component select() works for vec2/vec3/vec4 [webgl]",
+      "status": "passed",
+      "runtimeMs": 45,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGL3DRenderTarget > Instancing",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLBindingStates > instanced survivors render after object, program and geometry retirement",
+      "status": "passed",
+      "runtimeMs": 23,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > bitwise operators > increment()/decrement() return the pre-mutation value, incrementBefore/decrementBefore return the post-mutation value [webgl]",
+      "status": "passed",
+      "runtimeMs": 60,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > rotate() > rotate() on a 3D position about the Y axis only matches the 2D case [webgl]",
+      "status": "passed",
+      "runtimeMs": 39,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLParameterPool > owned copies preserve field presence, order and values across material types",
+      "status": "passed",
+      "runtimeMs": 2,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color adjustment (extra) > cdl() applies slope/offset/power then saturation, in log-like space [webgl]",
+      "status": "passed",
+      "runtimeMs": 57,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color conversion > viewZToLogarithmicDepth is monotonic and bounded to [0, 1] at near/far [webgl]",
+      "status": "passed",
+      "runtimeMs": 48,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > rotate() > rotate() with order YXZ applies Ry*Rx*Rz [webgl]",
+      "status": "passed",
+      "runtimeMs": 45,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > BSDF building blocks > V_GGX_SmithCorrelated() matches the Smith-correlated visibility formula [webgl]",
+      "status": "passed",
+      "runtimeMs": 43,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGL > WebGLRenderList > unshift",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > Lighting > EnvironmentNode > MeshStandardMaterial follows each material's envMap (webgl)",
+      "status": "passed",
+      "runtimeMs": 179,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLRenderTarget > Extending",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > interleavedGradientNoise() > interleavedGradientNoise() matches the Jimenez 2014 formula [webgl]",
+      "status": "passed",
+      "runtimeMs": 48,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > matrix functions (mat3/mat4) > mat4 M * inverse(M) recovers the identity for a non-trivial matrix [webgl]",
+      "status": "passed",
+      "runtimeMs": 92,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > GPU-native unit tests (prototype) > sRGB <-> linear round trip [webgl]",
+      "status": "passed",
+      "runtimeMs": 43,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > restored contexts start with a fresh bounded program cache",
+      "status": "passed",
+      "runtimeMs": 1034,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color space conversion > colorSpaceToWorking() and workingToColorSpace() round-trip an sRGB color [webgl]",
+      "status": "passed",
+      "runtimeMs": 39,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLRenderTarget > Instancing",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > type constructors > bvec2/bvec3 pack independently computed booleans component-wise [webgl]",
+      "status": "passed",
+      "runtimeMs": 49,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > logic and comparison operators > logical and/or/not/xor truth table [webgl]",
+      "status": "passed",
+      "runtimeMs": 54,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > bit-reinterpretation casts > floatBitsToInt/floatBitsToUint/intBitsToFloat/uintBitsToFloat round trip and match IEEE-754 bit patterns [webgl]",
+      "status": "passed",
+      "runtimeMs": 44,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > color conversion > grayscale() actually returns a scalar luminance, despite its @return {Node<vec3>} docstring [webgl]",
+      "status": "passed",
+      "runtimeMs": 42,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > maxInactivePrograms validates its budget before creating a context",
+      "status": "passed",
+      "runtimeMs": 2,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLCubeRenderTarget > Extending",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > triNoise3D() > triNoise3D() is deterministic -- the same inputs always produce the same output [webgl]",
+      "status": "passed",
+      "runtimeMs": 55,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLParameterPool > nested compilation keeps parent and child shader state independent",
+      "status": "passed",
+      "runtimeMs": 13,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > equirectUV() / equirectDirection() > equirectUV()/equirectDirection() at the poles: known U-coordinate singularity [webgl]",
+      "status": "passed",
+      "runtimeMs": 53,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > LTC area-light math > LTC_Evaluate() with an identity mInv matches the hand-computed form factor in the T1/T2/N orthonormal-basis frame [webgl]",
+      "status": "passed",
+      "runtimeMs": 129,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Nodes > TSL > triNoise3D() > triNoise3D() stays within the range its accumulation can mathematically produce [webgl]",
+      "status": "passed",
+      "runtimeMs": 63,
+      "softSkips": [],
+      "errors": []
+    }
+  ],
+  "backends": [
+    {
+      "requested": "webgl",
+      "actual": "webgl"
+    }
+  ],
+  "errors": [],
+  "missing": [],
+  "external": [],
+  "warnings": [
+    "CACHE_TEST_START Renderers > WebGLPrograms > shader parameters remain independent plain records for custom hooks",
+    "CACHE_TEST_START Renderers > WebGLPrograms > disposing and reusing a material within a render refreshes uniforms",
+    "CACHE_TEST_START Renderers > WebGLPrograms > retained custom shaders keep cache identity and refresh uniforms",
+    "CACHE_TEST_START Renderers > WebGLPrograms > zero budget preserves immediate release",
+    "CACHE_TEST_START Renderers > WebGLPrograms > onBeforeCompile retains the original cache-key stages",
+    "CACHE_TEST_START Renderers > WebGLPrograms > reactivation refreshes LRU order without limiting active programs",
+    "CACHE_TEST_START Renderers > WebGLPrograms > renderer disposal deletes active and inactive programs once",
+    "CACHE_TEST_START Renderers > WebGLPrograms > failed links still report errors and are not retained",
+    "CACHE_TEST_START Renderers > WebGLPrograms > built-in material uniforms refresh on reuse",
+    "CACHE_TEST_START Renderers > WebGLPrograms > restored contexts start with a fresh bounded program cache",
+    "CACHE_TEST_START Renderers > WebGLPrograms > maxInactivePrograms validates its budget before creating a context"
+  ]
+}

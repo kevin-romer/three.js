@@ -1,0 +1,18 @@
+{
+  "inspectedUtc": "2026-11-08T16:54:10.362915+00:00",
+  "currentApplicationSnapshot": {
+    "sha256": "a3d11a77d373900086a8074896b76ffed6d3d1659d9e6bd6a574c862e56d40c0",
+    "files": 317
+  },
+  "previousCommit": "ea69691dd6bf55acafdce5bbbd87e636173f94b8",
+  "frames": 30,
+  "warmup": 120,
+  "consoleErrorCount": 154,
+  "nanBoundingSphereErrors": 154,
+  "jsErrors": [],
+  "glError": 0,
+  "qualified": false,
+  "rootCauseDiagnosed": false,
+  "changedFilesSincePreviousGate": 5,
+  "timingDecision": "Excluded before qualification; validated frozen replay used."
+}

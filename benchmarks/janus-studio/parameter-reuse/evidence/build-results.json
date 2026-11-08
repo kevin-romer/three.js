@@ -1,0 +1,41 @@
+{
+  "node": "v25.9.0",
+  "files": [
+    {
+      "name": "three.core.js",
+      "bytes": 1474907,
+      "sha256": "ce4dc3bac2d584c41e1d47f78b9d144e9337234e0ddbb36ae4250dbbd436107d",
+      "matchesPublished": false,
+      "publishedBytes": 1474799
+    },
+    {
+      "name": "three.module.js",
+      "bytes": 666300,
+      "sha256": "076cf4f7e367c0a3e8846132b1ab2efa771382ef98f0b76bbdb6854773f3b6e3",
+      "matchesPublished": false,
+      "publishedBytes": 658900
+    },
+    {
+      "name": "three.tsl.js",
+      "bytes": 1065544,
+      "sha256": "d8f3cdb8b85b799a5631bd9a8d77e185d88ce1eb1bb051f48b332728a5423e3f",
+      "matchesPublished": true,
+      "publishedBytes": 1065544
+    },
+    {
+      "name": "three.webgpu.js",
+      "bytes": 1350894,
+      "sha256": "eafead3154ec06093f3108bddceab360f048a6fcebd7c085d5aae0ab5404bd25",
+      "matchesPublished": true,
+      "publishedBytes": 1350894
+    },
+    {
+      "name": "three.webgpu.nodes.js",
+      "bytes": 2390925,
+      "sha256": "ec7ebc386f04be2ed99728d38cf4510bf9234579f2393b97dd8afc2070ad191c",
+      "matchesPublished": true,
+      "publishedBytes": 2390925
+    }
+  ],
+  "warnings": []
+}

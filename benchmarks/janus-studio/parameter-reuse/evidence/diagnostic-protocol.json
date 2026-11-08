@@ -1,0 +1,8 @@
+{
+  "scope": "Separate constructor/copy counters, excluded from timing. Source-ref overlay precedes instrumentation; 120 warmup and 30 measured frames.",
+  "control": "ea69691dd6bf55acafdce5bbbd87e636173f94b8",
+  "candidate": "4057720aade3bccba8a907f86cb30a84a3cf5c59",
+  "cacheBudgetBothVariants": 16,
+  "backend": "WebGL2",
+  "applicationSnapshotSha256": "f49ae9661826cf5876d22c5152bbe91c002bd2b8d8809d6302159f175d4fdfe1"
+}

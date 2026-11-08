@@ -1,0 +1,429 @@
+{
+  "variant": "candidate",
+  "label": "records-candidate",
+  "config": {
+    "label": "records-candidate",
+    "frames": 30
+  },
+  "browser": "156.0.8078.80",
+  "data": {
+    "hash": "0eb27e2d063d980957631bce6bc981741c3c941e391ffce78240c8e34baba0a8",
+    "count": 45,
+    "classification": "synthetic-building-renderer-fixture"
+  },
+  "startup": {
+    "startupMs": 2155.6333339999996
+  },
+  "result": {
+    "device": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+    "backend": "WebGL2",
+    "revision": "candidate",
+    "base": {
+      "longitude": -77.05,
+      "latitude": 38.8,
+      "zoom": 18,
+      "bearing": -18,
+      "pitch": 55
+    },
+    "warmup": 120,
+    "frames": 30,
+    "elapsedMs": 589.2000000029802,
+    "metrics": {
+      "engineMs": {
+        "p50": 2.5,
+        "p95": 3.100000023841858,
+        "p99": 3.3999999910593033,
+        "max": 3.3999999910593033
+      },
+      "renderMs": {
+        "p50": 2.4000000059604645,
+        "p95": 2.9000000059604645,
+        "p99": 3.3999999910593033,
+        "max": 3.3999999910593033
+      },
+      "resetMs": {
+        "p50": 0.09999999403953552,
+        "p95": 0.20000000298023224,
+        "p99": 0.20000001788139343,
+        "max": 0.20000001788139343
+      },
+      "actionMs": {
+        "p50": 0.7000000029802322,
+        "p95": 0.800000011920929,
+        "p99": 1.5,
+        "max": 1.5
+      },
+      "frameIntervalMs": {
+        "p50": 19.5,
+        "p95": 20.599999994039536,
+        "p99": 24.100000008940697,
+        "max": 24.100000008940697
+      }
+    },
+    "summaries": [
+      {
+        "renderMs": 2.7000000029802322,
+        "resetMs": 0.20000000298023224,
+        "engineMs": 2.9000000059604645,
+        "actionMs": 0.7999999970197678,
+        "frameIntervalMs": null,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.7999999970197678,
+        "resetMs": 0.10000000894069672,
+        "engineMs": 2.9000000059604645,
+        "actionMs": 0.800000011920929,
+        "frameIntervalMs": 19.799999997019768,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.9000000059604645,
+        "resetMs": 0.20000001788139343,
+        "engineMs": 3.100000023841858,
+        "actionMs": 0.5999999940395355,
+        "frameIntervalMs": 20.599999994039536,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.7999999970197678,
+        "resetMs": 0.20000000298023224,
+        "engineMs": 3,
+        "actionMs": 0.7000000029802322,
+        "frameIntervalMs": 24.100000008940697,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.699999988079071,
+        "resetMs": 0,
+        "engineMs": 2.699999988079071,
+        "actionMs": 0.7999999970197678,
+        "frameIntervalMs": 19.799999997019768,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.5,
+        "resetMs": 0,
+        "engineMs": 2.5,
+        "actionMs": 0.699999988079071,
+        "frameIntervalMs": 20.099999994039536,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.5,
+        "resetMs": 0.09999999403953552,
+        "engineMs": 2.5999999940395355,
+        "actionMs": 0.699999988079071,
+        "frameIntervalMs": 19.700000002980232,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 3.3999999910593033,
+        "resetMs": 0,
+        "engineMs": 3.3999999910593033,
+        "actionMs": 0.7000000029802322,
+        "frameIntervalMs": 19.200000002980232,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.7000000029802322,
+        "resetMs": 0,
+        "engineMs": 2.7000000029802322,
+        "actionMs": 0.7999999970197678,
+        "frameIntervalMs": 20,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.4000000059604645,
+        "resetMs": 0,
+        "engineMs": 2.4000000059604645,
+        "actionMs": 0.7999999970197678,
+        "frameIntervalMs": 19,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.5,
+        "resetMs": 0,
+        "engineMs": 2.5,
+        "actionMs": 0.7999999970197678,
+        "frameIntervalMs": 18.899999991059303,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.3999999910593033,
+        "resetMs": 0.09999999403953552,
+        "engineMs": 2.499999985098839,
+        "actionMs": 0.7999999970197678,
+        "frameIntervalMs": 19.700000002980232,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.4000000059604645,
+        "resetMs": 0,
+        "engineMs": 2.4000000059604645,
+        "actionMs": 0.7000000029802322,
+        "frameIntervalMs": 19.799999997019768,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.499999985098839,
+        "resetMs": 0,
+        "engineMs": 2.499999985098839,
+        "actionMs": 0.7999999970197678,
+        "frameIntervalMs": 19.400000005960464,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.6000000089406967,
+        "resetMs": 0,
+        "engineMs": 2.6000000089406967,
+        "actionMs": 0.7000000029802322,
+        "frameIntervalMs": 19.299999997019768,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.4000000059604645,
+        "resetMs": 0,
+        "engineMs": 2.4000000059604645,
+        "actionMs": 0.7000000029802322,
+        "frameIntervalMs": 19.299999997019768,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.499999985098839,
+        "resetMs": 0,
+        "engineMs": 2.499999985098839,
+        "actionMs": 0.7999999970197678,
+        "frameIntervalMs": 19.5,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.199999988079071,
+        "resetMs": 0,
+        "engineMs": 2.199999988079071,
+        "actionMs": 0.7000000029802322,
+        "frameIntervalMs": 19.100000008940697,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.4000000059604645,
+        "resetMs": 0.09999999403953552,
+        "engineMs": 2.5,
+        "actionMs": 0.7000000029802322,
+        "frameIntervalMs": 18.700000002980232,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.199999988079071,
+        "resetMs": 0.09999999403953552,
+        "engineMs": 2.2999999821186066,
+        "actionMs": 1.5,
+        "frameIntervalMs": 19.799999997019768,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.2999999970197678,
+        "resetMs": 0,
+        "engineMs": 2.2999999970197678,
+        "actionMs": 0.7999999970197678,
+        "frameIntervalMs": 18.799999997019768,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.2999999970197678,
+        "resetMs": 0.09999999403953552,
+        "engineMs": 2.3999999910593033,
+        "actionMs": 0.7000000029802322,
+        "frameIntervalMs": 19.299999997019768,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.2000000029802322,
+        "resetMs": 0.10000000894069672,
+        "engineMs": 2.300000011920929,
+        "actionMs": 0.7000000029802322,
+        "frameIntervalMs": 18.799999997019768,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.5999999940395355,
+        "resetMs": 0,
+        "engineMs": 2.5999999940395355,
+        "actionMs": 0.699999988079071,
+        "frameIntervalMs": 19.600000008940697,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.2999999970197678,
+        "resetMs": 0.09999999403953552,
+        "engineMs": 2.3999999910593033,
+        "actionMs": 0.7999999970197678,
+        "frameIntervalMs": 19.399999991059303,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.4000000059604645,
+        "resetMs": 0.09999999403953552,
+        "engineMs": 2.5,
+        "actionMs": 0.7999999970197678,
+        "frameIntervalMs": 19.900000005960464,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.2999999970197678,
+        "resetMs": 0.09999999403953552,
+        "engineMs": 2.3999999910593033,
+        "actionMs": 0.7000000029802322,
+        "frameIntervalMs": 18.799999997019768,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.3999999910593033,
+        "resetMs": 0.09999999403953552,
+        "engineMs": 2.499999985098839,
+        "actionMs": 0.7000000029802322,
+        "frameIntervalMs": 19.200000002980232,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.7000000178813934,
+        "resetMs": 0.19999998807907104,
+        "engineMs": 2.9000000059604645,
+        "actionMs": 0.7000000029802322,
+        "frameIntervalMs": 19.900000005960464,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      },
+      {
+        "renderMs": 2.4000000059604645,
+        "resetMs": 0.09999999403953552,
+        "engineMs": 2.5,
+        "actionMs": 0.7000000029802322,
+        "frameIntervalMs": 20,
+        "draws": 138,
+        "triangles": 306007,
+        "renderCalls": 3
+      }
+    ],
+    "pixels": [
+      {
+        "step": 0,
+        "sha256": "484f0427c3a36855188e6e1d7da60249a4a33333f8c345389c9bd63de1133956",
+        "colored": 1296000,
+        "nonzeroAlpha": 1296000,
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "step": 73,
+        "sha256": "5e5a10a73b6a126949f749a95b7ab603661504f5f20896732727e607ab0a75ac",
+        "colored": 1296000,
+        "nonzeroAlpha": 1296000,
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "step": 151,
+        "sha256": "65c977c30241309c7dd302301cbb357400e44e41ec922ac79e05acaafbcfc635",
+        "colored": 1296000,
+        "nonzeroAlpha": 1296000,
+        "width": 1440,
+        "height": 900
+      }
+    ],
+    "counts": {},
+    "longTasks": [],
+    "longTaskSupport": "supported",
+    "glError": 0,
+    "models": 45,
+    "fullModels": 20,
+    "motionVersion": 2,
+    "retained": 45,
+    "hidden": 0,
+    "declaredGeometryBytes": {
+      "cpu": 32278814,
+      "gpu": 32278814
+    },
+    "programs": [
+      {
+        "total": 6,
+        "inactive": 0,
+        "geometries": 138,
+        "textures": 0
+      }
+    ],
+    "heapUsedApprox": 195544708,
+    "parameterCounts": {
+      "fresh": 0,
+      "reused": 2730,
+      "copies": 0
+    }
+  },
+  "picks": {
+    "visiblePick": true,
+    "expected": "building:fixture-22"
+  },
+  "errors": [],
+  "logs": [],
+  "applicationSnapshot": {
+    "sha256": "897875342dfb9b725491094c1063b383cd669c8b6055948cc740d5267f50d97b",
+    "files": 201
+  }
+}

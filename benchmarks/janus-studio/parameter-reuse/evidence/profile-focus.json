@@ -1,0 +1,108 @@
+{
+  "sourceCommit": "ea69691dd6bf55acafdce5bbbd87e636173f94b8",
+  "scope": "Separate baseline Chrome sampling diagnostic: 100us interval, 120 warmup frames, three readbacks and 300 measured frames. Not a before/after timing estimate. Only public Three.js source functions are listed; raw profile remains private.",
+  "rawProfileSha256": "32d08f13bcc1cffc0d662ada71b463bad03fe0e6fb2e48e5858dc05c3c429aad",
+  "sampledDurationMs": 9909.69,
+  "engineFunctionSelfMs": [
+    {
+      "function": "WebGLProgramParameters",
+      "source": "src/renderers/webgl/WebGLPrograms.js",
+      "ms": 152.88900000000038
+    },
+    {
+      "function": "Float32BufferAttribute",
+      "source": "src/core/BufferAttribute.js",
+      "ms": 82.3700000000002
+    },
+    {
+      "function": "BufferAttribute",
+      "source": "src/core/BufferAttribute.js",
+      "ms": 53.75600000000002
+    },
+    {
+      "function": "Object3D",
+      "source": "src/core/Object3D.js",
+      "ms": 42.31600000000006
+    },
+    {
+      "function": "toArray",
+      "source": "src/math/Matrix4.js",
+      "ms": 39.45
+    },
+    {
+      "function": "update",
+      "source": "src/renderers/webgl/WebGLAttributes.js",
+      "ms": 39.064000000000014
+    },
+    {
+      "function": "WebGLRenderer.renderBufferDirect",
+      "source": "src/renderers/WebGLRenderer.js",
+      "ms": 35.14300000000003
+    },
+    {
+      "function": "getProgram",
+      "source": "src/renderers/WebGLRenderer.js",
+      "ms": 29.72200000000001
+    },
+    {
+      "function": "getProgramCacheKey",
+      "source": "src/renderers/webgl/WebGLPrograms.js",
+      "ms": 29.584999999999994
+    },
+    {
+      "function": "createBuffer",
+      "source": "src/renderers/webgl/WebGLAttributes.js",
+      "ms": 24.58099999999999
+    },
+    {
+      "function": "traverse",
+      "source": "src/core/Object3D.js",
+      "ms": 20.94799999999999
+    },
+    {
+      "function": "getBindingState",
+      "source": "src/renderers/webgl/WebGLBindingStates.js",
+      "ms": 20.374
+    },
+    {
+      "function": "projectObject",
+      "source": "src/renderers/WebGLRenderer.js",
+      "ms": 19.984999999999992
+    },
+    {
+      "function": "generateUUID",
+      "source": "src/math/MathUtils.js",
+      "ms": 19.94399999999999
+    },
+    {
+      "function": "multiplyMatrices",
+      "source": "src/math/Matrix4.js",
+      "ms": 17.814000000000004
+    },
+    {
+      "function": "updateMatrixWorld",
+      "source": "src/core/Object3D.js",
+      "ms": 14.704999999999997
+    },
+    {
+      "function": "Mesh",
+      "source": "src/objects/Mesh.js",
+      "ms": 13.985999999999992
+    },
+    {
+      "function": "setValues",
+      "source": "src/materials/Material.js",
+      "ms": 13.788999999999994
+    },
+    {
+      "function": "ShaderMaterial",
+      "source": "src/materials/ShaderMaterial.js",
+      "ms": 13.726999999999997
+    },
+    {
+      "function": "remove",
+      "source": "src/renderers/webgl/WebGLAttributes.js",
+      "ms": 13.645000000000003
+    }
+  ]
+}

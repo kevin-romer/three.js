@@ -1,0 +1,62 @@
+{
+  "candidate": "4057720aade3bccba8a907f86cb30a84a3cf5c59",
+  "candidateSources": {
+    "src/materials/Material.js": "781a0def11a44477d60295fec469105a275b3b761c59ec16091de5ed06f11f94",
+    "src/renderers/WebGLRenderer.js": "90af34a5f245ed77fa1901536c74c6e9c8482000b51f28204212566e09fcf668",
+    "src/renderers/webgl/WebGLPrograms.js": "e75c308eb281734b7e5404637f486e349883f9d036902f46badc6dbcf1ccb8c5",
+    "test/unit/src/renderers/webgl/WebGLParameterPool.tests.js": "0dbcb90fb8a1bbecc64766854e02e24a768d940081e6a40043844d249e4e1aa5",
+    "test/unit/three.source.unit.js": "f5e3d2413845e15f3f0eb97bdd34b94c3f9c1e39795a639732ff586c948096fe"
+  },
+  "units": {
+    "qunit-chrome-core.json": {
+      "sha256": "ee61803979c0d5c28b87452258915bf7e8666d9497273b2862df6f006118ca4c",
+      "passed": 2010,
+      "failed": 0,
+      "browser": "156.0.8078.80"
+    },
+    "qunit-chrome-addons.json": {
+      "sha256": "27f2e5af34948cd3f68a2d6f8cfb6dc4950bc8c8f229ae7d72acd34900551694",
+      "passed": 145,
+      "failed": 0,
+      "browser": "156.0.8078.80"
+    },
+    "qunit-chrome-webgl.json": {
+      "sha256": "bbce97db509f424066e236d0ccf59ace9754098743446150fea7379206b965ac",
+      "passed": 217,
+      "failed": 0,
+      "browser": "156.0.8078.80"
+    },
+    "qunit-firefox-webgl.json": {
+      "sha256": "d8928fdc0eaed9a47b719c83eac209a01feafa1306dc0eeca1f4b256df972d41",
+      "passed": 217,
+      "failed": 0,
+      "browser": "151.0"
+    },
+    "qunit-webkit-webgl.json": {
+      "sha256": "31eba2e523531322fd7ca0f4535962c03c729b5f73b6563ae0cad804c0b13314",
+      "passed": 217,
+      "failed": 0,
+      "browser": "26.5"
+    }
+  },
+  "newTests": 7,
+  "coreTodo": 1,
+  "softSkips": 0,
+  "qunit": {
+    "version": "2.25.0",
+    "sha256": "1c61c415437fd5b05a18b2d9426e915e4805f87c61392d10d90dc9113554789b"
+  },
+  "lint": {
+    "core": "pass",
+    "test": "pass",
+    "logsSha256": {
+      "lint-core.log": "c9fd5e44b9bc4daef4248f839bcb1a1c0c62f1fd132f92e774120a6c9bbfe0e3",
+      "lint-test.log": "fc4c9c5f4f7b015146fa549d42e821cd61192bdb47a7f0a59b690d22f4f3502a"
+    }
+  },
+  "buildOutputs": 5,
+  "buildWarnings": 0,
+  "atlasModified": false,
+  "servicesRestarted": false,
+  "deployment": false
+}

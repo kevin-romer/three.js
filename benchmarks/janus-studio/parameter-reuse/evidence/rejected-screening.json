@@ -1,0 +1,37 @@
+{
+  "candidate": "Preinitialized material bookkeeping records",
+  "decision": "Discarded; no observed CPU improvement in two exploratory pairs. Not included in the qualification cohort or fork source.",
+  "scope": "Uninstrumented screening only; not a qualified performance estimate.",
+  "pairs": [
+    {
+      "pair": 1,
+      "control": {
+        "p50": 2.8999999910593033,
+        "p95": 3.80000002682209,
+        "p99": 4.399999991059303,
+        "max": 10.000000014901161
+      },
+      "candidate": {
+        "p50": 2.8999999910593033,
+        "p95": 3.7999999970197678,
+        "p99": 4.200000002980232,
+        "max": 9
+      }
+    },
+    {
+      "pair": 2,
+      "control": {
+        "p50": 2.7000000178813934,
+        "p95": 3.6000000089406967,
+        "p99": 4.300000011920929,
+        "max": 9.499999985098839
+      },
+      "candidate": {
+        "p50": 2.8999999910593033,
+        "p95": 3.7999999970197678,
+        "p99": 4.200000002980232,
+        "max": 8.199999988079071
+      }
+    }
+  ]
+}

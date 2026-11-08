@@ -1,0 +1,31 @@
+{
+  "completedUtc": "2026-11-08T17:10:12.692380+00:00",
+  "sourceCommit": "4057720aade3bccba8a907f86cb30a84a3cf5c59",
+  "forkRetained": true,
+  "forkReason": "User-requested separate fork retained for review and future improvement; no Atlas merge.",
+  "temporaryReplayRemoved": true,
+  "ownedBrowserRecords": 27,
+  "ownedBrowserProfilesRecorded": 25,
+  "ownedBrowserProfilesRemoved": 1,
+  "activeOwnedBrowserProcesses": 0,
+  "privateEvidenceArchive": {
+    "filename": "threejs-parameter-reuse-4057720-private.tar.gz",
+    "sha256": "258b860af5539fe11fe5a4bf78b5264dcd3ff89873432e6261bee9d6a0138fed",
+    "bytes": 1853644,
+    "files": 347,
+    "private": true,
+    "contents": "Fresh application replay, detailed bounds-error logs, sampled baseline profile, private served-source manifests and exploratory results. No .env files or installed dependencies."
+  },
+  "validatedReplayArchive": {
+    "filename": "threejs-janus-replay-f49ae9661826.tar.gz",
+    "sha256": "6dd8c11c8818975f902e9264eec38d5d282f8d0e42e8b3e30c480499ee3125e4",
+    "private": true,
+    "retained": true
+  },
+  "publicAnalysisReproduced": true,
+  "toolSyntaxChecks": "pass",
+  "atlasModified": false,
+  "servicesRestarted": false,
+  "deployment": false,
+  "currentApplicationQualified": false
+}
