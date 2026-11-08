@@ -1,0 +1,91 @@
+{
+  "engine": "chrome",
+  "version": "before-c09",
+  "suite": "core",
+  "browser": "156.0.8078.80",
+  "started": "2026-11-08T13:22:31.884Z",
+  "completed": "2026-11-08T13:22:50.736Z",
+  "result": {
+    "counts": {
+      "passed": 0,
+      "failed": 3,
+      "skipped": 0,
+      "todo": 0,
+      "total": 3
+    },
+    "runtimeMs": 1158
+  },
+  "tests": [
+    {
+      "name": "Renderers > WebGLMaterialLifetime > retained assets do not accumulate renderer subscriptions",
+      "status": "failed",
+      "runtimeMs": 81,
+      "softSkips": [],
+      "errors": [
+        {
+          "message": "Only the application subscription survives",
+          "stack": "    at Object.<anonymous> (https://three-audit.test/test/unit/src/renderers/webgl/WebGLMaterialLifetime.tests.js:51:14)"
+        },
+        {
+          "message": "Repeated disposal is harmless",
+          "stack": "    at Object.<anonymous> (https://three-audit.test/test/unit/src/renderers/webgl/WebGLMaterialLifetime.tests.js:54:14)"
+        },
+        {
+          "stack": "    at Object.<anonymous> (https://three-audit.test/test/unit/src/renderers/webgl/WebGLMaterialLifetime.tests.js:49:14)"
+        },
+        {
+          "message": "Only the application subscription survives",
+          "stack": "    at Object.<anonymous> (https://three-audit.test/test/unit/src/renderers/webgl/WebGLMaterialLifetime.tests.js:51:14)"
+        },
+        {
+          "message": "Repeated disposal is harmless",
+          "stack": "    at Object.<anonymous> (https://three-audit.test/test/unit/src/renderers/webgl/WebGLMaterialLifetime.tests.js:54:14)"
+        },
+        {
+          "stack": "    at Object.<anonymous> (https://three-audit.test/test/unit/src/renderers/webgl/WebGLMaterialLifetime.tests.js:49:14)"
+        },
+        {
+          "message": "Only the application subscription survives",
+          "stack": "    at Object.<anonymous> (https://three-audit.test/test/unit/src/renderers/webgl/WebGLMaterialLifetime.tests.js:51:14)"
+        },
+        {
+          "message": "Repeated disposal is harmless",
+          "stack": "    at Object.<anonymous> (https://three-audit.test/test/unit/src/renderers/webgl/WebGLMaterialLifetime.tests.js:54:14)"
+        }
+      ]
+    },
+    {
+      "name": "Renderers > WebGLMaterialLifetime > context restoration unregisters the previous material lifetime",
+      "status": "failed",
+      "runtimeMs": 1049,
+      "softSkips": [],
+      "errors": [
+        {
+          "stack": "    at Object.<anonymous> (https://three-audit.test/test/unit/src/renderers/webgl/WebGLMaterialLifetime.tests.js:134:12)"
+        },
+        {
+          "stack": "    at Object.<anonymous> (https://three-audit.test/test/unit/src/renderers/webgl/WebGLMaterialLifetime.tests.js:138:12)"
+        }
+      ]
+    },
+    {
+      "name": "Renderers > WebGLMaterialLifetime > shared and array materials preserve another live renderer",
+      "status": "failed",
+      "runtimeMs": 24,
+      "softSkips": [],
+      "errors": [
+        {
+          "stack": "    at Object.<anonymous> (https://three-audit.test/test/unit/src/renderers/webgl/WebGLMaterialLifetime.tests.js:92:12)"
+        },
+        {
+          "stack": "    at Object.<anonymous> (https://three-audit.test/test/unit/src/renderers/webgl/WebGLMaterialLifetime.tests.js:102:12)"
+        }
+      ]
+    }
+  ],
+  "backends": [],
+  "errors": [],
+  "missing": [],
+  "external": [],
+  "warnings": []
+}

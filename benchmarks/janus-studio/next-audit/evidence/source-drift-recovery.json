@@ -1,0 +1,62 @@
+{
+  "reason": "The live Atlas vector source changed during building pair5. Its control and candidate application hashes differ. Earlier pairs are retained as preliminary evidence, not used for the frozen-application qualification. The Studio preliminary cohort has per-pair parity but two application snapshots across rounds. Both cases are restarted with one private frozen snapshot, without selecting by timing.",
+  "preliminaryStudio": [
+    {
+      "pair": 1,
+      "control": 28.600000008940697,
+      "candidate": 28.80000001192093
+    },
+    {
+      "pair": 2,
+      "control": 28.799999982118607,
+      "candidate": 28.599999994039536
+    },
+    {
+      "pair": 3,
+      "control": 29.100000008940697,
+      "candidate": 29.099999994039536
+    },
+    {
+      "pair": 4,
+      "control": 31.5,
+      "candidate": 30.099999994039536
+    },
+    {
+      "pair": 5,
+      "control": 34.79999999701977,
+      "candidate": 35.70000000298023
+    }
+  ],
+  "preliminaryBuildings": [
+    {
+      "pair": 1,
+      "control": 4.4000000059604645,
+      "candidate": 4.600000023841858,
+      "validWithinPair": true
+    },
+    {
+      "pair": 2,
+      "control": 4.299999997019768,
+      "candidate": 4.799999997019768,
+      "validWithinPair": true
+    },
+    {
+      "pair": 3,
+      "control": 4.700000002980232,
+      "candidate": 4.700000002980232,
+      "validWithinPair": true
+    },
+    {
+      "pair": 4,
+      "control": 4.4000000059604645,
+      "candidate": 5,
+      "validWithinPair": true
+    },
+    {
+      "pair": 5,
+      "control": 4.799999997019768,
+      "candidate": 4.100000008940697,
+      "validWithinPair": false
+    }
+  ]
+}

@@ -1,0 +1,2159 @@
+{
+  "scope": "Selection/style/geometry edits,100 picks and five comparison cycles per variant. Primary workspace teardown was not part of this run. Existing comparison cleanup already removes material subscriptions in the control; no Janus retained-heap improvement claimed. One post-GC heap batch is diagnostic, not stability qualification.",
+  "variants": [
+    {
+      "variant": "control",
+      "applicationSnapshot": {
+        "sha256": "19d66d9da5ae8acbeb83d83b109d5ee3c158e50a4e7ef561685a46b97775f342",
+        "files": 253
+      },
+      "browser": "156.0.8078.80",
+      "data": {
+        "hash": "d43995269a7bb3f3bf316b71ef48317d52d8fd89fecd2bc2af5242345ba1267f",
+        "count": 400,
+        "classification": "synthetic-unadmitted",
+        "bindingKeyLength": 90
+      },
+      "hashes": {
+        "baseline": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b",
+        "selected": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5",
+        "cleared": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b",
+        "styleEdited": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750",
+        "geometryEdited": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+      },
+      "picks": [
+        {
+          "ms": 1.7999999970197678,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.5999999940395355,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.29999999701976776,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.30000001192092896,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.29999999701976776,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.19999998807907104,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.29999999701976776,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.19999998807907104,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.19999998807907104,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.6000000089406967,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.19999998807907104,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.19999998807907104,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.19999998807907104,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.19999998807907104,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        }
+      ],
+      "visibleEntityIds": [
+        "parcel:p0",
+        "parcel:p1",
+        "parcel:p10",
+        "parcel:p100",
+        "parcel:p101",
+        "parcel:p102",
+        "parcel:p103",
+        "parcel:p104",
+        "parcel:p105",
+        "parcel:p106",
+        "parcel:p107",
+        "parcel:p108",
+        "parcel:p109",
+        "parcel:p11",
+        "parcel:p110",
+        "parcel:p111",
+        "parcel:p112",
+        "parcel:p113",
+        "parcel:p114",
+        "parcel:p115",
+        "parcel:p116",
+        "parcel:p117",
+        "parcel:p118",
+        "parcel:p119",
+        "parcel:p12",
+        "parcel:p120",
+        "parcel:p121",
+        "parcel:p122",
+        "parcel:p123",
+        "parcel:p124",
+        "parcel:p125",
+        "parcel:p126",
+        "parcel:p127",
+        "parcel:p128",
+        "parcel:p129",
+        "parcel:p13",
+        "parcel:p130",
+        "parcel:p131",
+        "parcel:p132",
+        "parcel:p133",
+        "parcel:p134",
+        "parcel:p135",
+        "parcel:p136",
+        "parcel:p137",
+        "parcel:p138",
+        "parcel:p139",
+        "parcel:p14",
+        "parcel:p140",
+        "parcel:p141",
+        "parcel:p142",
+        "parcel:p143",
+        "parcel:p144",
+        "parcel:p145",
+        "parcel:p146",
+        "parcel:p147",
+        "parcel:p148",
+        "parcel:p149",
+        "parcel:p15",
+        "parcel:p150",
+        "parcel:p151",
+        "parcel:p152",
+        "parcel:p153",
+        "parcel:p154",
+        "parcel:p155",
+        "parcel:p156",
+        "parcel:p157",
+        "parcel:p158",
+        "parcel:p159",
+        "parcel:p16",
+        "parcel:p160",
+        "parcel:p161",
+        "parcel:p162",
+        "parcel:p163",
+        "parcel:p164",
+        "parcel:p165",
+        "parcel:p166",
+        "parcel:p167",
+        "parcel:p168",
+        "parcel:p169",
+        "parcel:p17",
+        "parcel:p170",
+        "parcel:p171",
+        "parcel:p172",
+        "parcel:p173",
+        "parcel:p174",
+        "parcel:p175",
+        "parcel:p176",
+        "parcel:p177",
+        "parcel:p178",
+        "parcel:p179",
+        "parcel:p18",
+        "parcel:p180",
+        "parcel:p181",
+        "parcel:p182",
+        "parcel:p183",
+        "parcel:p184",
+        "parcel:p185",
+        "parcel:p186",
+        "parcel:p187",
+        "parcel:p188",
+        "parcel:p189",
+        "parcel:p19",
+        "parcel:p190",
+        "parcel:p191",
+        "parcel:p192",
+        "parcel:p193",
+        "parcel:p194",
+        "parcel:p195",
+        "parcel:p196",
+        "parcel:p197",
+        "parcel:p198",
+        "parcel:p199",
+        "parcel:p2",
+        "parcel:p20",
+        "parcel:p200",
+        "parcel:p201",
+        "parcel:p202",
+        "parcel:p203",
+        "parcel:p204",
+        "parcel:p205",
+        "parcel:p206",
+        "parcel:p207",
+        "parcel:p208",
+        "parcel:p209",
+        "parcel:p21",
+        "parcel:p210",
+        "parcel:p211",
+        "parcel:p212",
+        "parcel:p213",
+        "parcel:p214",
+        "parcel:p215",
+        "parcel:p216",
+        "parcel:p217",
+        "parcel:p218",
+        "parcel:p219",
+        "parcel:p22",
+        "parcel:p220",
+        "parcel:p221",
+        "parcel:p222",
+        "parcel:p223",
+        "parcel:p224",
+        "parcel:p225",
+        "parcel:p226",
+        "parcel:p227",
+        "parcel:p228",
+        "parcel:p229",
+        "parcel:p23",
+        "parcel:p230",
+        "parcel:p231",
+        "parcel:p232",
+        "parcel:p233",
+        "parcel:p234",
+        "parcel:p235",
+        "parcel:p236",
+        "parcel:p237",
+        "parcel:p238",
+        "parcel:p239",
+        "parcel:p24",
+        "parcel:p240",
+        "parcel:p241",
+        "parcel:p242",
+        "parcel:p243",
+        "parcel:p244",
+        "parcel:p245",
+        "parcel:p246",
+        "parcel:p247",
+        "parcel:p248",
+        "parcel:p249",
+        "parcel:p25",
+        "parcel:p250",
+        "parcel:p251",
+        "parcel:p252",
+        "parcel:p253",
+        "parcel:p254",
+        "parcel:p255",
+        "parcel:p256",
+        "parcel:p257",
+        "parcel:p258",
+        "parcel:p259",
+        "parcel:p26",
+        "parcel:p260",
+        "parcel:p261",
+        "parcel:p262",
+        "parcel:p263",
+        "parcel:p264",
+        "parcel:p265",
+        "parcel:p266",
+        "parcel:p267",
+        "parcel:p268",
+        "parcel:p269",
+        "parcel:p27",
+        "parcel:p270",
+        "parcel:p271",
+        "parcel:p272",
+        "parcel:p273",
+        "parcel:p274",
+        "parcel:p275",
+        "parcel:p276",
+        "parcel:p277",
+        "parcel:p278",
+        "parcel:p279",
+        "parcel:p28",
+        "parcel:p280",
+        "parcel:p281",
+        "parcel:p282",
+        "parcel:p283",
+        "parcel:p284",
+        "parcel:p285",
+        "parcel:p286",
+        "parcel:p287",
+        "parcel:p288",
+        "parcel:p289",
+        "parcel:p29",
+        "parcel:p290",
+        "parcel:p291",
+        "parcel:p292",
+        "parcel:p293",
+        "parcel:p294",
+        "parcel:p295",
+        "parcel:p296",
+        "parcel:p297",
+        "parcel:p298",
+        "parcel:p299",
+        "parcel:p3",
+        "parcel:p30",
+        "parcel:p300",
+        "parcel:p301",
+        "parcel:p302",
+        "parcel:p303",
+        "parcel:p304",
+        "parcel:p305",
+        "parcel:p306",
+        "parcel:p307",
+        "parcel:p308",
+        "parcel:p309",
+        "parcel:p31",
+        "parcel:p310",
+        "parcel:p311",
+        "parcel:p312",
+        "parcel:p313",
+        "parcel:p314",
+        "parcel:p315",
+        "parcel:p316",
+        "parcel:p317",
+        "parcel:p318",
+        "parcel:p319",
+        "parcel:p32",
+        "parcel:p320",
+        "parcel:p321",
+        "parcel:p322",
+        "parcel:p323",
+        "parcel:p324",
+        "parcel:p325",
+        "parcel:p326",
+        "parcel:p327",
+        "parcel:p328",
+        "parcel:p329",
+        "parcel:p33",
+        "parcel:p330",
+        "parcel:p331",
+        "parcel:p332",
+        "parcel:p333",
+        "parcel:p334",
+        "parcel:p335",
+        "parcel:p336",
+        "parcel:p337",
+        "parcel:p338",
+        "parcel:p339",
+        "parcel:p34",
+        "parcel:p340",
+        "parcel:p341",
+        "parcel:p342",
+        "parcel:p343",
+        "parcel:p344",
+        "parcel:p345",
+        "parcel:p346",
+        "parcel:p347",
+        "parcel:p348",
+        "parcel:p349",
+        "parcel:p35",
+        "parcel:p350",
+        "parcel:p351",
+        "parcel:p352",
+        "parcel:p353",
+        "parcel:p354",
+        "parcel:p355",
+        "parcel:p356",
+        "parcel:p357",
+        "parcel:p358",
+        "parcel:p359",
+        "parcel:p36",
+        "parcel:p360",
+        "parcel:p361",
+        "parcel:p362",
+        "parcel:p363",
+        "parcel:p364",
+        "parcel:p365",
+        "parcel:p366",
+        "parcel:p367",
+        "parcel:p368",
+        "parcel:p369",
+        "parcel:p37",
+        "parcel:p370",
+        "parcel:p371",
+        "parcel:p372",
+        "parcel:p373",
+        "parcel:p374",
+        "parcel:p375",
+        "parcel:p376",
+        "parcel:p377",
+        "parcel:p378",
+        "parcel:p379",
+        "parcel:p38",
+        "parcel:p380",
+        "parcel:p381",
+        "parcel:p382",
+        "parcel:p383",
+        "parcel:p384",
+        "parcel:p385",
+        "parcel:p386",
+        "parcel:p387",
+        "parcel:p388",
+        "parcel:p389",
+        "parcel:p39",
+        "parcel:p390",
+        "parcel:p391",
+        "parcel:p392",
+        "parcel:p393",
+        "parcel:p394",
+        "parcel:p395",
+        "parcel:p396",
+        "parcel:p397",
+        "parcel:p398",
+        "parcel:p399",
+        "parcel:p4",
+        "parcel:p40",
+        "parcel:p41",
+        "parcel:p42",
+        "parcel:p43",
+        "parcel:p44",
+        "parcel:p45",
+        "parcel:p46",
+        "parcel:p47",
+        "parcel:p48",
+        "parcel:p49",
+        "parcel:p5",
+        "parcel:p50",
+        "parcel:p51",
+        "parcel:p52",
+        "parcel:p53",
+        "parcel:p54",
+        "parcel:p55",
+        "parcel:p56",
+        "parcel:p57",
+        "parcel:p58",
+        "parcel:p59",
+        "parcel:p6",
+        "parcel:p60",
+        "parcel:p61",
+        "parcel:p62",
+        "parcel:p63",
+        "parcel:p64",
+        "parcel:p65",
+        "parcel:p66",
+        "parcel:p67",
+        "parcel:p68",
+        "parcel:p69",
+        "parcel:p7",
+        "parcel:p70",
+        "parcel:p71",
+        "parcel:p72",
+        "parcel:p73",
+        "parcel:p74",
+        "parcel:p75",
+        "parcel:p76",
+        "parcel:p77",
+        "parcel:p78",
+        "parcel:p79",
+        "parcel:p8",
+        "parcel:p80",
+        "parcel:p81",
+        "parcel:p82",
+        "parcel:p83",
+        "parcel:p84",
+        "parcel:p85",
+        "parcel:p86",
+        "parcel:p87",
+        "parcel:p88",
+        "parcel:p89",
+        "parcel:p9",
+        "parcel:p90",
+        "parcel:p91",
+        "parcel:p92",
+        "parcel:p93",
+        "parcel:p94",
+        "parcel:p95",
+        "parcel:p96",
+        "parcel:p97",
+        "parcel:p98",
+        "parcel:p99"
+      ],
+      "comparisonHashes": [
+        "a9455ad01a5f11ce303bdb29582c0226155f431b5e12b9d060c1817eaf883419",
+        "a9455ad01a5f11ce303bdb29582c0226155f431b5e12b9d060c1817eaf883419",
+        "a9455ad01a5f11ce303bdb29582c0226155f431b5e12b9d060c1817eaf883419",
+        "a9455ad01a5f11ce303bdb29582c0226155f431b5e12b9d060c1817eaf883419",
+        "a9455ad01a5f11ce303bdb29582c0226155f431b5e12b9d060c1817eaf883419"
+      ],
+      "comparisonMaterialSubscriptions": [
+        {
+          "renderer": 2,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "renderer": 3,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "renderer": 4,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "renderer": 5,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "renderer": 6,
+          "before": 0,
+          "after": 0
+        }
+      ],
+      "heapDiagnostic": {
+        "before": {
+          "Documents": 1,
+          "JSEventListeners": 379,
+          "Nodes": 262,
+          "JSHeapUsedSize": 55805936
+        },
+        "batches": [
+          {
+            "Documents": 1,
+            "JSEventListeners": 935,
+            "Nodes": 274,
+            "JSHeapUsedSize": 59814488
+          }
+        ]
+      },
+      "errors": [],
+      "logs": []
+    },
+    {
+      "variant": "candidate",
+      "applicationSnapshot": {
+        "sha256": "19d66d9da5ae8acbeb83d83b109d5ee3c158e50a4e7ef561685a46b97775f342",
+        "files": 253
+      },
+      "browser": "156.0.8078.80",
+      "data": {
+        "hash": "d43995269a7bb3f3bf316b71ef48317d52d8fd89fecd2bc2af5242345ba1267f",
+        "count": 400,
+        "classification": "synthetic-unadmitted",
+        "bindingKeyLength": 90
+      },
+      "hashes": {
+        "baseline": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b",
+        "selected": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5",
+        "cleared": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b",
+        "styleEdited": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750",
+        "geometryEdited": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+      },
+      "picks": [
+        {
+          "ms": 1.9000000059604645,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.19999998807907104,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.6000000089406967,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.29999999701976776,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.29999999701976776,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.19999998807907104,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.19999998807907104,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.19999998807907104,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.29999999701976776,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.19999998807907104,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.19999998807907104,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.29999999701976776,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.20000000298023224,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.19999998807907104,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.10000000894069672,
+          "ids": [
+            "parcel:p210"
+          ]
+        },
+        {
+          "ms": 0.09999999403953552,
+          "ids": [
+            "parcel:p210"
+          ]
+        }
+      ],
+      "visibleEntityIds": [
+        "parcel:p0",
+        "parcel:p1",
+        "parcel:p10",
+        "parcel:p100",
+        "parcel:p101",
+        "parcel:p102",
+        "parcel:p103",
+        "parcel:p104",
+        "parcel:p105",
+        "parcel:p106",
+        "parcel:p107",
+        "parcel:p108",
+        "parcel:p109",
+        "parcel:p11",
+        "parcel:p110",
+        "parcel:p111",
+        "parcel:p112",
+        "parcel:p113",
+        "parcel:p114",
+        "parcel:p115",
+        "parcel:p116",
+        "parcel:p117",
+        "parcel:p118",
+        "parcel:p119",
+        "parcel:p12",
+        "parcel:p120",
+        "parcel:p121",
+        "parcel:p122",
+        "parcel:p123",
+        "parcel:p124",
+        "parcel:p125",
+        "parcel:p126",
+        "parcel:p127",
+        "parcel:p128",
+        "parcel:p129",
+        "parcel:p13",
+        "parcel:p130",
+        "parcel:p131",
+        "parcel:p132",
+        "parcel:p133",
+        "parcel:p134",
+        "parcel:p135",
+        "parcel:p136",
+        "parcel:p137",
+        "parcel:p138",
+        "parcel:p139",
+        "parcel:p14",
+        "parcel:p140",
+        "parcel:p141",
+        "parcel:p142",
+        "parcel:p143",
+        "parcel:p144",
+        "parcel:p145",
+        "parcel:p146",
+        "parcel:p147",
+        "parcel:p148",
+        "parcel:p149",
+        "parcel:p15",
+        "parcel:p150",
+        "parcel:p151",
+        "parcel:p152",
+        "parcel:p153",
+        "parcel:p154",
+        "parcel:p155",
+        "parcel:p156",
+        "parcel:p157",
+        "parcel:p158",
+        "parcel:p159",
+        "parcel:p16",
+        "parcel:p160",
+        "parcel:p161",
+        "parcel:p162",
+        "parcel:p163",
+        "parcel:p164",
+        "parcel:p165",
+        "parcel:p166",
+        "parcel:p167",
+        "parcel:p168",
+        "parcel:p169",
+        "parcel:p17",
+        "parcel:p170",
+        "parcel:p171",
+        "parcel:p172",
+        "parcel:p173",
+        "parcel:p174",
+        "parcel:p175",
+        "parcel:p176",
+        "parcel:p177",
+        "parcel:p178",
+        "parcel:p179",
+        "parcel:p18",
+        "parcel:p180",
+        "parcel:p181",
+        "parcel:p182",
+        "parcel:p183",
+        "parcel:p184",
+        "parcel:p185",
+        "parcel:p186",
+        "parcel:p187",
+        "parcel:p188",
+        "parcel:p189",
+        "parcel:p19",
+        "parcel:p190",
+        "parcel:p191",
+        "parcel:p192",
+        "parcel:p193",
+        "parcel:p194",
+        "parcel:p195",
+        "parcel:p196",
+        "parcel:p197",
+        "parcel:p198",
+        "parcel:p199",
+        "parcel:p2",
+        "parcel:p20",
+        "parcel:p200",
+        "parcel:p201",
+        "parcel:p202",
+        "parcel:p203",
+        "parcel:p204",
+        "parcel:p205",
+        "parcel:p206",
+        "parcel:p207",
+        "parcel:p208",
+        "parcel:p209",
+        "parcel:p21",
+        "parcel:p210",
+        "parcel:p211",
+        "parcel:p212",
+        "parcel:p213",
+        "parcel:p214",
+        "parcel:p215",
+        "parcel:p216",
+        "parcel:p217",
+        "parcel:p218",
+        "parcel:p219",
+        "parcel:p22",
+        "parcel:p220",
+        "parcel:p221",
+        "parcel:p222",
+        "parcel:p223",
+        "parcel:p224",
+        "parcel:p225",
+        "parcel:p226",
+        "parcel:p227",
+        "parcel:p228",
+        "parcel:p229",
+        "parcel:p23",
+        "parcel:p230",
+        "parcel:p231",
+        "parcel:p232",
+        "parcel:p233",
+        "parcel:p234",
+        "parcel:p235",
+        "parcel:p236",
+        "parcel:p237",
+        "parcel:p238",
+        "parcel:p239",
+        "parcel:p24",
+        "parcel:p240",
+        "parcel:p241",
+        "parcel:p242",
+        "parcel:p243",
+        "parcel:p244",
+        "parcel:p245",
+        "parcel:p246",
+        "parcel:p247",
+        "parcel:p248",
+        "parcel:p249",
+        "parcel:p25",
+        "parcel:p250",
+        "parcel:p251",
+        "parcel:p252",
+        "parcel:p253",
+        "parcel:p254",
+        "parcel:p255",
+        "parcel:p256",
+        "parcel:p257",
+        "parcel:p258",
+        "parcel:p259",
+        "parcel:p26",
+        "parcel:p260",
+        "parcel:p261",
+        "parcel:p262",
+        "parcel:p263",
+        "parcel:p264",
+        "parcel:p265",
+        "parcel:p266",
+        "parcel:p267",
+        "parcel:p268",
+        "parcel:p269",
+        "parcel:p27",
+        "parcel:p270",
+        "parcel:p271",
+        "parcel:p272",
+        "parcel:p273",
+        "parcel:p274",
+        "parcel:p275",
+        "parcel:p276",
+        "parcel:p277",
+        "parcel:p278",
+        "parcel:p279",
+        "parcel:p28",
+        "parcel:p280",
+        "parcel:p281",
+        "parcel:p282",
+        "parcel:p283",
+        "parcel:p284",
+        "parcel:p285",
+        "parcel:p286",
+        "parcel:p287",
+        "parcel:p288",
+        "parcel:p289",
+        "parcel:p29",
+        "parcel:p290",
+        "parcel:p291",
+        "parcel:p292",
+        "parcel:p293",
+        "parcel:p294",
+        "parcel:p295",
+        "parcel:p296",
+        "parcel:p297",
+        "parcel:p298",
+        "parcel:p299",
+        "parcel:p3",
+        "parcel:p30",
+        "parcel:p300",
+        "parcel:p301",
+        "parcel:p302",
+        "parcel:p303",
+        "parcel:p304",
+        "parcel:p305",
+        "parcel:p306",
+        "parcel:p307",
+        "parcel:p308",
+        "parcel:p309",
+        "parcel:p31",
+        "parcel:p310",
+        "parcel:p311",
+        "parcel:p312",
+        "parcel:p313",
+        "parcel:p314",
+        "parcel:p315",
+        "parcel:p316",
+        "parcel:p317",
+        "parcel:p318",
+        "parcel:p319",
+        "parcel:p32",
+        "parcel:p320",
+        "parcel:p321",
+        "parcel:p322",
+        "parcel:p323",
+        "parcel:p324",
+        "parcel:p325",
+        "parcel:p326",
+        "parcel:p327",
+        "parcel:p328",
+        "parcel:p329",
+        "parcel:p33",
+        "parcel:p330",
+        "parcel:p331",
+        "parcel:p332",
+        "parcel:p333",
+        "parcel:p334",
+        "parcel:p335",
+        "parcel:p336",
+        "parcel:p337",
+        "parcel:p338",
+        "parcel:p339",
+        "parcel:p34",
+        "parcel:p340",
+        "parcel:p341",
+        "parcel:p342",
+        "parcel:p343",
+        "parcel:p344",
+        "parcel:p345",
+        "parcel:p346",
+        "parcel:p347",
+        "parcel:p348",
+        "parcel:p349",
+        "parcel:p35",
+        "parcel:p350",
+        "parcel:p351",
+        "parcel:p352",
+        "parcel:p353",
+        "parcel:p354",
+        "parcel:p355",
+        "parcel:p356",
+        "parcel:p357",
+        "parcel:p358",
+        "parcel:p359",
+        "parcel:p36",
+        "parcel:p360",
+        "parcel:p361",
+        "parcel:p362",
+        "parcel:p363",
+        "parcel:p364",
+        "parcel:p365",
+        "parcel:p366",
+        "parcel:p367",
+        "parcel:p368",
+        "parcel:p369",
+        "parcel:p37",
+        "parcel:p370",
+        "parcel:p371",
+        "parcel:p372",
+        "parcel:p373",
+        "parcel:p374",
+        "parcel:p375",
+        "parcel:p376",
+        "parcel:p377",
+        "parcel:p378",
+        "parcel:p379",
+        "parcel:p38",
+        "parcel:p380",
+        "parcel:p381",
+        "parcel:p382",
+        "parcel:p383",
+        "parcel:p384",
+        "parcel:p385",
+        "parcel:p386",
+        "parcel:p387",
+        "parcel:p388",
+        "parcel:p389",
+        "parcel:p39",
+        "parcel:p390",
+        "parcel:p391",
+        "parcel:p392",
+        "parcel:p393",
+        "parcel:p394",
+        "parcel:p395",
+        "parcel:p396",
+        "parcel:p397",
+        "parcel:p398",
+        "parcel:p399",
+        "parcel:p4",
+        "parcel:p40",
+        "parcel:p41",
+        "parcel:p42",
+        "parcel:p43",
+        "parcel:p44",
+        "parcel:p45",
+        "parcel:p46",
+        "parcel:p47",
+        "parcel:p48",
+        "parcel:p49",
+        "parcel:p5",
+        "parcel:p50",
+        "parcel:p51",
+        "parcel:p52",
+        "parcel:p53",
+        "parcel:p54",
+        "parcel:p55",
+        "parcel:p56",
+        "parcel:p57",
+        "parcel:p58",
+        "parcel:p59",
+        "parcel:p6",
+        "parcel:p60",
+        "parcel:p61",
+        "parcel:p62",
+        "parcel:p63",
+        "parcel:p64",
+        "parcel:p65",
+        "parcel:p66",
+        "parcel:p67",
+        "parcel:p68",
+        "parcel:p69",
+        "parcel:p7",
+        "parcel:p70",
+        "parcel:p71",
+        "parcel:p72",
+        "parcel:p73",
+        "parcel:p74",
+        "parcel:p75",
+        "parcel:p76",
+        "parcel:p77",
+        "parcel:p78",
+        "parcel:p79",
+        "parcel:p8",
+        "parcel:p80",
+        "parcel:p81",
+        "parcel:p82",
+        "parcel:p83",
+        "parcel:p84",
+        "parcel:p85",
+        "parcel:p86",
+        "parcel:p87",
+        "parcel:p88",
+        "parcel:p89",
+        "parcel:p9",
+        "parcel:p90",
+        "parcel:p91",
+        "parcel:p92",
+        "parcel:p93",
+        "parcel:p94",
+        "parcel:p95",
+        "parcel:p96",
+        "parcel:p97",
+        "parcel:p98",
+        "parcel:p99"
+      ],
+      "comparisonHashes": [
+        "a9455ad01a5f11ce303bdb29582c0226155f431b5e12b9d060c1817eaf883419",
+        "a9455ad01a5f11ce303bdb29582c0226155f431b5e12b9d060c1817eaf883419",
+        "a9455ad01a5f11ce303bdb29582c0226155f431b5e12b9d060c1817eaf883419",
+        "a9455ad01a5f11ce303bdb29582c0226155f431b5e12b9d060c1817eaf883419",
+        "a9455ad01a5f11ce303bdb29582c0226155f431b5e12b9d060c1817eaf883419"
+      ],
+      "comparisonMaterialSubscriptions": [
+        {
+          "renderer": 2,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "renderer": 3,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "renderer": 4,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "renderer": 5,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "renderer": 6,
+          "before": 0,
+          "after": 0
+        }
+      ],
+      "heapDiagnostic": {
+        "before": {
+          "Documents": 1,
+          "JSEventListeners": 379,
+          "Nodes": 262,
+          "JSHeapUsedSize": 55753880
+        },
+        "batches": [
+          {
+            "Documents": 1,
+            "JSEventListeners": 935,
+            "Nodes": 274,
+            "JSHeapUsedSize": 59956136
+          }
+        ]
+      },
+      "errors": [],
+      "logs": []
+    }
+  ]
+}

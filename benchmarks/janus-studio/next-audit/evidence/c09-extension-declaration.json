@@ -1,0 +1,29 @@
+{
+  "case": "c09-studio",
+  "reason": "Initial five paired budget interval is unqualified, including a slow final candidate round. One fixed block of five more pairs is added; every earlier round remains in the final estimate.",
+  "initialBudget": {
+    "rule": "max(5% control p95,0.3ms); paired mean excess bootstrap,10000 resamples,seed20261109",
+    "excessByRoundMs": [
+      -0.4799999907612802,
+      -3.935000003129244,
+      -1.5000000059604646,
+      -0.5600000150501729,
+      3.3449999906122683
+    ],
+    "excess95CI": [
+      -2.569000003039837,
+      1.6109999950230118
+    ],
+    "status": "unqualified"
+  },
+  "additionalPairs": 5,
+  "pairNumbers": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "order": "Continue alternating: pair6 candidate/control,7 control/candidate,8 candidate/control,9 control/candidate,10 candidate/control.",
+  "decision": "Analyze all ten together. No more adaptive extension after ten; remaining uncertainty will be reported."
+}

@@ -1,0 +1,21 @@
+{
+  "variant": "candidate",
+  "sourceRef": "bd07567b61110c675350c57f9df46980ae91a055",
+  "browser": "156.0.8078.80",
+  "scope": "Targeted renderer/material reachability after explicit Chrome GC; not a retained-heap byte or production memory benchmark.",
+  "initial": {
+    "pixel": [
+      0,
+      255,
+      0,
+      255
+    ],
+    "glError": 0
+  },
+  "result": {
+    "disposedRendererStillReachable": false,
+    "retainedMaterialDisposeListeners": 0,
+    "unusedMaterialStillReachable": false
+  },
+  "errors": []
+}

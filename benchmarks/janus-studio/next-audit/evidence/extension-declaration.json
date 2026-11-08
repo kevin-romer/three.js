@@ -1,0 +1,29 @@
+{
+  "case": "e02-frozen-studio",
+  "reason": "Initial five paired mean budget-excess interval overlaps zero; additional data is collected for uncertainty, not selected by timing.",
+  "initialBudget": {
+    "rule": "max(5% control p95,0.3ms); paired mean excess bootstrap,10000 resamples,seed20261109",
+    "excessByRoundMs": [
+      -0.9199999906122684,
+      0.6249999880790711,
+      -0.16000000983476648,
+      -1.4250000067055226,
+      -0.699999988079071
+    ],
+    "excess95CI": [
+      -1.0779999965429305,
+      0.09499999761581424
+    ],
+    "status": "unqualified"
+  },
+  "additionalPairs": 5,
+  "pairNumbers": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "order": "Continue alternating: pair6 candidate/control,7 control/candidate,8 candidate/control,9 control/candidate,10 candidate/control.",
+  "decision": "Analyze all ten together after this one fixed extension. Preserve the initial five summary and all ten raw pairs."
+}

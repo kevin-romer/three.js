@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "status": "engine changes implemented and benchmarked; additional Janus CPU gain not established",
+  "completedAt": "2026-11-08T14:20:27.838638+00:00",
+  "engineCommits": {
+    "e02": "e2c4394c7c528dbae5607132fb0218414eec7e95",
+    "c09": "bd07567b61110c675350c57f9df46980ae91a055"
+  },
+  "correctnessAndSourceGates": "passed",
+  "measuredFrames": 15000,
+  "matchedPairedFramebufferCaptures": 75,
+  "cpuBudgets": {
+    "e02Studio": "pass",
+    "e02RetainedBuildings": "pass",
+    "c09Studio": "unqualified after ten pairs"
+  },
+  "additionalJanusCpuSpeedupDemonstrated": false,
+  "cleanup": {
+    "registeredBrowsersChecked": 84,
+    "activeTaskProcesses": 0,
+    "inactiveOwnedProfileDirectoriesRemoved": 37,
+    "temporaryWorkspaceBuildsCachesScreenshotsLogsAndEnvironmentCopiesRemoved": true,
+    "forkRetained": true,
+    "privateReplaySourceArtifactRetained": true,
+    "privateReplayDetails": "replay-inputs.json; source inputs retained privately because Atlas changed during the preliminary benchmark. Environment values and installed dependency directories are excluded."
+  },
+  "atlas": "Read-only input; no task edits, dependency rollout, service/container restarts or deployment."
+}

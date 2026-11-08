@@ -1,0 +1,65 @@
+{
+  "engine": "chrome",
+  "version": "before",
+  "suite": "core",
+  "browser": "156.0.8078.80",
+  "started": "2026-11-08T13:02:08.268Z",
+  "completed": "2026-11-08T13:02:21.042Z",
+  "result": {
+    "counts": {
+      "passed": 2,
+      "failed": 1,
+      "skipped": 0,
+      "todo": 0,
+      "total": 3
+    },
+    "runtimeMs": 464
+  },
+  "tests": [
+    {
+      "name": "Renderers > WebGLVisibility > hidden materials defer geometry and instance uploads but preserve visible children",
+      "status": "failed",
+      "runtimeMs": 399,
+      "softSkips": [],
+      "errors": [
+        {
+          "message": "No hidden geometry upload callbacks",
+          "stack": "    at Object.<anonymous> (https://three-audit.test/test/unit/src/renderers/webgl/WebGLVisibility.tests.js:73:12)"
+        },
+        {
+          "message": "No hidden instance upload",
+          "stack": "    at Object.<anonymous> (https://three-audit.test/test/unit/src/renderers/webgl/WebGLVisibility.tests.js:74:12)"
+        },
+        {
+          "stack": "    at Object.<anonymous> (https://three-audit.test/test/unit/src/renderers/webgl/WebGLVisibility.tests.js:75:12)"
+        },
+        {
+          "message": "Dirty hidden attributes stay deferred",
+          "stack": "    at Object.<anonymous> (https://three-audit.test/test/unit/src/renderers/webgl/WebGLVisibility.tests.js:91:12)"
+        },
+        {
+          "stack": "    at Object.<anonymous> (https://three-audit.test/test/unit/src/renderers/webgl/WebGLVisibility.tests.js:92:12)"
+        }
+      ]
+    },
+    {
+      "name": "Renderers > WebGLVisibility > shared geometry still uploads for a visible child and render target",
+      "status": "passed",
+      "runtimeMs": 51,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLVisibility > material arrays keep group visibility and upload semantics",
+      "status": "passed",
+      "runtimeMs": 10,
+      "softSkips": [],
+      "errors": []
+    }
+  ],
+  "backends": [],
+  "errors": [],
+  "missing": [],
+  "external": [],
+  "warnings": []
+}

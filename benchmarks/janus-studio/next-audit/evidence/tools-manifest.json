@@ -1,0 +1,28 @@
+{
+  "tools": {
+    "next-paired.mjs": "1c57a44d39586c941a3daa7760e1c01e6d63b587ba3d25b138cf4aa8872a5119",
+    "analyze-next.mjs": "1e664faed7e15a75b7cfb46c411f880c9c2c17a6912484e91e5e0f75f1a36ce3",
+    "run-final-campaigns.mjs": "403eec1cdf91f9ab344374761d9d8d82d293724f016f35d7c76055df746c870b",
+    "freeze-app.mjs": "1b63aad911105590aa5ace4ec19df15dba0d48c1ef36f7245154020c00a0f667",
+    "copy-resolution-targets.mjs": "b522331ee9838c1287b9090c11d84a89f44aaf48d230162b32291d8b7dcfd75b",
+    "janus-server.mjs": "6c31e73df36cdc9b2bcfd783f6d06e40351852be41464ed699d2ef78fdd3e40e",
+    "studio-synthetic.mjs": "978353f9e6da5f64927842b7a41494d71a13c56efbcf141aed7fa552fd8f8939",
+    "product-fixtures.mjs": "d2c30f5dc9fa655227b28458d7a3a3e95b5fb12e688a58318398c91a5080b71d",
+    "measure-map.mjs": "2b3517c953f69984578f5971086240a8d330bcfd28d30f06273567cd4aaa0dd2",
+    "managed-browser.mjs": "04f922b3e7a484627d2e3b7fde47fd15bc937f717d5114fd8cf1aa67d3d0ba7f",
+    "buildings-run.mjs": "a6a5122ff62c4c008bedb19837c6395a3bcac9cf7484e5477557fce77464ef5d",
+    "engine-hidden-upload.mjs": "14bc685461049d3d969929671373612c53f114209aedb8b4bc23cf9168bd9aed",
+    "engine-lifetime-gc.mjs": "3d8370b275917ab02e40286ad563354f53f327ebbcdd9f95ca952e74d8e69c8f",
+    "janus-lifetime-server.mjs": "a36b489a4c6654fdda7e5e39dc6863aea14b211462cfe1fd34fe391a6b66e235",
+    "janus-lifetime-checks.mjs": "76da0b0753561182ae14a5ee6ef7f7f296933e6eadc2a5037212a34a7341086c",
+    "studio-correctness.mjs": "3dd4415224193ab543a79b1a7eb4b53d60e6aace56956bdb7a61e665a392248e",
+    "instrument-resources.mjs": "34d5363641c3d6ef62ebb1e4ecee1dfd26fe86aae415bf78fce8ab04eab3019e",
+    "renderer-listeners.mjs": "182684fd1678442ad0f2760971b8861c4a04ae81a5fa598de6747165ed4d4d66",
+    "qunit-progress.mjs": "59826e6d85af04f83f2d49694791aa2837d260332d8b6d83bd738dcfff4ffa49",
+    "run-units.mjs": "69166ee60650cdfb5ba3a3616e4afede57ec833056d464b007bccfee83137952",
+    "run-diagnostics.mjs": "fe326a8a5958db525ff4287ea1bef4895113d183ba59353990a472cbad008baa",
+    "extend-studio.mjs": "96e6f3e374ae16d6049f2f99d4ce119f9b01429caa67adbf7539b2ebf652cf3f",
+    "run-extensions.mjs": "35b35c70596e5d74caa6b15db4df5dc072a892747420c2edd071009568e06e4b",
+    "verify-next.mjs": "7560c8f0fe07faafa4c3ff5f536a6d08d35f9989ada102d8e65fdb43bb3e20f0"
+  }
+}

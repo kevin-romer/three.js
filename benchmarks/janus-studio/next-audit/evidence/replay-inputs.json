@@ -1,0 +1,10 @@
+{
+  "archiveSha256": "6dd8c11c8818975f902e9264eec38d5d282f8d0e42e8b3e30c480499ee3125e4",
+  "bytes": 1303586,
+  "sourceSnapshot": {
+    "sha256": "f49ae9661826cf5876d22c5152bbe91c002bd2b8d8809d6302159f175d4fdfe1",
+    "files": 317
+  },
+  "sourceFiles": 317,
+  "scope": "Private local replay artifact, outside both repositories. Contains frozen application modules and package lockfile, no node_modules, environment files, generated fixture tokens, browser profiles or screenshots. Restore an authorized local fixture environment and install the locked dependencies before replay."
+}

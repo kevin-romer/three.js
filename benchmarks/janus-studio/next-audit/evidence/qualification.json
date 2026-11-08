@@ -1,0 +1,46 @@
+{
+  "finalEngineCommit": "bd07567b61110c675350c57f9df46980ae91a055",
+  "sources": {
+    "before": {
+      "commit": "2099f6f8c9aba5957567ac6186f5a9eb274bdb75",
+      "rendererSha256": "5625fe3315ff4bdc7a26ae6a2eda31db0be3eeae71bc89eeb469705888b97474"
+    },
+    "e02": {
+      "commit": "e2c4394c7c528dbae5607132fb0218414eec7e95",
+      "rendererSha256": "7abfe3a92a20c5068370f04ffcd315e476f782ff8db8297ebec698bf47d257fb"
+    },
+    "c09": {
+      "commit": "bd07567b61110c675350c57f9df46980ae91a055",
+      "rendererSha256": "47b6e86d26dec4d6b5c7ea5a5c63217c5bca1e68b979de8b09636132fbf5c46b"
+    }
+  },
+  "lint": {
+    "core": "passed",
+    "test": "passed"
+  },
+  "corePassed": 1998,
+  "coreTodo": 1,
+  "coreFailed": 0,
+  "addonPassed": 145,
+  "webglSubsetPassedPerBrowser": 205,
+  "newRealWebGLRegressionTests": 6,
+  "buildOutputs": 5,
+  "buildWarnings": 0,
+  "suites": "qunit-chrome-next-final-{core,addons}.json; qunit-{chrome,firefox,webkit}-c09-core.json",
+  "sourceScope": "Each optimization changes only WebGLRenderer.js under src; its real-WebGL regressions accompany its engine commit.",
+  "unsupported": {
+    "gpuCompletionTime": "Not measured",
+    "driverResidentBytes": "Not measured",
+    "allocationBytes": "Not instrumented",
+    "wholePageHeapStability": "Not qualified; targeted renderer reachability is a separate check",
+    "physicalMobilePerformance": "Not tested in this iteration",
+    "webgpuPerformance": "WebGLRenderer changes only; native WebGPU is covered by unchanged core tests, not a performance claim."
+  },
+  "cpuBudgetResults": {
+    "e02Studio": "pass",
+    "e02RetainedBuildings": "pass",
+    "c09Studio": "unqualified after ten pairs"
+  },
+  "additionalJanusCpuSpeedupDemonstrated": false,
+  "janusCpuAdoptionQualified": false
+}

@@ -1,0 +1,21 @@
+{
+  "variant": "control",
+  "sourceRef": "2099f6f8c9aba5957567ac6186f5a9eb274bdb75",
+  "browser": "156.0.8078.80",
+  "scope": "Synthetic engine operation-count probe; not Janus CPU timing or physical GPU bandwidth.",
+  "result": {
+    "hiddenMeshes": 128,
+    "dirtyFrames": 30,
+    "bufferSubDataCalls": 3840,
+    "logicalPayloadBytes": 35389440,
+    "pixel": [
+      0,
+      255,
+      0,
+      255
+    ],
+    "drawsHidden": 1,
+    "drawsRevealed": 129,
+    "glError": 0
+  }
+}

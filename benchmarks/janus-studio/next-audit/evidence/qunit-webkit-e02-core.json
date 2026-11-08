@@ -1,0 +1,46 @@
+{
+  "engine": "webkit",
+  "version": "e02",
+  "suite": "core",
+  "browser": "26.5",
+  "started": "2026-11-08T13:02:46.910Z",
+  "completed": "2026-11-08T13:02:48.505Z",
+  "result": {
+    "counts": {
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "todo": 0,
+      "total": 3
+    },
+    "runtimeMs": 379
+  },
+  "tests": [
+    {
+      "name": "Renderers > WebGLVisibility > hidden materials defer geometry and instance uploads but preserve visible children",
+      "status": "passed",
+      "runtimeMs": 273,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLVisibility > shared geometry still uploads for a visible child and render target",
+      "status": "passed",
+      "runtimeMs": 80,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLVisibility > material arrays keep group visibility and upload semantics",
+      "status": "passed",
+      "runtimeMs": 12,
+      "softSkips": [],
+      "errors": []
+    }
+  ],
+  "backends": [],
+  "errors": [],
+  "missing": [],
+  "external": [],
+  "warnings": []
+}

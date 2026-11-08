@@ -1,5 +1,7 @@
 # Three.js performance against Janus Studio
 
+[Followup E02/C09 engine changes and Janus benchmarks](next-audit/README.md) extend this work. The original cache qualification below is pinned to `2099f6f`; use that revision when running its historical source verifier.
+
 The [performance goal](goal.json) is complete. The fork's opt-in inactive WebGL program cache reduces p95 Three.js render/reset CPU time by **21.5%** in the full Janus Studio workspace with 400 deterministic synthetic parcels. Five paired rounds give a 95% paired-bootstrap improvement interval of **17.0% to 25.8%**. All four timed application workloads and both stable-scene settings pass the render CPU regression budget.
 
 The improvement is in Three.js. Atlas application files, dependency manifests and deployment state were not changed. The broader [28-item engine audit](../../audit/comprehensive-r187/README.md) remains a prioritized backlog; this goal implements and qualifies program reuse plus a bulk-disposal improvement.
