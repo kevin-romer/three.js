@@ -1,0 +1,482 @@
+{
+  "scope": "Median of five per-round percentiles, not pooled frame statistics. Startup includes local fixture mounting. Long-task observations may omit the last pending observer entry and are not exhaustive. No startup or long-task gain is qualified.",
+  "cases": [
+    {
+      "case": "desktop",
+      "variants": [
+        {
+          "variant": "r187",
+          "medianOfRoundPercentiles": {
+            "engineMs": {
+              "p50": 34.8999999910593,
+              "p95": 37.79999999701977,
+              "p99": 45.80000000447035
+            },
+            "frameIntervalMs": {
+              "p50": 99.10000000149012,
+              "p95": 108.70000000298023,
+              "p99": 121.79999999701977
+            }
+          },
+          "startupMsByRound": {
+            "workspaceReadyMs": [
+              2300.846708000001,
+              2370.9703329999993,
+              2725.5674579999995,
+              3190.6022089999988,
+              2355.3479590000006
+            ],
+            "nonemptyDataReadyMs": [
+              256.28804200000013,
+              251.45604100000128,
+              267.2079169999997,
+              255.94029199999932,
+              266.3365840000006
+            ]
+          },
+          "observedLongTasksByRound": [
+            {
+              "count": 299,
+              "totalMs": 26247,
+              "maxMs": 113
+            },
+            {
+              "count": 300,
+              "totalMs": 24357,
+              "maxMs": 128
+            },
+            {
+              "count": 299,
+              "totalMs": 24708,
+              "maxMs": 105
+            },
+            {
+              "count": 299,
+              "totalMs": 24761,
+              "maxMs": 113
+            },
+            {
+              "count": 300,
+              "totalMs": 23743,
+              "maxMs": 102
+            }
+          ]
+        },
+        {
+          "variant": "fork",
+          "medianOfRoundPercentiles": {
+            "engineMs": {
+              "p50": 27.799999997019768,
+              "p95": 29.600000001490116,
+              "p99": 37.900000005960464
+            },
+            "frameIntervalMs": {
+              "p50": 91.79999999701977,
+              "p95": 98,
+              "p99": 105.29999999701977
+            }
+          },
+          "startupMsByRound": {
+            "workspaceReadyMs": [
+              4055.3274170000004,
+              2536.469916,
+              2862.1474579999995,
+              2250.632667,
+              2329.577166
+            ],
+            "nonemptyDataReadyMs": [
+              282.04816700000083,
+              262.2484999999997,
+              272.48533300000054,
+              237.19425000000047,
+              252.07187499999964
+            ]
+          },
+          "observedLongTasksByRound": [
+            {
+              "count": 300,
+              "totalMs": 22401,
+              "maxMs": 94
+            },
+            {
+              "count": 299,
+              "totalMs": 21485,
+              "maxMs": 88
+            },
+            {
+              "count": 300,
+              "totalMs": 23604,
+              "maxMs": 126
+            },
+            {
+              "count": 300,
+              "totalMs": 21489,
+              "maxMs": 89
+            },
+            {
+              "count": 300,
+              "totalMs": 22513,
+              "maxMs": 92
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "scale100",
+      "variants": [
+        {
+          "variant": "r187",
+          "medianOfRoundPercentiles": {
+            "engineMs": {
+              "p50": 18.600000001490116,
+              "p95": 21.799999997019768,
+              "p99": 25.5
+            },
+            "frameIntervalMs": {
+              "p50": 55.70000000298023,
+              "p95": 62.80000000447035,
+              "p99": 79.60000000149012
+            }
+          },
+          "startupMsByRound": {
+            "workspaceReadyMs": [
+              6505.641624999998,
+              7522.177625,
+              4214.480249999999,
+              6128.151791,
+              4620.628458000001
+            ],
+            "nonemptyDataReadyMs": [
+              120.23637500000041,
+              96.49675000000207,
+              102.29612499999894,
+              103.83141700000124,
+              104.34533400000146
+            ]
+          },
+          "observedLongTasksByRound": [
+            {
+              "count": 4,
+              "totalMs": 261,
+              "maxMs": 85
+            },
+            {
+              "count": 7,
+              "totalMs": 417,
+              "maxMs": 85
+            },
+            {
+              "count": 13,
+              "totalMs": 728,
+              "maxMs": 67
+            },
+            {
+              "count": 1,
+              "totalMs": 56,
+              "maxMs": 56
+            },
+            {
+              "count": 3,
+              "totalMs": 157,
+              "maxMs": 53
+            }
+          ]
+        },
+        {
+          "variant": "fork",
+          "medianOfRoundPercentiles": {
+            "engineMs": {
+              "p50": 10.700000002980232,
+              "p95": 12.300000004470348,
+              "p99": 12.700000002980232
+            },
+            "frameIntervalMs": {
+              "p50": 46.69999999552965,
+              "p95": 51.79999999701977,
+              "p99": 58.79999999701977
+            }
+          },
+          "startupMsByRound": {
+            "workspaceReadyMs": [
+              6963.921541,
+              4250.370917000001,
+              3682.715750000001,
+              5029.216,
+              3612.2031659999993
+            ],
+            "nonemptyDataReadyMs": [
+              98.29766699999891,
+              93.03262500000164,
+              97.40250000000015,
+              91.66533300000083,
+              87.65141700000095
+            ]
+          },
+          "observedLongTasksByRound": [
+            {
+              "count": 0,
+              "totalMs": 0,
+              "maxMs": 0
+            },
+            {
+              "count": 2,
+              "totalMs": 114,
+              "maxMs": 64
+            },
+            {
+              "count": 0,
+              "totalMs": 0,
+              "maxMs": 0
+            },
+            {
+              "count": 0,
+              "totalMs": 0,
+              "maxMs": 0
+            },
+            {
+              "count": 0,
+              "totalMs": 0,
+              "maxMs": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "buildings",
+      "variants": [
+        {
+          "variant": "r187",
+          "medianOfRoundPercentiles": {
+            "engineMs": {
+              "p50": 10.399999998509884,
+              "p95": 11.700000002980232,
+              "p99": 15.099999994039536
+            },
+            "frameIntervalMs": {
+              "p50": 24.600000001490116,
+              "p95": 28,
+              "p99": 32.600000001490116
+            }
+          },
+          "startupMsByRound": {
+            "startupMs": [
+              3143.7651250000004,
+              2353.2096659999997,
+              2428.4935829999995,
+              3116.3283329999995,
+              2253.19975
+            ]
+          },
+          "observedLongTasksByRound": [
+            {
+              "count": 0,
+              "totalMs": 0,
+              "maxMs": 0
+            },
+            {
+              "count": 0,
+              "totalMs": 0,
+              "maxMs": 0
+            },
+            {
+              "count": 0,
+              "totalMs": 0,
+              "maxMs": 0
+            },
+            {
+              "count": 0,
+              "totalMs": 0,
+              "maxMs": 0
+            },
+            {
+              "count": 0,
+              "totalMs": 0,
+              "maxMs": 0
+            }
+          ]
+        },
+        {
+          "variant": "fork",
+          "medianOfRoundPercentiles": {
+            "engineMs": {
+              "p50": 3.6999999955296516,
+              "p95": 4.399999998509884,
+              "p99": 4.800000004470348
+            },
+            "frameIntervalMs": {
+              "p50": 17.799999997019768,
+              "p95": 19.700000002980232,
+              "p99": 25.5
+            }
+          },
+          "startupMsByRound": {
+            "startupMs": [
+              3318.5074579999996,
+              2200.8590000000004,
+              2321.594083,
+              2922.2888749999997,
+              2204.4995
+            ]
+          },
+          "observedLongTasksByRound": [
+            {
+              "count": 0,
+              "totalMs": 0,
+              "maxMs": 0
+            },
+            {
+              "count": 0,
+              "totalMs": 0,
+              "maxMs": 0
+            },
+            {
+              "count": 0,
+              "totalMs": 0,
+              "maxMs": 0
+            },
+            {
+              "count": 0,
+              "totalMs": 0,
+              "maxMs": 0
+            },
+            {
+              "count": 0,
+              "totalMs": 0,
+              "maxMs": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "mobile",
+      "variants": [
+        {
+          "variant": "r187",
+          "medianOfRoundPercentiles": {
+            "engineMs": {
+              "p50": 132.69999998807907,
+              "p95": 150.29999999701977,
+              "p99": 179.49999998509884
+            },
+            "frameIntervalMs": {
+              "p50": 417.70000000298023,
+              "p95": 471,
+              "p99": 492.3999999910593
+            }
+          },
+          "startupMsByRound": {
+            "workspaceReadyMs": [
+              4000.6528340000004,
+              4267.512375,
+              4251.243542,
+              4208.0977920000005,
+              3896.386833999999
+            ],
+            "nonemptyDataReadyMs": [
+              991.9790409999987,
+              1066.0543749999997,
+              1047.2421250000007,
+              1058.3065420000003,
+              1235.8163330000007
+            ]
+          },
+          "observedLongTasksByRound": [
+            {
+              "count": 598,
+              "totalMs": 121611,
+              "maxMs": 470
+            },
+            {
+              "count": 599,
+              "totalMs": 126263,
+              "maxMs": 409
+            },
+            {
+              "count": 598,
+              "totalMs": 124612,
+              "maxMs": 485
+            },
+            {
+              "count": 599,
+              "totalMs": 131023,
+              "maxMs": 553
+            },
+            {
+              "count": 600,
+              "totalMs": 124099,
+              "maxMs": 652
+            }
+          ]
+        },
+        {
+          "variant": "fork",
+          "medianOfRoundPercentiles": {
+            "engineMs": {
+              "p50": 116.79999999701977,
+              "p95": 135,
+              "p99": 153
+            },
+            "frameIntervalMs": {
+              "p50": 384.90000000596046,
+              "p95": 438.8999999910593,
+              "p99": 478.20000000298023
+            }
+          },
+          "startupMsByRound": {
+            "workspaceReadyMs": [
+              4589.0810409999995,
+              3979.747542000001,
+              3970.5440419999995,
+              3722.2436659999994,
+              3805.470165999999
+            ],
+            "nonemptyDataReadyMs": [
+              1071.6434169999993,
+              1047.8880420000005,
+              980.4269170000007,
+              1008.6157920000005,
+              942.1582080000007
+            ]
+          },
+          "observedLongTasksByRound": [
+            {
+              "count": 600,
+              "totalMs": 115029,
+              "maxMs": 383
+            },
+            {
+              "count": 599,
+              "totalMs": 116562,
+              "maxMs": 508
+            },
+            {
+              "count": 600,
+              "totalMs": 116859,
+              "maxMs": 459
+            },
+            {
+              "count": 599,
+              "totalMs": 117290,
+              "maxMs": 433
+            },
+            {
+              "count": 595,
+              "totalMs": 124319,
+              "maxMs": 460
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "unsupported": {
+    "gpuCompletionMs": "No reliable GPU completion timer used",
+    "gpuResidentBytes": "Driver residency not measured",
+    "allocationBytes": "No allocation-byte instrumentation during formal timing",
+    "uniformPhysicalTransferBytes": "Only logical argument payloads counted in separate diagnostics; not driver transfers",
+    "textureTransferBytes": "No texture upload calls in the selected steady-state counter sample"
+  }
+}

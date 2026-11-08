@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "engineCommit": "c42214c41c60194997208b5ef1a34e8b210c6eed",
+  "passed": true,
+  "sourceScope": "final-source-scope.json",
+  "testArtifacts": [
+    "qunit-chrome-final-core.json",
+    "qunit-chrome-final-addons.json",
+    "qunit-firefox-final-cache-core.json",
+    "qunit-webkit-final-cache-core.json"
+  ],
+  "lint": {
+    "core": {
+      "command": "npm run lint-core",
+      "exitCode": 0
+    },
+    "test": {
+      "command": "npm run lint-test",
+      "exitCode": 0
+    }
+  },
+  "build": "final-build-results.json",
+  "bulkDisposal": "dispose-scaling.json",
+  "note": "Fresh gates after final bulk-disposal change; performance campaigns remain pinned to ea87fa9. Addon harness records fixture request test/unit/texture.test as missing; no test failures."
+}

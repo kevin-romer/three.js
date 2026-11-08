@@ -1,0 +1,85 @@
+{
+  "scope": "Real WebGL programs. Array-search work is counted; single-run native disposal times are diagnostic, not a qualified wall-time speedup.",
+  "runs": [
+    {
+      "variant": "fork-before-dispose",
+      "browser": "156.0.8078.80",
+      "result": {
+        "count": 128,
+        "initialPrograms": 128,
+        "remainingPrograms": 0,
+        "searches": 128,
+        "scannedElements": 8256,
+        "deleteProgramCalls": 128,
+        "disposeMs": 0.7999999970197678,
+        "pixel": [
+          0,
+          255,
+          0,
+          255
+        ],
+        "glError": 0
+      }
+    },
+    {
+      "variant": "fork",
+      "browser": "156.0.8078.80",
+      "result": {
+        "count": 128,
+        "initialPrograms": 128,
+        "remainingPrograms": 0,
+        "searches": 0,
+        "scannedElements": 0,
+        "deleteProgramCalls": 128,
+        "disposeMs": 0.699999988079071,
+        "pixel": [
+          0,
+          255,
+          0,
+          255
+        ],
+        "glError": 0
+      }
+    },
+    {
+      "variant": "fork",
+      "browser": "156.0.8078.80",
+      "result": {
+        "count": 512,
+        "initialPrograms": 512,
+        "remainingPrograms": 0,
+        "searches": 0,
+        "scannedElements": 0,
+        "deleteProgramCalls": 512,
+        "disposeMs": 1.5999999940395355,
+        "pixel": [
+          0,
+          255,
+          0,
+          255
+        ],
+        "glError": 0
+      }
+    },
+    {
+      "variant": "fork-before-dispose",
+      "browser": "156.0.8078.80",
+      "result": {
+        "count": 512,
+        "initialPrograms": 512,
+        "remainingPrograms": 0,
+        "searches": 512,
+        "scannedElements": 131328,
+        "deleteProgramCalls": 512,
+        "disposeMs": 1.9000000059604645,
+        "pixel": [
+          0,
+          255,
+          0,
+          255
+        ],
+        "glError": 0
+      }
+    }
+  ]
+}

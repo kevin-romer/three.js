@@ -1,0 +1,28 @@
+{
+  "measuredEngineCommit": "ea87fa90a4211920f08120639189344c7f73bd96",
+  "finalEngineCommit": "c42214c41c60194997208b5ef1a34e8b210c6eed",
+  "sources": {
+    "src/renderers/WebGLRenderer.js": {
+      "measured": "5625fe3315ff4bdc7a26ae6a2eda31db0be3eeae71bc89eeb469705888b97474",
+      "final": "5625fe3315ff4bdc7a26ae6a2eda31db0be3eeae71bc89eeb469705888b97474"
+    },
+    "src/renderers/webgl/WebGLPrograms.js": {
+      "measured": "e7c73a7896f9565dcffecc6ba6d7285acdb3b5dd51be595c06605bb96e28d5c5",
+      "final": "6776011518ab88e922cbc8416381961d045b9433bd6f6becd0f28fc31bed1f1e"
+    },
+    "test/unit/three.source.unit.js": {
+      "measured": "7ff27a69c66da6c5c2b65263aece2971b2d012d39fdd7cd9daeb87503556a070",
+      "final": "7ff27a69c66da6c5c2b65263aece2971b2d012d39fdd7cd9daeb87503556a070"
+    },
+    "test/unit/src/renderers/webgl/WebGLPrograms.tests.js": {
+      "measured": "303e797dc2608d9151cf7ff35e595527e4aed89cfb2438745bb245e5511e57a0",
+      "final": "303e797dc2608d9151cf7ff35e595527e4aed89cfb2438745bb245e5511e57a0"
+    }
+  },
+  "changedFunctions": [
+    "destroyProgram",
+    "dispose"
+  ],
+  "scope": "AST comparison removes only destroyProgram and dispose declarations; the rest of WebGLPrograms is identical. WebGLRenderer and regression test files are byte-identical. Performance campaigns remain attributed to the measured commit; later bulk disposal is independently checked with real GL programs.",
+  "passed": true
+}

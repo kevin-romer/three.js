@@ -1,0 +1,1540 @@
+{
+  "scope": "One separate diagnostic run per variant; ten cycles of six mutations. Action CPU and render-event latency are distinct; readback and hashing reported separately. No statistical latency or speedup qualification.",
+  "all120ExpectedOutputChecksPassed": true,
+  "variants": [
+    {
+      "variant": "r187",
+      "browser": "156.0.8078.80",
+      "startup": {
+        "workspaceReadyMs": 4781.611290999999,
+        "nonemptyDataReadyMs": 257.01737499999945
+      },
+      "data": {
+        "hash": "d43995269a7bb3f3bf316b71ef48317d52d8fd89fecd2bc2af5242345ba1267f",
+        "count": 400,
+        "classification": "synthetic-unadmitted",
+        "bindingKeyLength": 90
+      },
+      "interactions": {
+        "scope": "10 repeated cycles in one diagnostic run; no confidence interval or speedup claim. Render-event latency excludes current readback and hashing, but prior verification can affect scheduling. Not GPU/display completion.",
+        "rows": [
+          {
+            "cycle": 0,
+            "name": "select",
+            "actionMs": 0.5999999940395355,
+            "renderEventMs": 69,
+            "readbackMs": 3.7999999970197678,
+            "hashMs": 1.8999999910593033,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 0,
+            "name": "clear-selection",
+            "actionMs": 0.30000001192092896,
+            "renderEventMs": 85.70000000298023,
+            "readbackMs": 4.5,
+            "hashMs": 2,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 0,
+            "name": "style-edit",
+            "actionMs": 1.7000000029802322,
+            "renderEventMs": 149.79999999701977,
+            "readbackMs": 3.2000000029802322,
+            "hashMs": 2,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 0,
+            "name": "style-reset",
+            "actionMs": 1.7000000029802322,
+            "renderEventMs": 128.59999999403954,
+            "readbackMs": 3.2999999970197678,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 0,
+            "name": "geometry-edit",
+            "actionMs": 16.600000008940697,
+            "renderEventMs": 202.20000000298023,
+            "readbackMs": 3.5,
+            "hashMs": 1.8999999910593033,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 0,
+            "name": "geometry-reset",
+            "actionMs": 13,
+            "renderEventMs": 191,
+            "readbackMs": 3.5,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 1,
+            "name": "select",
+            "actionMs": 0.7999999970197678,
+            "renderEventMs": 88.79999999701977,
+            "readbackMs": 3.2000000029802322,
+            "hashMs": 1.800000011920929,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 1,
+            "name": "clear-selection",
+            "actionMs": 0.3999999910593033,
+            "renderEventMs": 82.3999999910593,
+            "readbackMs": 3.9000000059604645,
+            "hashMs": 1.7000000029802322,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 1,
+            "name": "style-edit",
+            "actionMs": 1.5999999940395355,
+            "renderEventMs": 148.09999999403954,
+            "readbackMs": 3.2999999970197678,
+            "hashMs": 1.699999988079071,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 1,
+            "name": "style-reset",
+            "actionMs": 1.4000000059604645,
+            "renderEventMs": 123.6000000089407,
+            "readbackMs": 5,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 1,
+            "name": "geometry-edit",
+            "actionMs": 14.200000002980232,
+            "renderEventMs": 194.1000000089407,
+            "readbackMs": 4.699999988079071,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 1,
+            "name": "geometry-reset",
+            "actionMs": 12.299999997019768,
+            "renderEventMs": 190.20000000298023,
+            "readbackMs": 3.0999999940395355,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 2,
+            "name": "select",
+            "actionMs": 0.4000000059604645,
+            "renderEventMs": 80.20000000298023,
+            "readbackMs": 5.299999997019768,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 2,
+            "name": "clear-selection",
+            "actionMs": 0.30000001192092896,
+            "renderEventMs": 80.5,
+            "readbackMs": 3.300000011920929,
+            "hashMs": 1.7000000029802322,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 2,
+            "name": "style-edit",
+            "actionMs": 1.4000000059604645,
+            "renderEventMs": 141.29999999701977,
+            "readbackMs": 7.399999991059303,
+            "hashMs": 2.2000000029802322,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 2,
+            "name": "style-reset",
+            "actionMs": 1.4000000059604645,
+            "renderEventMs": 125.09999999403954,
+            "readbackMs": 3.2000000029802322,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 2,
+            "name": "geometry-edit",
+            "actionMs": 11.799999997019768,
+            "renderEventMs": 186.70000000298023,
+            "readbackMs": 4.0999999940395355,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 2,
+            "name": "geometry-reset",
+            "actionMs": 12.299999997019768,
+            "renderEventMs": 184.20000000298023,
+            "readbackMs": 5.299999997019768,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 3,
+            "name": "select",
+            "actionMs": 0.6000000089406967,
+            "renderEventMs": 80.1000000089407,
+            "readbackMs": 3.2999999970197678,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 3,
+            "name": "clear-selection",
+            "actionMs": 0.3999999910593033,
+            "renderEventMs": 81.59999999403954,
+            "readbackMs": 3.5,
+            "hashMs": 1.8999999910593033,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 3,
+            "name": "style-edit",
+            "actionMs": 1.2000000029802322,
+            "renderEventMs": 144.20000000298023,
+            "readbackMs": 3.2999999970197678,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 3,
+            "name": "style-reset",
+            "actionMs": 1.2000000029802322,
+            "renderEventMs": 125.20000000298023,
+            "readbackMs": 4,
+            "hashMs": 2,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 3,
+            "name": "geometry-edit",
+            "actionMs": 11.5,
+            "renderEventMs": 184.09999999403954,
+            "readbackMs": 3.2999999970197678,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 3,
+            "name": "geometry-reset",
+            "actionMs": 11.900000005960464,
+            "renderEventMs": 190,
+            "readbackMs": 3.5,
+            "hashMs": 1.8999999910593033,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 4,
+            "name": "select",
+            "actionMs": 0.6000000089406967,
+            "renderEventMs": 81.40000000596046,
+            "readbackMs": 3.2000000029802322,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 4,
+            "name": "clear-selection",
+            "actionMs": 0.30000001192092896,
+            "renderEventMs": 82.1000000089407,
+            "readbackMs": 4.5999999940395355,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 4,
+            "name": "style-edit",
+            "actionMs": 1.1000000089406967,
+            "renderEventMs": 142.30000001192093,
+            "readbackMs": 3.7999999970197678,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 4,
+            "name": "style-reset",
+            "actionMs": 1.1000000089406967,
+            "renderEventMs": 132.20000000298023,
+            "readbackMs": 3.4000000059604645,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 4,
+            "name": "geometry-edit",
+            "actionMs": 20.700000002980232,
+            "renderEventMs": 198.1000000089407,
+            "readbackMs": 3.7000000029802322,
+            "hashMs": 1.8999999910593033,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 4,
+            "name": "geometry-reset",
+            "actionMs": 12.700000002980232,
+            "renderEventMs": 194.6000000089407,
+            "readbackMs": 4.5999999940395355,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 5,
+            "name": "select",
+            "actionMs": 0.5,
+            "renderEventMs": 82,
+            "readbackMs": 3.2999999970197678,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 5,
+            "name": "clear-selection",
+            "actionMs": 0.29999999701976776,
+            "renderEventMs": 79.3999999910593,
+            "readbackMs": 4,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 5,
+            "name": "style-edit",
+            "actionMs": 1.2000000029802322,
+            "renderEventMs": 139.40000000596046,
+            "readbackMs": 3.5999999940395355,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 5,
+            "name": "style-reset",
+            "actionMs": 1.2000000029802322,
+            "renderEventMs": 122.20000000298023,
+            "readbackMs": 2.9000000059604645,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 5,
+            "name": "geometry-edit",
+            "actionMs": 12.200000002980232,
+            "renderEventMs": 188.8999999910593,
+            "readbackMs": 3.5,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 5,
+            "name": "geometry-reset",
+            "actionMs": 12.700000002980232,
+            "renderEventMs": 188.8999999910593,
+            "readbackMs": 4.5,
+            "hashMs": 2,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 6,
+            "name": "select",
+            "actionMs": 0.5,
+            "renderEventMs": 80,
+            "readbackMs": 6.699999988079071,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 6,
+            "name": "clear-selection",
+            "actionMs": 0.20000000298023224,
+            "renderEventMs": 82,
+            "readbackMs": 3.2999999970197678,
+            "hashMs": 1.8999999910593033,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 6,
+            "name": "style-edit",
+            "actionMs": 1.1000000089406967,
+            "renderEventMs": 144.20000000298023,
+            "readbackMs": 3.7999999970197678,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 6,
+            "name": "style-reset",
+            "actionMs": 1.5,
+            "renderEventMs": 130.1000000089407,
+            "readbackMs": 6.799999997019768,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 6,
+            "name": "geometry-edit",
+            "actionMs": 14,
+            "renderEventMs": 193,
+            "readbackMs": 6,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 6,
+            "name": "geometry-reset",
+            "actionMs": 11.600000008940697,
+            "renderEventMs": 185.30000001192093,
+            "readbackMs": 3.5,
+            "hashMs": 1.800000011920929,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 7,
+            "name": "select",
+            "actionMs": 0.3999999910593033,
+            "renderEventMs": 80.29999999701977,
+            "readbackMs": 7.0999999940395355,
+            "hashMs": 1.6000000089406967,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 7,
+            "name": "clear-selection",
+            "actionMs": 0.29999999701976776,
+            "renderEventMs": 81.29999999701977,
+            "readbackMs": 3.2999999970197678,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 7,
+            "name": "style-edit",
+            "actionMs": 1.2000000029802322,
+            "renderEventMs": 142.79999999701977,
+            "readbackMs": 3.4000000059604645,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 7,
+            "name": "style-reset",
+            "actionMs": 1.2000000029802322,
+            "renderEventMs": 126.79999999701977,
+            "readbackMs": 3.2000000029802322,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 7,
+            "name": "geometry-edit",
+            "actionMs": 12.5,
+            "renderEventMs": 192.5,
+            "readbackMs": 4.200000002980232,
+            "hashMs": 2,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 7,
+            "name": "geometry-reset",
+            "actionMs": 12.799999997019768,
+            "renderEventMs": 193.09999999403954,
+            "readbackMs": 5.699999988079071,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 8,
+            "name": "select",
+            "actionMs": 0.5,
+            "renderEventMs": 82.29999999701977,
+            "readbackMs": 4.300000011920929,
+            "hashMs": 1.8999999910593033,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 8,
+            "name": "clear-selection",
+            "actionMs": 0.4000000059604645,
+            "renderEventMs": 83.6000000089407,
+            "readbackMs": 3.5,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 8,
+            "name": "style-edit",
+            "actionMs": 1.199999988079071,
+            "renderEventMs": 147.5,
+            "readbackMs": 3.9000000059604645,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 8,
+            "name": "style-reset",
+            "actionMs": 1.2000000029802322,
+            "renderEventMs": 130.29999999701977,
+            "readbackMs": 3.5,
+            "hashMs": 1.7000000029802322,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 8,
+            "name": "geometry-edit",
+            "actionMs": 13.900000005960464,
+            "renderEventMs": 192.90000000596046,
+            "readbackMs": 3.3999999910593033,
+            "hashMs": 1.7000000029802322,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 8,
+            "name": "geometry-reset",
+            "actionMs": 12.5,
+            "renderEventMs": 190.29999999701977,
+            "readbackMs": 3.4000000059604645,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 9,
+            "name": "select",
+            "actionMs": 0.6000000089406967,
+            "renderEventMs": 81.30000001192093,
+            "readbackMs": 3.5999999940395355,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 9,
+            "name": "clear-selection",
+            "actionMs": 0.4000000059604645,
+            "renderEventMs": 81.1000000089407,
+            "readbackMs": 3,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 9,
+            "name": "style-edit",
+            "actionMs": 1.3999999910593033,
+            "renderEventMs": 139.09999999403954,
+            "readbackMs": 4,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 9,
+            "name": "style-reset",
+            "actionMs": 1.4000000059604645,
+            "renderEventMs": 123.90000000596046,
+            "readbackMs": 3.2000000029802322,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 9,
+            "name": "geometry-edit",
+            "actionMs": 12.299999997019768,
+            "renderEventMs": 188.5,
+            "readbackMs": 5.299999997019768,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 9,
+            "name": "geometry-reset",
+            "actionMs": 11.899999991059303,
+            "renderEventMs": 185.79999999701977,
+            "readbackMs": 3.7999999970197678,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          }
+        ],
+        "summary": {
+          "select": {
+            "samples": 10,
+            "actionMs": {
+              "p50": 0.5,
+              "p95": 0.7999999970197678,
+              "max": 0.7999999970197678
+            },
+            "renderEventMs": {
+              "p50": 80.29999999701977,
+              "p95": 88.79999999701977,
+              "max": 88.79999999701977
+            },
+            "readbackMs": {
+              "p50": 3.5999999940395355,
+              "p95": 7.0999999940395355,
+              "max": 7.0999999940395355
+            },
+            "hashMs": {
+              "p50": 1.7999999970197678,
+              "p95": 1.8999999910593033,
+              "max": 1.8999999910593033
+            }
+          },
+          "clear-selection": {
+            "samples": 10,
+            "actionMs": {
+              "p50": 0.30000001192092896,
+              "p95": 0.4000000059604645,
+              "max": 0.4000000059604645
+            },
+            "renderEventMs": {
+              "p50": 81.59999999403954,
+              "p95": 85.70000000298023,
+              "max": 85.70000000298023
+            },
+            "readbackMs": {
+              "p50": 3.5,
+              "p95": 4.5999999940395355,
+              "max": 4.5999999940395355
+            },
+            "hashMs": {
+              "p50": 1.8999999910593033,
+              "p95": 2,
+              "max": 2
+            }
+          },
+          "style-edit": {
+            "samples": 10,
+            "actionMs": {
+              "p50": 1.2000000029802322,
+              "p95": 1.7000000029802322,
+              "max": 1.7000000029802322
+            },
+            "renderEventMs": {
+              "p50": 142.79999999701977,
+              "p95": 149.79999999701977,
+              "max": 149.79999999701977
+            },
+            "readbackMs": {
+              "p50": 3.5999999940395355,
+              "p95": 7.399999991059303,
+              "max": 7.399999991059303
+            },
+            "hashMs": {
+              "p50": 1.7999999970197678,
+              "p95": 2.2000000029802322,
+              "max": 2.2000000029802322
+            }
+          },
+          "style-reset": {
+            "samples": 10,
+            "actionMs": {
+              "p50": 1.2000000029802322,
+              "p95": 1.7000000029802322,
+              "max": 1.7000000029802322
+            },
+            "renderEventMs": {
+              "p50": 125.20000000298023,
+              "p95": 132.20000000298023,
+              "max": 132.20000000298023
+            },
+            "readbackMs": {
+              "p50": 3.2999999970197678,
+              "p95": 6.799999997019768,
+              "max": 6.799999997019768
+            },
+            "hashMs": {
+              "p50": 1.7999999970197678,
+              "p95": 2,
+              "max": 2
+            }
+          },
+          "geometry-edit": {
+            "samples": 10,
+            "actionMs": {
+              "p50": 12.5,
+              "p95": 20.700000002980232,
+              "max": 20.700000002980232
+            },
+            "renderEventMs": {
+              "p50": 192.5,
+              "p95": 202.20000000298023,
+              "max": 202.20000000298023
+            },
+            "readbackMs": {
+              "p50": 3.7000000029802322,
+              "p95": 6,
+              "max": 6
+            },
+            "hashMs": {
+              "p50": 1.7999999970197678,
+              "p95": 2,
+              "max": 2
+            }
+          },
+          "geometry-reset": {
+            "samples": 10,
+            "actionMs": {
+              "p50": 12.299999997019768,
+              "p95": 13,
+              "max": 13
+            },
+            "renderEventMs": {
+              "p50": 190,
+              "p95": 194.6000000089407,
+              "max": 194.6000000089407
+            },
+            "readbackMs": {
+              "p50": 3.5,
+              "p95": 5.699999988079071,
+              "max": 5.699999988079071
+            },
+            "hashMs": {
+              "p50": 1.7999999970197678,
+              "p95": 2,
+              "max": 2
+            }
+          }
+        }
+      },
+      "errors": [],
+      "logs": [],
+      "applicationSnapshot": {
+        "sha256": "2034137bc2d4446083e5c2fcee96201582a1c25619faebc9aa9ac2b9bdfb361f",
+        "files": 251
+      },
+      "device": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+      "backend": "WebGL2"
+    },
+    {
+      "variant": "fork",
+      "browser": "156.0.8078.80",
+      "startup": {
+        "workspaceReadyMs": 6046.678249999999,
+        "nonemptyDataReadyMs": 292.19720899999993
+      },
+      "data": {
+        "hash": "d43995269a7bb3f3bf316b71ef48317d52d8fd89fecd2bc2af5242345ba1267f",
+        "count": 400,
+        "classification": "synthetic-unadmitted",
+        "bindingKeyLength": 90
+      },
+      "interactions": {
+        "scope": "10 repeated cycles in one diagnostic run; no confidence interval or speedup claim. Render-event latency excludes current readback and hashing, but prior verification can affect scheduling. Not GPU/display completion.",
+        "rows": [
+          {
+            "cycle": 0,
+            "name": "select",
+            "actionMs": 0.7999999970197678,
+            "renderEventMs": 69.20000000298023,
+            "readbackMs": 4.5,
+            "hashMs": 1.800000011920929,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 0,
+            "name": "clear-selection",
+            "actionMs": 0.29999999701976776,
+            "renderEventMs": 84.79999999701977,
+            "readbackMs": 5.200000002980232,
+            "hashMs": 1.7000000029802322,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 0,
+            "name": "style-edit",
+            "actionMs": 1.5,
+            "renderEventMs": 143.5,
+            "readbackMs": 4.9000000059604645,
+            "hashMs": 2,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 0,
+            "name": "style-reset",
+            "actionMs": 2,
+            "renderEventMs": 136.1000000089407,
+            "readbackMs": 3.2999999970197678,
+            "hashMs": 2.699999988079071,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 0,
+            "name": "geometry-edit",
+            "actionMs": 18.80000001192093,
+            "renderEventMs": 208.40000000596046,
+            "readbackMs": 5.4000000059604645,
+            "hashMs": 1.7000000029802322,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 0,
+            "name": "geometry-reset",
+            "actionMs": 14.799999997019768,
+            "renderEventMs": 189.19999998807907,
+            "readbackMs": 5.200000002980232,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 1,
+            "name": "select",
+            "actionMs": 0.8999999910593033,
+            "renderEventMs": 87.19999998807907,
+            "readbackMs": 4,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 1,
+            "name": "clear-selection",
+            "actionMs": 0.29999999701976776,
+            "renderEventMs": 82.90000000596046,
+            "readbackMs": 3.2000000029802322,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 1,
+            "name": "style-edit",
+            "actionMs": 1.4000000059604645,
+            "renderEventMs": 149.70000000298023,
+            "readbackMs": 7.799999997019768,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 1,
+            "name": "style-reset",
+            "actionMs": 1.7000000029802322,
+            "renderEventMs": 129.29999999701977,
+            "readbackMs": 3.300000011920929,
+            "hashMs": 1.800000011920929,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 1,
+            "name": "geometry-edit",
+            "actionMs": 13.599999994039536,
+            "renderEventMs": 191.59999999403954,
+            "readbackMs": 3.300000011920929,
+            "hashMs": 2.2000000029802322,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 1,
+            "name": "geometry-reset",
+            "actionMs": 13.199999988079071,
+            "renderEventMs": 200.59999999403954,
+            "readbackMs": 4.9000000059604645,
+            "hashMs": 1.8999999910593033,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 2,
+            "name": "select",
+            "actionMs": 0.7000000029802322,
+            "renderEventMs": 96.6000000089407,
+            "readbackMs": 5.200000002980232,
+            "hashMs": 2.300000011920929,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 2,
+            "name": "clear-selection",
+            "actionMs": 0.29999999701976776,
+            "renderEventMs": 86.59999999403954,
+            "readbackMs": 3.4000000059604645,
+            "hashMs": 2,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 2,
+            "name": "style-edit",
+            "actionMs": 1.7000000029802322,
+            "renderEventMs": 162.79999999701977,
+            "readbackMs": 9.799999997019768,
+            "hashMs": 4.799999997019768,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 2,
+            "name": "style-reset",
+            "actionMs": 1.5,
+            "renderEventMs": 134.70000000298023,
+            "readbackMs": 4.200000002980232,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 2,
+            "name": "geometry-edit",
+            "actionMs": 12.5,
+            "renderEventMs": 191.6000000089407,
+            "readbackMs": 6.4000000059604645,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 2,
+            "name": "geometry-reset",
+            "actionMs": 14,
+            "renderEventMs": 194.29999999701977,
+            "readbackMs": 3.2999999970197678,
+            "hashMs": 2.1000000089406967,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 3,
+            "name": "select",
+            "actionMs": 1.7999999970197678,
+            "renderEventMs": 90.09999999403954,
+            "readbackMs": 7.300000011920929,
+            "hashMs": 2.2999999970197678,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 3,
+            "name": "clear-selection",
+            "actionMs": 0.30000001192092896,
+            "renderEventMs": 92.20000000298023,
+            "readbackMs": 4.200000002980232,
+            "hashMs": 2,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 3,
+            "name": "style-edit",
+            "actionMs": 1.5,
+            "renderEventMs": 153.70000000298023,
+            "readbackMs": 4,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 3,
+            "name": "style-reset",
+            "actionMs": 1.300000011920929,
+            "renderEventMs": 136.1000000089407,
+            "readbackMs": 3.5,
+            "hashMs": 2.4000000059604645,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 3,
+            "name": "geometry-edit",
+            "actionMs": 15.5,
+            "renderEventMs": 190,
+            "readbackMs": 3.5,
+            "hashMs": 2,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 3,
+            "name": "geometry-reset",
+            "actionMs": 22.5,
+            "renderEventMs": 200.5,
+            "readbackMs": 3.3999999910593033,
+            "hashMs": 2,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 4,
+            "name": "select",
+            "actionMs": 0.800000011920929,
+            "renderEventMs": 84.30000001192093,
+            "readbackMs": 6.299999997019768,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 4,
+            "name": "clear-selection",
+            "actionMs": 0.5,
+            "renderEventMs": 90.59999999403954,
+            "readbackMs": 4.200000002980232,
+            "hashMs": 1.7000000029802322,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 4,
+            "name": "style-edit",
+            "actionMs": 1.5,
+            "renderEventMs": 150.19999998807907,
+            "readbackMs": 3.5,
+            "hashMs": 2.4000000059604645,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 4,
+            "name": "style-reset",
+            "actionMs": 1.2999999970197678,
+            "renderEventMs": 132.79999999701977,
+            "readbackMs": 3.2000000029802322,
+            "hashMs": 1.8999999910593033,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 4,
+            "name": "geometry-edit",
+            "actionMs": 12.800000011920929,
+            "renderEventMs": 183.20000000298023,
+            "readbackMs": 3.6000000089406967,
+            "hashMs": 1.7000000029802322,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 4,
+            "name": "geometry-reset",
+            "actionMs": 16.5,
+            "renderEventMs": 192.59999999403954,
+            "readbackMs": 3.7000000029802322,
+            "hashMs": 2.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 5,
+            "name": "select",
+            "actionMs": 0.7000000029802322,
+            "renderEventMs": 83,
+            "readbackMs": 3.2999999970197678,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 5,
+            "name": "clear-selection",
+            "actionMs": 0.3999999910593033,
+            "renderEventMs": 86.29999999701977,
+            "readbackMs": 5.299999997019768,
+            "hashMs": 2,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 5,
+            "name": "style-edit",
+            "actionMs": 1.4000000059604645,
+            "renderEventMs": 151.79999999701977,
+            "readbackMs": 3.6000000089406967,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 5,
+            "name": "style-reset",
+            "actionMs": 1.2000000029802322,
+            "renderEventMs": 132.79999999701977,
+            "readbackMs": 3.4000000059604645,
+            "hashMs": 1.8999999910593033,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 5,
+            "name": "geometry-edit",
+            "actionMs": 12.300000011920929,
+            "renderEventMs": 189.5,
+            "readbackMs": 3.6000000089406967,
+            "hashMs": 2.3999999910593033,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 5,
+            "name": "geometry-reset",
+            "actionMs": 23.200000002980232,
+            "renderEventMs": 200.80000001192093,
+            "readbackMs": 3.9000000059604645,
+            "hashMs": 2,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 6,
+            "name": "select",
+            "actionMs": 0.7999999970197678,
+            "renderEventMs": 84,
+            "readbackMs": 3.7999999970197678,
+            "hashMs": 2.4000000059604645,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 6,
+            "name": "clear-selection",
+            "actionMs": 0.3999999910593033,
+            "renderEventMs": 87.29999999701977,
+            "readbackMs": 3.7000000029802322,
+            "hashMs": 2.2999999970197678,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 6,
+            "name": "style-edit",
+            "actionMs": 1.3999999910593033,
+            "renderEventMs": 149.79999999701977,
+            "readbackMs": 3.6000000089406967,
+            "hashMs": 2,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 6,
+            "name": "style-reset",
+            "actionMs": 1.2000000029802322,
+            "renderEventMs": 131.40000000596046,
+            "readbackMs": 6.4000000059604645,
+            "hashMs": 2,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 6,
+            "name": "geometry-edit",
+            "actionMs": 13.200000002980232,
+            "renderEventMs": 186.8999999910593,
+            "readbackMs": 3.5,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 6,
+            "name": "geometry-reset",
+            "actionMs": 12.200000002980232,
+            "renderEventMs": 186.29999999701977,
+            "readbackMs": 3.9000000059604645,
+            "hashMs": 2,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 7,
+            "name": "select",
+            "actionMs": 0.7000000029802322,
+            "renderEventMs": 82.90000000596046,
+            "readbackMs": 6.200000002980232,
+            "hashMs": 1.7000000029802322,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 7,
+            "name": "clear-selection",
+            "actionMs": 0.4000000059604645,
+            "renderEventMs": 81.79999999701977,
+            "readbackMs": 3.7999999970197678,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 7,
+            "name": "style-edit",
+            "actionMs": 1.2000000029802322,
+            "renderEventMs": 151.90000000596046,
+            "readbackMs": 6.0999999940395355,
+            "hashMs": 2.5999999940395355,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 7,
+            "name": "style-reset",
+            "actionMs": 1.2999999970197678,
+            "renderEventMs": 133.5,
+            "readbackMs": 3.4000000059604645,
+            "hashMs": 2.0999999940395355,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 7,
+            "name": "geometry-edit",
+            "actionMs": 12.600000008940697,
+            "renderEventMs": 204,
+            "readbackMs": 5.200000002980232,
+            "hashMs": 1.8999999910593033,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 7,
+            "name": "geometry-reset",
+            "actionMs": 12.700000002980232,
+            "renderEventMs": 211.30000001192093,
+            "readbackMs": 4.5999999940395355,
+            "hashMs": 1.8999999910593033,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 8,
+            "name": "select",
+            "actionMs": 0.7000000029802322,
+            "renderEventMs": 87,
+            "readbackMs": 3.3999999910593033,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 8,
+            "name": "clear-selection",
+            "actionMs": 0.3999999910593033,
+            "renderEventMs": 90.20000000298023,
+            "readbackMs": 4.0999999940395355,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 8,
+            "name": "style-edit",
+            "actionMs": 1.5,
+            "renderEventMs": 147.79999999701977,
+            "readbackMs": 3.0999999940395355,
+            "hashMs": 1.699999988079071,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 8,
+            "name": "style-reset",
+            "actionMs": 1.2999999970197678,
+            "renderEventMs": 135.70000000298023,
+            "readbackMs": 4.0999999940395355,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 8,
+            "name": "geometry-edit",
+            "actionMs": 18.899999991059303,
+            "renderEventMs": 206.8999999910593,
+            "readbackMs": 4.299999997019768,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 8,
+            "name": "geometry-reset",
+            "actionMs": 13.200000002980232,
+            "renderEventMs": 189.90000000596046,
+            "readbackMs": 3.300000011920929,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 9,
+            "name": "select",
+            "actionMs": 0.7000000029802322,
+            "renderEventMs": 84.29999999701977,
+            "readbackMs": 6.100000008940697,
+            "hashMs": 2,
+            "framesUntilExpected": 1,
+            "sha256": "6fb15689cd5317925e5add6c3aff8e4dd820ab570ae7489b902b47ccb235f5a5"
+          },
+          {
+            "cycle": 9,
+            "name": "clear-selection",
+            "actionMs": 0.3999999910593033,
+            "renderEventMs": 82.59999999403954,
+            "readbackMs": 4.299999997019768,
+            "hashMs": 1.9000000059604645,
+            "framesUntilExpected": 1,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 9,
+            "name": "style-edit",
+            "actionMs": 1.199999988079071,
+            "renderEventMs": 148.19999998807907,
+            "readbackMs": 3.6000000089406967,
+            "hashMs": 1.7999999970197678,
+            "framesUntilExpected": 2,
+            "sha256": "8bf564237986a864984ea714625536816a6b97f407090b054fef31625f6b8750"
+          },
+          {
+            "cycle": 9,
+            "name": "style-reset",
+            "actionMs": 1.4000000059604645,
+            "renderEventMs": 129.90000000596046,
+            "readbackMs": 3.5,
+            "hashMs": 1.8999999910593033,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          },
+          {
+            "cycle": 9,
+            "name": "geometry-edit",
+            "actionMs": 14.5,
+            "renderEventMs": 190.29999999701977,
+            "readbackMs": 3.5,
+            "hashMs": 2.0999999940395355,
+            "framesUntilExpected": 2,
+            "sha256": "1b78600fd874e823aa7a4f449bd8cf4373cf73c17b0f3a2775fccdaa6ae58bd5"
+          },
+          {
+            "cycle": 9,
+            "name": "geometry-reset",
+            "actionMs": 14.200000002980232,
+            "renderEventMs": 214.90000000596046,
+            "readbackMs": 3.0999999940395355,
+            "hashMs": 1.8999999910593033,
+            "framesUntilExpected": 2,
+            "sha256": "247dcb8cfb239cb5a35e35ccde34d33ad5a9f31371d5aa50264eb2077ba27f8b"
+          }
+        ],
+        "summary": {
+          "select": {
+            "samples": 10,
+            "actionMs": {
+              "p50": 0.7000000029802322,
+              "p95": 1.7999999970197678,
+              "max": 1.7999999970197678
+            },
+            "renderEventMs": {
+              "p50": 84.29999999701977,
+              "p95": 96.6000000089407,
+              "max": 96.6000000089407
+            },
+            "readbackMs": {
+              "p50": 4.5,
+              "p95": 7.300000011920929,
+              "max": 7.300000011920929
+            },
+            "hashMs": {
+              "p50": 1.9000000059604645,
+              "p95": 2.4000000059604645,
+              "max": 2.4000000059604645
+            }
+          },
+          "clear-selection": {
+            "samples": 10,
+            "actionMs": {
+              "p50": 0.3999999910593033,
+              "p95": 0.5,
+              "max": 0.5
+            },
+            "renderEventMs": {
+              "p50": 86.29999999701977,
+              "p95": 92.20000000298023,
+              "max": 92.20000000298023
+            },
+            "readbackMs": {
+              "p50": 4.0999999940395355,
+              "p95": 5.299999997019768,
+              "max": 5.299999997019768
+            },
+            "hashMs": {
+              "p50": 1.9000000059604645,
+              "p95": 2.2999999970197678,
+              "max": 2.2999999970197678
+            }
+          },
+          "style-edit": {
+            "samples": 10,
+            "actionMs": {
+              "p50": 1.4000000059604645,
+              "p95": 1.7000000029802322,
+              "max": 1.7000000029802322
+            },
+            "renderEventMs": {
+              "p50": 149.79999999701977,
+              "p95": 162.79999999701977,
+              "max": 162.79999999701977
+            },
+            "readbackMs": {
+              "p50": 3.6000000089406967,
+              "p95": 9.799999997019768,
+              "max": 9.799999997019768
+            },
+            "hashMs": {
+              "p50": 1.9000000059604645,
+              "p95": 4.799999997019768,
+              "max": 4.799999997019768
+            }
+          },
+          "style-reset": {
+            "samples": 10,
+            "actionMs": {
+              "p50": 1.2999999970197678,
+              "p95": 2,
+              "max": 2
+            },
+            "renderEventMs": {
+              "p50": 132.79999999701977,
+              "p95": 136.1000000089407,
+              "max": 136.1000000089407
+            },
+            "readbackMs": {
+              "p50": 3.4000000059604645,
+              "p95": 6.4000000059604645,
+              "max": 6.4000000059604645
+            },
+            "hashMs": {
+              "p50": 1.8999999910593033,
+              "p95": 2.699999988079071,
+              "max": 2.699999988079071
+            }
+          },
+          "geometry-edit": {
+            "samples": 10,
+            "actionMs": {
+              "p50": 13.200000002980232,
+              "p95": 18.899999991059303,
+              "max": 18.899999991059303
+            },
+            "renderEventMs": {
+              "p50": 190.29999999701977,
+              "p95": 208.40000000596046,
+              "max": 208.40000000596046
+            },
+            "readbackMs": {
+              "p50": 3.6000000089406967,
+              "p95": 6.4000000059604645,
+              "max": 6.4000000059604645
+            },
+            "hashMs": {
+              "p50": 1.8999999910593033,
+              "p95": 2.3999999910593033,
+              "max": 2.3999999910593033
+            }
+          },
+          "geometry-reset": {
+            "samples": 10,
+            "actionMs": {
+              "p50": 14,
+              "p95": 23.200000002980232,
+              "max": 23.200000002980232
+            },
+            "renderEventMs": {
+              "p50": 194.29999999701977,
+              "p95": 214.90000000596046,
+              "max": 214.90000000596046
+            },
+            "readbackMs": {
+              "p50": 3.7000000029802322,
+              "p95": 5.200000002980232,
+              "max": 5.200000002980232
+            },
+            "hashMs": {
+              "p50": 1.9000000059604645,
+              "p95": 2.7999999970197678,
+              "max": 2.7999999970197678
+            }
+          }
+        }
+      },
+      "errors": [],
+      "logs": [],
+      "applicationSnapshot": {
+        "sha256": "2034137bc2d4446083e5c2fcee96201582a1c25619faebc9aa9ac2b9bdfb361f",
+        "files": 251
+      },
+      "device": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+      "backend": "WebGL2"
+    }
+  ]
+}

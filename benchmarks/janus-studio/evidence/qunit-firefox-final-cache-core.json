@@ -1,0 +1,106 @@
+{
+  "engine": "firefox",
+  "version": "final-cache",
+  "suite": "core",
+  "browser": "151.0",
+  "started": "2026-11-08T07:00:50.984Z",
+  "completed": "2026-11-08T07:00:54.767Z",
+  "result": {
+    "counts": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "todo": 0,
+      "total": 10
+    },
+    "runtimeMs": 1691
+  },
+  "tests": [
+    {
+      "name": "Renderers > WebGLPrograms > maxInactivePrograms validates its budget before creating a context",
+      "status": "passed",
+      "runtimeMs": 6,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > onBeforeCompile retains the original cache-key stages",
+      "status": "passed",
+      "runtimeMs": 105,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > retained custom shaders keep cache identity and refresh uniforms",
+      "status": "passed",
+      "runtimeMs": 40,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > renderer disposal deletes active and inactive programs once",
+      "status": "passed",
+      "runtimeMs": 70,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > restored contexts start with a fresh bounded program cache",
+      "status": "passed",
+      "runtimeMs": 1130,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > reactivation refreshes LRU order without limiting active programs",
+      "status": "passed",
+      "runtimeMs": 125,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > zero budget preserves immediate release",
+      "status": "passed",
+      "runtimeMs": 57,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > disposing and reusing a material within a render refreshes uniforms",
+      "status": "passed",
+      "runtimeMs": 45,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > failed links still report errors and are not retained",
+      "status": "passed",
+      "runtimeMs": 37,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Renderers > WebGLPrograms > built-in material uniforms refresh on reuse",
+      "status": "passed",
+      "runtimeMs": 67,
+      "softSkips": [],
+      "errors": []
+    }
+  ],
+  "backends": [],
+  "errors": [],
+  "missing": [],
+  "external": [],
+  "warnings": [
+    "CACHE_TEST_START Renderers > WebGLPrograms > maxInactivePrograms validates its budget before creating a context",
+    "CACHE_TEST_START Renderers > WebGLPrograms > onBeforeCompile retains the original cache-key stages",
+    "CACHE_TEST_START Renderers > WebGLPrograms > retained custom shaders keep cache identity and refresh uniforms",
+    "CACHE_TEST_START Renderers > WebGLPrograms > renderer disposal deletes active and inactive programs once",
+    "CACHE_TEST_START Renderers > WebGLPrograms > restored contexts start with a fresh bounded program cache",
+    "CACHE_TEST_START Renderers > WebGLPrograms > reactivation refreshes LRU order without limiting active programs",
+    "CACHE_TEST_START Renderers > WebGLPrograms > zero budget preserves immediate release",
+    "CACHE_TEST_START Renderers > WebGLPrograms > disposing and reusing a material within a render refreshes uniforms",
+    "CACHE_TEST_START Renderers > WebGLPrograms > failed links still report errors and are not retained",
+    "CACHE_TEST_START Renderers > WebGLPrograms > built-in material uniforms refresh on reuse"
+  ]
+}

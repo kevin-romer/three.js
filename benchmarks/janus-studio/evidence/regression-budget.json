@@ -1,0 +1,223 @@
+{
+  "scope": "p95 main-thread Three.js render/reset CPU; other metrics reported separately.",
+  "method": "Budget is max(5% of paired baseline p95, 0.3ms). 10000 paired-round bootstrap mean budget-excess samples, seed 20261108. Upper95 bound <=0 passes; lower95 >0 is reproducible breach; overlap remains unqualified.",
+  "cases": [
+    {
+      "name": "desktop",
+      "status": "passes-regression-budget",
+      "pairs": [
+        {
+          "round": 1,
+          "baseline": 40.80000000447035,
+          "candidate": 29.700000002980232,
+          "budget": 2.0400000002235177,
+          "deltaMs": -11.100000001490116,
+          "budgetExcessMs": -13.140000001713634
+        },
+        {
+          "round": 2,
+          "baseline": 36.5,
+          "candidate": 28.200000002980232,
+          "budget": 1.8250000000000002,
+          "deltaMs": -8.299999997019768,
+          "budgetExcessMs": -10.124999997019767
+        },
+        {
+          "round": 3,
+          "baseline": 37.900000005960464,
+          "candidate": 32.49999999254942,
+          "budget": 1.8950000002980234,
+          "deltaMs": -5.400000013411045,
+          "budgetExcessMs": -7.2950000137090685
+        },
+        {
+          "round": 4,
+          "baseline": 37.79999999701977,
+          "candidate": 28.00000000745058,
+          "budget": 1.8899999998509884,
+          "deltaMs": -9.799999989569187,
+          "budgetExcessMs": -11.689999989420176
+        },
+        {
+          "round": 5,
+          "baseline": 35.5,
+          "candidate": 29.600000001490116,
+          "budget": 1.7750000000000001,
+          "deltaMs": -5.899999998509884,
+          "budgetExcessMs": -7.674999998509884
+        }
+      ],
+      "budgetExcess95CI": [
+        -11.956999995857476,
+        -8.013000004291536
+      ]
+    },
+    {
+      "name": "buildings",
+      "status": "passes-regression-budget",
+      "pairs": [
+        {
+          "round": 1,
+          "baseline": 13.800000004470348,
+          "candidate": 4.5999999940395355,
+          "budget": 0.6900000002235175,
+          "deltaMs": -9.200000010430813,
+          "budgetExcessMs": -9.89000001065433
+        },
+        {
+          "round": 2,
+          "baseline": 12.5,
+          "candidate": 4.399999998509884,
+          "budget": 0.625,
+          "deltaMs": -8.100000001490116,
+          "budgetExcessMs": -8.725000001490116
+        },
+        {
+          "round": 3,
+          "baseline": 11.399999998509884,
+          "candidate": 4.5,
+          "budget": 0.5699999999254942,
+          "deltaMs": -6.899999998509884,
+          "budgetExcessMs": -7.469999998435378
+        },
+        {
+          "round": 4,
+          "baseline": 11.299999997019768,
+          "candidate": 4.200000002980232,
+          "budget": 0.5649999998509884,
+          "deltaMs": -7.0999999940395355,
+          "budgetExcessMs": -7.6649999938905236
+        },
+        {
+          "round": 5,
+          "baseline": 11.700000002980232,
+          "candidate": 4.100000008940697,
+          "budget": 0.5850000001490117,
+          "deltaMs": -7.5999999940395355,
+          "budgetExcessMs": -8.184999994188548
+        }
+      ],
+      "budgetExcess95CI": [
+        -9.208000004068017,
+        -7.6909999957680695
+      ]
+    },
+    {
+      "name": "scale100",
+      "status": "passes-regression-budget",
+      "pairs": [
+        {
+          "round": 1,
+          "baseline": 21.799999997019768,
+          "candidate": 12.300000004470348,
+          "budget": 1.0899999998509884,
+          "deltaMs": -9.49999999254942,
+          "budgetExcessMs": -10.589999992400408
+        },
+        {
+          "round": 2,
+          "baseline": 23.099999994039536,
+          "candidate": 13.50000000745058,
+          "budget": 1.1549999997019769,
+          "deltaMs": -9.599999986588955,
+          "budgetExcessMs": -10.754999986290931
+        },
+        {
+          "round": 3,
+          "baseline": 25.399999991059303,
+          "candidate": 12,
+          "budget": 1.2699999995529652,
+          "deltaMs": -13.399999991059303,
+          "budgetExcessMs": -14.669999990612268
+        },
+        {
+          "round": 4,
+          "baseline": 20.69999999552965,
+          "candidate": 12.600000001490116,
+          "budget": 1.0349999997764827,
+          "deltaMs": -8.099999994039536,
+          "budgetExcessMs": -9.134999993816018
+        },
+        {
+          "round": 5,
+          "baseline": 20.899999991059303,
+          "candidate": 11.300000011920929,
+          "budget": 1.0449999995529653,
+          "deltaMs": -9.599999979138374,
+          "budgetExcessMs": -10.64499997869134
+        }
+      ],
+      "budgetExcess95CI": [
+        -13.059999985843897,
+        -9.749999992027877
+      ]
+    },
+    {
+      "name": "mobile",
+      "status": "passes-regression-budget",
+      "pairs": [
+        {
+          "round": 1,
+          "baseline": 147.80000001192093,
+          "candidate": 127.40000000596046,
+          "budget": 7.3900000005960464,
+          "deltaMs": -20.400000005960464,
+          "budgetExcessMs": -27.79000000655651
+        },
+        {
+          "round": 2,
+          "baseline": 151.69999998807907,
+          "candidate": 135,
+          "budget": 7.584999999403954,
+          "deltaMs": -16.69999998807907,
+          "budgetExcessMs": -24.284999987483026
+        },
+        {
+          "round": 3,
+          "baseline": 150.29999999701977,
+          "candidate": 134.1000000089407,
+          "budget": 7.514999999850989,
+          "deltaMs": -16.19999998807907,
+          "budgetExcessMs": -23.71499998793006
+        },
+        {
+          "round": 4,
+          "baseline": 166.2999999821186,
+          "candidate": 136.6000000089407,
+          "budget": 8.31499999910593,
+          "deltaMs": -29.69999997317791,
+          "budgetExcessMs": -38.01499997228384
+        },
+        {
+          "round": 5,
+          "baseline": 150.09999999403954,
+          "candidate": 147.90000000596046,
+          "budget": 7.504999999701977,
+          "deltaMs": -2.199999988079071,
+          "budgetExcessMs": -9.704999987781047
+        }
+      ],
+      "budgetExcess95CI": [
+        -32.40899997845292,
+        -16.237999991476535
+      ]
+    },
+    {
+      "name": "stable1000-fork",
+      "status": "passes-regression-budget",
+      "budgetExcess95CI": [
+        -1.2199999943375588,
+        -0.30000000149011613
+      ]
+    },
+    {
+      "name": "stable1000-fork-default",
+      "status": "passes-regression-budget",
+      "budgetExcess95CI": [
+        -1.7599999964237214,
+        -0.14000000208616256
+      ]
+    }
+  ],
+  "passed": true
+}

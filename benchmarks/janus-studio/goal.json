@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "title": "Improve Three.js performance, validated against Janus Studio",
   "created": "2026-11-07",
-  "status": "active",
+  "status": "complete",
   "objective": "Deliver engine performance improvements in the separate Three.js fork with reproducible before/after Janus Studio measurements and unchanged rendering/interaction correctness.",
   "engineRepository": "kevin-romer/three.js",
   "audit": "audit/comprehensive-r187/README.md",
@@ -33,12 +33,12 @@
     },
     {
       "id": "qualify",
-      "state": "in_progress",
+      "state": "complete",
       "deliverable": "Repeated baseline/candidate engine and product runs, compatibility checks, regression budgets and retained-resource checks."
     },
     {
       "id": "report",
-      "state": "in_progress",
+      "state": "complete",
       "deliverable": "Published sanitized before/after report, commands, environment, source hashes, raw metrics, confidence intervals and remaining limits."
     }
   ],
@@ -152,7 +152,7 @@
       "webkitFocusedCachePassed": 10
     },
     "baselineSetupIssue": "Pre-existing governed binding key exceeds style parser 512-character limit; upstream r187 cannot reach a nonempty governed frame. Kept separate from supported synthetic Studio workload.",
-    "formalPairedBenchmarkComplete": false,
+    "formalPairedBenchmarkComplete": true,
     "fullStudioBaselineScope": "Actual Studio UI and native renderer, with 400 deterministic synthetic unadmitted parcels through the normal runtime layer API. Governed presentation path is not qualified.",
     "desktopPairedBenchmarkComplete": true,
     "primaryCpuTargetMeasured": {
@@ -165,11 +165,7 @@
       "measuredFramesPerVariant": 1500,
       "artifact": "evidence/desktop-paired-summary.json"
     },
-    "pending": [
-      "Complete five-pair 4x CPU-throttled mobile timing",
-      "Verify/sanitize/publish all remaining results and final report",
-      "Record whole-page heap and governed-presentation limitations without attributing them to an unproved engine defect"
-    ],
+    "pending": [],
     "retained3dPairedBenchmark": {
       "pairedRounds": 5,
       "framesPerVariant": 1500,
@@ -219,6 +215,28 @@
       "scope": "Full Studio UI, 100 synthetic unadmitted parcels",
       "artifact": "evidence/scale100-paired-summary.json",
       "recovery": "Entire pair 5 replaced after unmeasured browser startup failure; no selection by timing."
-    }
-  }
+    },
+    "finalEngineCommit": "c42214c41c60194997208b5ef1a34e8b210c6eed",
+    "measurementEngineCommit": "ea87fa90a4211920f08120639189344c7f73bd96",
+    "mobileEmulationPairedBenchmark": {
+      "pairedRounds": 5,
+      "framesPerVariant": 1500,
+      "cpuImprovementPercent": 11.142972227762515,
+      "confidence95Percent": [
+        5.952891562626894,
+        15.184672140886812
+      ],
+      "scope": "390x844 Chrome viewport, 4x CPU throttling, not physical mobile",
+      "artifact": "evidence/mobile-paired-summary.json"
+    },
+    "allTimedRegressionBudgetsPassed": true,
+    "finalChecks": "Fresh full Chrome core/addons, Firefox/WebKit focused cache, core/test lint and five-output warning-free release build pass after bulk-disposal followup.",
+    "remainingLimits": [
+      "Governed presentation blocked by upstream binding-key parser limit; full UI uses explicitly synthetic unadmitted data.",
+      "Whole-page retained heap and all-page listeners grow in both variants; renderer-owned GL handles/subscriptions retire to zero.",
+      "GPU completion/residency and allocation bytes unmeasured; startup/pick/edit latency remains diagnostic.",
+      "One Apple M1 Pro host; mobile is emulation. Cache is opt-in16/default0; no rollout or deployment."
+    ]
+  },
+  "completed": "2026-11-08"
 }

@@ -1,0 +1,29 @@
+{
+  "scope": "Separate sampled diagnostic, including 120 warmup frames, correctness readbacks and 30 counted frames; not formal paired timing. Attribution follows Three.js source ancestors and can include native waits or callbacks under those frames. Other/unattributed is not a claim of application-only cost. Raw profiles remain private.",
+  "variants": [
+    {
+      "variant": "r187",
+      "rawProfileSha256": "e91d3129b2b04f6c8f45df58835afd5240583e7fdefa68975d72fc053327bb10",
+      "sampledDurationMs": 16041.265,
+      "categoriesMs": {
+        "programInfoLog": 876.049,
+        "shaderInfoLog": 66.743,
+        "otherUnderThree": 5167.173,
+        "garbageCollection": 691.826,
+        "otherOrUnattributed": 9239.474
+      }
+    },
+    {
+      "variant": "fork",
+      "rawProfileSha256": "9d76648733c2f00c45ca8fa97f823bd8d9cf6c47175c329c97835c40c2ed6032",
+      "sampledDurationMs": 15252.747,
+      "categoriesMs": {
+        "programInfoLog": 0,
+        "shaderInfoLog": 0,
+        "otherUnderThree": 5104.58,
+        "garbageCollection": 724.367,
+        "otherOrUnattributed": 9423.8
+      }
+    }
+  ]
+}
