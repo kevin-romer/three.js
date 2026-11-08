@@ -813,6 +813,84 @@ export default QUnit.module( 'Maths', () => {
 
 		} );
 
+		QUnit.test( 'toArray default outputs are independent dense plain arrays', assert => {
+
+			const m = new Matrix4();
+			m.elements = new Float64Array( [ - 0, NaN, Infinity, - Infinity, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ] );
+			const a = m.toArray(), b = m.toArray( undefined, 0 );
+			assert.strictEqual( Object.getPrototypeOf( a ), Array.prototype );
+			assert.strictEqual( a.length, 16 );
+			assert.notStrictEqual( a, b );
+			assert.true( Object.is( a[ 0 ], - 0 ) );
+			assert.true( Number.isNaN( a[ 1 ] ) );
+			assert.strictEqual( a[ 2 ], Infinity );
+			a[ 4 ] = 99;
+			assert.strictEqual( m.elements[ 4 ], 4 );
+			m.elements[ 5 ] = 88;
+			assert.strictEqual( b[ 5 ], 5 );
+			m.elements = new Array( 16 );
+			m.elements[ 2 ] = 7;
+			m.elements[ Symbol.iterator ] = () => {
+
+				throw new Error( 'iterator must not be used' );
+
+			};
+
+			const sparse = m.toArray();
+			assert.strictEqual( Object.keys( sparse ).length, 16 );
+			assert.strictEqual( sparse[ 0 ], undefined );
+			assert.strictEqual( sparse[ 2 ], 7 );
+			assert.strictEqual( m.toArray.length, 0, 'default-argument arity is preserved' );
+
+		} );
+
+		QUnit.test( 'toArray preserves supplied buffers and unusual offsets', assert => {
+
+			const m = new Matrix4().fromArray( Array.from( { length: 16 }, ( _, i ) => i + 0.25 ) );
+			const target = new Float32Array( 24 ).fill( - 1 );
+			assert.strictEqual( m.toArray( target, 2 ), target );
+			assert.deepEqual( Array.from( target.slice( 2, 18 ) ), m.elements );
+			assert.strictEqual( target[ 1 ], - 1 );
+			assert.strictEqual( target[ 18 ], - 1 );
+			const offset = m.toArray( undefined, 2 );
+			assert.strictEqual( offset.length, 18 );
+			assert.false( 0 in offset );
+			assert.false( 1 in offset );
+			assert.deepEqual( offset.slice( 2 ), m.elements );
+			let conversions = 0;
+			const boxedOffset = { [ Symbol.toPrimitive ]() {
+
+				conversions ++; return 1;
+
+			} };
+			const output = m.toArray( undefined, boxedOffset );
+			assert.strictEqual( conversions, 16 );
+			assert.deepEqual( output.slice( 1 ), m.elements );
+
+		} );
+
+		QUnit.test( 'toArray preserves indexed getter and supplied-target setter order', assert => {
+
+			const events = [], source = new Proxy( {}, { get( object, key ) {
+
+				events.push( 'get:' + String( key ) ); return Number( key );
+
+			} } );
+			const target = new Proxy( [], { set( object, key, value ) {
+
+				events.push( 'set:' + key ); object[ key ] = value; return true;
+
+			} } );
+			const receiver = { elements: source };
+			assert.strictEqual( Matrix4.prototype.toArray.call( receiver, target, 3 ), target );
+			assert.deepEqual( events, Array.from( { length: 16 }, ( _, i ) => [ 'get:' + i, 'set:' + ( i + 3 ) ] ).flat() );
+			events.length = 0;
+			const plain = Matrix4.prototype.toArray.call( receiver );
+			assert.deepEqual( plain, Array.from( { length: 16 }, ( _, i ) => i ) );
+			assert.deepEqual( events, Array.from( { length: 16 }, ( _, i ) => 'get:' + i ) );
+
+		} );
+
 		QUnit.test( 'toArray', ( assert ) => {
 
 			const a = new Matrix4().set( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 );

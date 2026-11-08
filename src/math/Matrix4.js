@@ -1291,9 +1291,26 @@ class Matrix4 {
 	 * @param {number} [offset=0] - Index of the first element in the array.
 	 * @return {Array<number>} The matrix elements in column-major order.
 	 */
-	toArray( array = [], offset = 0 ) {
+	toArray( array = undefined, offset = 0 ) {
 
 		const te = this.elements;
+
+		if ( array === undefined ) {
+
+			if ( offset === 0 ) {
+
+				return [
+					te[ 0 ], te[ 1 ], te[ 2 ], te[ 3 ],
+					te[ 4 ], te[ 5 ], te[ 6 ], te[ 7 ],
+					te[ 8 ], te[ 9 ], te[ 10 ], te[ 11 ],
+					te[ 12 ], te[ 13 ], te[ 14 ], te[ 15 ]
+				];
+
+			}
+
+			array = [];
+
+		}
 
 		array[ offset ] = te[ 0 ];
 		array[ offset + 1 ] = te[ 1 ];
