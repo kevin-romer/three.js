@@ -18,7 +18,7 @@
   "milestones": [
     {
       "id": "baseline",
-      "state": "in_progress",
+      "state": "complete",
       "deliverable": "Runnable engine and Janus Studio harness; representative scenes, backend identity, correctness controls and paired baseline evidence."
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "id": "implement",
-      "state": "in_progress",
+      "state": "complete",
       "deliverable": "Small independent fork commits with meaningful regression tests and equivalent output."
     },
     {
@@ -38,7 +38,7 @@
     },
     {
       "id": "report",
-      "state": "pending",
+      "state": "in_progress",
       "deliverable": "Published sanitized before/after report, commands, environment, source hashes, raw metrics, confidence intervals and remaining limits."
     }
   ],
@@ -135,9 +135,9 @@
     "forkCleanAtStart": true,
     "existingStudioAndRetainedBuildingFixturesLocated": true,
     "engineImplementationStarted": true,
-    "baselineMeasured": false,
+    "baselineMeasured": true,
     "rendererFixtureBaselineMeasured": true,
-    "fullStudioBaselineQualified": false,
+    "fullStudioBaselineQualified": true,
     "candidateFeature": "Opt-in bounded inactive WebGL program cache, maxInactivePrograms; default zero.",
     "engineQualification": {
       "chromiumCorePassed": 1992,
@@ -149,7 +149,26 @@
       "lintTest": "passed",
       "releaseBuild": "5 outputs compile without warnings; checked-in builds unchanged"
     },
-    "baselineSetupIssue": "Controlled token, time-slice and response policy updated; full Studio nonempty data readiness still being diagnosed on unchanged upstream r187.",
-    "formalPairedBenchmarkComplete": false
+    "baselineSetupIssue": "Pre-existing governed binding key exceeds style parser 512-character limit; upstream r187 cannot reach a nonempty governed frame. Kept separate from supported synthetic Studio workload.",
+    "formalPairedBenchmarkComplete": false,
+    "fullStudioBaselineScope": "Actual Studio UI and native renderer, with 400 deterministic synthetic unadmitted parcels through the normal runtime layer API. Governed presentation path is not qualified.",
+    "desktopPairedBenchmarkComplete": true,
+    "primaryCpuTargetMeasured": {
+      "improvementPercent": 21.511640098101914,
+      "confidence95Percent": [
+        16.954854120259288,
+        25.818389806781596
+      ],
+      "pairedRounds": 5,
+      "measuredFramesPerVariant": 1500,
+      "artifact": "evidence/desktop-paired-summary.json"
+    },
+    "pending": [
+      "Valid weak-resource lifetime qualification",
+      "Other render workloads and default-option regression budgets",
+      "r183, supported browser and mobile-emulation compatibility",
+      "Original product assertions",
+      "Final report and artifact verification"
+    ]
   }
 }

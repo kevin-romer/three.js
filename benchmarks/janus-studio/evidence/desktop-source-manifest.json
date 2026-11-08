@@ -1,0 +1,30 @@
+{
+  "baselineCommit": "7e89746a687bb88271253698fa108b1dd59825d0",
+  "candidateCommit": "ea87fa90a4211920f08120639189344c7f73bd96",
+  "sources": {
+    "src/renderers/WebGLRenderer.js": "5625fe3315ff4bdc7a26ae6a2eda31db0be3eeae71bc89eeb469705888b97474",
+    "src/renderers/webgl/WebGLPrograms.js": "e7c73a7896f9565dcffecc6ba6d7285acdb3b5dd51be595c06605bb96e28d5c5",
+    "test/unit/three.source.unit.js": "7ff27a69c66da6c5c2b65263aece2971b2d012d39fdd7cd9daeb87503556a070",
+    "test/unit/src/renderers/webgl/WebGLPrograms.tests.js": "303e797dc2608d9151cf7ff35e595527e4aed89cfb2438745bb245e5511e57a0"
+  },
+  "tools": {
+    "buildings-run.mjs": "fcdc9a37e5a7caf51225626e4877e0bb1fb6e469bf9cc38f92c34b6955496717",
+    "measure-map.mjs": "148510022a4af4fa6d67b5009fff2f208671e2077e5d2f719a5dcd58e1b434f1",
+    "studio-synthetic.mjs": "a1a5ba32e7ef1570b92d1ef8d9f2351e1f712b8b11a341a0494dc2a863cc1fbe",
+    "paired-runs.mjs": "ad25e246f9f52a9b1c3f5c32dbadb091e88e933b6288c45858f09607f611a90d",
+    "product-fixtures.mjs": "d2c30f5dc9fa655227b28458d7a3a3e95b5fb12e688a58318398c91a5080b71d",
+    "analyze-pairs.mjs": "3c59addc6694ccc5b6e553b635725ff682be1a7305374c60fb20ae52e569c1f9",
+    "janus-server.mjs": "d34f7ba8cc3cda79599c02f0ec26e5f168f7516d98160a647bc067caac1ec870"
+  },
+  "applicationPackages": {
+    "package.json": "91f2c47b9edb4115e4f86e6137a1b9a44dfdc24332100dfbfcef5b9409c48405",
+    "package-lock.json": "a7b0bee02fb067a2f05de6b274c91df174d4a6e43b29b92fc8b4ef2114e9edc1"
+  },
+  "measurements": {
+    "cpu": "Main-thread synchronous Three.js render plus resetState; GPU submission included, GPU completion excluded.",
+    "cadence": "Time between matching, current native render completions. Includes application work and scheduling.",
+    "heap": "Approximate, uncollected performance.memory page heap only.",
+    "resourceTracker": "Disabled in all ten formal timing runs.",
+    "instrumentation": "Same wrapper, no CDP profiler or GL call counter during formal timing."
+  }
+}
