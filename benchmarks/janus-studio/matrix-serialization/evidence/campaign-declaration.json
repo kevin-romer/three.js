@@ -1,0 +1,20 @@
+{
+  "createdUtc": "2026-11-08T19:12:45.472456+00:00",
+  "control": "afdba2e26e28ba99d86482ea8c044a749c074c34",
+  "candidate": "469f1adb8daf6f298cb5e66bc2078233a596878b",
+  "applicationSnapshotSha256": "65d8f2bdd7940d1df839c986c3c41bfdf7dfaa5c664d5737cc601430d0120257",
+  "sourceFiles": 317,
+  "pairedRounds": 20,
+  "order": "Alternating AB/BA, starting AB",
+  "framesPerRun": 300,
+  "warmupPerRun": 120,
+  "primaryMetric": "main-thread script CPU ms per frame, CDP Performance threadTicks; cumulative counters sampled at window boundaries",
+  "secondaryMetrics": [
+    "main-thread task CPU ms per frame",
+    "engineMs.p95",
+    "frameIntervalMs.p95"
+  ],
+  "regressionBudget": "renderer p95 max(5% control,0.3ms); paired mean excess 95% interval must be <=0",
+  "shippingCriterion": "Positive lower bound of the primary improvement interval; no reproducible renderer CPU budget breach. Otherwise report unqualified and do not claim an improvement.",
+  "policy": "Fixed 20 pairs, all included; no outcome-based extension or exclusions. Screening/profile/per-call counters/builds/unit runs excluded. CPU counters are boundary-only and enabled identically in both variants."
+}

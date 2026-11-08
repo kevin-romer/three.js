@@ -1,0 +1,36 @@
+{
+  "tools": {
+    "benchmarks/janus-studio/matrix-serialization/tools/analyze-cpu.mjs": "c76c96165d58cc81ca752dd1b5af155361bfa1958ab0a993eae273afcb45bbd4",
+    "benchmarks/janus-studio/matrix-serialization/tools/analyze-pairs.mjs": "e5fd0f9c31b2250d42add268fc2aef137aabf50c98c2ccb681851f6a6f3e4a70",
+    "benchmarks/janus-studio/matrix-serialization/tools/cpu-buildings-run.mjs": "3fcd927ddd459c7d47897b71dc77f9d33ac9fcaefd4db2f1095fc0785134bca1",
+    "benchmarks/janus-studio/matrix-serialization/tools/janus-server.mjs": "6c31e73df36cdc9b2bcfd783f6d06e40351852be41464ed699d2ef78fdd3e40e",
+    "benchmarks/janus-studio/matrix-serialization/tools/managed-browser.mjs": "04f922b3e7a484627d2e3b7fde47fd15bc937f717d5114fd8cf1aa67d3d0ba7f",
+    "benchmarks/janus-studio/matrix-serialization/tools/matrix-diagnostic-run.mjs": "f7960a599df3632463270f22334a7653df32cffaead0166f2281b9adf2288f9d",
+    "benchmarks/janus-studio/matrix-serialization/tools/matrix-diagnostic-server.mjs": "e28563bdfa560b6d0f989569bf69a2837e49f378ec7376c721c7b3382270cf47",
+    "benchmarks/janus-studio/matrix-serialization/tools/matrix-equivalence.mjs": "53e0946e8aea457538dc9418b3d5460c2d5286ee3717fa37b275669bf28d0bf8",
+    "benchmarks/janus-studio/matrix-serialization/tools/measure-cpu.mjs": "8bacdcda1ee740298efd423dc6f5a8f778b7727bfa38c18ae208b890523792ac",
+    "benchmarks/janus-studio/matrix-serialization/tools/measure-map.mjs": "2b3517c953f69984578f5971086240a8d330bcfd28d30f06273567cd4aaa0dd2",
+    "benchmarks/janus-studio/matrix-serialization/tools/paired.mjs": "77dfd9b69f90c74fa0c9331d3a80e433a3a1f315d46da815f5b69eafd669b0fb",
+    "benchmarks/janus-studio/matrix-serialization/tools/profile-buildings.mjs": "c95a30abecbe7eaacf837779f8b9650d28f39b63055cde26390b0d12e26646ae",
+    "benchmarks/janus-studio/matrix-serialization/tools/qunit-progress.mjs": "59826e6d85af04f83f2d49694791aa2837d260332d8b6d83bd738dcfff4ffa49",
+    "benchmarks/janus-studio/matrix-serialization/tools/run-units.mjs": "5c5e700ff2a6fc21d2112d7f4dbb50e29ab351fa1359bfbbfd23fbf58dbbd5af",
+    "benchmarks/janus-studio/next-audit/tools/buildings-run.mjs": "a6a5122ff62c4c008bedb19837c6395a3bcac9cf7484e5477557fce77464ef5d",
+    "benchmarks/janus-studio/next-audit/tools/janus-server.mjs": "6c31e73df36cdc9b2bcfd783f6d06e40351852be41464ed699d2ef78fdd3e40e",
+    "benchmarks/janus-studio/next-audit/tools/managed-browser.mjs": "04f922b3e7a484627d2e3b7fde47fd15bc937f717d5114fd8cf1aa67d3d0ba7f",
+    "benchmarks/janus-studio/next-audit/tools/measure-map.mjs": "2b3517c953f69984578f5971086240a8d330bcfd28d30f06273567cd4aaa0dd2",
+    "benchmarks/janus-studio/next-audit/tools/product-fixtures.mjs": "d2c30f5dc9fa655227b28458d7a3a3e95b5fb12e688a58318398c91a5080b71d",
+    "benchmarks/janus-studio/next-audit/tools/studio-synthetic.mjs": "978353f9e6da5f64927842b7a41494d71a13c56efbcf141aed7fa552fd8f8939",
+    "benchmarks/janus-studio/matrix-serialization/tools/verify.mjs": "9510df5fdd7bc20cb9ff82e7bc42b4cad87cb68d533e5f99c66ab79bcb2ef05e"
+  },
+  "protocolToolPaths": {
+    "paired.mjs": "benchmarks/janus-studio/matrix-serialization/tools/paired.mjs",
+    "janus-server.mjs": "benchmarks/janus-studio/next-audit/tools/janus-server.mjs",
+    "managed-browser.mjs": "benchmarks/janus-studio/next-audit/tools/managed-browser.mjs",
+    "studio-synthetic.mjs": "benchmarks/janus-studio/next-audit/tools/studio-synthetic.mjs",
+    "product-fixtures.mjs": "benchmarks/janus-studio/next-audit/tools/product-fixtures.mjs",
+    "measure-map.mjs": "benchmarks/janus-studio/next-audit/tools/measure-map.mjs",
+    "buildings-run.mjs": "benchmarks/janus-studio/next-audit/tools/buildings-run.mjs",
+    "cpu-buildings-run.mjs": "benchmarks/janus-studio/matrix-serialization/tools/cpu-buildings-run.mjs",
+    "measure-cpu.mjs": "benchmarks/janus-studio/matrix-serialization/tools/measure-cpu.mjs"
+  }
+}

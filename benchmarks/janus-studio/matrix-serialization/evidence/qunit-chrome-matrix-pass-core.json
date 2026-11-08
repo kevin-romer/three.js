@@ -1,0 +1,382 @@
+{
+  "engine": "chrome",
+  "version": "matrix-pass",
+  "suite": "core",
+  "browser": "156.0.8078.80",
+  "started": "2026-11-08T19:09:44.528Z",
+  "completed": "2026-11-08T19:09:46.114Z",
+  "result": {
+    "counts": {
+      "passed": 51,
+      "failed": 0,
+      "skipped": 0,
+      "todo": 0,
+      "total": 51
+    },
+    "runtimeMs": 20
+  },
+  "tests": [
+    {
+      "name": "Maths > Matrix4 > lookAt",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > determinantAffine",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > makeShear",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Core > BufferGeometry > applyMatrix4",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > premultiply",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > makeTranslation",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > multiply",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > makeRotationAxis",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Plane > applyMatrix4/translate",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > toArray preserves indexed getter and supplied-target setter order",
+      "status": "passed",
+      "runtimeMs": 1,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > clone",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > compose/decompose",
+      "status": "passed",
+      "runtimeMs": 3,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > determinant",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > toArray default outputs are independent dense plain arrays",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > equals",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > copy",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Ray > applyMatrix4",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > getMaxScaleOnAxis",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > makeScale",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Vector3 > applyMatrix4",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Line3 > applyMatrix4",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > multiplyMatrices",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > setPosition",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > determinantAffine (projective matrix)",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Core > Object3D > applyMatrix4 (pivot)",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > makeRotationX",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > fromArray",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > makeOrthographic",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > set",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > makeRotationZ",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > isMatrix4",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > copyPosition",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > invert",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > setFromMatrix3",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > multiplyScalar",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > identity",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > makePerspective",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Vector4 > applyMatrix4",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Box3 > applyMatrix4",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Core > Object3D > applyMatrix4",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > makeBasis/extractBasis",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > scale",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > toArray preserves supplied buffers and unusual offsets",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > toArray",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix3 > setFromMatrix4",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Sphere > applyMatrix4",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > transpose",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > Instancing",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > makeRotationFromEuler/extractRotation",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Euler > Matrix4.makeRotationFromEuler/Euler.setFromRotationMatrix",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    },
+    {
+      "name": "Maths > Matrix4 > makeRotationY",
+      "status": "passed",
+      "runtimeMs": 0,
+      "softSkips": [],
+      "errors": []
+    }
+  ],
+  "backends": [],
+  "errors": [],
+  "missing": [],
+  "external": [],
+  "warnings": []
+}

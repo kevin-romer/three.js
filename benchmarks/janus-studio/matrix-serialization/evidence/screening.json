@@ -1,0 +1,54 @@
+{
+  "excludedFromQualification": true,
+  "policy": "These exploratory runs selected the candidate and metric before the declared 20-pair campaign; none contributes to the formal interval.",
+  "matrixCpuScreen": {
+    "cpu-screen-control.json": {
+      "threadCpu": {
+        "timeDomain": "threadTicks",
+        "scriptMs": 4816.404,
+        "taskMs": 5116.773999999999,
+        "frames": 300
+      },
+      "frames": 300,
+      "rawSha256": "98a266e5b6782bc7ae9d129d4f2b3c41ef31b978da688d0802958c98456faddb"
+    },
+    "cpu-screen-candidate.json": {
+      "threadCpu": {
+        "timeDomain": "threadTicks",
+        "scriptMs": 4776.4980000000005,
+        "taskMs": 5068.892,
+        "frames": 300
+      },
+      "frames": 300,
+      "rawSha256": "10e81615a2a94f2c39572b7477499cca577a0447429031f4099db93cedcee323"
+    }
+  },
+  "rejectedShaderKeyPrototype": {
+    "outcome": "Discarded. In current Janus inputs the 30-frame counter run has 60 shader-key calls and zero string memoization hits; retaining this prototype was not justified.",
+    "records": {
+      "fresh-key-counts-control.json": {
+        "counts": {
+          "keyCounts": {
+            "calls": 60,
+            "fresh": 60,
+            "serializations": 60,
+            "hits": 0
+          }
+        },
+        "rawSha256": "676a86b692c317a948818e9f5fc1274f69ac0f6457fb89ab54bae2ad3d288f31"
+      },
+      "fresh-key-counts-candidate.json": {
+        "counts": {
+          "keyCounts": {
+            "calls": 60,
+            "fresh": 0,
+            "serializations": 60,
+            "hits": 0
+          }
+        },
+        "rawSha256": "01407253e98c2776338f0f8394591b22bdea5578e6f81796765daa01a5f44437"
+      }
+    }
+  },
+  "renderOnlyScreen": "Two exploratory pairs were neutral. The profile identified matrix serialization without Three.js renderer ancestors, so the independently declared qualification measures main-thread script CPU over complete native frame production."
+}

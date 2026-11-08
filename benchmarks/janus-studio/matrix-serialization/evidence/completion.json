@@ -1,0 +1,37 @@
+{
+  "completedUtc": "2026-11-08T19:29:21.598436+00:00",
+  "sourceCommit": "469f1adb8daf6f298cb5e66bc2078233a596878b",
+  "controlCommit": "afdba2e26e28ba99d86482ea8c044a749c074c34",
+  "forkRetained": true,
+  "forkReason": "User-requested separate fork retained for review and future improvements; no Atlas merge.",
+  "temporaryReplayRemoved": true,
+  "temporaryEquivalenceModulesRemoved": true,
+  "ownedBrowserRecords": 88,
+  "ownedBrowserProfilesRecorded": 76,
+  "ownedBrowserProfilesRemoved": 5,
+  "activeOwnedBrowserProcesses": 0,
+  "privateEvidenceArchive": {
+    "filename": "threejs-matrix-serialization-469f1ad-private.tar.gz",
+    "sha256": "53149ba45565f5c4e3498eb8c2ccbb0a0e6deb1135419faf82511021342c3d0f",
+    "bytes": 2827099,
+    "files": 522,
+    "applicationSourceFiles": 317,
+    "private": true,
+    "verified": true,
+    "replayDirectory": "fresh-app",
+    "manifest": "private-evidence/private-fresh-app-source-manifest.json",
+    "contents": "Current 317-file Janus replay, source manifests, raw timing and exploratory records, raw profiles, logs and benchmark tools. No .env files, installed dependencies, build outputs or caches."
+  },
+  "previousPrivateArchivesRetained": true,
+  "publicAnalysisReproduced": true,
+  "publicEquivalenceReproduced": true,
+  "toolSyntaxChecks": {
+    "status": "pass",
+    "tools": 15
+  },
+  "atlasModified": false,
+  "servicesRestarted": false,
+  "deployment": false,
+  "currentFrozenApplicationQualified": true,
+  "qualificationScope": "Native Janus map and IllustrationController renderer fixture; not the complete Studio UI or production workload."
+}

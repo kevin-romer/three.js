@@ -1,0 +1,116 @@
+{
+  "control": "afdba2e26e28ba99d86482ea8c044a749c074c34",
+  "applicationSnapshot": {
+    "sha256": "65d8f2bdd7940d1df839c986c3c41bfdf7dfaa5c664d5737cc601430d0120257",
+    "files": 317
+  },
+  "rawProfileSha256": "8fd64d23a72bd9bb45ccfee39ea96cc60e12f28453eb0710c6bb6613b4299ab3",
+  "method": "Separate exploratory Chrome CDP profile at 100us requested sampling interval. Includes 120 warmup frames, three captures and 300 frames; self samples only. Excluded from formal timing. Private application functions and paths omitted.",
+  "engineSelfTimeMs": [
+    {
+      "file": "src/core/BufferAttribute.js",
+      "function": "Float32BufferAttribute",
+      "estimatedMs": 91.847
+    },
+    {
+      "file": "src/core/BufferAttribute.js",
+      "function": "BufferAttribute",
+      "estimatedMs": 67.751
+    },
+    {
+      "file": "src/core/Object3D.js",
+      "function": "Object3D",
+      "estimatedMs": 54.431
+    },
+    {
+      "file": "src/math/Matrix4.js",
+      "function": "toArray",
+      "estimatedMs": 52.353
+    },
+    {
+      "file": "src/math/MathUtils.js",
+      "function": "generateUUID",
+      "estimatedMs": 26.388
+    },
+    {
+      "file": "src/core/Object3D.js",
+      "function": "traverse",
+      "estimatedMs": 25.67
+    },
+    {
+      "file": "src/core/BufferGeometry.js",
+      "function": "BufferGeometry",
+      "estimatedMs": 20.831
+    },
+    {
+      "file": "src/objects/Mesh.js",
+      "function": "Mesh",
+      "estimatedMs": 17.231
+    },
+    {
+      "file": "src/materials/Material.js",
+      "function": "Material",
+      "estimatedMs": 16.864
+    },
+    {
+      "file": "src/materials/ShaderMaterial.js",
+      "function": "ShaderMaterial",
+      "estimatedMs": 16.251
+    },
+    {
+      "file": "src/math/Matrix4.js",
+      "function": "multiplyMatrices",
+      "estimatedMs": 16.164
+    },
+    {
+      "file": "src/materials/Material.js",
+      "function": "setValues",
+      "estimatedMs": 15.383
+    },
+    {
+      "file": "src/core/Object3D.js",
+      "function": "updateMatrixWorld",
+      "estimatedMs": 14.53
+    },
+    {
+      "file": "src/renderers/WebGLRenderer.js",
+      "function": "projectObject",
+      "estimatedMs": 13.146
+    },
+    {
+      "file": "src/renderers/webgl/WebGLState.js",
+      "function": "reset",
+      "estimatedMs": 11.427
+    },
+    {
+      "file": "src/renderers/webgl/WebGLState.js",
+      "function": "bindFramebuffer",
+      "estimatedMs": 8.93
+    },
+    {
+      "file": "src/extras/lib/earcut.js",
+      "function": "isEar",
+      "estimatedMs": 8.528
+    },
+    {
+      "file": "src/renderers/WebGLRenderer.js",
+      "function": "WebGLRenderer.renderBufferDirect",
+      "estimatedMs": 7.904
+    },
+    {
+      "file": "src/math/Vector3.js",
+      "function": "toArray",
+      "estimatedMs": 7.375
+    },
+    {
+      "file": "src/core/BufferGeometry.js",
+      "function": "setAttribute",
+      "estimatedMs": 7.21
+    }
+  ],
+  "matrix4StackAttribution": {
+    "estimatedSelfMs": 52.353,
+    "estimatedSelfMsWithRendererAncestor": 0,
+    "method": "Walk sample-node ancestors and test for any Three.js src/renderers/ frame. Exploratory profile only; does not establish all-call coverage."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "node": "v25.9.0",
+  "scope": "Actual baseline/candidate Matrix4 methods; deterministic value, type, descriptor, ownership, indexed-access order and exception comparison. Includes sparse/typed/array-like sources, supplied buffers and unusual offsets; not a timing result.",
+  "seed": 20261108,
+  "cases": 5000,
+  "comparisons": 10000,
+  "exceptions": 50,
+  "resultSha256": "24f39e83d0b90f0f739566415fac293e702afaca716c4053367e4677bdb853ce",
+  "sources": {
+    "control": {
+      "commit": "afdba2e26e28ba99d86482ea8c044a749c074c34",
+      "sha256": "f37121b58e71b0b9fb05a69a2a8e5d76e7d1751fd24320d650bdf1a0c6f9ae83"
+    },
+    "candidate": {
+      "commit": "469f1adb8daf6f298cb5e66bc2078233a596878b",
+      "sha256": "3568d224bba3d5fe699464f725590f03724bf958200f94a2f6bb9f1f343141d2"
+    }
+  }
+}

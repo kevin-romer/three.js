@@ -1,0 +1,74 @@
+{
+  "candidate": "469f1adb8daf6f298cb5e66bc2078233a596878b",
+  "candidateSources": {
+    "src/math/Matrix4.js": "3568d224bba3d5fe699464f725590f03724bf958200f94a2f6bb9f1f343141d2",
+    "test/unit/src/math/Matrix4.tests.js": "ae90a8203e8564eaf84e84e4ba9cfcd4763efb1a43e9fcecce0b96e3470e7eae"
+  },
+  "units": {
+    "qunit-chrome-matrix-full-addons.json": {
+      "sha256": "3dc3c5ed793d5e7aa9bb715dc9b1447d43d9735e3123c0e2b2e1b3c5a47cde0c",
+      "passed": 145,
+      "todo": 0
+    },
+    "qunit-chrome-matrix-full-core.json": {
+      "sha256": "e3f9e29c455ce61ec71cc787d7e49c521f362fdc198b236eae699ed85901ce72",
+      "passed": 2013,
+      "todo": 1
+    },
+    "qunit-chrome-matrix-pass-core.json": {
+      "sha256": "ac892391124c9eb1107a36b182bf099f1946ffe3b1c647626dcd8e37ef641a08",
+      "passed": 51,
+      "todo": 0
+    },
+    "qunit-chrome-matrix-webgl-core.json": {
+      "sha256": "9b84deb0b915045c6349e3328de5941d4302827d39e92ff2221c928b232b8054",
+      "passed": 217,
+      "todo": 0
+    },
+    "qunit-firefox-matrix-pass-core.json": {
+      "sha256": "0a3109fdff8fddcfbd2be036fb5c560296defd139f7fa650d871fcb984df6e67",
+      "passed": 51,
+      "todo": 0
+    },
+    "qunit-firefox-matrix-webgl-core.json": {
+      "sha256": "da6b1d37c25ab95083f46698a045277ebcdf3901d885ebf2394aadbebd81d1c6",
+      "passed": 217,
+      "todo": 0
+    },
+    "qunit-webkit-matrix-pass-core.json": {
+      "sha256": "5019b674d98479755c44dbffc49fc5831db12ac13f854d4bf22951f035e247b4",
+      "passed": 51,
+      "todo": 0
+    },
+    "qunit-webkit-matrix-webgl-core.json": {
+      "sha256": "3c79a680baffa8644b06be955ad3cf6d69ea2d2c9d8f349a179a638387941684",
+      "passed": 217,
+      "todo": 0
+    }
+  },
+  "commands": {
+    "coreLint": {
+      "command": "npm run lint-core",
+      "exitCode": 0,
+      "logSha256": "5b00225a99c8a12cbaba8c4b2583b5e1bcded8d6d8cc9abece7b2b48c3fa6542",
+      "privateLogSha256": "c9fd5e44b9bc4daef4248f839bcb1a1c0c62f1fd132f92e774120a6c9bbfe0e3"
+    },
+    "testLint": {
+      "command": "npm run lint-test",
+      "exitCode": 0,
+      "logSha256": "441a1ef4ecb92bf351818e1532ed1e37985821353d05021db66e0fc8e5ee18af",
+      "privateLogSha256": "fc4c9c5f4f7b015146fa549d42e821cd61192bdb47a7f0a59b690d22f4f3502a"
+    },
+    "build": {
+      "command": "node audit/comprehensive-r187/tools/build-check.mjs THREE OUT",
+      "exitCode": 0,
+      "logSha256": "71058f7366e9faaa8f792546665cf14a451bc67d9a9456684afd8ff46c6d727f",
+      "privateLogSha256": "71058f7366e9faaa8f792546665cf14a451bc67d9a9456684afd8ff46c6d727f"
+    }
+  },
+  "limits": [
+    "One existing core todo; expected addon missing test/unit/texture.test request.",
+    "Checked-in builds remain unchanged. Build matchesPublished compares r187 checked-in outputs; only three.core.js differs from the previous fork build.",
+    "Browser CPU timing is qualified only on the recorded host and frozen Janus renderer fixture."
+  ]
+}

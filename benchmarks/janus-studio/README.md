@@ -106,3 +106,5 @@ A subsequent [Enhanced 3D parameter-layout campaign](enhanced-3d/README.md) meas
 The subsequent [WebGL program binding cleanup pass](binding-cleanup/README.md) removes global geometry scans during program retirement. The engine scaling probe improves; the retained Janus Enhanced 3D replay remains statistically neutral and passes its CPU regression budget.
 
 The subsequent [shader parameter reuse pass](parameter-reuse/README.md) reduces retained Enhanced 3D replay p95 render CPU by 17.7% and p95 native frame intervals by 2.7% against the previous fork, using independent paired timing and matching visible work. Current-source qualification limits remain explicit in that report.
+
+The latest [Matrix4 default serialization pass](matrix-serialization/README.md) reduces main-thread script CPU per Enhanced 3D renderer frame by 1.05% against the previous fork (95% interval 0.32% to 1.93%) across 20 fixed pairs. Current frozen Janus inputs now pass the bounds-error gate; frame-interval performance remains inconclusive.
