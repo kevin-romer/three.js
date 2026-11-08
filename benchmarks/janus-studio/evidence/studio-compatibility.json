@@ -1,0 +1,396 @@
+{
+  "scope": "Short compatibility runs; no performance claim from three-frame smokes. Mobile is a 390x844 desktop Chrome viewport with 4x CPU throttling, not physical mobile.",
+  "cases": [
+    {
+      "case": "compat-r183-chrome",
+      "variant": "r183",
+      "browser": "156.0.8078.80",
+      "config": {
+        "label": "compat-r183-chrome",
+        "frames": 3,
+        "warmup": 10,
+        "correctness": true
+      },
+      "data": {
+        "hash": "d43995269a7bb3f3bf316b71ef48317d52d8fd89fecd2bc2af5242345ba1267f",
+        "count": 400,
+        "classification": "synthetic-unadmitted",
+        "bindingKeyLength": 90
+      },
+      "device": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+      "backend": "WebGL2",
+      "frames": 3,
+      "pixels": [
+        {
+          "step": 0,
+          "sha256": "798a8492653080f39da8ad357e987ec34a46c4927645f9fbf7331b3f75df4b2f",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 73,
+          "sha256": "fbaf0fddd3c147665c7abb24ba3e4c246a0b504d58d612d6665a4a41858f1c78",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 151,
+          "sha256": "eaa7d38e79c350aeef316271229b18df96a947678da4dd29b36cef6c1b36e858",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        }
+      ],
+      "applicationSnapshot": {
+        "sha256": "980131b284f7012ea8b9406b3d7dbbe2140fa84bdb401d714f795f1bb5337bdb",
+        "files": 251
+      },
+      "longTaskSupport": "supported",
+      "errors": [],
+      "glError": 0
+    },
+    {
+      "case": "compat-firefox-r187",
+      "variant": "r187",
+      "browser": "151.0",
+      "config": {
+        "variant": "r187",
+        "label": "compat-firefox-r187",
+        "browser": "firefox",
+        "frames": 3,
+        "warmup": 10,
+        "correctness": true
+      },
+      "data": {
+        "hash": "d43995269a7bb3f3bf316b71ef48317d52d8fd89fecd2bc2af5242345ba1267f",
+        "count": 400,
+        "classification": "synthetic-unadmitted",
+        "bindingKeyLength": 90
+      },
+      "device": "Apple M1, or similar",
+      "backend": "WebGL2",
+      "frames": 3,
+      "pixels": [
+        {
+          "step": 0,
+          "sha256": "798a8492653080f39da8ad357e987ec34a46c4927645f9fbf7331b3f75df4b2f",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 73,
+          "sha256": "fbaf0fddd3c147665c7abb24ba3e4c246a0b504d58d612d6665a4a41858f1c78",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 151,
+          "sha256": "eaa7d38e79c350aeef316271229b18df96a947678da4dd29b36cef6c1b36e858",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        }
+      ],
+      "applicationSnapshot": {
+        "sha256": "980131b284f7012ea8b9406b3d7dbbe2140fa84bdb401d714f795f1bb5337bdb",
+        "files": 251
+      },
+      "longTaskSupport": "unsupported",
+      "errors": [],
+      "glError": 0
+    },
+    {
+      "case": "compat-firefox-fork",
+      "variant": "fork",
+      "browser": "151.0",
+      "config": {
+        "variant": "fork",
+        "label": "compat-firefox-fork",
+        "browser": "firefox",
+        "frames": 3,
+        "warmup": 10,
+        "correctness": true
+      },
+      "data": {
+        "hash": "d43995269a7bb3f3bf316b71ef48317d52d8fd89fecd2bc2af5242345ba1267f",
+        "count": 400,
+        "classification": "synthetic-unadmitted",
+        "bindingKeyLength": 90
+      },
+      "device": "Apple M1, or similar",
+      "backend": "WebGL2",
+      "frames": 3,
+      "pixels": [
+        {
+          "step": 0,
+          "sha256": "798a8492653080f39da8ad357e987ec34a46c4927645f9fbf7331b3f75df4b2f",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 73,
+          "sha256": "fbaf0fddd3c147665c7abb24ba3e4c246a0b504d58d612d6665a4a41858f1c78",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 151,
+          "sha256": "eaa7d38e79c350aeef316271229b18df96a947678da4dd29b36cef6c1b36e858",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        }
+      ],
+      "applicationSnapshot": {
+        "sha256": "980131b284f7012ea8b9406b3d7dbbe2140fa84bdb401d714f795f1bb5337bdb",
+        "files": 251
+      },
+      "longTaskSupport": "unsupported",
+      "errors": [],
+      "glError": 0
+    },
+    {
+      "case": "compat-webkit-r187",
+      "variant": "r187",
+      "browser": "26.5",
+      "config": {
+        "variant": "r187",
+        "label": "compat-webkit-r187",
+        "browser": "webkit",
+        "frames": 3,
+        "warmup": 10,
+        "correctness": true
+      },
+      "data": {
+        "hash": "d43995269a7bb3f3bf316b71ef48317d52d8fd89fecd2bc2af5242345ba1267f",
+        "count": 400,
+        "classification": "synthetic-unadmitted",
+        "bindingKeyLength": 90
+      },
+      "device": "Apple GPU",
+      "backend": "WebGL2",
+      "frames": 3,
+      "pixels": [
+        {
+          "step": 0,
+          "sha256": "798a8492653080f39da8ad357e987ec34a46c4927645f9fbf7331b3f75df4b2f",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 73,
+          "sha256": "fbaf0fddd3c147665c7abb24ba3e4c246a0b504d58d612d6665a4a41858f1c78",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 151,
+          "sha256": "eaa7d38e79c350aeef316271229b18df96a947678da4dd29b36cef6c1b36e858",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        }
+      ],
+      "applicationSnapshot": {
+        "sha256": "980131b284f7012ea8b9406b3d7dbbe2140fa84bdb401d714f795f1bb5337bdb",
+        "files": 251
+      },
+      "longTaskSupport": "unsupported",
+      "errors": [],
+      "glError": 0
+    },
+    {
+      "case": "compat-webkit-fork",
+      "variant": "fork",
+      "browser": "26.5",
+      "config": {
+        "variant": "fork",
+        "label": "compat-webkit-fork",
+        "browser": "webkit",
+        "frames": 3,
+        "warmup": 10,
+        "correctness": true
+      },
+      "data": {
+        "hash": "d43995269a7bb3f3bf316b71ef48317d52d8fd89fecd2bc2af5242345ba1267f",
+        "count": 400,
+        "classification": "synthetic-unadmitted",
+        "bindingKeyLength": 90
+      },
+      "device": "Apple GPU",
+      "backend": "WebGL2",
+      "frames": 3,
+      "pixels": [
+        {
+          "step": 0,
+          "sha256": "798a8492653080f39da8ad357e987ec34a46c4927645f9fbf7331b3f75df4b2f",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 73,
+          "sha256": "fbaf0fddd3c147665c7abb24ba3e4c246a0b504d58d612d6665a4a41858f1c78",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 151,
+          "sha256": "eaa7d38e79c350aeef316271229b18df96a947678da4dd29b36cef6c1b36e858",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        }
+      ],
+      "applicationSnapshot": {
+        "sha256": "980131b284f7012ea8b9406b3d7dbbe2140fa84bdb401d714f795f1bb5337bdb",
+        "files": 251
+      },
+      "longTaskSupport": "unsupported",
+      "errors": [],
+      "glError": 0
+    },
+    {
+      "case": "compat-mobile-r187",
+      "variant": "r187",
+      "browser": "156.0.8078.80",
+      "config": {
+        "variant": "r187",
+        "label": "compat-mobile-r187",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "cpuRate": 4,
+        "frames": 3,
+        "warmup": 10,
+        "correctness": true
+      },
+      "data": {
+        "hash": "d43995269a7bb3f3bf316b71ef48317d52d8fd89fecd2bc2af5242345ba1267f",
+        "count": 400,
+        "classification": "synthetic-unadmitted",
+        "bindingKeyLength": 90
+      },
+      "device": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+      "backend": "WebGL2",
+      "frames": 3,
+      "pixels": [
+        {
+          "step": 0,
+          "sha256": "db0c90b9627d379d41394826b988717eb13666f2fe57953a5b5945488aa76f64",
+          "colored": 190912,
+          "nonzeroAlpha": 190912,
+          "width": 314,
+          "height": 608
+        },
+        {
+          "step": 73,
+          "sha256": "ca954a913377c064a9fb82058afbd7bfe803522b98b1eab08b2e3df94cc7e983",
+          "colored": 190912,
+          "nonzeroAlpha": 190912,
+          "width": 314,
+          "height": 608
+        },
+        {
+          "step": 151,
+          "sha256": "1504783757f99a9ebcddf95b4a59f1907cb752cb91e6504be31555101c1dabbe",
+          "colored": 190912,
+          "nonzeroAlpha": 190912,
+          "width": 314,
+          "height": 608
+        }
+      ],
+      "applicationSnapshot": {
+        "sha256": "980131b284f7012ea8b9406b3d7dbbe2140fa84bdb401d714f795f1bb5337bdb",
+        "files": 251
+      },
+      "longTaskSupport": "supported",
+      "errors": [],
+      "glError": 0
+    },
+    {
+      "case": "compat-mobile-fork",
+      "variant": "fork",
+      "browser": "156.0.8078.80",
+      "config": {
+        "variant": "fork",
+        "label": "compat-mobile-fork",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "cpuRate": 4,
+        "frames": 3,
+        "warmup": 10,
+        "correctness": true
+      },
+      "data": {
+        "hash": "d43995269a7bb3f3bf316b71ef48317d52d8fd89fecd2bc2af5242345ba1267f",
+        "count": 400,
+        "classification": "synthetic-unadmitted",
+        "bindingKeyLength": 90
+      },
+      "device": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+      "backend": "WebGL2",
+      "frames": 3,
+      "pixels": [
+        {
+          "step": 0,
+          "sha256": "db0c90b9627d379d41394826b988717eb13666f2fe57953a5b5945488aa76f64",
+          "colored": 190912,
+          "nonzeroAlpha": 190912,
+          "width": 314,
+          "height": 608
+        },
+        {
+          "step": 73,
+          "sha256": "ca954a913377c064a9fb82058afbd7bfe803522b98b1eab08b2e3df94cc7e983",
+          "colored": 190912,
+          "nonzeroAlpha": 190912,
+          "width": 314,
+          "height": 608
+        },
+        {
+          "step": 151,
+          "sha256": "1504783757f99a9ebcddf95b4a59f1907cb752cb91e6504be31555101c1dabbe",
+          "colored": 190912,
+          "nonzeroAlpha": 190912,
+          "width": 314,
+          "height": 608
+        }
+      ],
+      "applicationSnapshot": {
+        "sha256": "980131b284f7012ea8b9406b3d7dbbe2140fa84bdb401d714f795f1bb5337bdb",
+        "files": 251
+      },
+      "longTaskSupport": "supported",
+      "errors": [],
+      "glError": 0
+    }
+  ]
+}

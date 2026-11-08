@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "scope": "Engine stable scene, 1000 meshes sharing one geometry and material; not a full Studio benchmark.",
+  "method": "Five rounds, alternating triad order; 120 warmup and 300 measured frames per run. Bootstrap 10000 paired run means, seed 20261108. Budget is max(5% baseline p95, 0.3ms).",
+  "results": {
+    "fork": {
+      "status": "passes-regression-budget",
+      "pairs": [
+        {
+          "round": 1,
+          "baseline": 2.4000000059604645,
+          "candidate": 2.1999999955296516,
+          "budget": 0.3,
+          "regressionMs": -0.20000001043081284,
+          "budgetExcessMs": -0.5000000104308129,
+          "ratio": 0.9166666625274552
+        },
+        {
+          "round": 2,
+          "baseline": 2.100000001490116,
+          "candidate": 2.2000000029802322,
+          "budget": 0.3,
+          "regressionMs": 0.10000000149011612,
+          "budgetExcessMs": -0.19999999850988387,
+          "ratio": 1.0476190482948373
+        },
+        {
+          "round": 3,
+          "baseline": 3.0999999940395355,
+          "candidate": 1.7000000029802322,
+          "budget": 0.3,
+          "regressionMs": -1.3999999910593033,
+          "budgetExcessMs": -1.6999999910593033,
+          "ratio": 0.5483870987899594
+        },
+        {
+          "round": 4,
+          "baseline": 0.7000000029802322,
+          "candidate": 0.7000000029802322,
+          "budget": 0.3,
+          "regressionMs": 0,
+          "budgetExcessMs": -0.3,
+          "ratio": 1
+        },
+        {
+          "round": 5,
+          "baseline": 2.8000000044703484,
+          "candidate": 2.4000000059604645,
+          "budget": 0.3,
+          "regressionMs": -0.3999999985098839,
+          "budgetExcessMs": -0.6999999985098839,
+          "ratio": 0.8571428579031205
+        }
+      ],
+      "meanRegressionMs": -0.3799999997019768,
+      "regression95CI": [
+        -0.9199999943375587,
+        -1.4901161193847657e-9
+      ],
+      "budgetExcess95CI": [
+        -1.2199999943375588,
+        -0.30000000149011613
+      ]
+    },
+    "fork-default": {
+      "status": "passes-regression-budget",
+      "pairs": [
+        {
+          "round": 1,
+          "baseline": 2.4000000059604645,
+          "candidate": 2.1999999955296516,
+          "budget": 0.3,
+          "regressionMs": -0.20000001043081284,
+          "budgetExcessMs": -0.5000000104308129,
+          "ratio": 0.9166666625274552
+        },
+        {
+          "round": 2,
+          "baseline": 2.100000001490116,
+          "candidate": 2.2000000029802322,
+          "budget": 0.3,
+          "regressionMs": 0.10000000149011612,
+          "budgetExcessMs": -0.19999999850988387,
+          "ratio": 1.0476190482948373
+        },
+        {
+          "round": 3,
+          "baseline": 3.0999999940395355,
+          "candidate": 0.7000000029802322,
+          "budget": 0.3,
+          "regressionMs": -2.3999999910593033,
+          "budgetExcessMs": -2.699999991059303,
+          "ratio": 0.2258064530084334
+        },
+        {
+          "round": 4,
+          "baseline": 0.7000000029802322,
+          "candidate": 1.1000000014901161,
+          "budget": 0.3,
+          "regressionMs": 0.3999999985098839,
+          "budgetExcessMs": 0.09999999850988389,
+          "ratio": 1.5714285668669914
+        },
+        {
+          "round": 5,
+          "baseline": 2.8000000044703484,
+          "candidate": 2.4000000059604645,
+          "budget": 0.3,
+          "regressionMs": -0.3999999985098839,
+          "budgetExcessMs": -0.6999999985098839,
+          "ratio": 0.8571428579031205
+        }
+      ],
+      "meanRegressionMs": -0.5,
+      "regression95CI": [
+        -1.4599999964237214,
+        0.15999999791383743
+      ],
+      "budgetExcess95CI": [
+        -1.7599999964237214,
+        -0.14000000208616256
+      ]
+    }
+  }
+}

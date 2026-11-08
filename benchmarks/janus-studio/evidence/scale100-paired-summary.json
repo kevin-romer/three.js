@@ -1,0 +1,943 @@
+{
+  "schemaVersion": 1,
+  "case": "scale100",
+  "method": "Five paired AB/BA rounds; bootstrap 10000 resamples of paired log p95 CPU ratios, seed 20261107. Frames are not treated as independent runs.",
+  "stats": {
+    "engineMs": {
+      "pairedP95Ratios": [
+        0.5642201837684337,
+        0.5844155848889164,
+        0.47244094504818707,
+        0.6086956523773526,
+        0.5406698572609997
+      ],
+      "geometricMeanRatio": 0.552039379285207,
+      "improvementPercent": 44.796062071479305,
+      "ratio95CI": [
+        0.5072101840502342,
+        0.5898458376849197
+      ],
+      "improvement95CI": [
+        41.01541623150803,
+        49.27898159497658
+      ],
+      "baselineP95Ms": [
+        21.799999997019768,
+        23.099999994039536,
+        25.399999991059303,
+        20.69999999552965,
+        20.899999991059303
+      ],
+      "candidateP95Ms": [
+        12.300000004470348,
+        13.50000000745058,
+        12,
+        12.600000001490116,
+        11.300000011920929
+      ]
+    },
+    "renderMs": {
+      "pairedP95Ratios": [
+        0.5622119816269452,
+        0.5826086959113246,
+        0.47035573122180446,
+        0.6097560975609756,
+        0.548543688937641
+      ],
+      "geometricMeanRatio": 0.5526041917081432,
+      "improvementPercent": 44.73958082918568,
+      "ratio95CI": [
+        0.5062598675803817,
+        0.5902741030172225
+      ],
+      "improvement95CI": [
+        40.97258969827775,
+        49.37401324196183
+      ],
+      "baselineP95Ms": [
+        21.700000002980232,
+        23,
+        25.299999997019768,
+        20.5,
+        20.600000008940697
+      ],
+      "candidateP95Ms": [
+        12.200000002980232,
+        13.400000005960464,
+        11.899999998509884,
+        12.5,
+        11.299999997019768
+      ]
+    },
+    "resetMs": {
+      "pairedP95Ratios": [
+        0.6666666832235126,
+        1,
+        1,
+        1.0000000248352696,
+        0.9999999254942007
+      ],
+      "geometricMeanRatio": 0.9221079069015691,
+      "improvementPercent": 7.789209309843093,
+      "ratio95CI": [
+        0.7840526855775483,
+        1.0000000099341078
+      ],
+      "improvement95CI": [
+        -9.934107758624577e-07,
+        21.594731442245173
+      ],
+      "baselineP95Ms": [
+        0.29999999701976776,
+        0.20000000298023224,
+        0.20000000298023224,
+        0.29999998956918716,
+        0.20000001788139343
+      ],
+      "candidateP95Ms": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224,
+        0.29999999701976776,
+        0.20000000298023224
+      ]
+    },
+    "actionMs": {
+      "pairedP95Ratios": [
+        0.8749999988358468,
+        1,
+        0.6153846145028898,
+        1.1428571443776696,
+        0.8750000069849193
+      ],
+      "geometricMeanRatio": 0.8835496071356056,
+      "improvementPercent": 11.64503928643944,
+      "ratio95CI": [
+        0.7275948072962886,
+        1.0270660911887652
+      ],
+      "improvement95CI": [
+        -2.706609118876524,
+        27.240519270371145
+      ],
+      "baselineP95Ms": [
+        0.8000000044703484,
+        0.7999999970197678,
+        1.2999999970197678,
+        0.7000000029802322,
+        0.7999999970197678
+      ],
+      "candidateP95Ms": [
+        0.7000000029802322,
+        0.7999999970197678,
+        0.7999999970197678,
+        0.8000000044703484,
+        0.7000000029802322
+      ]
+    },
+    "frameIntervalMs": {
+      "pairedP95Ratios": [
+        0.8248407642250389,
+        0.8509984639567163,
+        0.7533834586690243,
+        0.8831385642708826,
+        0.7777777779150651
+      ],
+      "geometricMeanRatio": 0.816657341516388,
+      "improvementPercent": 18.3342658483612,
+      "ratio95CI": [
+        0.776902483443139,
+        0.8583354972133611
+      ],
+      "improvement95CI": [
+        14.16645027866389,
+        22.309751655686107
+      ],
+      "baselineP95Ms": [
+        62.80000000447035,
+        65.09999999403954,
+        66.5,
+        59.899999998509884,
+        60.29999999701977
+      ],
+      "candidateP95Ms": [
+        51.79999999701977,
+        55.399999998509884,
+        50.100000001490116,
+        52.899999998509884,
+        46.900000005960464
+      ]
+    }
+  },
+  "primaryTargetMet": true,
+  "checks": {
+    "appHashMatchesWithinPairs": true,
+    "pixelsMatch": true,
+    "nonempty": true,
+    "equalDrawAndTriangleCounts": true,
+    "errors": 0
+  },
+  "pairs": [
+    {
+      "pair": 1,
+      "order": [
+        "r187",
+        "fork"
+      ],
+      "application": {
+        "sha256": "980131b284f7012ea8b9406b3d7dbbe2140fa84bdb401d714f795f1bb5337bdb",
+        "files": 251
+      },
+      "data": {
+        "hash": "31d180e307065cf084ec4d841cedb56c486b08050e3f5d3f069365433cf7fb5c",
+        "count": 100,
+        "classification": "synthetic-unadmitted",
+        "bindingKeyLength": 90
+      },
+      "browser": "156.0.8078.80",
+      "device": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+      "baseline": {
+        "engineMs": {
+          "p50": 19.19999999552965,
+          "p95": 21.799999997019768,
+          "p99": 25.5,
+          "max": 26.5
+        },
+        "renderMs": {
+          "p50": 19.099999994039536,
+          "p95": 21.700000002980232,
+          "p99": 25.399999998509884,
+          "max": 26.5
+        },
+        "resetMs": {
+          "p50": 0.10000000149011612,
+          "p95": 0.29999999701976776,
+          "p99": 0.30000000447034836,
+          "max": 0.5
+        },
+        "actionMs": {
+          "p50": 0.6000000014901161,
+          "p95": 0.8000000044703484,
+          "p99": 2.100000001490116,
+          "max": 7.5
+        },
+        "frameIntervalMs": {
+          "p50": 57,
+          "p95": 62.80000000447035,
+          "p99": 79.60000000149012,
+          "max": 101
+        }
+      },
+      "candidate": {
+        "engineMs": {
+          "p50": 10.700000002980232,
+          "p95": 12.300000004470348,
+          "p99": 12.700000002980232,
+          "max": 28.399999998509884
+        },
+        "renderMs": {
+          "p50": 10.600000001490116,
+          "p95": 12.200000002980232,
+          "p99": 12.700000002980232,
+          "max": 28.399999998509884
+        },
+        "resetMs": {
+          "p50": 0.10000000149011612,
+          "p95": 0.20000000298023224,
+          "p99": 0.30000000447034836,
+          "max": 0.4000000059604645
+        },
+        "actionMs": {
+          "p50": 0.6000000014901161,
+          "p95": 0.7000000029802322,
+          "p99": 1.6000000014901161,
+          "max": 3
+        },
+        "frameIntervalMs": {
+          "p50": 47.19999999552965,
+          "p95": 51.79999999701977,
+          "p99": 58.600000001490116,
+          "max": 63.899999998509884
+        }
+      },
+      "pixels": [
+        {
+          "step": 0,
+          "sha256": "88c945d2b0f00ca054b97ef9162fc00dd6a854fb09b4a83fcb79de119c31f862",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 73,
+          "sha256": "ec61ce041245cc01bacaef5d9e2f5189b05a4ea1c9bcc975ee3646ec00138536",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 151,
+          "sha256": "a6b011dd4c9be07afeb7331b9cebdc61a6606f3587042bca6050fa5f66966778",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        }
+      ],
+      "programs": {
+        "baseline": [
+          {
+            "total": 3,
+            "inactive": 0,
+            "geometries": 201,
+            "textures": 0
+          }
+        ],
+        "candidate": [
+          {
+            "total": 3,
+            "inactive": 0,
+            "geometries": 201,
+            "textures": 0
+          }
+        ]
+      },
+      "heapUsedApprox": {
+        "baseline": 204173061,
+        "candidate": 178277249
+      },
+      "startup": {
+        "baseline": {
+          "workspaceReadyMs": 6505.641624999998,
+          "nonemptyDataReadyMs": 120.23637500000041
+        },
+        "candidate": {
+          "workspaceReadyMs": 6963.921541,
+          "nonemptyDataReadyMs": 98.29766699999891
+        }
+      },
+      "longTasks": {
+        "baseline": [
+          55,
+          50,
+          71,
+          85
+        ],
+        "candidate": []
+      }
+    },
+    {
+      "pair": 2,
+      "order": [
+        "fork",
+        "r187"
+      ],
+      "application": {
+        "sha256": "980131b284f7012ea8b9406b3d7dbbe2140fa84bdb401d714f795f1bb5337bdb",
+        "files": 251
+      },
+      "data": {
+        "hash": "31d180e307065cf084ec4d841cedb56c486b08050e3f5d3f069365433cf7fb5c",
+        "count": 100,
+        "classification": "synthetic-unadmitted",
+        "bindingKeyLength": 90
+      },
+      "browser": "156.0.8078.80",
+      "device": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+      "baseline": {
+        "engineMs": {
+          "p50": 18.600000001490116,
+          "p95": 23.099999994039536,
+          "p99": 27.599999994039536,
+          "max": 51.00000000745058
+        },
+        "renderMs": {
+          "p50": 18.5,
+          "p95": 23,
+          "p99": 27.49999999254942,
+          "max": 50.70000000298023
+        },
+        "resetMs": {
+          "p50": 0.10000000149011612,
+          "p95": 0.20000000298023224,
+          "p99": 0.30000000447034836,
+          "max": 0.3999999985098839
+        },
+        "actionMs": {
+          "p50": 0.6000000014901161,
+          "p95": 0.7999999970197678,
+          "p99": 1.8000000044703484,
+          "max": 14
+        },
+        "frameIntervalMs": {
+          "p50": 55.70000000298023,
+          "p95": 65.09999999403954,
+          "p99": 83.20000000298023,
+          "max": 107.29999999701977
+        }
+      },
+      "candidate": {
+        "engineMs": {
+          "p50": 11,
+          "p95": 13.50000000745058,
+          "p99": 22.799999989569187,
+          "max": 29
+        },
+        "renderMs": {
+          "p50": 11,
+          "p95": 13.400000005960464,
+          "p99": 22.69999998807907,
+          "max": 29
+        },
+        "resetMs": {
+          "p50": 0.10000000149011612,
+          "p95": 0.20000000298023224,
+          "p99": 0.30000000447034836,
+          "max": 0.30000000447034836
+        },
+        "actionMs": {
+          "p50": 0.6000000014901161,
+          "p95": 0.7999999970197678,
+          "p99": 1.2000000029802322,
+          "max": 1.7999999970197678
+        },
+        "frameIntervalMs": {
+          "p50": 47.70000000298023,
+          "p95": 55.399999998509884,
+          "p99": 65.39999999850988,
+          "max": 79.79999999701977
+        }
+      },
+      "pixels": [
+        {
+          "step": 0,
+          "sha256": "88c945d2b0f00ca054b97ef9162fc00dd6a854fb09b4a83fcb79de119c31f862",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 73,
+          "sha256": "ec61ce041245cc01bacaef5d9e2f5189b05a4ea1c9bcc975ee3646ec00138536",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 151,
+          "sha256": "a6b011dd4c9be07afeb7331b9cebdc61a6606f3587042bca6050fa5f66966778",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        }
+      ],
+      "programs": {
+        "baseline": [
+          {
+            "total": 3,
+            "inactive": 0,
+            "geometries": 201,
+            "textures": 0
+          }
+        ],
+        "candidate": [
+          {
+            "total": 3,
+            "inactive": 0,
+            "geometries": 201,
+            "textures": 0
+          }
+        ]
+      },
+      "heapUsedApprox": {
+        "baseline": 284477565,
+        "candidate": 179193631
+      },
+      "startup": {
+        "baseline": {
+          "workspaceReadyMs": 7522.177625,
+          "nonemptyDataReadyMs": 96.49675000000207
+        },
+        "candidate": {
+          "workspaceReadyMs": 4250.370917000001,
+          "nonemptyDataReadyMs": 93.03262500000164
+        }
+      },
+      "longTasks": {
+        "baseline": [
+          51,
+          51,
+          85,
+          51,
+          53,
+          59,
+          67
+        ],
+        "candidate": [
+          50,
+          64
+        ]
+      }
+    },
+    {
+      "pair": 3,
+      "order": [
+        "r187",
+        "fork"
+      ],
+      "application": {
+        "sha256": "980131b284f7012ea8b9406b3d7dbbe2140fa84bdb401d714f795f1bb5337bdb",
+        "files": 251
+      },
+      "data": {
+        "hash": "31d180e307065cf084ec4d841cedb56c486b08050e3f5d3f069365433cf7fb5c",
+        "count": 100,
+        "classification": "synthetic-unadmitted",
+        "bindingKeyLength": 90
+      },
+      "browser": "156.0.8078.80",
+      "device": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+      "baseline": {
+        "engineMs": {
+          "p50": 18.799999997019768,
+          "p95": 25.399999991059303,
+          "p99": 30.200000002980232,
+          "max": 36.49999999254942
+        },
+        "renderMs": {
+          "p50": 18.700000002980232,
+          "p95": 25.299999997019768,
+          "p99": 30.100000001490116,
+          "max": 36.399999998509884
+        },
+        "resetMs": {
+          "p50": 0.10000000149011612,
+          "p95": 0.20000000298023224,
+          "p99": 0.30000000447034836,
+          "max": 0.30000000447034836
+        },
+        "actionMs": {
+          "p50": 0.6000000014901161,
+          "p95": 1.2999999970197678,
+          "p99": 2,
+          "max": 2.600000001490116
+        },
+        "frameIntervalMs": {
+          "p50": 56.400000005960464,
+          "p95": 66.5,
+          "p99": 85.29999999701977,
+          "max": 94.5
+        }
+      },
+      "candidate": {
+        "engineMs": {
+          "p50": 10.5,
+          "p95": 12,
+          "p99": 12.600000001490116,
+          "max": 20.899999998509884
+        },
+        "renderMs": {
+          "p50": 10.399999998509884,
+          "p95": 11.899999998509884,
+          "p99": 12.399999998509884,
+          "max": 20.899999998509884
+        },
+        "resetMs": {
+          "p50": 0.10000000149011612,
+          "p95": 0.20000000298023224,
+          "p99": 0.30000000447034836,
+          "max": 0.30000000447034836
+        },
+        "actionMs": {
+          "p50": 0.6000000014901161,
+          "p95": 0.7999999970197678,
+          "p99": 1.5,
+          "max": 1.7000000029802322
+        },
+        "frameIntervalMs": {
+          "p50": 45.5,
+          "p95": 50.100000001490116,
+          "p99": 58.79999999701977,
+          "max": 62.30000000447035
+        }
+      },
+      "pixels": [
+        {
+          "step": 0,
+          "sha256": "88c945d2b0f00ca054b97ef9162fc00dd6a854fb09b4a83fcb79de119c31f862",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 73,
+          "sha256": "ec61ce041245cc01bacaef5d9e2f5189b05a4ea1c9bcc975ee3646ec00138536",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 151,
+          "sha256": "a6b011dd4c9be07afeb7331b9cebdc61a6606f3587042bca6050fa5f66966778",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        }
+      ],
+      "programs": {
+        "baseline": [
+          {
+            "total": 3,
+            "inactive": 0,
+            "geometries": 201,
+            "textures": 0
+          }
+        ],
+        "candidate": [
+          {
+            "total": 3,
+            "inactive": 0,
+            "geometries": 201,
+            "textures": 0
+          }
+        ]
+      },
+      "heapUsedApprox": {
+        "baseline": 182223751,
+        "candidate": 178097527
+      },
+      "startup": {
+        "baseline": {
+          "workspaceReadyMs": 4214.480249999999,
+          "nonemptyDataReadyMs": 102.29612499999894
+        },
+        "candidate": {
+          "workspaceReadyMs": 3682.715750000001,
+          "nonemptyDataReadyMs": 97.40250000000015
+        }
+      },
+      "longTasks": {
+        "baseline": [
+          51,
+          67,
+          53,
+          57,
+          53,
+          53,
+          51,
+          59,
+          53,
+          60,
+          53,
+          60,
+          58
+        ],
+        "candidate": []
+      }
+    },
+    {
+      "pair": 4,
+      "order": [
+        "fork",
+        "r187"
+      ],
+      "application": {
+        "sha256": "980131b284f7012ea8b9406b3d7dbbe2140fa84bdb401d714f795f1bb5337bdb",
+        "files": 251
+      },
+      "data": {
+        "hash": "31d180e307065cf084ec4d841cedb56c486b08050e3f5d3f069365433cf7fb5c",
+        "count": 100,
+        "classification": "synthetic-unadmitted",
+        "bindingKeyLength": 90
+      },
+      "browser": "156.0.8078.80",
+      "device": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+      "baseline": {
+        "engineMs": {
+          "p50": 18.399999998509884,
+          "p95": 20.69999999552965,
+          "p99": 24.099999994039536,
+          "max": 26.19999998807907
+        },
+        "renderMs": {
+          "p50": 18.30000000447035,
+          "p95": 20.5,
+          "p99": 24,
+          "max": 26.099999994039536
+        },
+        "resetMs": {
+          "p50": 0.10000000149011612,
+          "p95": 0.29999998956918716,
+          "p99": 0.30000000447034836,
+          "max": 0.4000000059604645
+        },
+        "actionMs": {
+          "p50": 0.6000000014901161,
+          "p95": 0.7000000029802322,
+          "p99": 1.7000000029802322,
+          "max": 2.100000001490116
+        },
+        "frameIntervalMs": {
+          "p50": 54.600000001490116,
+          "p95": 59.899999998509884,
+          "p99": 64.70000000298023,
+          "max": 71.79999999701977
+        }
+      },
+      "candidate": {
+        "engineMs": {
+          "p50": 10.700000002980232,
+          "p95": 12.600000001490116,
+          "p99": 18.30000000447035,
+          "max": 21.200000002980232
+        },
+        "renderMs": {
+          "p50": 10.600000001490116,
+          "p95": 12.5,
+          "p99": 17.400000005960464,
+          "max": 20.80000000447035
+        },
+        "resetMs": {
+          "p50": 0.10000000149011612,
+          "p95": 0.29999999701976776,
+          "p99": 0.3999999985098839,
+          "max": 0.8999999985098839
+        },
+        "actionMs": {
+          "p50": 0.6000000014901161,
+          "p95": 0.8000000044703484,
+          "p99": 1.6000000014901161,
+          "max": 5.600000001490116
+        },
+        "frameIntervalMs": {
+          "p50": 46.69999999552965,
+          "p95": 52.899999998509884,
+          "p99": 68.60000000149012,
+          "max": 73.69999999552965
+        }
+      },
+      "pixels": [
+        {
+          "step": 0,
+          "sha256": "88c945d2b0f00ca054b97ef9162fc00dd6a854fb09b4a83fcb79de119c31f862",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 73,
+          "sha256": "ec61ce041245cc01bacaef5d9e2f5189b05a4ea1c9bcc975ee3646ec00138536",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 151,
+          "sha256": "a6b011dd4c9be07afeb7331b9cebdc61a6606f3587042bca6050fa5f66966778",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        }
+      ],
+      "programs": {
+        "baseline": [
+          {
+            "total": 3,
+            "inactive": 0,
+            "geometries": 201,
+            "textures": 0
+          }
+        ],
+        "candidate": [
+          {
+            "total": 3,
+            "inactive": 0,
+            "geometries": 201,
+            "textures": 0
+          }
+        ]
+      },
+      "heapUsedApprox": {
+        "baseline": 276746425,
+        "candidate": 230322881
+      },
+      "startup": {
+        "baseline": {
+          "workspaceReadyMs": 6128.151791,
+          "nonemptyDataReadyMs": 103.83141700000124
+        },
+        "candidate": {
+          "workspaceReadyMs": 5029.216,
+          "nonemptyDataReadyMs": 91.66533300000083
+        }
+      },
+      "longTasks": {
+        "baseline": [
+          56
+        ],
+        "candidate": []
+      }
+    },
+    {
+      "pair": 5,
+      "order": [
+        "r187",
+        "fork"
+      ],
+      "application": {
+        "sha256": "2034137bc2d4446083e5c2fcee96201582a1c25619faebc9aa9ac2b9bdfb361f",
+        "files": 251
+      },
+      "data": {
+        "hash": "31d180e307065cf084ec4d841cedb56c486b08050e3f5d3f069365433cf7fb5c",
+        "count": 100,
+        "classification": "synthetic-unadmitted",
+        "bindingKeyLength": 90
+      },
+      "browser": "156.0.8078.80",
+      "device": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+      "baseline": {
+        "engineMs": {
+          "p50": 18.400000005960464,
+          "p95": 20.899999991059303,
+          "p99": 22.400000005960464,
+          "max": 24.200000017881393
+        },
+        "renderMs": {
+          "p50": 18.299999997019768,
+          "p95": 20.600000008940697,
+          "p99": 22.400000005960464,
+          "max": 24.00000001490116
+        },
+        "resetMs": {
+          "p50": 0.09999999403953552,
+          "p95": 0.20000001788139343,
+          "p99": 0.30000001192092896,
+          "max": 0.4000000059604645
+        },
+        "actionMs": {
+          "p50": 0.5999999940395355,
+          "p95": 0.7999999970197678,
+          "p99": 1.7000000029802322,
+          "max": 1.800000011920929
+        },
+        "frameIntervalMs": {
+          "p50": 55.29999999701977,
+          "p95": 60.29999999701977,
+          "p99": 68.1000000089407,
+          "max": 69.70000000298023
+        }
+      },
+      "candidate": {
+        "engineMs": {
+          "p50": 10.200000002980232,
+          "p95": 11.300000011920929,
+          "p99": 12,
+          "max": 21.400000005960464
+        },
+        "renderMs": {
+          "p50": 10.100000008940697,
+          "p95": 11.299999997019768,
+          "p99": 11.900000005960464,
+          "max": 21.299999997019768
+        },
+        "resetMs": {
+          "p50": 0.09999999403953552,
+          "p95": 0.20000000298023224,
+          "p99": 0.29999999701976776,
+          "max": 0.30000001192092896
+        },
+        "actionMs": {
+          "p50": 0.5999999940395355,
+          "p95": 0.7000000029802322,
+          "p99": 1.2999999970197678,
+          "max": 1.6000000089406967
+        },
+        "frameIntervalMs": {
+          "p50": 44.20000000298023,
+          "p95": 46.900000005960464,
+          "p99": 54.1000000089407,
+          "max": 54.900000005960464
+        }
+      },
+      "pixels": [
+        {
+          "step": 0,
+          "sha256": "88c945d2b0f00ca054b97ef9162fc00dd6a854fb09b4a83fcb79de119c31f862",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 73,
+          "sha256": "ec61ce041245cc01bacaef5d9e2f5189b05a4ea1c9bcc975ee3646ec00138536",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        },
+        {
+          "step": 151,
+          "sha256": "a6b011dd4c9be07afeb7331b9cebdc61a6606f3587042bca6050fa5f66966778",
+          "colored": 793012,
+          "nonzeroAlpha": 793012,
+          "width": 1076,
+          "height": 737
+        }
+      ],
+      "programs": {
+        "baseline": [
+          {
+            "total": 3,
+            "inactive": 0,
+            "geometries": 201,
+            "textures": 0
+          }
+        ],
+        "candidate": [
+          {
+            "total": 3,
+            "inactive": 0,
+            "geometries": 201,
+            "textures": 0
+          }
+        ]
+      },
+      "heapUsedApprox": {
+        "baseline": 195497685,
+        "candidate": 296120285
+      },
+      "startup": {
+        "baseline": {
+          "workspaceReadyMs": 4620.628458000001,
+          "nonemptyDataReadyMs": 104.34533400000146
+        },
+        "candidate": {
+          "workspaceReadyMs": 3612.2031659999993,
+          "nonemptyDataReadyMs": 87.65141700000095
+        }
+      },
+      "longTasks": {
+        "baseline": [
+          52,
+          52,
+          53
+        ],
+        "candidate": []
+      }
+    }
+  ]
+}

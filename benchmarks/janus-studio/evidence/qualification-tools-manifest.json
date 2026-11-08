@@ -1,0 +1,27 @@
+{
+  "engineSourceCommit": "ea87fa90a4211920f08120639189344c7f73bd96",
+  "tools": {
+    "analyze-pairs.mjs": "e865a135c303385bc691d57ce93eac1d018d95619c28bf77a49ebb5fd20af562",
+    "analyze-stable.mjs": "447d5e6d69069e38bbd6a94bbfdb0d5e74e8ac7c6ccda7e5ea7ec50a4a4fc3d3",
+    "buildings-run.mjs": "a6a5122ff62c4c008bedb19837c6395a3bcac9cf7484e5477557fce77464ef5d",
+    "instrument-resources.mjs": "34d5363641c3d6ef62ebb1e4ecee1dfd26fe86aae415bf78fce8ab04eab3019e",
+    "janus-server.mjs": "3086563cc5e44c6648b5dcd5267b58239b129fbeb00d1c40b89902f93665d915",
+    "listener-campaign.mjs": "5ca1fce55e567ad077285b1d4697ff9795ab8604ad2f137ddd3cfeabf6f44a5a",
+    "managed-browser.mjs": "04f922b3e7a484627d2e3b7fde47fd15bc937f717d5114fd8cf1aa67d3d0ba7f",
+    "measure-map.mjs": "2b3517c953f69984578f5971086240a8d330bcfd28d30f06273567cd4aaa0dd2",
+    "original-tests.mjs": "0d0a7d903c49391ad9b874d94ed9a6211a0fd7613fdce2ac0c119c953669f9e4",
+    "paired-runs.mjs": "c7efa9138c3b999eb6beb1b5c4c79210c522d48f6bb050905dae8312f95fe25c",
+    "platform-smokes.mjs": "365d71e5d44afcb1d036c3398d7b7193a35200d2b4c6c915becd96ce2f0d5933",
+    "product-fixtures.mjs": "d2c30f5dc9fa655227b28458d7a3a3e95b5fb12e688a58318398c91a5080b71d",
+    "qunit-cache-tests.mjs": "fd8a9c88c35890b3bbf47b8649d9df62ef838b0ed50e15b528dfef03337ac171",
+    "remaining-campaign.mjs": "7989a5789dd0f7bb7eb4fe0e076926ec4e674886951d68147ae5303ed0250c60",
+    "renderer-listeners.mjs": "182684fd1678442ad0f2760971b8861c4a04ae81a5fa598de6747165ed4d4d66",
+    "run-original-tests.mjs": "6586e33182a14c062c2d7b34129a1c0b6039f8dde2fc748a91a97e7b8fd54e4d",
+    "stable-scene.mjs": "67709de5095ebe46832b0e44c3301cad08e8460fab72dd371c6cab3987ae017b",
+    "studio-checks.mjs": "cd987cd801c83ab80e834a9c69b8d7b51f9cfa525832fb51cfacaf29f6ae0cae",
+    "studio-correctness.mjs": "3dd4415224193ab543a79b1a7eb4b53d60e6aace56956bdb7a61e665a392248e",
+    "studio-synthetic.mjs": "978353f9e6da5f64927842b7a41494d71a13c56efbcf141aed7fa552fd8f8939",
+    "recover-scale100-pair5.mjs": "6f1230c605575b522a75a699df2dc6c38aeec061646e052b5aa8b1883dee9486"
+  },
+  "historicalDesktopTools": "tools/ remains the exact original desktop campaign snapshot. qualification-tools/ adds per-frame building retention/tilt, unsupported-metric reporting, input fingerprints and owned browser termination."
+}

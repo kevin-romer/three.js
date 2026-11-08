@@ -1,0 +1,4 @@
+{
+  "reason": "The original candidate browser closed during newPage setup before any frames were measured. Replaced the entire fifth pair to preserve temporal pairing, without selecting by timing.",
+  "recoveryControllerSha256": "6f1230c605575b522a75a699df2dc6c38aeec061646e052b5aa8b1883dee9486"
+}

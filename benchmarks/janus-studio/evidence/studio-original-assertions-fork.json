@@ -1,0 +1,27 @@
+{
+  "variant": "fork",
+  "browser": "156.0.8078.80",
+  "results": [
+    {
+      "name": "Scenario workspace keeps Janus product states over the Tessera runtime",
+      "status": "passed",
+      "sourceSha256": "111de0ce587851244fc143fa805ab7199b920a8a5e620430bf958ca83ffc79c9",
+      "elapsedMs": 3958.1794169999994
+    },
+    {
+      "name": "Scenario workspace reflows at 320 CSS pixels and survives text spacing",
+      "status": "passed",
+      "sourceSha256": "111de0ce587851244fc143fa805ab7199b920a8a5e620430bf958ca83ffc79c9",
+      "elapsedMs": 2089.948000000002
+    },
+    {
+      "name": "Enhanced 3D retains building detail during repeated zoom and pan",
+      "status": "passed",
+      "sourceSha256": "5255c0034bdc3b3e2c3a9eae3f3a6bd769c7912c5c3a03ae542aceb4e19f2140",
+      "elapsedMs": 5807.2906250000015
+    }
+  ],
+  "errors": [],
+  "scope": "Three existing test callbacks, with original numerical and behavioral assertions; timeout configuration bridged to the standalone runner.",
+  "runnerNote": "Assertions completed without page errors; the historical standalone runner required task-owned process cleanup after the candidate result was saved."
+}

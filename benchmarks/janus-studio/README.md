@@ -37,7 +37,7 @@ const renderer = new THREE.WebGLRenderer({
 });
 ```
 
-A count budget does not bound driver program memory in bytes. Retained programs appear in `renderer.info.programs` with `usedTimes === 0`. This new fork option is not yet part of the separately maintained upstream TypeScript declarations.
+A count budget does not bound driver program memory in bytes. Retained programs also keep their GL uniform state and numeric uniform caches; each material must initialize the custom uniforms it uses, as with ordinary active-program sharing. Retained programs appear in `renderer.info.programs` with `usedTimes === 0`. This new fork option is not yet part of the separately maintained upstream TypeScript declarations.
 
 ## Reproduction
 
@@ -56,4 +56,28 @@ The Chromium core suite passes 1,992 tests, with zero failures and one existing 
 
 The full workspace benchmark uses an explicitly synthetic, unadmitted display layer through its normal runtime API, alongside the actual Studio UI and native renderer. The governed presentation fixture fails on unchanged upstream because its constructed binding key exceeds the style parser's 512-character maximum. That path is unqualified; it was not bypassed or counted as an empty-scene speedup.
 
-Interaction, comparison and lifetime diagnostics, the existing product assertions, current Janus r183 compatibility, other render workloads, and browser/mobile-emulation qualification are still being completed. The broader [28-item engine audit](../../audit/comprehensive-r187/README.md) remains a separate prioritized backlog; these results do not claim its other findings are fixed. No dependency rollout or deployment has occurred.
+The retained 3D renderer fixture also completes five pairs: p95 Three.js CPU improves by **64.0%**, with a 95% interval of **61.9% to 65.6%**. This is the actual native map and IllustrationController fixture, rather than the full Studio UI. All 45 models, including 20 at full detail, retain identity, level and visibility on every rendered frame through pan, zoom, bearing and tilt changes. Draw counts and three framebuffer hashes match in each pair. Native frame-interval p95 improves by 27.4% (95% interval 25.9% to 28.8%). See [3D paired results](evidence/buildings-paired-summary.json).
+
+The three existing product assertions pass on both variants: Studio state/navigation, 320-pixel reflow and accessibility, and enhanced-building retention/picking. The ten cache regressions also pass in Firefox and WebKit without skips. Full Studio compatibility smokes pass on current r183, Firefox, WebKit and a 390 by 844 Chrome viewport with 4x CPU throttling; corresponding control/fork images match. These three-frame smokes support compatibility, not performance claims. See [product assertions](evidence/studio-original-assertions-fork.json) and [compatibility evidence](evidence/studio-compatibility.json).
+
+Five rounds of a stable 1,000-mesh engine scene pass the regression budget with both the cache enabled and the default zero budget. This case checks stable active-material rendering; no speedup is claimed from it. [Stable-scene statistics](evidence/stable-scene-summary.json) retain the variability and per-round results.
+
+Picking, visible selection/style/geometry edits and five primary/comparison cycles match the control. Graphics handle counts stay bounded and retire to zero after full teardown. Each of six renderers adds and removes its three owned canvas subscriptions, leaving zero. Whole-page retained heap and all-page listener counts grow in both control and fork and remain unqualified; they are not represented as renderer-owned subscription leaks. Direct primary-runtime teardown reports the same pre-existing missing-canvas cleanup error on both variants. [Correctness and lifetime evidence](evidence/studio-correctness-lifetime.json) records these separate outcomes.
+
+The 100-parcel full Studio scaling campaign completes five pairs with **44.8%** lower p95 Three.js CPU (95% interval **41.0% to 49.3%**), with matching pixels and work counts. A candidate browser startup failed before any frames were measured in the original fifth pair; the entire pair was replaced, and the excluded attempt was preserved privately. [Scaling results](evidence/scale100-paired-summary.json) and [recovery record](evidence/scale100-recovery.json) retain that distinction. Formal mobile-emulation timing is still running. The [qualification tools](qualification-tools/) include per-frame 3D assertions, input fingerprints and explicit ownership of temporary browser processes. The original desktop tools remain unchanged for reproduction of that campaign. The broader [28-item engine audit](../../audit/comprehensive-r187/README.md) remains a separate prioritized backlog; these results do not claim its other findings are fixed. No dependency rollout or deployment has occurred.
+
+
+## Additional qualification commands
+
+The qualification tools use the same local application and private output-directory arguments as the desktop tools. Each timed case runs five alternating pairs, with 120 warmup and 300 measured frames per run. The 3D motion stays within the fixture's retained-detail envelope and includes a small varying tilt. The mobile case is viewport and CPU-rate emulation, without physical-device qualification.
+
+```sh
+node benchmarks/janus-studio/qualification-tools/paired-runs.mjs /path/to/atlas-front /path/to/three.js /path/to/private-output buildings
+node benchmarks/janus-studio/qualification-tools/analyze-pairs.mjs /path/to/private-output buildings
+node benchmarks/janus-studio/qualification-tools/stable-scene.mjs /path/to/atlas-front /path/to/three.js /path/to/private-output
+node benchmarks/janus-studio/qualification-tools/analyze-stable.mjs /path/to/private-output
+```
+
+Use `scale100` or `mobile` in place of `buildings` for the additional Studio cases. Detailed counters, CPU profiles and lifetime checks run separately from timing. The qualified 30-frame counter sample creates and links 90 programs upstream and zero in the fork; shader log queries fall from 270 to zero. Both variants submit 11,571,840 geometry-buffer payload bytes in 61,320 bufferData calls. This change reduces program churn; it does not reduce geometry uploads.
+
+The exact original desktop inputs are in [desktop-source-manifest.json](evidence/desktop-source-manifest.json). New timed results also record runner/engine/package/helper fingerprints before and after each run, and reject changed inputs or unequal output within a pair. The [qualification tools manifest](evidence/qualification-tools-manifest.json) identifies the additional adapters. Keep generated `private-*.mjs`, browser profiles, Vite caches and raw heap/CPU profiles outside either source checkout and out of the public fork.

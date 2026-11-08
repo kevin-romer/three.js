@@ -23,7 +23,7 @@
     },
     {
       "id": "profile",
-      "state": "in_progress",
+      "state": "complete",
       "deliverable": "Rank CPU, upload, allocation, startup and picking costs; choose audited engine changes actually exercised by Janus."
     },
     {
@@ -147,7 +147,9 @@
       "newCacheRegressionTests": 10,
       "lintCore": "passed",
       "lintTest": "passed",
-      "releaseBuild": "5 outputs compile without warnings; checked-in builds unchanged"
+      "releaseBuild": "5 outputs compile without warnings; checked-in builds unchanged",
+      "firefoxFocusedCachePassed": 10,
+      "webkitFocusedCachePassed": 10
     },
     "baselineSetupIssue": "Pre-existing governed binding key exceeds style parser 512-character limit; upstream r187 cannot reach a nonempty governed frame. Kept separate from supported synthetic Studio workload.",
     "formalPairedBenchmarkComplete": false,
@@ -164,11 +166,59 @@
       "artifact": "evidence/desktop-paired-summary.json"
     },
     "pending": [
-      "Valid weak-resource lifetime qualification",
-      "Other render workloads and default-option regression budgets",
-      "r183, supported browser and mobile-emulation compatibility",
-      "Original product assertions",
-      "Final report and artifact verification"
-    ]
+      "Complete five-pair 4x CPU-throttled mobile timing",
+      "Verify/sanitize/publish all remaining results and final report",
+      "Record whole-page heap and governed-presentation limitations without attributing them to an unproved engine defect"
+    ],
+    "retained3dPairedBenchmark": {
+      "pairedRounds": 5,
+      "framesPerVariant": 1500,
+      "cpuImprovementPercent": 64.01681657040376,
+      "confidence95Percent": [
+        61.926257058266955,
+        65.62052591692031
+      ],
+      "scope": "Actual native/illustration renderer fixture, not full Studio UI",
+      "modelsRetained": 45,
+      "fullModels": 20,
+      "artifact": "evidence/buildings-paired-summary.json"
+    },
+    "compatibilitySmokes": {
+      "r183Chrome": "passed",
+      "firefox": "passed",
+      "webkit": "passed",
+      "mobileViewport4xCpu": "passed",
+      "performanceQualifiedBySmokes": false,
+      "artifact": "evidence/studio-compatibility.json"
+    },
+    "originalProductAssertions": {
+      "baselinePassed": 3,
+      "forkPassed": 3,
+      "pageErrors": 0
+    },
+    "rendererLifetime": {
+      "graphicsHandlesAfterTeardown": 0,
+      "ownedCanvasSubscriptionsAfterTeardown": 0,
+      "wholePageHeap": "unqualified: baseline and fork growth remains",
+      "artifact": "evidence/studio-correctness-lifetime.json"
+    },
+    "stableSceneRegressionBudget": {
+      "enabled": "passed",
+      "defaultZero": "passed",
+      "rounds": 5,
+      "artifact": "evidence/stable-scene-summary.json"
+    },
+    "scaling100PairedBenchmark": {
+      "pairedRounds": 5,
+      "framesPerVariant": 1500,
+      "cpuImprovementPercent": 44.796062071479305,
+      "confidence95Percent": [
+        41.01541623150803,
+        49.27898159497658
+      ],
+      "scope": "Full Studio UI, 100 synthetic unadmitted parcels",
+      "artifact": "evidence/scale100-paired-summary.json",
+      "recovery": "Entire pair 5 replaced after unmeasured browser startup failure; no selection by timing."
+    }
   }
 }
