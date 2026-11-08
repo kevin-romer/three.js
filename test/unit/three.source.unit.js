@@ -245,6 +245,7 @@ import './src/renderers/shaders/UniformsUtils.tests.js';
 import './src/renderers/webgl/WebGLExtensions.tests.js';
 import './src/renderers/webgl/WebGLPrograms.tests.js';
 import './src/renderers/webgl/WebGLVisibility.tests.js';
+import './src/renderers/webgl/WebGLMaterialLifetime.tests.js';
 import './src/renderers/webgl/WebGLRenderLists.tests.js';
 
 

@@ -388,6 +388,10 @@ class WebGLRenderer {
 		let properties, textures, environments, attributes, geometries, objects;
 		let programCache, materials, renderLists, renderStates, clipping, shadowMap;
 
+		// Keep disposal iterable without retaining materials that are no longer used.
+		const materialReferences = new Map();
+		const materialRegistry = new FinalizationRegistry( id => materialReferences.delete( id ) );
+
 		let background, morphtargets, bufferRenderer, indexedBufferRenderer;
 
 		let utils, bindingStates, uniformsGroups;
@@ -1102,6 +1106,7 @@ class WebGLRenderer {
 			renderLists.dispose();
 			renderStates.dispose();
 			textures.dispose();
+			removeMaterialListeners();
 			properties.dispose();
 			environments.dispose();
 			objects.dispose();
@@ -1143,6 +1148,7 @@ class WebGLRenderer {
 			const shadowMapNeedsUpdate = shadowMap.needsUpdate;
 			const shadowMapType = shadowMap.type;
 
+			removeMaterialListeners();
 			initGLContext();
 
 			info.autoReset = infoAutoReset;
@@ -1159,11 +1165,32 @@ class WebGLRenderer {
 
 		}
 
+		function removeMaterialListeners() {
+
+			for ( const reference of materialReferences.values() ) {
+
+				const material = reference.deref();
+
+				if ( material !== undefined ) {
+
+					material.removeEventListener( 'dispose', onMaterialDispose );
+					materialRegistry.unregister( material );
+
+				}
+
+			}
+
+			materialReferences.clear();
+
+		}
+
 		function onMaterialDispose( event ) {
 
 			const material = event.target;
 
 			material.removeEventListener( 'dispose', onMaterialDispose );
+			materialReferences.delete( material.id );
+			materialRegistry.unregister( material );
 
 			deallocateMaterial( material );
 
@@ -2247,6 +2274,8 @@ class WebGLRenderer {
 				// new material
 
 				material.addEventListener( 'dispose', onMaterialDispose );
+				materialReferences.set( material.id, new WeakRef( material ) );
+				materialRegistry.register( material, material.id, material );
 
 				programs = new Map();
 				materialProperties.programs = programs;
