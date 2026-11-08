@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "completedAt": "2026-11-08T07:09:34.483046+00:00",
+  "status": "complete",
+  "engineCommit": "c42214c41c60194997208b5ef1a34e8b210c6eed",
+  "measuredEngineCommit": "ea87fa90a4211920f08120639189344c7f73bd96",
+  "acceptance": {
+    "primaryCpuTargetPassed": true,
+    "measuredApplicationFrames": 12000,
+    "matchedPairedFramebufferCaptures": 60,
+    "timedRegressionComparisonsPassed": 6,
+    "originalProductCallbacksPassedPerVariant": 3,
+    "all120InteractionOutputChecksPassed": true,
+    "finalSourceChecks": "final-qualification.json",
+    "verifier": "qualification-tools/verify-completion.mjs"
+  },
+  "cleanup": {
+    "taskBrowserRecordsChecked": 40,
+    "activeTaskBrowserOrHarnessProcesses": 0,
+    "inactiveTaskBrowserProfileDirectoriesRemoved": 15,
+    "temporaryBenchmarkLabRemoved": true,
+    "privateFixtureModulesRawProfilesAndExcludedStartupLogsRemoved": true,
+    "publishedSanitizedRawFramesAndSummariesRetained": true,
+    "separateForkRetainedAtUserRequest": true
+  },
+  "remainingLimits": [
+    "Whole-page heap and all-page listener growth is unqualified in both upstream and fork; tracked renderer-owned GL handles and canvas subscriptions reach zero.",
+    "Governed presentation blocked on unchanged upstream by binding-key length; full Studio uses explicit synthetic unadmitted data.",
+    "GPU completion/residency and allocation bytes unmeasured; interaction/startup timing diagnostic.",
+    "One Apple M1 Pro host, mobile emulation only; cache requires opt-in and a fork build."
+  ],
+  "deployment": "None; no dependency rollout, service/container restarts or Atlas edits."
+}
