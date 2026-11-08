@@ -687,11 +687,10 @@ function WebGLPrograms( renderer, environments, extensions, capabilities, bindin
 
 	}
 
-	function destroyProgram( program ) {
+	function destroyProgram( program, index = programs.indexOf( program ) ) {
 
 		// Remove from unordered set and both lookup maps.
-		const i = programs.indexOf( program );
-		programs[ i ] = programs[ programs.length - 1 ];
+		programs[ index ] = programs[ programs.length - 1 ];
 		programs.pop();
 		programsMap.delete( program.cacheKey );
 		inactivePrograms.delete( program.cacheKey );
@@ -741,7 +740,9 @@ function WebGLPrograms( renderer, environments, extensions, capabilities, bindin
 
 		while ( programs.length > 0 ) {
 
-			destroyProgram( programs[ programs.length - 1 ] );
+			// The tail index is known; avoid repeated linear searches during bulk disposal.
+			const index = programs.length - 1;
+			destroyProgram( programs[ index ], index );
 
 		}
 
